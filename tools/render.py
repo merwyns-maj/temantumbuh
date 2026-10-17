@@ -73,9 +73,14 @@ def style_font(name):
     return font(kind, _px(s["fontSize"])), _px(s["lineHeight"])
 
 
-def svg_image(name, size):
-    png = cairosvg.svg2png(url=os.path.join(SVG_DIR, name), output_width=size, output_height=size)
+def svg_image(name, size, height=None):
+    png = cairosvg.svg2png(url=os.path.join(SVG_DIR, name), output_width=size, output_height=height or size)
     return Image.open(io.BytesIO(png)).convert("RGBA")
+
+
+# Series whose corner shapes take the series tint instead of plain surface-200
+TINTED = {"mpasi"}
+ART_RATIO = 880 / 260  # food/art-*.svg cut diagrams
 
 
 # ------------------------------------------------------------------ text helpers
@@ -131,8 +136,9 @@ class Slide:
 
     def chrome(self):
         d = self.d
-        d.ellipse([-220, -180, 260, 240], fill=self.c("surface-200"))
-        d.ellipse([820, 1160, 1320, 1660], fill=self.c("surface-200"))
+        blob = self.c(f"seri-{self.series}-bg") if self.series in TINTED and self.theme == "light" else self.c("surface-200")
+        d.ellipse([-220, -180, 260, 240], fill=blob)
+        d.ellipse([820, 1160, 1320, 1660], fill=blob)
         # logo lockup
         logo = svg_image("tt-primary-dark.svg" if self.theme == "dark" else "tt-primary.svg", 60)
         self.img.paste(logo, (self.m - 2, 54), logo)
@@ -244,6 +250,18 @@ class Slide:
             y += slh
         if y > H - 260:
             raise LayoutError("hook sub line runs into the swipe cue")
+        if s.get("art"):
+            icons = s["art"]
+            top, bottom = y + 30, H - 212 - 50
+            gap = 20
+            size = min(190, bottom - top, (W - 2 * m - gap * (len(icons) - 1)) // len(icons))
+            if size < 110:
+                raise LayoutError("no room for the hook food row: shorten the sub line")
+            x0 = m - 10  # left-aligned with the text, icons have built-in padding
+            iy = int(top + (bottom - top - size) / 2)
+            for i, name in enumerate(icons):
+                im = svg_image(f"food/{name}.svg", size)
+                self.img.paste(im, (int(x0 + i * (size + gap)), iy), im)
         self.swipe()
 
     def swipe(self):
@@ -317,6 +335,14 @@ class Slide:
         for line in blines:
             d.text((m, y), line, font=bf, fill=self.c("ink-muted"))
             y += blh
+        if s.get("art"):
+            room = by0 - y - 56
+            ah = min(250, room, int((W - 2 * m) / ART_RATIO))
+            if ah < 150:
+                raise LayoutError(f"no room for art {s['art']!r} ({room}px, need 150): cut body or tips words")
+            aw = int(ah * ART_RATIO)
+            im = svg_image(f"food/art-{s['art']}.svg", aw, ah)
+            self.img.paste(im, (int((W - aw) / 2), int(y + 28 + (room - ah) / 2)), im)
         d.rounded_rectangle([m, by0, W - m, by1], radius=RADIUS["radius-md"], fill=self.c("sage-tint"),
                             outline=self.c("sage"), width=3)
         tracked(d, (m + 40, by0 + 30), s.get("tips_label", "COBA INI"), lf, self.c("sage-ink"), 1)
@@ -397,6 +423,63 @@ class Slide:
         for h, fn in blocks:
             fn(y)
             y += h + gap
+
+    def cheatsheet(self):
+        """One-pager summary: title plus rows of [what, how]. Built to be screenshotted and forwarded."""
+        d, s, m = self.d, self.spec, self.m
+        y = 200
+        if s.get("kicker"):
+            self.chip(m, 210, s["kicker"], "sage-ink", "on-accent", size=26)
+            y = 262
+        hf, hlh = style_font("slide-title")
+        for line in wrap(d, s["title"], hf, W - 2 * m):
+            d.text((m, y), line, font=hf, fill=self.c("ink"))
+            y += hlh
+        y += 26
+        lf, rf = font("body800", 34), font("body600", 32)
+        lw, gap, rlh, pad = 360, 32, 44, 22
+        rw = W - 2 * m - 48 - lw - gap
+        rows = []
+        icon_w = 64 if any(len(r) > 2 for r in s["rows"]) else 0
+        rx = m + 48 + lw + gap
+        lw -= icon_w + (14 if icon_w else 0)
+        for row in s["rows"]:
+            what, how = row[0], row[1]
+            ll, rl = wrap(d, what, lf, lw), wrap(d, how, rf, rw)
+            rows.append((ll, rl, max(max(len(ll), len(rl)) * rlh, icon_w), row[2] if len(row) > 2 else None))
+        card_h = sum(r[2] for r in rows) + pad * 2 * len(rows)
+        note_h = 0
+        if s.get("note"):
+            nf, nlh = style_font("tips")
+            nlines = wrap(d, s["note"], nf, W - 2 * m - 80)
+            note_h = 28 + len(nlines) * nlh + 56
+        if y + card_h + note_h > H - SPACE["footer-zone"]:
+            raise LayoutError(f"cheatsheet too tall by {y + card_h + note_h - (H - SPACE['footer-zone'])}px: cut rows or words")
+        d.rounded_rectangle([m, y, W - m, y + card_h], radius=RADIUS["radius-md"], fill=self.c("surface-card"),
+                            outline=self.c("line"), width=2)
+        ry = y
+        for i, (ll, rl, h, icon) in enumerate(rows):
+            ty = ry + pad
+            if icon:
+                im = svg_image(f"food/{icon}.svg", 64)
+                self.img.paste(im, (m + 18, int(ty + h / 2 - 32)), im)
+            else:
+                d.ellipse([m + 24, ty + 12, m + 40, ty + 28], fill=self.c(f"seri-{self.series}-ink"))
+            for j, line in enumerate(ll):
+                d.text((m + 56 + icon_w + (14 if icon_w else 0), ty + j * rlh), line, font=lf, fill=self.c("ink"))
+            for j, line in enumerate(rl):
+                d.text((rx, ty + j * rlh), line, font=rf, fill=self.c("ink-muted"))
+            ry += h + pad * 2
+            if i < len(rows) - 1:
+                d.line([m + 24, ry, W - m - 24, ry], fill=self.c("line"), width=2)
+        if s.get("note"):
+            by0 = y + card_h + 28
+            d.rounded_rectangle([m, by0, W - m, by0 + len(nlines) * nlh + 56], radius=RADIUS["radius-md"],
+                                fill=self.c("sage-tint"), outline=self.c("sage"), width=3)
+            ty = by0 + 28
+            for line in nlines:
+                d.text((m + 40, ty), line, font=nf, fill=self.c("ink"))
+                ty += nlh
 
     def render(self):
         self.chrome()

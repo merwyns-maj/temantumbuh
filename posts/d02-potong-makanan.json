@@ -2,33 +2,96 @@
   "series": "mpasi",
   "job": "send",
   "usia": "BAYI DAN BALITA",
-  "caption": "Cara motong makanan biar anak nggak tersedak. Di rumahmu biasanya anggur dipotong gimana? 🍇 #mpasi #anaktersedak #balita #parentingindonesia #SeriMPASI",
+  "caption": "Anggur, sosis, kelengkeng, tomat ceri boleh dikasih ke anak, asal nggak utuh. Potong memanjang, jangan bulat kayak koin. Contekannya ada di slide 6. Di rumahmu biasanya anggur dipotong gimana? 🍇 #mpasi #anaktersedak #balita #parentingindonesia #SeriMPASI",
   "slides": [
-    {"type": "hook", "motif": "sun", "kicker": "SIMPAN DAN KIRIM",
-     "lines": ["ANGGUR, SOSIS,", "KELENGKENG.", "POTONGNYA", "JANGAN BULAT."], "accent": 3,
-     "sub": "Bentuk bulat seukuran saluran napas anak. Ini cara motong yang aman."},
-    {"type": "point", "motif": "leaf",
-     "title": "Anggur, kelengkeng, tomat ceri: potong memanjang",
-     "body": "Bijinya dibuang dulu. Potong jadi empat dari atas ke bawah, jangan cuma dibelah dua.",
-     "tips": "Lakuin terus sampai anak umur 4 tahun, walau dia udah jago ngunyah."},
-    {"type": "point", "motif": "spark",
-     "title": "Sosis jangan dipotong bulat kayak koin",
-     "body": "Potongan bulat sosis termasuk penyebab tersedak yang paling sering. Belah dulu memanjang, baru dipotong kecil.",
-     "tips": "Buat bayi yang baru belajar finger food, potong seukuran jari orang dewasa biar gampang digenggam."},
-    {"type": "point", "motif": "leaf",
-     "title": "Kacang utuh, popcorn, permen keras: tunda dulu",
-     "body": "Ketiganya keras dan licin, susah dikunyah sampai halus sama gigi balita. Kalau mau kasih kacang, haluskan atau jadiin selai.",
-     "tips": "Selai kacang dioles tipis aja. Yang kental sesendok bisa nempel di langit-langit mulut."},
-    {"type": "point", "motif": "heart",
-     "title": "Buah keras dikukus atau diparut dulu",
-     "body": "Apel dan wortel mentah gampang patah jadi potongan keras. Kukus sampai lunak, atau parut buat bayi yang baru mulai.",
-     "tips": "Cara ngetesnya gampang: kalau bisa dipenyet pakai jari, berarti aman buat bayi."},
-    {"type": "cta", "motif": "logo",
-     "headline": "Pas makan, anak duduk dan ditemenin.",
-     "accent": "Jangan sambil lari-larian.",
-     "pill": "KIRIM KE YANG NYUAPIN ANAKMU",
-     "sub2": "Nenek, kakek, pengasuh, atau guru daycare.",
-     "source": "Sumber: American Academy of Pediatrics",
-     "disclaimer": true}
+    {
+      "type": "hook",
+      "kicker": "SIMPAN DAN KIRIM",
+      "lines": [
+        "ANGGUR, SOSIS,",
+        "KELENGKENG.",
+        "POTONGNYA",
+        "JANGAN BULAT."
+      ],
+      "accent": 3,
+      "sub": "Boleh dikasih, asal nggak utuh. Bentuknya bisa pas nutup saluran napas anak.",
+      "art": [
+        "anggur",
+        "sosis",
+        "kelengkeng",
+        "tomat"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "Anggur, kelengkeng, tomat ceri: potong memanjang",
+      "body": "Bijinya dibuang dulu. Potong jadi empat dari atas ke bawah, jangan cuma dibelah dua.",
+      "tips": "Lakuin terus sampai anak umur 4 tahun, walau dia udah jago ngunyah.",
+      "art": "anggur-potong"
+    },
+    {
+      "type": "point",
+      "title": "Sosis jangan dipotong bulat kayak koin",
+      "body": "Potongan bulat sosis termasuk penyebab tersedak paling sering. Belah dulu memanjang, baru potong kecil.",
+      "tips": "Bayi baru mulai finger food? Potong seukuran jari orang dewasa biar gampang digenggam.",
+      "art": "sosis-potong"
+    },
+    {
+      "type": "point",
+      "title": "Kacang utuh, popcorn, permen keras: tunda dulu",
+      "body": "Ketiganya keras dan licin, susah dikunyah sampai halus sama gigi balita. Kalau mau kasih kacang, haluskan atau jadiin selai.",
+      "tips": "Selai kacang dioles tipis aja. Yang kental sesendok bisa nempel di langit-langit mulut.",
+      "art": "kacang-tunda"
+    },
+    {
+      "type": "point",
+      "title": "Buah keras dikukus atau diparut dulu",
+      "body": "Apel dan wortel mentah gampang patah jadi potongan keras. Kukus sampai lunak, atau parut buat bayi yang baru mulai.",
+      "tips": "Cara ngetesnya gampang: kalau bisa dipenyet pakai jari, berarti aman buat bayi.",
+      "art": "buah-kukus"
+    },
+    {
+      "type": "cheatsheet",
+      "kicker": "SCREENSHOT INI",
+      "title": "Contekan potong makanan",
+      "rows": [
+        [
+          "Anggur, kelengkeng, tomat ceri",
+          "Buang biji, potong 4 memanjang",
+          "anggur"
+        ],
+        [
+          "Sosis",
+          "Belah memanjang, baru potong kecil",
+          "sosis"
+        ],
+        [
+          "Apel, wortel mentah",
+          "Kukus sampai lunak, atau parut",
+          "apel"
+        ],
+        [
+          "Kacang, popcorn, permen keras",
+          "Tunda dulu. Kacang dihaluskan",
+          "kacang"
+        ],
+        [
+          "Selai kacang",
+          "Oles tipis aja",
+          "selai"
+        ]
+      ],
+      "note": "Lakuin sampai anak 4 tahun. Bisa dipenyet pakai jari, berarti aman."
+    },
+    {
+      "type": "cta",
+      "motif": "logo",
+      "headline": "Pas makan, anak duduk dan ditemenin.",
+      "accent": "Jangan sambil lari-larian.",
+      "pill": "KIRIM KE YANG NYUAPIN ANAKMU",
+      "sub2": "Nenek, kakek, pengasuh, atau guru daycare.",
+      "source": "Sumber: American Academy of Pediatrics",
+      "disclaimer": true
+    }
   ]
 }
