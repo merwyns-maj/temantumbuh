@@ -1,37 +1,65 @@
 {
   "series": "ayah",
   "job": "send",
-  "caption": "Lanjutan dari keluhan suami hari Jumat. Sekarang bagian seriusnya: yang paling dibutuhin istri di minggu-minggu pertama. Mana yang paling kamu butuhin? #ayahbaru #newborn #suamisiaga #parentingindonesia #SeriAyahBaru",
+  "caption": "Lanjutan dari keluhan suami kemarin. Sekarang bagian seriusnya: yang paling dibutuhin istri di minggu-minggu pertama. Mana yang paling kamu butuhin? #ayahbaru #newborn #suamisiaga #parentingindonesia #SeriAyahBaru",
   "slides": [
-    {"type": "hook", "theme": "dark", "motif": "moon", "kicker": "BUAT PARA SUAMI",
-     "lines": ["BUKAN CUMA", "GANTIAN", "GENDONG"], "accent": 2,
-     "sub": "5 hal yang paling dibutuhin istri di minggu-minggu pertama."},
-    {"type": "point", "motif": "spark",
-     "title": "Jadi satpam tamu",
-     "body": "Tamu yang datang terus bikin istri susah istirahat dan susah menyusui dengan tenang. Kamu yang atur jadwal dan lamanya.",
-     "tips": "Siapin alasan yang sopan: bayinya lagi tidur, mampir minggu depan ya."},
-    {"type": "point", "motif": "leaf",
-     "title": "Siapin pos menyusui",
-     "body": "Menyusui bikin haus banget, dan dia sering kejebak di posisi yang nggak bisa bangun. Taruh air minum dan camilan di dekatnya sebelum diminta.",
-     "tips": "Tambahin charger HP dan remote. Pos menyusui lengkap."},
-    {"type": "point", "motif": "spark",
-     "title": "Ambil shift jam 2 sampai 5",
-     "body": "Bawa bayi ke istri buat menyusu, habis itu giliranmu: sendawain, ganti popok, tidurin lagi. Istri bisa tidur lebih panjang.",
-     "tips": "Sepakatin jamnya dari siang, biar nggak debat jam 2 pagi."},
-    {"type": "point", "motif": "leaf",
-     "title": "Jadi juru bicara grup WA keluarga",
-     "body": "Pertanyaan udah bisa apa, kok nangis terus, kapan boleh dijenguk. Semua itu nguras tenaga istri. Kamu yang jawab.",
-     "tips": "Kirim satu foto update sehari. Biasanya pertanyaannya langsung berkurang."},
-    {"type": "point", "motif": "heart",
-     "title": "Tanya kabar istri, bukan cuma bayi",
-     "body": "Habis melahirkan, gampang sedih atau nangis itu umum dan biasanya reda dalam dua minggu. Yang dia butuh: didengerin, bukan dinasehatin.",
-     "tips": "Kalau sedihnya lewat dari dua minggu, ajak ngobrol ke dokter atau bidan. Bukan aib, ini bagian dari pulih."},
-    {"type": "cta", "motif": "heart",
-     "headline": "Bayi butuh ayahnya,",
-     "accent": "ibunya juga butuh suaminya.",
-     "pill": "KIRIM KE SUAMI",
-     "sub2": "Atau tag dia di komen. Biar dibaca sampai habis.",
-     "source": "Sumber: Kemenkes RI",
-     "disclaimer": true}
+    {
+      "type": "hook",
+      "theme": "dark",
+      "motif": "moon",
+      "kicker": "BUAT PARA SUAMI",
+      "lines": [
+        "BUKAN CUMA",
+        "GANTIAN",
+        "GENDONG"
+      ],
+      "accent": 2,
+      "sub": "5 hal yang paling dibutuhin istri di minggu-minggu pertama."
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Jadi satpam tamu",
+      "body": "Tamu yang datang terus bikin istri susah istirahat dan susah menyusui dengan tenang. Kamu yang atur jadwal dan lamanya.",
+      "tips": "Siapin alasan yang sopan: bayinya lagi tidur, mampir minggu depan ya."
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Siapin pos menyusui",
+      "body": "Menyusui bikin haus banget, dan dia sering kejebak di posisi yang nggak bisa bangun. Taruh air minum dan camilan di dekatnya sebelum diminta.",
+      "tips": "Tambahin charger HP dan remote. Pos menyusui lengkap."
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Ambil shift jam 2 sampai 5",
+      "body": "Bawa bayi ke istri buat menyusu, habis itu giliranmu: sendawain, ganti popok, tidurin lagi. Istri bisa tidur lebih panjang.",
+      "tips": "Sepakatin jamnya dari siang, biar nggak debat jam 2 pagi."
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Jadi juru bicara grup WA keluarga",
+      "body": "Pertanyaan udah bisa apa, kok nangis terus, kapan boleh dijenguk. Semua itu nguras tenaga istri. Kamu yang jawab.",
+      "tips": "Kirim satu foto update sehari. Biasanya pertanyaannya langsung berkurang."
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Tanya kabar istri, bukan cuma bayi",
+      "body": "Habis melahirkan, gampang sedih atau nangis itu umum dan biasanya reda dalam dua minggu. Yang dia butuh: didengerin, bukan dinasehatin.",
+      "tips": "Kalau sedihnya lewat dari dua minggu, ajak ngobrol ke dokter atau bidan. Bukan aib, ini bagian dari pulih."
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Bayi butuh ayahnya,",
+      "accent": "ibunya juga butuh suaminya.",
+      "pill": "KIRIM KE SUAMI",
+      "sub2": "Atau tag dia di komen. Biar dibaca sampai habis.",
+      "source": "Sumber: Kemenkes RI",
+      "disclaimer": true
+    }
   ]
 }
