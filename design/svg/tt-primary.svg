@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 120 120" role="img" aria-label="TemanTumbuh logo">
+<path d="M20 108 Q60 101 104 108" stroke="#F3C45F" stroke-width="5" stroke-linecap="round" fill="none"/>
+<path d="M44 105 V36" stroke="#5F8A70" stroke-width="8" stroke-linecap="round" fill="none"/>
+<path d="M44 34 C36 21 22 19 11 25 C19 36 33 40 44 34 Z" fill="#7FA98F"/>
+<path d="M44 34 C52 21 66 19 77 25 C69 36 55 40 44 34 Z" fill="#7FA98F"/>
+<path d="M41 32.5 Q29 26.5 15 26" stroke="#FBF4EA" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+<path d="M47 32.5 Q59 26.5 73 26" stroke="#FBF4EA" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+<path d="M33 29.5 L29 24.5 M25 27.5 L22 23.5 M31 31 L27 34 M23 28.5 L20 31" stroke="#FBF4EA" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+<path d="M55 29.5 L59 24.5 M63 27.5 L66 23.5 M57 31 L61 34 M65 28.5 L68 31" stroke="#FBF4EA" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+<path d="M88 58 V93 Q88 104 99 104" stroke="#C46040" stroke-width="8" stroke-linecap="round" fill="none"/>
+<path d="M88 72 C80 60 63 58 50 64 C58 77 76 80 88 72 Z" fill="#E07856"/>
+<path d="M85 70.5 Q70 64.5 54 64.5" stroke="#FBF4EA" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+<path d="M74 66 L71 61.5 M66 65.5 L63 61.5 M72 68 L69 72 M64 66.5 L61 70" stroke="#FBF4EA" stroke-width="1.1" stroke-linecap="round" fill="none"/>
+<path d="M88 72 C92 66 99 65 104 68 C101 75 94 77 88 72 Z" fill="#E07856"/>
+<path d="M88 58 C87 49 92 43 99 42 C99 50 95 56 88 58 Z" fill="#F3C45F"/>
+</svg>

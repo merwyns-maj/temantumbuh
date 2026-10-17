@@ -1,0 +1,24 @@
+{
+  "series": "ayah",
+  "caption": "Nomor berapa yang paling kamu banget? 😂 #ayahbaru #bapakbapak #suamisiaga #parentingindonesia",
+  "slides": [
+    {"type": "hook", "theme": "dark", "motif": "moon", "kicker": "BAPAK-BAPAK, NGAKU AJA",
+     "lines": ["AYAH SEBELUM", "DAN SESUDAH", "PUNYA ANAK"], "accent": 2,
+     "sub": "Dikumpulin dari banyak rumah. Mungkin termasuk rumahmu."},
+    {"type": "punch", "word": "TIDUR", "zzz": true,
+     "punch": "Dulu tidur jam 1 karena nonton bola. Sekarang tidur jam 1 karena nidurin anak."},
+    {"type": "punch", "word": "MAKAN",
+     "punch": "Dulu makan pas masih panas. Sekarang nasinya selalu udah dingin pas akhirnya sempat duduk."},
+    {"type": "punch", "word": "GALERI HP",
+     "punch": "Dulu isinya foto makanan. Sekarang 3.000 foto anak, mirip semua, nggak ada yang dihapus."},
+    {"type": "punch", "word": "MOBIL",
+     "punch": "Dulu wangi pengharum. Sekarang isinya tisu basah, remahan biskuit, sama satu kaus kaki entah punya siapa."},
+    {"type": "punch", "word": "WEEKEND",
+     "punch": "Dulu bangun jam 10. Sekarang jam 6 udah melek, tanpa alarm, karena ada yang loncat ke perut."},
+    {"type": "cta", "motif": "heart",
+     "headline": "Capek? Iya.",
+     "accent": "Mau dituker? Nggak bakal.",
+     "pill": "TAG AYAH YANG BEGINI JUGA",
+     "sub2": "Atau kirim ke istrimu, biar dia ketawa dulu sebelum tidur."}
+  ]
+}

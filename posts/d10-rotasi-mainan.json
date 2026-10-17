@@ -1,0 +1,57 @@
+{
+  "series": "main",
+  "job": "save",
+  "usia": "1-5 TAHUN",
+  "caption": "Rotasi mainan biar anak nggak cepat bosan. Rumahmu udah kayak toko mainan juga? Kamu nggak sendirian. #rotasimainan #mainananak #balita #parentingindonesia #SeriMainDiRumah",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "COBA MINGGU INI",
+      "lines": [
+        "SEBELUM BELI",
+        "MAINAN BARU,",
+        "UMPETIN",
+        "SETENGAHNYA"
+      ],
+      "accent": 3,
+      "sub": "Anak cepat bosan bukan karena kurang mainan. Justru kebanyakan."
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Simpan setengah mainannya",
+      "body": "Masukin sebagian ke kotak, taruh di tempat yang nggak kelihatan. Kebanyakan pilihan bikin anak cuma lompat dari satu mainan ke mainan lain.",
+      "tips": "Sisain 6 sampai 8 mainan aja di rak yang bisa dia jangkau."
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Tukar tiap minggu",
+      "body": "Minggu depan, keluarin yang disimpan dan simpan yang lama. Mainan lama kerasa kayak baru lagi.",
+      "tips": "Pilih satu hari tetap, misalnya Minggu sore, biar jadi kebiasaan."
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Campur jenisnya",
+      "body": "Usahain ada mainan buat gerak, buat nyusun, buat pura-pura, plus buku. Jadi semua sisi perkembangannya kebagian.",
+      "tips": "Contohnya bola, balok, boneka atau masak-masakan, dan satu buku favorit."
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Pilih mainan yang bisa dimainin banyak cara",
+      "body": "Balok, bola, kardus, dan kain bisa jadi apa aja, dari umur 1 sampai SD. Mainan yang fungsinya cuma satu biasanya cepat ditinggal.",
+      "tips": "Sebelum beli mainan baru, tanya dulu: ini bisa dimainin berapa cara?"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Lebih sedikit mainan,",
+      "accent": "lebih lama mainnya.",
+      "pill": "SIMPAN BUAT MINGGU INI",
+      "sub2": "Kirim juga ke pasanganmu, apalagi yang suka beli mainan tiap ke mal."
+    }
+  ]
+}

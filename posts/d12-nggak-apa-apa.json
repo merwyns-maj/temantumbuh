@@ -1,0 +1,25 @@
+{
+  "series": "ayah",
+  "job": "send",
+  "caption": "Kamus singkat buat suami yang baru punya bayi. Kamu paling sering bilang yang mana? 😅 #ayahbaru #newborn #suamiistri #ibubaru #SeriAyahBaru",
+  "slides": [
+    {"type": "hook", "theme": "dark", "motif": "moon", "kicker": "KAMUS SUAMI BARU",
+     "lines": ["KATA ISTRI:", "NGGAK APA-APA.", "ARTINYA?"], "accent": 1,
+     "sub": "Terjemahan resmi buat minggu-minggu pertama setelah melahirkan."},
+    {"type": "punch", "word": "NGGAK APA-APA",
+     "punch": "Artinya: aku capek banget, tapi lagi nggak sanggup jelasin. Tolong peka sedikit."},
+    {"type": "punch", "word": "TIDUR AJA DULU",
+     "punch": "Artinya: aku juga pengen tidur. Jam 3 nanti giliranmu ya."},
+    {"type": "punch", "word": "UDAH MAKAN?",
+     "punch": "Artinya: aku belum makan dari pagi. Tolong beliin sekalian."},
+    {"type": "punch", "word": "BIAR AKU AJA",
+     "punch": "Artinya: aku udah capek ngajarin. Tapi aku seneng banget kalau kamu tetap nyoba."},
+    {"type": "punch", "word": "MAIN HP TERUS",
+     "punch": "Artinya: aku kangen ngobrol sama kamu, bukan cuma bahas popok."},
+    {"type": "cta", "motif": "heart",
+     "headline": "Nggak perlu bisa baca pikiran.",
+     "accent": "Cukup peka, terus bikinin teh.",
+     "pill": "TAG SUAMI BIAR BELAJAR",
+     "sub2": "Atau kirim diam-diam. Dia pasti ngerti maksudnya."}
+  ]
+}

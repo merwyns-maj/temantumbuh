@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 120 120" role="img" aria-label="TemanTumbuh logo, for dark backgrounds">
+<path d="M20 108 Q60 101 104 108" stroke="#F3C45F" stroke-width="5" stroke-linecap="round" fill="none"/>
+<path d="M44 105 V36" stroke="#9CC7AC" stroke-width="8" stroke-linecap="round" fill="none"/>
+<path d="M44 34 C36 21 22 19 11 25 C19 36 33 40 44 34 Z" fill="#9CC7AC"/>
+<path d="M44 34 C52 21 66 19 77 25 C69 36 55 40 44 34 Z" fill="#9CC7AC"/>
+<path d="M41 32.5 Q29 26.5 15 26" stroke="#2C3452" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+<path d="M47 32.5 Q59 26.5 73 26" stroke="#2C3452" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+<path d="M88 58 V93 Q88 104 99 104" stroke="#E98B6B" stroke-width="8" stroke-linecap="round" fill="none"/>
+<path d="M88 72 C80 60 63 58 50 64 C58 77 76 80 88 72 Z" fill="#E98B6B"/>
+<path d="M85 70.5 Q70 64.5 54 64.5" stroke="#2C3452" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+<path d="M88 72 C92 66 99 65 104 68 C101 75 94 77 88 72 Z" fill="#E98B6B"/>
+<path d="M88 58 C87 49 92 43 99 42 C99 50 95 56 88 58 Z" fill="#F3C45F"/>
+</svg>

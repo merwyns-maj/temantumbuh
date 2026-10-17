@@ -1,0 +1,16 @@
+{
+  "d01-udah-stimulasi":    {"hook": 4, "job": 4, "relief": 5, "trust": 4, "fresh": 3, "note": "Reassurance angle lifts it; still a familiar topic, so the hook does the work."},
+  "d02-potong-makanan":    {"hook": 5, "job": 5, "relief": 3, "trust": 5, "fresh": 5, "note": "Strongest forward-to-caregiver post; kelengkeng covered without exploiting the news."},
+  "d03-mainan-dari-dapur": {"hook": 4, "job": 4, "relief": 4, "trust": 4, "fresh": 3, "note": "Cooking situation makes it savable; points are still a standard list."},
+  "d04-mitos-bayi":        {"hook": 5, "job": 5, "relief": 4, "trust": 5, "fresh": 4, "note": "Built for the family WA group; gentle to elders."},
+  "d05-keluhan-suami":     {"hook": 4, "job": 5, "relief": 4, "trust": 4, "fresh": 4, "note": "Self-roast fixes the backfire risk; check the 'Hmm' slide reads as a joke, not a dig."},
+  "d06-main-pas-hujan":    {"hook": 4, "job": 3, "relief": 4, "trust": 4, "fresh": 4, "note": "Post only if it actually rains that week; otherwise swap with d10."},
+  "d07-suami-bisa-bantu":  {"hook": 4, "job": 5, "relief": 4, "trust": 5, "fresh": 4, "note": "Non-obvious tasks (pos menyusui, grup WA) make it worth tagging."},
+  "d08-tummy-time":        {"hook": 3, "job": 3, "relief": 4, "trust": 5, "fresh": 3, "note": "Useful but niche; saves more than shares. Fine as a weekday filler."},
+  "d09-protein-hewani":    {"hook": 3, "job": 4, "relief": 3, "trust": 5, "fresh": 3, "note": "Hook is a correction, not a moment; consider 'Udah 7 bulan tapi lauknya masih jarang?'"},
+  "d10-rotasi-mainan":     {"hook": 4, "job": 4, "relief": 4, "trust": 4, "fresh": 3, "note": "Money angle helps; topic itself is common."},
+  "d11-siap-sekolah":      {"hook": 5, "job": 4, "relief": 5, "trust": 5, "fresh": 4, "note": "Policy fact verified; calms calistung panic. Strongest again in Jan to Jun."},
+  "d12-nggak-apa-apa":     {"hook": 5, "job": 5, "relief": 4, "trust": 4, "fresh": 4, "note": "Tag engine with empathy; keep the husband as learner, never villain."},
+  "d13-motorik-halus":     {"hook": 4, "job": 4, "relief": 4, "trust": 4, "fresh": 3, "note": "'Jangan buru-buru les nulis' gives it a stance; later bridge to Momo worksheets."},
+  "d14-gtm":               {"hook": 4, "job": 5, "relief": 5, "trust": 5, "fresh": 3, "note": "Comment post on the top pain point; IDAI feeding rules keep it safe."}
+}
