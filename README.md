@@ -23,8 +23,8 @@ python tools/review_sheet.py out/review.pdf posts/d*.json    # one page per post
 | `design/` | `tokens.json` from the TemanTumbuh Design System, logo and series icons (SVG) |
 | `fonts/` | Fredoka 600 and Nunito 600/700/800 (SIL Open Font License) |
 | `tools/` | `render.py`, `lint_copy.py`, `score_post.py`, `review_sheet.py` |
-| `.claude/skills/` | `suara-temantumbuh` (voice and humanify rules), `skor-konten` (score rubric) |
-| `data/` | `judged.json` (judged half of the score), `predictions.csv` (prediction log, actual metrics added after posting) |
+| `.claude/skills/` | `suara-temantumbuh` (voice and humanify rules), `skor-konten` (post score), `riset-afiliasi` (product research and score) |
+| `data/` | `judged.json` (judged half of the score), `predictions.csv` (prediction log, actual metrics added after posting), `products.csv` (affiliate candidates; the three rows marked [contoh] are examples) |
 | `research/` | Content research that the rubric and calendar are built on |
 | `docs/pipeline.md` | How the daily and weekly runs work |
 | `out/` | Rendered slides and review PDFs (not committed) |

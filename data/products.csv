@@ -1,0 +1,4 @@
+id,platform,name,url,price,commission_pct,commission_cap,sold_30d,rating,reviews,store_type,registration,age_min_months,post_age_min_months,gate_fail,relevance,post,clicks,orders,commission_earned
+EXAMPLE-1,tiktok,[contoh] Soft book kontras hitam-putih,,59000,12,,1800,4.9,2300,star,SNI-contoh,0,0,,5,d27-buku-per-usia,,,
+EXAMPLE-2,shopee,[contoh] Gunting makanan MPASI stainless,,45000,8,10000,950,4.8,640,mall,,6,6,,4,d23-alat-mpasi,,,
+EXAMPLE-3,shopee,[contoh] Susu pertumbuhan 1+,,120000,10,,5000,4.9,9000,mall,BPOM-contoh,12,12,breast-milk substitute (PP 28/2024),,d23-alat-mpasi,,,

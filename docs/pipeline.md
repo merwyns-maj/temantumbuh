@@ -25,6 +25,13 @@ Posting time: 19:00 WIB by default. Weekend posts go at 09:00, and the 12:00 slo
 
 **Swipe file (research).** Collects 10 to 20 high-performing Indonesian parenting posts from what is reachable: news coverage, Threads, Instagram, search results, and any TikTok links Merwyn saves. Each entry records the link, hook, format, visible engagement and why it worked, in `research/swipe/YYYY-WW.md`. It produces ideas only. Nothing is reposted, and every idea is rewritten in our voice with our own sources.
 
+**Product research (from week 3, or once the account nears 1,000 followers).** Follows `.claude/skills/riset-afiliasi/SKILL.md`. For every affiliate-eligible post in the next two weeks, it:
+1. Shortlists 3 to 5 products from TikTok Shop and Shopee and checks the hard gates: no formula, SNI or BPOM present, age-safe, rating 4.6+.
+2. Scores them with `python tools/score_product.py data/products.csv --post <slug>` (relevance, Rupiah per sale, demand, likely to convert, trust).
+3. Attaches the top 1 or 2 to the post spec with `"products"` and `"affiliate": true`.
+
+It also re-checks commission and stock on live affiliate posts. It needs Merwyn signed in to the TikTok Shop and Shopee affiliate dashboards (built-in browser), or an export from him; it never invents numbers.
+
 **Calibration.** Once at least 10 posts have 7 days of data, pull views, likes, comments, shares and saves from Metricool or TikTok Analytics into `data/predictions.csv`. Then compare each post's predicted score with the real rate for its job and adjust the rubric, following section 4 of the `skor-konten` skill.
 
 **Calendar refill.** Keep at least 10 days of specs ready ahead. Take ideas from the backlog, the swipe file and calendar moments (Hari Ayah 12 Nov, Hari Ibu 22 Des, the start of the school year, rainy season).
