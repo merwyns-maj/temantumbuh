@@ -2,43 +2,298 @@
   "start": "2026-10-26",
   "post_time": "19:00 WIB (test 12:00 sesekali; weekend 09:00)",
   "rhythm": {
-    "Senin": "pintar", "Selasa": "mpasi", "Rabu": "main",
-    "Kamis": "pintar / sekolah (gantian)", "Jumat": "ayah", "Sabtu": "main", "Minggu": "mpasi / ayah"
+    "Senin": "pintar",
+    "Selasa": "mpasi",
+    "Rabu": "main",
+    "Kamis": "pintar / sekolah (gantian)",
+    "Jumat": "ayah",
+    "Sabtu": "main",
+    "Minggu": "mpasi / ayah"
   },
   "notes": "Revised 2026-10-17 from research/parenting-content-research.md. Each post has one job: save, send or comment.",
   "days": [
-    {"day": 1,  "date": "2026-10-26", "series": "pintar",  "slug": "d01-udah-stimulasi",      "job": "send",    "title": "Kamu udah stimulasi anak tiap hari, cuma nggak sadar", "status": "siap review"},
-    {"day": 2,  "date": "2026-10-27", "series": "mpasi",   "slug": "d02-potong-makanan",      "job": "send",    "title": "Anggur, sosis, kelengkeng. Potongnya jangan bulat", "status": "siap review"},
-    {"day": 3,  "date": "2026-10-28", "series": "main",    "slug": "d03-mainan-dari-dapur",   "job": "save",    "title": "Masak 20 menit tanpa anak nempel di kaki", "status": "siap review"},
-    {"day": 4,  "date": "2026-10-29", "series": "pintar",  "slug": "d04-mitos-bayi",          "job": "send",    "title": "Bukan salah Nenek. Ilmunya aja yang udah update", "status": "siap review"},
-    {"day": 5,  "date": "2026-10-30", "series": "ayah",    "slug": "d05-keluhan-suami",       "job": "send",    "title": "Keluhan suami minggu pertama punya bayi (versi jujur)", "status": "siap review"},
-    {"day": 6,  "date": "2026-10-31", "series": "main",    "slug": "d06-main-pas-hujan",      "job": "save",    "title": "Hujan dari pagi, anak mulai manjat lemari?", "status": "siap review"},
-    {"day": 7,  "date": "2026-11-01", "series": "ayah",    "slug": "d07-suami-bisa-bantu",    "job": "send",    "title": "Bukan cuma gantian gendong (sekuel hari 5)", "status": "siap review"},
-    {"day": 8,  "date": "2026-11-02", "series": "pintar",  "slug": "d08-tummy-time",          "job": "save",    "title": "Tummy time nggak harus sambil nangis", "status": "siap review"},
-    {"day": 9,  "date": "2026-11-03", "series": "mpasi",   "slug": "d09-protein-hewani",      "job": "save",    "title": "Bubur sayur doang belum cukup", "status": "siap review"},
-    {"day": 10, "date": "2026-11-04", "series": "main",    "slug": "d10-rotasi-mainan",       "job": "save",    "title": "Sebelum beli mainan baru, umpetin setengahnya", "status": "siap review"},
-    {"day": 11, "date": "2026-11-05", "series": "sekolah", "slug": "d11-siap-sekolah",        "job": "send",    "title": "Masuk SD nggak ada tes calistung. Terus siapin apa?", "status": "siap review"},
-    {"day": 12, "date": "2026-11-06", "series": "ayah",    "slug": "d12-nggak-apa-apa",       "job": "send",    "title": "Kata istri: nggak apa-apa. Artinya?", "status": "siap review"},
-    {"day": 13, "date": "2026-11-07", "series": "main",    "slug": "d13-motorik-halus",       "job": "save",    "title": "Jangan buru-buru les nulis", "status": "siap review"},
-    {"day": 14, "date": "2026-11-08", "series": "mpasi",   "slug": "d14-gtm",                 "job": "comment", "title": "Anakmu GTM lagi? Cek 4 hal ini dulu", "status": "siap review"},
-    {"day": 15, "date": "2026-11-09", "series": "pintar",  "slug": "d15-screen-time",         "job": "save",    "title": "WHO bilang maksimal 1 jam. Realitanya? Cara ngurangin tanpa perang", "status": "ide"},
-    {"day": 16, "date": "2026-11-10", "series": "mpasi",   "slug": "d16-protein-pasar",       "job": "save",    "title": "Lauk MPASI seminggu, modal murah dari pasar", "status": "ide"},
-    {"day": 17, "date": "2026-11-11", "series": "main",    "slug": "d17-main-5-menit",        "job": "save",    "title": "5 ide main 5 menit tanpa persiapan", "status": "ide"},
-    {"day": 18, "date": "2026-11-12", "series": "ayah",    "slug": "d18-hari-ayah",           "job": "send",    "title": "HARI AYAH: Anak nggak inget mainan mahal dari ayahnya. Mereka inget ini", "status": "ide"},
-    {"day": 19, "date": "2026-11-13", "series": "ayah",    "slug": "d19-ayah-sebelum-sesudah","job": "send",    "title": "Ayah sebelum dan sesudah punya anak", "status": "draf di backlog"},
-    {"day": 20, "date": "2026-11-14", "series": "main",    "slug": "d20-10-menit-pulang-kerja","job": "save",   "title": "Kerja seharian? 10 menit ini lebih kerasa buat anak", "status": "ide"},
-    {"day": 21, "date": "2026-11-15", "series": "mpasi",   "slug": "d21-kirim-ke-pengasuh",   "job": "send",    "title": "Anakmu dijagain nenek atau pengasuh? Kirim slide ini ke mereka", "status": "ide"},
-    {"day": 22, "date": "2026-11-16", "series": "pintar",  "slug": "d22-jawaban-sopan",       "job": "save",    "title": "'Kok anaknya kurus?' 5 jawaban sopan buat komentar keluarga", "status": "ide"},
-    {"day": 23, "date": "2026-11-17", "series": "mpasi",   "slug": "d23-alat-mpasi",          "job": "send",    "title": "Jangan checkout dulu: alat MPASI yang kepake vs pajangan", "status": "ide", "affiliate": "alat MPASI"},
-    {"day": 24, "date": "2026-11-18", "series": "main",    "slug": "d24-mainan-100-cara",     "job": "save",    "title": "Mainan murah yang bisa dimainin 100 cara", "status": "ide", "affiliate": "balok, mainan terbuka"},
-    {"day": 25, "date": "2026-11-19", "series": "pintar",  "slug": "d25-ternyata-normal",     "job": "send",    "title": "Bayimu suka lempar makanan? Tenang, itu bukan nakal", "status": "ide"},
-    {"day": 26, "date": "2026-11-20", "series": "ayah",    "slug": "d26-ayah-komentator",     "job": "send",    "title": "Bingung ngobrol sama bayi? Jadi komentator bola aja", "status": "ide"},
-    {"day": 27, "date": "2026-11-21", "series": "pintar",  "slug": "d27-buku-per-usia",       "job": "save",    "title": "Buku pertama bayi nggak harus mahal: per usia 0-3 tahun", "status": "ide", "affiliate": "soft book, buku kontras"},
-    {"day": 28, "date": "2026-11-22", "series": "mpasi",   "slug": "d28-tanda-siap-mpasi",    "job": "save",    "title": "Ngiler lihat kamu makan bukan tanda siap MPASI", "status": "draf lama di backlog, perlu ditulis ulang"},
-    {"day": 29, "date": "2026-11-23", "series": "pintar",  "slug": "d29-belum-ngomong",       "job": "save",    "title": "Anakmu 18 bulan belum ngomong? Batas yang perlu dicek, bukan ditunggu", "status": "ide, wajib sumber IDAI/KPSP"},
-    {"day": 30, "date": "2026-11-24", "series": "ayah",    "slug": "d30-istri-butuh-bantuan", "job": "send",    "title": "Bukan cuma capek biasa: tanda istri butuh bantuan setelah melahirkan", "status": "ide, wajib sumber + arahkan ke tenaga kesehatan"}
+    {
+      "day": 1,
+      "date": "2026-10-26",
+      "series": "pintar",
+      "slug": "d01-udah-stimulasi",
+      "job": "send",
+      "title": "Kamu udah stimulasi anak tiap hari, cuma nggak sadar",
+      "status": "siap review"
+    },
+    {
+      "day": 2,
+      "date": "2026-10-27",
+      "series": "mpasi",
+      "slug": "d02-potong-makanan",
+      "job": "send",
+      "title": "Anggur, sosis, kelengkeng. Potongnya jangan bulat",
+      "status": "siap review"
+    },
+    {
+      "day": 3,
+      "date": "2026-10-28",
+      "series": "main",
+      "slug": "d03-mainan-dari-dapur",
+      "job": "save",
+      "title": "Masak 20 menit tanpa anak nempel di kaki",
+      "status": "siap review"
+    },
+    {
+      "day": 4,
+      "date": "2026-10-29",
+      "series": "pintar",
+      "slug": "d04-mitos-bayi",
+      "job": "send",
+      "title": "Bukan salah Nenek. Ilmunya aja yang udah update",
+      "status": "siap review"
+    },
+    {
+      "day": 5,
+      "date": "2026-10-30",
+      "series": "ayah",
+      "slug": "d05-keluhan-suami",
+      "job": "send",
+      "title": "Keluhan suami minggu pertama punya bayi (versi jujur)",
+      "status": "siap review"
+    },
+    {
+      "day": 6,
+      "date": "2026-10-31",
+      "series": "main",
+      "slug": "d06-main-pas-hujan",
+      "job": "save",
+      "title": "Hujan dari pagi, anak mulai manjat lemari?",
+      "status": "siap review"
+    },
+    {
+      "day": 7,
+      "date": "2026-11-01",
+      "series": "ayah",
+      "slug": "d07-suami-bisa-bantu",
+      "job": "send",
+      "title": "Bukan cuma gantian gendong (sekuel hari 5)",
+      "status": "siap review"
+    },
+    {
+      "day": 8,
+      "date": "2026-11-02",
+      "series": "pintar",
+      "slug": "d08-tummy-time",
+      "job": "save",
+      "title": "Tummy time nggak harus sambil nangis",
+      "status": "siap review"
+    },
+    {
+      "day": 9,
+      "date": "2026-11-03",
+      "series": "mpasi",
+      "slug": "d09-protein-hewani",
+      "job": "save",
+      "title": "Bubur sayur doang belum cukup",
+      "status": "siap review"
+    },
+    {
+      "day": 10,
+      "date": "2026-11-04",
+      "series": "main",
+      "slug": "d10-rotasi-mainan",
+      "job": "save",
+      "title": "Sebelum beli mainan baru, umpetin setengahnya",
+      "status": "siap review"
+    },
+    {
+      "day": 11,
+      "date": "2026-11-05",
+      "series": "sekolah",
+      "slug": "d11-siap-sekolah",
+      "job": "send",
+      "title": "Masuk SD nggak ada tes calistung. Terus siapin apa?",
+      "status": "siap review"
+    },
+    {
+      "day": 12,
+      "date": "2026-11-06",
+      "series": "ayah",
+      "slug": "d12-nggak-apa-apa",
+      "job": "send",
+      "title": "Kata istri: nggak apa-apa. Artinya?",
+      "status": "siap review"
+    },
+    {
+      "day": 13,
+      "date": "2026-11-07",
+      "series": "main",
+      "slug": "d13-motorik-halus",
+      "job": "save",
+      "title": "Jangan buru-buru les nulis",
+      "status": "siap review"
+    },
+    {
+      "day": 14,
+      "date": "2026-11-08",
+      "series": "mpasi",
+      "slug": "d14-gtm",
+      "job": "comment",
+      "title": "Anakmu GTM lagi? Cek 4 hal ini dulu",
+      "status": "siap review"
+    },
+    {
+      "day": 15,
+      "date": "2026-11-09",
+      "series": "pintar",
+      "slug": "d15-screen-time",
+      "job": "save",
+      "title": "WHO bilang maksimal 1 jam. Realitanya? Cara ngurangin tanpa perang",
+      "status": "ide"
+    },
+    {
+      "day": 16,
+      "date": "2026-11-10",
+      "series": "mpasi",
+      "slug": "d16-protein-pasar",
+      "job": "save",
+      "title": "Lauk MPASI seminggu, modal murah dari pasar",
+      "status": "ide"
+    },
+    {
+      "day": 17,
+      "date": "2026-11-11",
+      "series": "main",
+      "slug": "d17-main-5-menit",
+      "job": "save",
+      "title": "5 ide main 5 menit tanpa persiapan",
+      "status": "ide"
+    },
+    {
+      "day": 18,
+      "date": "2026-11-12",
+      "series": "ayah",
+      "slug": "d18-hari-ayah",
+      "job": "send",
+      "title": "HARI AYAH: Anak nggak inget mainan mahal dari ayahnya. Mereka inget ini",
+      "status": "ide"
+    },
+    {
+      "day": 19,
+      "date": "2026-11-13",
+      "series": "ayah",
+      "slug": "d19-ayah-sebelum-sesudah",
+      "job": "send",
+      "title": "Ayah sebelum dan sesudah punya anak",
+      "status": "draf di backlog"
+    },
+    {
+      "day": 20,
+      "date": "2026-11-14",
+      "series": "main",
+      "slug": "d20-10-menit-pulang-kerja",
+      "job": "save",
+      "title": "Kerja seharian? 10 menit ini lebih kerasa buat anak",
+      "status": "ide"
+    },
+    {
+      "day": 21,
+      "date": "2026-11-15",
+      "series": "mpasi",
+      "slug": "d21-kirim-ke-pengasuh",
+      "job": "send",
+      "title": "Anakmu dijagain nenek atau pengasuh? Kirim slide ini ke mereka",
+      "status": "ide"
+    },
+    {
+      "day": 22,
+      "date": "2026-11-16",
+      "series": "pintar",
+      "slug": "d22-jawaban-sopan",
+      "job": "save",
+      "title": "'Kok anaknya kurus?' 5 jawaban sopan buat komentar keluarga",
+      "status": "ide"
+    },
+    {
+      "day": 23,
+      "date": "2026-11-17",
+      "series": "mpasi",
+      "slug": "d23-alat-mpasi",
+      "job": "send",
+      "title": "Jangan checkout dulu: alat MPASI yang kepake vs pajangan",
+      "status": "ide",
+      "affiliate": "alat MPASI"
+    },
+    {
+      "day": 24,
+      "date": "2026-11-18",
+      "series": "main",
+      "slug": "d24-mainan-100-cara",
+      "job": "save",
+      "title": "Mainan murah yang bisa dimainin 100 cara",
+      "status": "ide",
+      "affiliate": "balok, mainan terbuka"
+    },
+    {
+      "day": 25,
+      "date": "2026-11-19",
+      "series": "pintar",
+      "slug": "d25-ternyata-normal",
+      "job": "send",
+      "title": "Bayimu suka lempar makanan? Tenang, itu bukan nakal",
+      "status": "ide"
+    },
+    {
+      "day": 26,
+      "date": "2026-11-20",
+      "series": "ayah",
+      "slug": "d26-ayah-komentator",
+      "job": "send",
+      "title": "Bingung ngobrol sama bayi? Jadi komentator bola aja",
+      "status": "ide"
+    },
+    {
+      "day": 27,
+      "date": "2026-11-21",
+      "series": "pintar",
+      "slug": "d27-buku-per-usia",
+      "job": "save",
+      "title": "Buku pertama bayi nggak harus mahal: per usia 0-3 tahun",
+      "status": "ide",
+      "affiliate": "soft book, buku kontras"
+    },
+    {
+      "day": 28,
+      "date": "2026-11-22",
+      "series": "mpasi",
+      "slug": "d28-tanda-siap-mpasi",
+      "job": "save",
+      "title": "Ngiler lihat kamu makan bukan tanda siap MPASI",
+      "status": "draf lama di backlog, perlu ditulis ulang"
+    },
+    {
+      "day": 29,
+      "date": "2026-11-23",
+      "series": "pintar",
+      "slug": "d29-belum-ngomong",
+      "job": "save",
+      "title": "Anakmu 18 bulan belum ngomong? Batas yang perlu dicek, bukan ditunggu",
+      "status": "ide, wajib sumber IDAI/KPSP"
+    },
+    {
+      "day": 30,
+      "date": "2026-11-24",
+      "series": "ayah",
+      "slug": "d30-istri-butuh-bantuan",
+      "job": "send",
+      "title": "Bukan cuma capek biasa: tanda istri butuh bantuan setelah melahirkan",
+      "status": "ide, wajib sumber + arahkan ke tenaga kesehatan"
+    }
   ],
   "backlog": [
+    "[mpasi · save] Susu UHT anak 1+: cukup sekitar 2 gelas sehari. Kebanyakan bisa bikin GTM dan kurang zat besi. Sumber AAP/IDAI. Tanpa formula atau susu pertumbuhan (PP 28/2024). Ide Merwyn",
+    "[mpasi · save] ASI perah: berapa ml per botol buat bayi yang ditinggal kerja (hitungan per jam berpisah). Cek ABM/IDAI. Ide Merwyn",
+    "[mpasi · save · rutin mingguan] Menu MPASI minggu ini per usia (6-8, 9-11, 12+ bulan), lauk hewani tiap hari, pakai ilustrasi makanan. Edisi pertama menggantikan d16. Ide Merwyn",
+    "[pintar · send] Bayi kolik: aturan 3 (3 jam sehari, 3 hari seminggu, 3 minggu), cara nenangin, tanda harus ke dokter. Tanpa klaim obat atau gripe water. Versi Ayah Baru: shift malam kolik. Ide Merwyn",
+    "[pintar · comment] Tanda bayi kebanyakan stimulasi (buang muka, rewel, badan melengkung) dan cara kasih jeda. Sekuel d01, bukan nakut-nakutin. Ide Merwyn",
+    "[mpasi · send] Batas gula anak: di bawah 2 tahun tanpa gula tambahan, 2 tahun ke atas maks sekitar 6 sendok teh sehari (AHA, cek Kemenkes/IDAI). Camilan umum dihitung dalam sendok teh, tanpa nama merek. Kirim ke grup WA keluarga. Ide Merwyn",
+    "[pintar · comment] Tier list tontonan anak berdasarkan tempo (pelan sampai cepat), termasuk tontonan lokal. Judul boleh ditulis, karakter tidak digambar. Dasar: studi tempo kartun (Lillard & Peterson, Pediatrics 2011). Pasangan d15 screen time. Ide Merwyn",
     "Tantrum di minimarket: dituruti, dicuekin, atau dimarahin?",
     "Finger food pertama yang aman (sekuel hari 2)",
     "Anak rebutan mainan? 3 kalimat buat ngajarin gantian",
