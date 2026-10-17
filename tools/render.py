@@ -169,7 +169,7 @@ class Slide:
             col = self.c("terra") if i == self.idx else self.c("dot-inactive")
             d.ellipse([x0 + i * gapd - r, H - 88 - r, x0 + i * gapd + r, H - 88 + r], fill=col)
         cf, _ = style_font("caption")
-        d.text((W / 2, H - 46), self.post.get("handle", "@teman.tumbuh"), font=cf, fill=self.c("ink-muted"), anchor="mm")
+        d.text((W / 2, H - 46), self.post.get("handle", "@temantumbuhid"), font=cf, fill=self.c("ink-muted"), anchor="mm")
 
     def chip(self, x, cy, text, fill, ink, outline=None, size=26):
         d = self.d
