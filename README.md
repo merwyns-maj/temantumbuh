@@ -1,6 +1,6 @@
 # TemanTumbuh
 
-Content factory for **TemanTumbuh**, a faceless Indonesian parenting channel on TikTok (photo carousels, 1080 × 1440) for parents of children from newborn to SD. Five series: Seri Anak Pintar, Seri MPASI, Seri Main di Rumah, Seri Siap Sekolah, Seri Ayah Baru.
+Content factory for **TemanTumbuh**, a faceless Indonesian parenting channel on TikTok (photo carousels, 1080 × 1440) for parents of children from newborn to SD. Six series: Seri Anak Pintar, Seri MPASI, Seri Main di Rumah, Seri Siap Sekolah, Seri Ayah Baru, Seri Ibu.
 
 Every post is a JSON spec. The tools turn it into slides that follow the design system, check the copy, score it, and build a review sheet.
 
@@ -33,7 +33,7 @@ python tools/review_sheet.py out/review.pdf posts/d*.json    # one page per post
 
 ```json
 {
-  "series": "mpasi",            // pintar | mpasi | main | sekolah | ayah
+  "series": "mpasi",            // pintar | mpasi | main | sekolah | ayah | ibu
   "job": "send",                // send | save | comment: the one thing this post must get people to do
   "usia": "BAYI DAN BALITA",    // age chip on the hook slide (optional)
   "caption": "... ending with a question? #mpasi #SeriMPASI",

@@ -32,6 +32,7 @@ SERIES = {
     "main": ("SERI MAIN DI RUMAH", "seri-main-di-rumah.svg"),
     "sekolah": ("SERI SIAP SEKOLAH", "seri-siap-sekolah.svg"),
     "ayah": ("SERI AYAH BARU", "seri-ayah-baru.svg"),
+    "ibu": ("SERI IBU", "seri-ibu.svg"),
 }
 DISCLAIMER = "Konten edukasi umum. Untuk kondisi khusus, konsultasikan dengan dokter anak."
 

@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.join(ROOT, "tools"))
 from lint_copy import lint, ERROR  # noqa: E402
 
 SERIES_TAG = {"pintar": "#SeriAnakPintar", "mpasi": "#SeriMPASI", "main": "#SeriMainDiRumah",
-              "sekolah": "#SeriSiapSekolah", "ayah": "#SeriAyahBaru"}
+              "sekolah": "#SeriSiapSekolah", "ayah": "#SeriAyahBaru", "ibu": "#SeriIbu"}
 RECIPIENTS = r"pasangan|suami|istri|grup wa|nenek|kakek|pengasuh|teman|keluarga|ayah|yang nyuapin|yang jagain|guru|dm"
 JUDGED_MAX = {"hook": 15, "job": 15, "relief": 10, "trust": 10, "fresh": 10}
 EVERYDAY = r"\b(sendok|wadah|gelas|selimut|kardus|kertas|popok|telur|hati ayam|lele|anggur|sosis|lakban|timer|kursi|handuk|jepit|sedotan|playdough|kelengkeng|apel|wortel|botol|celana|kotak bekal|tv|hp|lampu|cermin|buku|gurita|bedong|baby walker|digendong|tamu|air minum|charger|grup wa|foto|teh|kucing|motor|lagu|mandi|koran|taplak|jam \d)\b"
