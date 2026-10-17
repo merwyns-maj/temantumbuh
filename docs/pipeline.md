@@ -42,3 +42,14 @@ Facts verified on 17 Oct 2026:
 
 - SD admission may not use a calistung test (Permendikdasmen No. 3 Tahun 2025 on SPMB; restated by Kemendikdasmen in May 2026).
 - Eggs are a good protein but a weak source of absorbable iron. The protein post compares spinach with meat, liver and fish for iron.
+
+## KPI tracker
+
+The **TemanTumbuh Tracker** dashboard (claude.ai artifact XJzjc2SGkkpRgwuQVPzndx) is the KPI tracker:
+
+- **Live from Metricool:** posts (views, likes, comments, shares) and daily followers.
+- **Plan:** 12-month targets in low, base and high scenarios.
+- **Tasks and experiments:** each with the rule that decides it. Updated in the TemanTumbuh chat when a decision is made.
+- **Nightly log:** one row a night, written by the scheduled nightly KPI check (22:28 WIB), with a Discuss question when a decision is needed. Decisions agreed in chat are written back into the Decision column.
+
+GitHub holds the code, post specs and `data/predictions.csv`; the tracker holds the live numbers and decisions. Once Claude has repo access, the weekly calibration copies 7-day results from the tracker into `predictions.csv`.
