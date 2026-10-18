@@ -1,7 +1,7 @@
 {
   "series": "ayah",
-  "job": "comment",
-  "caption": "Kami bikin stiker WA buat chat rumah tangga. Dari giliran gendong, popok habis, sampai \"aku salah, aku tahu\". Gratis, 16 stiker Tunas.\n\nCara pasang: install Sticker.ly, cari TemanTumbuh, tap Add to WhatsApp. Link langsung ada di bio Instagram kami.\n\nStiker mana yang paling bakal sering kamu kirim? Komen STIKER kalau mau kami kirimin link-nya.\n\n#stikerwa #ayahbaru #ibubaru #parentingindonesia #SeriAyahBaru",
+  "job": "send",
+  "caption": "Kami bikin stiker WA buat chat rumah tangga. Dari giliran gendong, popok habis, sampai \"aku salah, aku tahu\". Gratis, 16 stiker Tunas.\n\nLink stikernya: sticker.ly/s/YUYOM1\nCopy, buka di browser HP, terus tap Add to WhatsApp.\n\nStiker mana yang paling bakal sering kamu kirim ke pasangan?\n\n#stikerwa #ayahbaru #ibubaru #parentingindonesia #SeriAyahBaru",
   "slides": [
     {
       "type": "hook",
@@ -57,16 +57,16 @@
       "type": "point",
       "motif": "spark",
       "title": "Cara pasang, 1 menit",
-      "body": "Install Sticker.ly dari Play Store atau App Store. Cari TemanTumbuh, buka pack-nya, terus tap Add to WhatsApp. Stikernya langsung muncul di WA.",
-      "tips": "Nggak muncul? Update WhatsApp dulu, terus coba lagi.",
+      "body": "Buka sticker.ly/s/YUYOM1 di browser HP. Install Sticker.ly kalau diminta, terus tap Add to WhatsApp. Stikernya langsung muncul di WA.",
+      "tips": "Link-nya juga ada di caption. Tinggal copy.",
       "number": false
     },
     {
       "type": "cta",
-      "headline": "Mau stikernya?",
-      "accent": "Gratis, tinggal pasang.",
-      "pill": "KOMEN STIKER",
-      "sub2": "Kami balesin link-nya. Atau buka link di bio Instagram kami.",
+      "headline": "Kirim ke pasangan,",
+      "accent": "biar kodenya nyampe.",
+      "pill": "KIRIM KE PASANGAN",
+      "sub2": "Link stikernya: sticker.ly/s/YUYOM1",
       "mascot": "sayang"
     }
   ],
