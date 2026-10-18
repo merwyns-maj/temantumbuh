@@ -17,7 +17,7 @@ Posting time: 19:00 WIB by default. Weekend posts go at 09:00, and the 12:00 slo
 
 ## Scheduling and publishing
 
-- **Value posts:** on Merwyn's "approve", run `python tools/publish_media.py <slug> <YYYY-MM-DD>` (pushes the slides to the public `temantumbuh-media` repo and prints their raw links), then schedule with Metricool `createScheduledPost` for brand 7476038: `providers` tiktok, the caption as `text`, the raw links as `media` in slide order, and `tiktokData` with `title` from the spec's `tiktok_title`, `photoCoverIndex` 0, `autoAddMusic` true, `privacyOption` PUBLIC_TO_EVERYONE. Set the calendar day to `dijadwalkan`.
+- **Value posts:** on Merwyn's "approve", run `python tools/publish_media.py <slug> <YYYY-MM-DD>` (pushes the slides to the public `temantumbuh-media` repo and prints their raw links), then schedule with Metricool `createScheduledPost` for brand 7476038: `providers` tiktok, the caption as `text`, the raw links as `media` in slide order, and `tiktokData` with `title` from the spec's `tiktok_title`, `photoCoverIndex` 0, `autoAddMusic` true, `privacyOption` PUBLIC_TO_EVERYONE. Then the Instagram version: `python tools/publish_media.py <slug> <YYYY-MM-DD> --ig` (re-rendered with @temantumbuhid.official and padded to 4:5, 1080 x 1350, Instagram's tallest feed ratio) and a second `createScheduledPost` with `providers` instagram, `instagramData` {type POST}, same caption and time. Set the calendar day to `dijadwalkan`.
 - **Affiliate posts:** uploaded as drafts. Merwyn adds the product link in the TikTok app and posts them himself; no API can attach the yellow basket.
 - **Until Metricool is connected:** Merwyn posts manually from the rendered PNGs.
 
