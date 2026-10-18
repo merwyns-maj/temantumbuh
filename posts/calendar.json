@@ -299,6 +299,16 @@
       "job": "send",
       "title": "Bukan cuma capek biasa: tanda istri butuh bantuan setelah melahirkan",
       "status": "ide, wajib sumber + arahkan ke tenaga kesehatan"
+    },
+    {
+      "day": "s01",
+      "date": "2026-10-20",
+      "series": "ayah",
+      "slug": "s01-stiker-wa",
+      "job": "comment",
+      "title": "Stiker WA gratis buat kode ke pasangan",
+      "status": "siap review",
+      "link": "https://sticker.ly/s/YUYOM1"
     }
   ],
   "backlog": [

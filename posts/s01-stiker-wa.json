@@ -1,0 +1,74 @@
+{
+  "series": "ayah",
+  "job": "comment",
+  "caption": "Kami bikin stiker WA buat chat rumah tangga. Dari giliran gendong, popok habis, sampai \"aku salah, aku tahu\". Gratis, 16 stiker Tunas.\n\nCara pasang: install Sticker.ly, cari TemanTumbuh, tap Add to WhatsApp. Link langsung ada di bio Instagram kami.\n\nStiker mana yang paling bakal sering kamu kirim? Komen STIKER kalau mau kami kirimin link-nya.\n\n#stikerwa #ayahbaru #ibubaru #parentingindonesia #SeriAyahBaru",
+  "slides": [
+    {
+      "type": "hook",
+      "theme": "dark",
+      "kicker": "GRATIS",
+      "lines": [
+        "STIKER WA",
+        "BUAT KODE",
+        "KE PASANGAN"
+      ],
+      "accent": 2,
+      "sub": "16 stiker Tunas buat chat rumah tangga. Dari giliran gendong sampai popok habis.",
+      "mascot": "hore"
+    },
+    {
+      "type": "gallery",
+      "kicker": "DARI ISTRI",
+      "title": "Biar kodenya nyampe",
+      "items": [
+        "out/stickers/sticker-01.webp",
+        "out/stickers/sticker-02.webp",
+        "out/stickers/sticker-03.webp",
+        "out/stickers/sticker-04.webp",
+        "out/stickers/sticker-05.webp",
+        "out/stickers/sticker-06.webp"
+      ]
+    },
+    {
+      "type": "gallery",
+      "kicker": "BALESAN SUAMI",
+      "title": "Siap, Bos. Versi lengkap",
+      "items": [
+        "out/stickers/sticker-07.webp",
+        "out/stickers/sticker-08.webp",
+        "out/stickers/sticker-09.webp",
+        "out/stickers/sticker-10.webp",
+        "out/stickers/sticker-11.webp",
+        "out/stickers/sticker-12.webp"
+      ]
+    },
+    {
+      "type": "gallery",
+      "kicker": "BUAT GRUP KELUARGA",
+      "title": "Yang adem buat semua",
+      "items": [
+        "out/stickers/sticker-13.webp",
+        "out/stickers/sticker-14.webp",
+        "out/stickers/sticker-15.webp",
+        "out/stickers/sticker-16.webp"
+      ]
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Cara pasang, 1 menit",
+      "body": "Install Sticker.ly dari Play Store atau App Store. Cari TemanTumbuh, buka pack-nya, terus tap Add to WhatsApp. Stikernya langsung muncul di WA.",
+      "tips": "Nggak muncul? Update WhatsApp dulu, terus coba lagi.",
+      "number": false
+    },
+    {
+      "type": "cta",
+      "headline": "Mau stikernya?",
+      "accent": "Gratis, tinggal pasang.",
+      "pill": "KOMEN STIKER",
+      "sub2": "Kami balesin link-nya. Atau buka link di bio Instagram kami.",
+      "mascot": "sayang"
+    }
+  ],
+  "tiktok_title": "Stiker WA gratis buat kode-kodean sama pasangan"
+}

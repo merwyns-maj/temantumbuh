@@ -301,7 +301,8 @@ class Slide:
         d, s, m = self.d, self.spec, self.m
         if s.get("motif"):
             self.motif(s["motif"], 880, 180)
-        self.disc_number(164, 276, 100, f"{self.idx:02d}", 110)
+        if s.get("number", True):
+            self.disc_number(164, 276, 100, f"{self.idx:02d}", 110)
         if s.get("usia"):
             self.chip(292, 276, s["usia"], "surface-card", "ink-muted", outline="line")
         has_body = bool(s.get("body"))
@@ -490,6 +491,47 @@ class Slide:
                 d.line([m + 24, ry, W - m - 24, ry], fill=self.c("line"), width=2)
         if s.get("note"):
             by0 = y + card_h + 28
+            d.rounded_rectangle([m, by0, W - m, by0 + len(nlines) * nlh + 56], radius=RADIUS["radius-md"],
+                                fill=self.c("sage-tint"), outline=self.c("sage"), width=3)
+            ty = by0 + 28
+            for line in nlines:
+                d.text((m + 40, ty), line, font=nf, fill=self.c("ink"))
+                ty += nlh
+
+    def gallery(self):
+        """Title plus a grid of our own images (stickers, worksheet pages): 'items' are paths from the repo root."""
+        d, s, m = self.d, self.spec, self.m
+        y = 200
+        if s.get("kicker"):
+            self.chip(m, 210, s["kicker"], "sage-ink", "on-accent", size=26)
+            y = 262
+        hf, hlh = style_font("slide-title")
+        for line in wrap(d, s["title"], hf, W - 2 * m):
+            d.text((m, y), line, font=hf, fill=self.c("ink"))
+            y += hlh
+        y += 30
+        note_h, nlines = 0, []
+        if s.get("note"):
+            nf, nlh = style_font("tips")
+            nlines = wrap(d, s["note"], nf, W - 2 * m - 80)
+            note_h = 28 + len(nlines) * nlh + 56 + 28
+        items = s["items"]
+        cols = s.get("cols", 2 if len(items) <= 4 else 3)
+        rows = -(-len(items) // cols)
+        gap = 20
+        room = H - SPACE["footer-zone"] - y - note_h
+        cell = min((W - 2 * m - gap * (cols - 1)) // cols, (room - gap * (rows - 1)) // rows)
+        if cell < 200:
+            raise LayoutError(f"gallery cells only {cell}px: fewer items or a shorter title")
+        gx = (W - (cols * cell + (cols - 1) * gap)) // 2
+        y += max(0, (room - rows * cell - (rows - 1) * gap) // 3)
+        for i, path in enumerate(items):
+            im = Image.open(os.path.join(ROOT, path)).convert("RGBA").resize((cell, cell), Image.LANCZOS)
+            cx, cy = gx + (i % cols) * (cell + gap), y + (i // cols) * (cell + gap)
+            d.rounded_rectangle([cx, cy, cx + cell, cy + cell], radius=RADIUS["radius-md"], fill=self.c("surface-200"))
+            self.img.paste(im, (cx, cy), im)
+        if nlines:
+            by0 = y + rows * cell + (rows - 1) * gap + 28
             d.rounded_rectangle([m, by0, W - m, by0 + len(nlines) * nlh + 56], radius=RADIUS["radius-md"],
                                 fill=self.c("sage-tint"), outline=self.c("sage"), width=3)
             ty = by0 + 28
