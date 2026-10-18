@@ -1,7 +1,7 @@
 {
   "series": "ayah",
   "job": "send",
-  "caption": "Lanjutan dari keluhan suami kemarin. Sekarang bagian seriusnya: jadi satpam tamu, siapin pos menyusui, temenin makan tengah malam, ambil shift jam 2 sampai 5, jadi juru bicara grup WA keluarga, dan tanya kabar istri, bukan cuma bayi.\n\nMana yang paling kamu butuhin?\n\nSumber: Kemenkes RI\n\n#ayahbaru #newborn #suamisiaga #parentingindonesia #SeriAyahBaru",
+  "caption": "Lanjutan dari keluhan suami kemarin. Sekarang bagian seriusnya: jadi satpam tamu, siapin pos menyusui, ambil shift jam 2 sampai 5, jadi juru bicara grup WA keluarga, dan tanya kabar istri, bukan cuma bayi.\n\nMana yang paling kamu butuhin?\n\nSumber: Kemenkes RI\n\n#ayahbaru #newborn #suamisiaga #parentingindonesia #SeriAyahBaru",
   "slides": [
     {
       "type": "hook",
@@ -14,7 +14,7 @@
         "GENDONG"
       ],
       "accent": 2,
-      "sub": "6 hal yang paling dibutuhin istri di minggu-minggu pertama.",
+      "sub": "5 hal yang paling dibutuhin istri di minggu-minggu pertama.",
       "mascot": "halo"
     },
     {
@@ -34,20 +34,13 @@
     {
       "type": "point",
       "motif": "spark",
-      "title": "Temenin makan tengah malam",
-      "body": "Ibu menyusui gampang lapar, apalagi jam 11 malam. Pesen martabak, makan berdua. Dia makan sepotong, sisanya kamu yang ngabisin.",
-      "tips": "Perut ikut buncit? Anggap aja senasib sepenanggungan."
-    },
-    {
-      "type": "point",
-      "motif": "leaf",
       "title": "Ambil shift jam 2 sampai 5",
       "body": "Bawa bayi ke istri buat menyusu, habis itu giliranmu: sendawain, ganti popok, tidurin lagi. Istri bisa tidur lebih panjang.",
       "tips": "Sepakatin jamnya dari siang, biar nggak debat jam 2 pagi."
     },
     {
       "type": "point",
-      "motif": "spark",
+      "motif": "leaf",
       "title": "Jadi juru bicara grup WA keluarga",
       "body": "Pertanyaan udah bisa apa, kok nangis terus, kapan boleh dijenguk. Semua itu nguras tenaga istri. Kamu yang jawab.",
       "tips": "Kirim satu foto update sehari. Biasanya pertanyaannya langsung berkurang."
@@ -71,5 +64,5 @@
       "mascot": "sayang"
     }
   ],
-  "tiktok_title": "6 hal yang paling dibutuhin istri setelah melahirkan"
+  "tiktok_title": "5 hal yang paling dibutuhin istri setelah melahirkan"
 }
