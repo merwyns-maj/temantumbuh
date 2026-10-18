@@ -1,0 +1,24 @@
+{
+  "pack": "Kode Rumah Tangga",
+  "publisher": "TemanTumbuh",
+  "job": "send",
+  "note": "WhatsApp sticker pack, draft 1. Mom is the hero, dad laughs at himself, the family group gets the kind ones.",
+  "stickers": [
+    {"id": "01", "pose": "stiker/tunas-gendong", "series": "ibu", "label": "Giliran kamu gendong, ya", "emoji": "👶"},
+    {"id": "02", "pose": "stiker/tunas-popok-kaget", "series": "ibu", "label": "Popok habis! Tolong mampir", "emoji": "😱"},
+    {"id": "03", "pose": "tunas-ngantuk", "series": "ibu", "label": "Aku butuh tidur 2 jam", "emoji": "😴"},
+    {"id": "04", "pose": "stiker/tunas-sst", "series": "ibu", "label": "Dia baru tidur. JANGAN BEL.", "emoji": "🤫"},
+    {"id": "05", "pose": "tunas-sayang", "series": "ibu", "label": "Udah makan? Kamu, bukan bayinya", "emoji": "❤️"},
+    {"id": "06", "pose": "stiker/tunas-gendong-sayang", "series": "ibu", "label": "Lagi nyusuin, nanti aku bales", "emoji": "🤱"},
+    {"id": "07", "pose": "tunas-halo", "series": "ayah", "label": "Siap, Bos!", "emoji": "👋"},
+    {"id": "08", "pose": "stiker/tunas-popok-fokus", "series": "ayah", "label": "Lagi ganti popok, doain", "emoji": "😬"},
+    {"id": "09", "pose": "stiker/tunas-kopi", "series": "ayah", "label": "Shift malam aman", "emoji": "☕"},
+    {"id": "10", "pose": "stiker/tunas-maaf", "series": "ayah", "label": "Aku salah, aku tahu", "emoji": "🙏"},
+    {"id": "11", "pose": "tunas-hore", "series": "ayah", "label": "Otw beli popok!", "emoji": "🏃"},
+    {"id": "12", "pose": "tunas-kaget", "series": "ayah", "label": "Ini normal nggak sih?", "emoji": "😳"},
+    {"id": "13", "pose": "tunas-riset", "series": "pintar", "label": "Bukan salah Nenek, ilmunya aja update", "emoji": "📋"},
+    {"id": "14", "pose": "stiker/tunas-mangkok", "series": "mpasi", "label": "Hore, dia mau makan!", "emoji": "🥣"},
+    {"id": "15", "pose": "tunas-sayang", "series": "pintar", "label": "Makasih udah bantu jagain", "emoji": "🥰"},
+    {"id": "16", "pose": "tunas-mikir", "series": "pintar", "label": "Nanti aku tanya dokter anak dulu", "emoji": "🤔"}
+  ]
+}
