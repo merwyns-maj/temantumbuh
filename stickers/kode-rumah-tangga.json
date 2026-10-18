@@ -2,7 +2,8 @@
   "pack": "Kode Rumah Tangga",
   "publisher": "TemanTumbuh",
   "job": "send",
-  "note": "WhatsApp sticker pack, draft 1. Mom is the hero, dad laughs at himself, the family group gets the kind ones.",
+  "status": "approved 2026-10-18 (draft 2)",
+  "note": "WhatsApp sticker pack. Mom is the hero, dad laughs at himself, the family group gets the kind ones.",
   "stickers": [
     {"id": "01", "pose": "stiker/tunas-gendong", "series": "ibu", "label": "Giliran kamu gendong, ya", "emoji": "👶"},
     {"id": "02", "pose": "stiker/tunas-popok-kaget", "series": "ibu", "label": "Popok habis! Tolong mampir", "emoji": "😱"},
