@@ -62,7 +62,7 @@ PARTICLES = r"\b(kok|sih|deh|lho|kan|ya|dong)\b"
 
 def strings(node, path="$"):
     """Yield (path, text) for every string in the spec, skipping style keys."""
-    skip = {"type", "theme", "motif", "series", "handle", "tips_label", "zzz", "usia", "label", "job", "source"}
+    skip = {"type", "theme", "motif", "series", "handle", "tips_label", "zzz", "usia", "label", "job", "source", "mascot", "art"}
     if isinstance(node, dict):
         for k, v in node.items():
             if k in skip:

@@ -82,6 +82,10 @@ def svg_image(name, size, height=None):
 # Series whose corner shapes take the series tint instead of plain surface-200
 TINTED = {"mpasi"}
 ART_RATIO = 880 / 260  # food/art-*.svg cut diagrams
+# Tunas mascot (design/svg/tunas/*.svg, 120 x 140 viewBox): hook top right, CTA in place of the motif
+MASCOT_HOOK = (172, 200)
+MASCOT_CTA = (206, 240)
+MASCOT_POSES = {"halo", "riset", "mikir", "hore", "kaget", "ngantuk", "sayang", "santai"}
 
 
 # ------------------------------------------------------------------ text helpers
@@ -222,7 +226,13 @@ class Slide:
     # ---------------- slide types
     def hook(self):
         d, s, m = self.d, self.spec, self.m
-        if s.get("motif"):
+        mascot_x = None
+        if s.get("mascot"):
+            mw, mh = MASCOT_HOOK
+            mascot_x = W - m - mw
+            im = svg_image(f"tunas/tunas-{s['mascot']}.svg", mw, mh)
+            self.img.paste(im, (mascot_x, 150), im)
+        elif s.get("motif"):
             self.motif(s["motif"], 840, 200)
         kf, ktrack = font("body800", 28), 1
         kw = tracked_len(d, s["kicker"], kf, ktrack)
@@ -232,7 +242,9 @@ class Slide:
             x0 = m + kw + 48 + 16
             if x0 + tracked_len(d, self.post["usia"], font("body800", 26), 1) + 44 > W - m:
                 raise LayoutError("kicker and age chip do not fit on one row")
-            self.chip(x0, 279, self.post["usia"], "surface-card", "ink-muted", outline="line")
+            end = self.chip(x0, 279, self.post["usia"], "surface-card", "ink-muted", outline="line")
+            if mascot_x is not None and end > mascot_x - 10:
+                raise LayoutError("kicker and age chip run into the mascot: shorten the kicker")
         hf, lh = style_font("hook-display")
         y = 364
         if len(s["lines"]) > 4:
@@ -380,7 +392,10 @@ class Slide:
         cf, clh = style_font("caption")
         pf = font("display", 40)
         blocks = []  # (height, draw_fn)
-        if s.get("motif") == "logo":
+        if s.get("mascot"):
+            mw, mh = MASCOT_CTA
+            blocks.append((mh, lambda y: self.img.paste(im := svg_image(f"tunas/tunas-{s['mascot']}.svg", mw, mh), (W // 2 - mw // 2, int(y)), im)))
+        elif s.get("motif") == "logo":
             blocks.append((220, lambda y: self.img.paste(lg := svg_image("tt-primary.svg", 220), (W // 2 - 110, int(y)), lg)))
         else:
             def disc(y):

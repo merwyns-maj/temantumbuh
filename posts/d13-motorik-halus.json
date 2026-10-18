@@ -4,33 +4,62 @@
   "usia": "2-5 TAHUN",
   "caption": "Latihan motorik halus sebelum anak bisa nulis. Anakmu udah suka corat-coret belum? Coba nomor 2, modalnya cuma jepit jemuran. #motorikhalus #stimulasianak #siapsekolah #parentingindonesia #SeriMainDiRumah",
   "slides": [
-    {"type": "hook", "motif": "sun", "kicker": "BELUM BISA PEGANG PENSIL?",
-     "lines": ["JANGAN", "BURU-BURU", "LES NULIS"], "accent": 2,
-     "sub": "Latih jarinya dulu. Ini 5 mainan buat nguatin jari, sambil main."},
-    {"type": "point", "motif": "leaf",
-     "title": "Sobek-sobek kertas",
-     "body": "Koran bekas atau kertas warna. Gerakan nyobek ngelatih jempol dan telunjuk buat kerja sama.",
-     "tips": "Sobekannya bisa ditempel jadi gambar. Sekalian latihan bikin karya."},
-    {"type": "point", "motif": "spark",
-     "title": "Jepit jemuran",
-     "body": "Jepit ke pinggir kardus atau gelas plastik. Butuh tenaga jari yang pas, persis kayak megang pensil nanti.",
-     "tips": "Mulai dari jepitan yang longgar. Yang keras bikin anak cepat nyerah."},
-    {"type": "point", "motif": "leaf",
-     "title": "Meronce sedotan",
-     "body": "Potong sedotan pendek-pendek, masukin ke tali sepatu. Mata dan tangan belajar kompak.",
-     "tips": "Selalu ditemenin karena potongannya kecil. Ujung tali diikat biar ronceannya nggak lepas terus."},
-    {"type": "point", "motif": "heart",
-     "title": "Main playdough",
-     "body": "Dipenyet, digulung, dicubit. Tiap gerakan nguatin otot-otot kecil di tangan.",
-     "tips": "Kasih alat makan plastik buat motong-motong. Biasanya jadi bagian favorit."},
-    {"type": "point", "motif": "spark",
-     "title": "Pindahin pompom pakai sendok",
-     "body": "Pindahin pompom atau potongan spons dari satu mangkuk ke mangkuk lain. Kelihatannya simpel, tapi butuh fokus dan kontrol.",
-     "tips": "Umur 4 tahun ke atas, naik level pakai penjepit makanan."},
-    {"type": "cta", "motif": "heart",
-     "headline": "Nulisnya nanti,",
-     "accent": "jarinya disiapin dari sekarang.",
-     "pill": "SIMPAN BUAT MAIN WEEKEND",
-     "sub2": "Kirim juga ke yang jagain anakmu di rumah."}
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "BELUM BISA PEGANG PENSIL?",
+      "lines": [
+        "JANGAN",
+        "BURU-BURU",
+        "LES NULIS"
+      ],
+      "accent": 2,
+      "sub": "Latih jarinya dulu. Ini 5 mainan buat nguatin jari, sambil main.",
+      "mascot": "riset"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Sobek-sobek kertas",
+      "body": "Koran bekas atau kertas warna. Gerakan nyobek ngelatih jempol dan telunjuk buat kerja sama.",
+      "tips": "Sobekannya bisa ditempel jadi gambar. Sekalian latihan bikin karya."
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Jepit jemuran",
+      "body": "Jepit ke pinggir kardus atau gelas plastik. Butuh tenaga jari yang pas, persis kayak megang pensil nanti.",
+      "tips": "Mulai dari jepitan yang longgar. Yang keras bikin anak cepat nyerah."
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Meronce sedotan",
+      "body": "Potong sedotan pendek-pendek, masukin ke tali sepatu. Mata dan tangan belajar kompak.",
+      "tips": "Selalu ditemenin karena potongannya kecil. Ujung tali diikat biar ronceannya nggak lepas terus."
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Main playdough",
+      "body": "Dipenyet, digulung, dicubit. Tiap gerakan nguatin otot-otot kecil di tangan.",
+      "tips": "Kasih alat makan plastik buat motong-motong. Biasanya jadi bagian favorit."
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Pindahin pompom pakai sendok",
+      "body": "Pindahin pompom atau potongan spons dari satu mangkuk ke mangkuk lain. Kelihatannya simpel, tapi butuh fokus dan kontrol.",
+      "tips": "Umur 4 tahun ke atas, naik level pakai penjepit makanan."
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Nulisnya nanti,",
+      "accent": "jarinya disiapin dari sekarang.",
+      "pill": "SIMPAN BUAT MAIN WEEKEND",
+      "sub2": "Kirim juga ke yang jagain anakmu di rumah.",
+      "mascot": "hore"
+    }
   ]
 }

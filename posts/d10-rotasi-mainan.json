@@ -15,7 +15,8 @@
         "SETENGAHNYA"
       ],
       "accent": 3,
-      "sub": "Anak cepat bosan bukan karena kurang mainan. Justru kebanyakan."
+      "sub": "Anak cepat bosan bukan karena kurang mainan. Justru kebanyakan.",
+      "mascot": "mikir"
     },
     {
       "type": "point",
@@ -51,7 +52,8 @@
       "headline": "Lebih sedikit mainan,",
       "accent": "lebih lama mainnya.",
       "pill": "SIMPAN BUAT MINGGU INI",
-      "sub2": "Kirim juga ke pasanganmu, apalagi yang suka beli mainan tiap ke mal."
+      "sub2": "Kirim juga ke pasanganmu, apalagi yang suka beli mainan tiap ke mal.",
+      "mascot": "hore"
     }
   ]
 }

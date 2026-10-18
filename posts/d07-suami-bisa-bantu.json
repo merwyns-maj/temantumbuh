@@ -14,7 +14,8 @@
         "GENDONG"
       ],
       "accent": 2,
-      "sub": "5 hal yang paling dibutuhin istri di minggu-minggu pertama."
+      "sub": "5 hal yang paling dibutuhin istri di minggu-minggu pertama.",
+      "mascot": "halo"
     },
     {
       "type": "point",
@@ -59,7 +60,8 @@
       "pill": "KIRIM KE SUAMI",
       "sub2": "Atau tag dia di komen. Biar dibaca sampai habis.",
       "source": "Sumber: Kemenkes RI",
-      "disclaimer": true
+      "disclaimer": true,
+      "mascot": "sayang"
     }
   ]
 }

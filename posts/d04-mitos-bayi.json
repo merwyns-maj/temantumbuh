@@ -4,31 +4,62 @@
   "usia": "0-12 BULAN",
   "caption": "Mitos bayi yang masih sering kita dengar dari keluarga. Nomor berapa yang paling sering kamu dengar? #mitosbayi #newborn #ibubaru #parentingindonesia #SeriAnakPintar",
   "slides": [
-    {"type": "hook", "motif": "sun", "kicker": "4 MITOS BAYI",
-     "lines": ["BUKAN SALAH", "NENEK. ILMUNYA", "AJA YANG", "UDAH UPDATE."], "accent": 3,
-     "sub": "Dulu infonya memang belum sebanyak sekarang. Ini versi terbarunya."},
-    {"type": "point", "motif": "heart", "label": "KATA ORANG DULU",
-     "title": "\"Jangan digendong terus, nanti bau tangan.\"",
-     "tips_label": "KATA DOKTER ANAK SEKARANG",
-     "tips": "Bayi yang cepat ditanggepin pas nangis justru tumbuh lebih tenang dan lebih berani eksplorasi. Umur segini, bayi belum bisa dimanja."},
-    {"type": "point", "motif": "leaf", "label": "KATA ORANG DULU",
-     "title": "\"Pakai gurita biar perutnya nggak buncit.\"",
-     "tips_label": "KATA DOKTER ANAK SEKARANG",
-     "tips": "Perut bayi memang wajar kelihatan buncit. Gurita yang kencang malah bisa nekan perut dan bikin napasnya kurang leluasa."},
-    {"type": "point", "motif": "spark", "label": "KATA ORANG DULU",
-     "title": "\"Dibedong kencang biar kakinya lurus.\"",
-     "tips_label": "KATA DOKTER ANAK SEKARANG",
-     "tips": "Kaki bayi yang agak melengkung itu normal dan nanti lurus sendiri. Bedong yang terlalu kencang di kaki malah bisa ganggu sendi panggulnya."},
-    {"type": "point", "motif": "leaf", "label": "KATA ORANG DULU",
-     "title": "\"Pakai baby walker biar cepat jalan.\"",
-     "tips_label": "KATA DOKTER ANAK SEKARANG",
-     "tips": "Baby walker nggak bikin anak lebih cepat jalan. Risiko jatuh dan kebentur malah tinggi, makanya dokter anak nggak nyaranin."},
-    {"type": "cta", "motif": "logo",
-     "headline": "Ngobrolnya pelan-pelan,",
-     "accent": "sambil tetap sayang.",
-     "pill": "KIRIM KE GRUP WA KELUARGA",
-     "sub2": "Atau ke teman yang lagi hamil.",
-     "source": "Sumber: IDAI, American Academy of Pediatrics",
-     "disclaimer": true}
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "4 MITOS BAYI",
+      "lines": [
+        "BUKAN SALAH",
+        "NENEK. ILMUNYA",
+        "AJA YANG",
+        "UDAH UPDATE."
+      ],
+      "accent": 3,
+      "sub": "Dulu infonya memang belum sebanyak sekarang. Ini versi terbarunya.",
+      "mascot": "kaget"
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "label": "KATA ORANG DULU",
+      "title": "\"Jangan digendong terus, nanti bau tangan.\"",
+      "tips_label": "KATA DOKTER ANAK SEKARANG",
+      "tips": "Bayi yang cepat ditanggepin pas nangis justru tumbuh lebih tenang dan lebih berani eksplorasi. Umur segini, bayi belum bisa dimanja."
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "label": "KATA ORANG DULU",
+      "title": "\"Pakai gurita biar perutnya nggak buncit.\"",
+      "tips_label": "KATA DOKTER ANAK SEKARANG",
+      "tips": "Perut bayi memang wajar kelihatan buncit. Gurita yang kencang malah bisa nekan perut dan bikin napasnya kurang leluasa."
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "label": "KATA ORANG DULU",
+      "title": "\"Dibedong kencang biar kakinya lurus.\"",
+      "tips_label": "KATA DOKTER ANAK SEKARANG",
+      "tips": "Kaki bayi yang agak melengkung itu normal dan nanti lurus sendiri. Bedong yang terlalu kencang di kaki malah bisa ganggu sendi panggulnya."
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "label": "KATA ORANG DULU",
+      "title": "\"Pakai baby walker biar cepat jalan.\"",
+      "tips_label": "KATA DOKTER ANAK SEKARANG",
+      "tips": "Baby walker nggak bikin anak lebih cepat jalan. Risiko jatuh dan kebentur malah tinggi, makanya dokter anak nggak nyaranin."
+    },
+    {
+      "type": "cta",
+      "motif": "logo",
+      "headline": "Ngobrolnya pelan-pelan,",
+      "accent": "sambil tetap sayang.",
+      "pill": "KIRIM KE GRUP WA KELUARGA",
+      "sub2": "Atau ke teman yang lagi hamil.",
+      "source": "Sumber: IDAI, American Academy of Pediatrics",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
   ]
 }

@@ -20,7 +20,7 @@ python tools/review_sheet.py out/review.pdf posts/d*.json    # one page per post
 | --- | --- |
 | `posts/` | One JSON spec per post, plus `calendar.json` (30 days, series rhythm, backlog) |
 | `backlog/` | Drafts parked for a later day |
-| `design/` | `tokens.json` from the TemanTumbuh Design System, logo and series icons (SVG) |
+| `design/` | `tokens.json` from the TemanTumbuh Design System, logo, series icons, food art and the Tunas mascot poses (SVG) |
 | `fonts/` | Fredoka 600 and Nunito 600/700/800 (SIL Open Font License) |
 | `tools/` | `render.py`, `lint_copy.py`, `score_post.py`, `review_sheet.py` |
 | `.claude/skills/` | `suara-temantumbuh` (voice and humanify rules), `skor-konten` (post score), `riset-afiliasi` (product research and score) |
