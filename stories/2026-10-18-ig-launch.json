@@ -1,0 +1,71 @@
+{
+  "note": "Story teasers for the first Instagram feed posts. Slides are the approved post slides. Only line1 and line2 are new.",
+  "job": "send",
+  "stories": [
+    {
+      "id": "d04",
+      "slug": "d04-mitos-bayi",
+      "series": "pintar",
+      "line1": "Lengkapnya ada di feed",
+      "line2": "Ketuk profil kami di atas, ya",
+      "at": "2026-10-18T14:00:00"
+    },
+    {
+      "id": "d07",
+      "slug": "d07-suami-bisa-bantu",
+      "series": "ayah",
+      "line1": "Lengkapnya ada di feed",
+      "line2": "Kirim ke suamimu, siapa tahu kode",
+      "at": "2026-10-18T19:30:00"
+    },
+    {
+      "id": "d02",
+      "slug": "d02-potong-makanan",
+      "series": "mpasi",
+      "line1": "Lengkapnya ada di feed",
+      "line2": "Ketuk profil kami di atas, ya",
+      "at": "2026-10-18T21:15:00"
+    },
+    {
+      "id": "contekan-potong",
+      "slug": "d02-potong-makanan",
+      "slide": 6,
+      "series": "contekan",
+      "line1": "Screenshot, simpan di HP",
+      "line2": "Sumber: American Academy of Pediatrics",
+      "at": "2026-10-18T21:20:00"
+    },
+    {
+      "id": "d01",
+      "slug": "d01-udah-stimulasi",
+      "series": "pintar",
+      "line1": "Lengkapnya ada di feed",
+      "line2": "Ketuk profil kami di atas, ya",
+      "at": "2026-10-19T09:30:00"
+    },
+    {
+      "id": "d11",
+      "slug": "d11-siap-sekolah",
+      "series": "sekolah",
+      "line1": "Lengkapnya ada di feed",
+      "line2": "Ketuk profil kami di atas, ya",
+      "at": "2026-10-19T12:30:00"
+    },
+    {
+      "id": "d03",
+      "slug": "d03-mainan-dari-dapur",
+      "series": "main",
+      "line1": "Lengkapnya ada di feed",
+      "line2": "Ketuk profil kami di atas, ya",
+      "at": "2026-10-19T19:30:00"
+    },
+    {
+      "id": "d05",
+      "slug": "d05-keluhan-suami",
+      "series": "ayah",
+      "line1": "Lengkapnya ada di feed",
+      "line2": "Ketuk profil kami di atas, ya",
+      "at": "2026-10-19T21:30:00"
+    }
+  ]
+}
