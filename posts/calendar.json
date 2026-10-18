@@ -307,8 +307,10 @@
       "slug": "s01-stiker-wa",
       "job": "comment",
       "title": "Stiker WA gratis buat kode ke pasangan",
-      "status": "siap review",
-      "link": "https://sticker.ly/s/YUYOM1"
+      "status": "dijadwalkan",
+      "link": "https://sticker.ly/s/YUYOM1",
+      "scheduled_wib": "2026-10-20 19:00",
+      "via": "Metricool"
     }
   ],
   "backlog": [
