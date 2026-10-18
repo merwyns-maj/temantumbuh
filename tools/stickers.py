@@ -25,9 +25,27 @@ PAD = 16          # room for the outline inside the canvas
 OUTLINE = 12      # white sticker border
 
 
-def pose(name, w, h):
-    png = cairosvg.svg2png(url=os.path.join(TUNAS, name + ".svg"), output_width=w, output_height=h)
-    return Image.open(io.BytesIO(png)).convert("RGBA")
+INK_LINE = 5     # dark outline around Tunas, for definition at chat size
+
+
+def pose(name, w, h, line=0):
+    """Render at 3x and scale down (crisper edges); with line > 0, trace the silhouette in ink."""
+    png = cairosvg.svg2png(url=os.path.join(TUNAS, name + ".svg"), output_width=w * 3, output_height=h * 3)
+    big = Image.open(io.BytesIO(png)).convert("RGBA")
+    if line:
+        pad = line * 3 + 4
+        canvas = Image.new("RGBA", (big.width + 2 * pad, big.height + 2 * pad), (0, 0, 0, 0))
+        canvas.alpha_composite(big, (pad, pad))
+        a = canvas.split()[3].point(lambda v: 255 if v > 40 else 0)
+        for _ in range(line):
+            a = a.filter(ImageFilter.MaxFilter(7))
+        a = a.filter(ImageFilter.GaussianBlur(1.5))
+        ink = Image.new("RGBA", canvas.size, color("ink", "light") + (255,))
+        ink.putalpha(a)
+        ink.alpha_composite(canvas)
+        big = ink
+        w, h = round(big.width / 3), round(big.height / 3)
+    return big.resize((w, h), Image.LANCZOS)
 
 
 def fit_lines(draw, text, maxw):
@@ -62,13 +80,15 @@ def sticker(item):
 
     # Tunas fills the space above the label and tucks in behind its top edge
     avail = box_y0 - PAD - OUTLINE + 18
-    mh = min(avail, 380)
-    mw = round(mh * 120 / 140)
-    m = pose(item["pose"], mw, mh)
-    art.alpha_composite(m, ((S - mw) // 2, PAD + OUTLINE + (avail - mh) // 2))
+    vb = open(os.path.join(TUNAS, item["pose"] + ".svg")).read().split('viewBox="')[1].split('"')[0].split()
+    ratio = float(vb[2]) / float(vb[3])
+    mh = min(avail, 380, int((S - 2 * PAD - 2 * OUTLINE) / ratio))
+    mw = round(mh * ratio)
+    m = pose(item["pose"], mw - 2 * INK_LINE, mh - 2 * INK_LINE, line=INK_LINE)
+    art.alpha_composite(m, ((S - m.width) // 2, PAD + OUTLINE + (avail - m.height) // 2))
 
     bx0 = (S - box_w) / 2
-    d.rounded_rectangle((bx0, box_y0, bx0 + box_w, box_y1), radius=26, fill=bg + (255,))
+    d.rounded_rectangle((bx0, box_y0, bx0 + box_w, box_y1), radius=26, fill=bg + (255,), outline=color("ink", "light"), width=4)
     y = box_y0 + 10
     for l in lines:
         w = d.textlength(l, font=f)
