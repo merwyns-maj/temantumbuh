@@ -1,0 +1,480 @@
+{
+ "job": "save",
+ "caption": "Kitab TemanTumbuh?",
+ "cover": {
+  "title": "Kitab TemanTumbuh",
+  "tagline": "Daftar belanja, worksheet, dan mainan anak. Dikurasi biar kamu nggak beli yang nggak perlu.",
+  "updated": "Update terakhir: 18 Oktober 2026 (draf)",
+  "sections": [
+   [
+    "Cara pakai",
+    [
+     "Buka di browser HP (Chrome atau Safari), bukan dari dalam TikTok atau Instagram, biar link-nya bisa diklik.",
+     "Pilih tab di bawah: Belanja Newborn, Worksheet 1-5 Tahun, Mainan Ngajak Ngobrol, Gratisan.",
+     "Harga di toko bisa berubah. Klik link-nya buat lihat harga terbaru."
+    ]
+   ],
+   [
+    "Arti tier",
+    [
+     "WAJIB: kepake terus dari minggu pertama.",
+     "BERGUNA: bikin hidup lebih gampang, tapi bisa nyusul.",
+     "SKIP DULU: belum perlu, atau malah nggak disarankan dokter anak. Hemat buat yang lain."
+    ]
+   ],
+   [
+    "Cara kami menilai",
+    [
+     "Pegangan kami panduan IDAI, Kemenkes, AAP, dan CDC. Sumbernya ada di kolom paling kanan.",
+     "Keamanan dulu: mainan anak wajib SNI, sabun dan krim terdaftar BPOM.",
+     "Setelah itu baru fungsi, bahan, dan harga.",
+     "Produk yang kami pakai sendiri ditandai \"Dipakai sendiri\". Yang lain kami pilih dari spesifikasi, standar keamanan, dan ulasan pembeli. Kami nggak bikin ulasan palsu."
+    ]
+   ],
+   [
+    "Soal link",
+    [
+     "Link di kitab ini link afiliasi. Harganya sama buat kamu, kami dapat komisi kecil dari toko. Ini yang bikin konten TemanTumbuh tetap gratis.",
+     "Kalau mau dukung, checkout langsung dari link-nya."
+    ]
+   ],
+   [
+    "Yang sengaja nggak ada di sini",
+    [
+     "Produk pengganti ASI, botol, dot, dan empeng. Kami ikut aturan promosi produk pengganti ASI. Kalau butuh, tanya dokter atau bidan."
+    ]
+   ],
+   [
+    "Penting",
+    [
+     "Konten edukasi umum. Untuk kondisi khusus, konsultasikan dengan dokter anak.",
+     "Ada barang yang menurutmu wajib tapi belum ada? DM kami di TikTok @temantumbuhid atau Instagram @temantumbuhid.official."
+    ]
+   ]
+  ]
+ },
+ "newborn": [
+  [
+   "Tidur",
+   "Box bayi atau bassinet",
+   "WAJIB",
+   "Tempat tidur paling aman buat bayi itu permukaan sendiri, dekat kasur orang tua.",
+   "Alas rata dan keras, nggak melesak waktu ditekan. Jeruji rapat.",
+   "Sekamar sama orang tua minimal 6 bulan pertama, tapi beda kasur.",
+   "AAP, A Parent's Guide to Safe Sleep (HealthyChildren.org)"
+  ],
+  [
+   "Tidur",
+   "Kasur box padat dan sprei karet",
+   "WAJIB",
+   "Kasur yang terlalu empuk bikin wajah bayi bisa tenggelam.",
+   "Pas sama ukuran box, nggak ada celah di pinggir. Sprei model karet, bukan kain lepas.",
+   "",
+   "AAP, A Parent's Guide to Safe Sleep (HealthyChildren.org)"
+  ],
+  [
+   "Tidur",
+   "Bedong",
+   "BERGUNA",
+   "Banyak bayi lebih tenang kalau dibedong.",
+   "Kain tipis yang adem. Bagian pinggul jangan terlalu kencang.",
+   "Stop bedong begitu bayi mulai coba berguling. Bedong nggak mengurangi risiko SIDS.",
+   "AAP, A Parent's Guide to Safe Sleep (HealthyChildren.org)"
+  ],
+  [
+   "Tidur",
+   "Kelambu",
+   "BERGUNA",
+   "Melindungi bayi dari nyamuk waktu tidur.",
+   "Rangka kuat, kain nggak gampang lepas ke kasur.",
+   "",
+   ""
+  ],
+  [
+   "Tidur",
+   "Bantal, guling, bumper box, boneka di kasur",
+   "SKIP DULU",
+   "Benda empuk di tempat tidur bayi menambah risiko sesak napas.",
+   "",
+   "Termasuk bantal peang. Kalau khawatir bentuk kepala, tanya dokter anak.",
+   "AAP, A Parent's Guide to Safe Sleep (HealthyChildren.org)"
+  ],
+  [
+   "Tidur",
+   "Baby monitor",
+   "SKIP DULU",
+   "Kalau bayi tidur sekamar, belum terlalu perlu.",
+   "",
+   "Baru kepikiran kalau bayi pindah kamar.",
+   ""
+  ],
+  [
+   "Baju dan popok",
+   "Popok sekali pakai atau popok kain",
+   "WAJIB",
+   "Newborn ganti popok berkali-kali sehari.",
+   "Beli ukuran NB secukupnya dulu. Bayi cepat naik ukuran.",
+   "",
+   ""
+  ],
+  [
+   "Baju dan popok",
+   "Baju atasan, celana, bodysuit",
+   "WAJIB",
+   "Dipakai tiap hari, sering ganti karena gumoh dan pipis.",
+   "Bahan katun yang adem. Kancing atau snap di depan biar gampang dipakaikan.",
+   "Ukuran 0 sampai 3 bulan cepat kekecilan. Jangan borong.",
+   ""
+  ],
+  [
+   "Baju dan popok",
+   "Topi, sarung tangan, kaus kaki",
+   "BERGUNA",
+   "Buat jaga hangat, terutama di ruangan ber-AC.",
+   "Karet nggak terlalu ketat.",
+   "",
+   ""
+  ],
+  [
+   "Baju dan popok",
+   "Gurita",
+   "SKIP DULU",
+   "Perut bayi memang wajar kelihatan buncit. Gurita yang kencang malah bisa nekan perut dan bikin napasnya kurang leluasa.",
+   "",
+   "Bukan salah Nenek, ilmunya aja yang udah update.",
+   "IDAI"
+  ],
+  [
+   "Baju dan popok",
+   "Sepatu bayi",
+   "SKIP DULU",
+   "Bayi belum jalan. Kaus kaki udah cukup.",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Mandi dan perawatan",
+   "Bak mandi bayi",
+   "WAJIB",
+   "Mandi lebih aman dan nggak bikin pegal.",
+   "Dasar nggak licin. Kalau ada sandaran, pastikan kokoh.",
+   "Jangan tinggalkan bayi sendirian di bak, walau sebentar.",
+   ""
+  ],
+  [
+   "Mandi dan perawatan",
+   "Sabun dan sampo bayi",
+   "WAJIB",
+   "Kulit bayi masih tipis dan sensitif.",
+   "Terdaftar BPOM. Cek nomornya di cekbpom.pom.go.id.",
+   "",
+   "BPOM"
+  ],
+  [
+   "Mandi dan perawatan",
+   "Handuk berkerudung",
+   "BERGUNA",
+   "Kepala bayi cepat dingin habis mandi.",
+   "Bahan lembut dan cepat kering.",
+   "",
+   ""
+  ],
+  [
+   "Mandi dan perawatan",
+   "Krim ruam popok",
+   "BERGUNA",
+   "Buat jaga-jaga kalau kulit di area popok merah.",
+   "Terdaftar BPOM.",
+   "Kalau ruamnya nggak membaik, ke dokter.",
+   "BPOM"
+  ],
+  [
+   "Mandi dan perawatan",
+   "Gunting atau kikir kuku bayi",
+   "WAJIB",
+   "Kuku bayi cepat panjang dan bisa nyakar wajahnya sendiri.",
+   "Ujung tumpul.",
+   "Paling gampang dipotong waktu bayi tidur.",
+   ""
+  ],
+  [
+   "Kesehatan",
+   "Termometer digital",
+   "WAJIB",
+   "Demam di bayi kecil perlu cepat ketahuan.",
+   "Digital, bukan air raksa.",
+   "Bayi di bawah 3 bulan dengan suhu 38°C atau lebih: langsung hubungi dokter.",
+   "AAP, Fever: When to Call the Pediatrician (HealthyChildren.org)"
+  ],
+  [
+   "Kesehatan",
+   "Buku KIA",
+   "WAJIB",
+   "Catatan imunisasi, berat badan, dan tumbuh kembang anak.",
+   "Gratis dari Puskesmas atau klinik.",
+   "Bawa tiap kontrol dan imunisasi.",
+   "Kemenkes RI, via Antara: Jangan sepelekan buku KIA"
+  ],
+  [
+   "Jalan-jalan",
+   "Car seat bayi",
+   "WAJIB (kalau sering naik mobil)",
+   "Bayi yang dipangku nggak aman waktu mobil rem mendadak.",
+   "Bisa dipasang menghadap ke belakang. Pasang di jok belakang, ikuti manualnya.",
+   "Menghadap belakang selama mungkin, sampai batas berat atau tinggi dari pabrik.",
+   "AAP, Car Seats: Information for Families (HealthyChildren.org)"
+  ],
+  [
+   "Jalan-jalan",
+   "Gendongan ergonomis",
+   "BERGUNA",
+   "Tangan bebas, bayi tenang karena dekat badan.",
+   "Paha bayi tertopang sampai lutut, posisi kaki seperti huruf M. Wajah bayi kelihatan.",
+   "",
+   "Orlando Health, Is Babywearing Hurting My Child's Hips? (2019)"
+  ],
+  [
+   "Jalan-jalan",
+   "Stroller",
+   "BERGUNA",
+   "Enak buat jalan pagi dan ke mal.",
+   "Buat newborn, sandarannya harus bisa rebah datar.",
+   "",
+   ""
+  ],
+  [
+   "Jalan-jalan",
+   "Baby walker",
+   "SKIP DULU",
+   "IDAI menyarankan baby walker nggak dipakai buat bayi yang baru belajar jalan.",
+   "",
+   "Main di lantai jauh lebih aman.",
+   "IDAI, Penggunaan Baby Walker"
+  ],
+  [
+   "Buat ibu menyusui",
+   "Baju atau bra menyusui",
+   "BERGUNA",
+   "Menyusui jadi lebih praktis, apalagi di luar rumah.",
+   "Bahan adem, bukaan gampang.",
+   "",
+   ""
+  ],
+  [
+   "Buat ibu menyusui",
+   "Pompa ASI",
+   "BERGUNA",
+   "Terutama buat ibu yang balik kerja.",
+   "Ukuran corong pas. Kalau ragu, tanya konselor laktasi.",
+   "",
+   ""
+  ],
+  [
+   "Buat ibu menyusui",
+   "Kantong ASI dan cooler bag",
+   "BERGUNA",
+   "Buat menyimpan dan membawa ASI perah.",
+   "Kantong khusus ASI, tertutup rapat.",
+   "",
+   ""
+  ],
+  [
+   "Buat ibu menyusui",
+   "Bantal menyusui",
+   "BERGUNA",
+   "Mengurangi pegal di punggung dan tangan waktu menyusui.",
+   "",
+   "Bukan buat tempat tidur bayi.",
+   ""
+  ]
+ ],
+ "worksheet": [
+  [
+   "1 sampai 2 tahun",
+   "Belum perlu worksheet. Di usia ini anak belajar lewat tangan dan main.",
+   "Coret-coret bebas pakai krayon jumbo, finger paint, tempel stiker besar.",
+   "Lembar menebalkan huruf dan angka.",
+   "Krayon dan cat berlabel aman untuk anak, ukuran besar biar gampang digenggam.",
+   "CDC, Milestones by 2 years (tips aktivitas)"
+  ],
+  [
+   "2 sampai 3 tahun",
+   "Nunjuk gambar di buku waktu ditanya, bilang dua kata bareng.",
+   "Buku stiker, mewarnai bidang yang besar, meronce makaroni atau manik besar.",
+   "Menulis huruf.",
+   "Manik dan stiker yang nggak terlalu kecil. Tetap ditemenin.",
+   "CDC, Milestones by 2 and 3 years"
+  ],
+  [
+   "3 sampai 4 tahun",
+   "Bisa gambar lingkaran kalau dicontohin.",
+   "Labirin sederhana, mencocokkan warna dan bentuk, menggunting kertas pakai gunting anak.",
+   "Les calistung.",
+   "Gunting anak ujung tumpul. Ditemenin waktu pakai.",
+   "CDC, Milestones by 3 years"
+  ],
+  [
+   "4 sampai 5 tahun",
+   "Pegang krayon pakai jari, bukan digenggam. Gambar orang dengan tiga bagian badan atau lebih. Sebut beberapa warna.",
+   "Menebalkan garis dan bentuk, mewarnai di dalam garis, puzzle kertas.",
+   "Hafalan huruf berlembar-lembar.",
+   "",
+   "CDC, Milestones by 4 years"
+  ],
+  [
+   "5 tahun",
+   "Nulis beberapa huruf di namanya. Hitung sampai 10. Sebut angka 1 sampai 5 waktu ditunjuk.",
+   "Menulis nama sendiri, mencocokkan jumlah benda dengan angka, kartu cerita berurutan.",
+   "Les calistung khusus buat tes masuk SD. Masuk SD sekarang nggak ada tes calistung.",
+   "",
+   "CDC, Milestones by 5 years. Permendikdasmen No. 3 Tahun 2025 tentang SPMB"
+  ]
+ ],
+ "speech_flags": [
+  [
+   "0 sampai 6 bulan",
+   "Nggak menoleh waktu dipanggil namanya dari belakang. Nggak ada ocehan (babbling)."
+  ],
+  [
+   "12 bulan",
+   "Belum menunjuk pakai jari. Ekspresi wajah masih sedikit."
+  ],
+  [
+   "16 bulan",
+   "Belum ada satu kata pun yang ada artinya."
+  ],
+  [
+   "24 bulan",
+   "Belum ada kalimat dua kata yang bisa dimengerti."
+  ],
+  [
+   "Usia berapa pun",
+   "Kemampuan bicara atau bersosialisasi yang tadinya udah bisa, jadi mundur."
+  ]
+ ],
+ "speech_note": "Mainan bantu anak diajak ngobrol, tapi bukan terapi. Kalau kamu lihat salah satu tanda di bawah, langsung ke dokter anak. Nggak usah nunggu \"nanti juga bisa sendiri\".",
+ "speech_screen": "Kata IDAI: gawai dan televisi bukan cara stimulasi yang baik. Yang paling ampuh justru ngobrol, nyanyi, dan bacain buku.",
+ "speech": [
+  [
+   "0 sampai 12 bulan",
+   "Ngobrol sambil ganti popok dan mandi (gratis)",
+   "Bayi belajar bahasa dari suaramu, sejak lahir.",
+   "Ceritakan yang lagi kamu lakuin: \"Sekarang pakai celana. Kakinya masuk satu, dua.\"",
+   "",
+   "IDAI, Keterlambatan Bicara"
+  ],
+  [
+   "0 sampai 12 bulan",
+   "Buku kain atau board book bergambar kontras",
+   "Ada gambar buat ditunjuk dan dikasih nama.",
+   "Tunjuk gambarnya, sebut namanya, tunggu dia ngoceh, terus balas ocehannya.",
+   "Halaman tebal, sudut membulat, nggak ada bagian kecil yang bisa lepas. SNI.",
+   "IDAI, Mencegah Terlambat Bicara pada Anak"
+  ],
+  [
+   "0 sampai 12 bulan",
+   "Cermin bayi anti pecah",
+   "Bayi suka lihat wajah, termasuk wajahnya sendiri.",
+   "Duduk berdua di depan cermin, bikin ekspresi, sebut namanya: \"Ini senyum. Ini kaget.\"",
+   "Cermin akrilik, bukan kaca. SNI.",
+   ""
+  ],
+  [
+   "1 sampai 2 tahun",
+   "Buku kata pertama (gambar benda sehari-hari)",
+   "Gambar benda yang dia lihat tiap hari bikin kata baru lebih nempel.",
+   "Tanya \"Mana bola?\" dan biarkan dia nunjuk. Lama-lama ganti tanya \"Ini apa?\"",
+   "Board book halaman tebal. SNI.",
+   "CDC, Milestones by 2 years"
+  ],
+  [
+   "1 sampai 2 tahun",
+   "Figur hewan",
+   "Suara hewan biasanya jadi \"kata\" pertama yang gampang ditiru.",
+   "\"Sapi bilangnya mooo.\" Tunggu dia ikut niru, terus kasih tepuk tangan.",
+   "Ukuran nggak muat masuk mulut. SNI.",
+   ""
+  ],
+  [
+   "1 sampai 2 tahun",
+   "Boneka tangan",
+   "Anak sering lebih berani ngobrol sama boneka.",
+   "Boneka tanya \"Kamu lagi makan apa?\", kasih jeda buat dia jawab.",
+   "Jahitan kuat, mata boneka dijahit, bukan ditempel. SNI.",
+   ""
+  ],
+  [
+   "1 sampai 2 tahun",
+   "Gelembung sabun",
+   "Seru buat main giliran.",
+   "Tiup sekali, berhenti. Tunggu dia minta \"lagi\" pakai kata atau isyarat, baru tiup lagi.",
+   "Cairan khusus mainan anak, botol anti tumpah.",
+   ""
+  ],
+  [
+   "2 sampai 3 tahun",
+   "Mainan masak-masakan",
+   "Main pura-pura memancing kalimat: \"Aku masak nasi.\"",
+   "Jadi pembeli. Pesan makanan, tanya rasanya, minta tambah.",
+   "Potongan buah atau sayur mainan nggak terlalu kecil. SNI.",
+   "CDC, Milestones by 2 years"
+  ],
+  [
+   "2 sampai 3 tahun",
+   "Buku buka tutup (lift-the-flap)",
+   "Bikin penasaran, jadi anak mau nebak dan ngomong.",
+   "\"Siapa ya di balik pintu?\" Biarkan dia yang buka dan sebut.",
+   "Lipatan kuat. SNI.",
+   ""
+  ],
+  [
+   "2 sampai 3 tahun",
+   "Telepon mainan",
+   "Latihan ngobrol bolak-balik.",
+   "Pura-pura telepon Nenek. Kamu tanya, dia jawab, gantian.",
+   "Baterai tertutup sekrup. SNI.",
+   ""
+  ],
+  [
+   "3 sampai 5 tahun",
+   "Buku cerita bergambar",
+   "Melatih cerita dan tanya jawab.",
+   "Berhenti di tengah: \"Terus gimana ya?\" Biarkan dia nebak lanjutannya.",
+   "",
+   "CDC, Milestones by 4 and 5 years"
+  ],
+  [
+   "3 sampai 5 tahun",
+   "Kartu cerita berurutan",
+   "Melatih cerita dengan awal, tengah, akhir.",
+   "Acak 3 kartu, minta dia urutkan, terus ceritakan.",
+   "",
+   "CDC, Milestones by 5 years"
+  ],
+  [
+   "3 sampai 5 tahun",
+   "Permainan giliran (ular tangga, kartu sederhana)",
+   "Belajar aturan, giliran, dan ngobrol sambil main.",
+   "Ajak dia yang jelasin aturannya ke orang lain.",
+   "SNI.",
+   "CDC, Milestones by 5 years"
+  ],
+  [
+   "3 sampai 5 tahun",
+   "Rumah boneka atau figur keluarga",
+   "Anak bisa mengulang kejadian sehari-hari lewat cerita.",
+   "Tanya \"Hari ini boneka ngapain aja?\"",
+   "Bagian kecil nggak gampang copot. SNI.",
+   "CDC, Milestones by 4 years"
+  ]
+ ],
+ "gratisan": [
+  [
+   "Stiker WA Kode Rumah Tangga",
+   "16 stiker Tunas buat chat sama pasangan dan grup keluarga.",
+   "https://sticker.ly/s/YUYOM1",
+   "Buka link-nya di browser HP, install Sticker.ly kalau diminta, terus tap Add to WhatsApp."
+  ]
+ ]
+}
