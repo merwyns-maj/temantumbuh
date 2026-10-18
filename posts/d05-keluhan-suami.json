@@ -1,26 +1,59 @@
 {
   "series": "ayah",
   "job": "send",
-  "caption": "Keluhan suami minggu pertama punya bayi, versi jujur. Nomor berapa yang paling kejadian di rumahmu? 😴 #ayahbaru #newborn #suamisiaga #bapakbapak #SeriAyahBaru",
+  "caption": "Keluhan suami minggu pertama punya bayi, versi jujur. Ngantuk, ngantuk lagi, kurang tidur, bingung, disuruh-suruh. Padahal istri begadang dua kali lipat.\n\nNomor berapa yang paling kejadian di rumahmu? 😴\n\n#ayahbaru #newborn #suamisiaga #bapakbapak #SeriAyahBaru",
   "slides": [
-    {"type": "hook", "theme": "dark", "motif": "moon", "kicker": "VERSI JUJUR",
-     "lines": ["KELUHAN SUAMI", "MINGGU", "PERTAMA", "PUNYA BAYI"], "accent": 3,
-     "sub": "Siap-siap malu sendiri, Pak."},
-    {"type": "punch", "word": "NGANTUK", "zzz": true,
-     "punch": "Bangun sekali buat ganti popok, paginya cerita ke semua orang kayak abis jaga malam sebulan."},
-    {"type": "punch", "word": "NGANTUK", "zzz": true,
-     "punch": "Iya, masih yang tadi."},
-    {"type": "punch", "word": "KURANG TIDUR",
-     "punch": "Tidur 5 jam, ngeluh. Istri tidur 3 jam sambil nyusuin, nggak ngeluh. Hmm."},
-    {"type": "punch", "word": "BINGUNG",
-     "punch": "Popok dipasang kebalik. Dua kali. Bayinya sampai ngelihatin."},
-    {"type": "punch", "word": "DISURUH-SURUH",
-     "punch": "Ambilin air, tisu, bantal. Ternyata itu barang yang dia nggak sempat ambil sendiri seharian."},
-    {"type": "cta", "motif": "heart",
-     "headline": "Capek? Pasti.",
-     "accent": "Tapi istri begadang dua kali lipat.",
-     "sub": "Udah, bikinin teh sana.",
-     "pill": "TAG SUAMI YANG PALING RELATE",
-     "sub2": "Atau kirim diam-diam lewat DM. Kami nggak bakal bilang siapa-siapa."}
+    {
+      "type": "hook",
+      "theme": "dark",
+      "motif": "moon",
+      "kicker": "VERSI JUJUR",
+      "lines": [
+        "KELUHAN SUAMI",
+        "MINGGU",
+        "PERTAMA",
+        "PUNYA BAYI"
+      ],
+      "accent": 3,
+      "sub": "Siap-siap malu sendiri, Pak.",
+      "mascot": "ngantuk"
+    },
+    {
+      "type": "punch",
+      "word": "NGANTUK",
+      "zzz": true,
+      "punch": "Bangun sekali buat ganti popok, paginya cerita ke semua orang kayak abis jaga malam sebulan."
+    },
+    {
+      "type": "punch",
+      "word": "NGANTUK",
+      "zzz": true,
+      "punch": "Iya, masih yang tadi."
+    },
+    {
+      "type": "punch",
+      "word": "KURANG TIDUR",
+      "punch": "Tidur 5 jam, ngeluh. Istri tidur 3 jam sambil nyusuin, nggak ngeluh. Hmm."
+    },
+    {
+      "type": "punch",
+      "word": "BINGUNG",
+      "punch": "Popok dipasang kebalik. Dua kali. Bayinya sampai ngelihatin."
+    },
+    {
+      "type": "punch",
+      "word": "DISURUH-SURUH",
+      "punch": "Ambilin air, tisu, bantal. Ternyata itu barang yang dia nggak sempat ambil sendiri seharian."
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Capek? Pasti.",
+      "accent": "Tapi istri begadang dua kali lipat.",
+      "sub": "Udah, bikinin teh sana.",
+      "pill": "TAG SUAMI YANG PALING RELATE",
+      "sub2": "Atau kirim diam-diam lewat DM. Kami nggak bakal bilang siapa-siapa.",
+      "mascot": "sayang"
+    }
   ]
 }

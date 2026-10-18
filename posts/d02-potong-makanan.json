@@ -2,7 +2,7 @@
   "series": "mpasi",
   "job": "send",
   "usia": "BAYI DAN BALITA",
-  "caption": "Anggur, sosis, kelengkeng, tomat ceri boleh dikasih ke anak, asal nggak utuh. Potong memanjang, jangan bulat kayak koin. Contekannya ada di slide 6. Di rumahmu biasanya anggur dipotong gimana? 🍇 #mpasi #anaktersedak #balita #parentingindonesia #SeriMPASI",
+  "caption": "Anggur, sosis, kelengkeng, tomat ceri boleh dikasih ke anak, asal nggak utuh. Potong memanjang, jangan bulat kayak koin. Contekannya ada di slide 6, screenshot aja.\n\nDi rumahmu biasanya anggur dipotong gimana? 🍇\n\nSumber: American Academy of Pediatrics\n\n#mpasi #anaktersedak #balita #parentingindonesia #SeriMPASI",
   "slides": [
     {
       "type": "hook",
@@ -20,7 +20,8 @@
         "sosis",
         "kelengkeng",
         "tomat"
-      ]
+      ],
+      "mascot": "riset"
     },
     {
       "type": "point",
@@ -91,7 +92,8 @@
       "pill": "KIRIM KE YANG NYUAPIN ANAKMU",
       "sub2": "Nenek, kakek, pengasuh, atau guru daycare.",
       "source": "Sumber: American Academy of Pediatrics",
-      "disclaimer": true
+      "disclaimer": true,
+      "mascot": "hore"
     }
   ]
 }
