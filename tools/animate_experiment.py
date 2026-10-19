@@ -16,10 +16,11 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from recut import FPS, H, LEFT, RIGHT, W, back_out, ease_out, paste_alpha, text_layer  # noqa: E402
+from recut import H, LEFT, RIGHT, W, back_out, ease_out, paste_alpha, text_layer  # noqa: E402
 from render import color, font, style_font, svg_image, wrap  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+FPS = 60  # smoother motion than the 30 fps recuts
 C = lambda n: color(n, "light")  # noqa: E731
 PLATE_C = (540, 860)
 PLATE_R = 330
@@ -30,12 +31,21 @@ SCENES = [("judul", 2.6), ("bahan", 3.2), ("tuang", 2.6), ("tetes", 3.0), ("sabu
 TOTAL = sum(d for _, d in SCENES)
 
 
+def _blur(a, sigma):
+    """Separable gaussian blur on a float grid (keeps the ink smooth without dots)."""
+    rad = int(3 * sigma)
+    k = np.exp(-0.5 * (np.arange(-rad, rad + 1) / sigma) ** 2)
+    k /= k.sum()
+    a = np.apply_along_axis(lambda v: np.convolve(v, k, mode="same"), 0, a)
+    return np.apply_along_axis(lambda v: np.convolve(v, k, mode="same"), 1, a)
+
+
 class Particles:
     """Colour drops: 4 blobs that sit still until the soap touches, then rush out and swirl."""
 
-    def __init__(self, n_per=170, seed=7, spread=1.0):
+    def __init__(self, n_per=4000, seed=7, spread=1.0):
         rng = np.random.default_rng(seed)
-        centers = [(-55, -50), (55, -50), (55, 55), (-55, 55)]
+        centers = [(-42, -38), (42, -38), (42, 42), (-42, 42)]
         pts, cols, born = [], [], []
         for i, (cx, cy) in enumerate(centers):
             r = np.sqrt(rng.random(n_per)) * 34 * spread
@@ -48,28 +58,41 @@ class Particles:
         self.drop = np.array(born)
         self.rng = rng
 
-    def simulate(self, seconds, soap=True):
-        """Precompute positions per frame after the soap touches."""
+    def simulate(self, seconds, soap=True, substeps=3):
+        """Positions per frame after the soap touches: a fast radial burst that fades, plus a slow
+        divergence-free swirl (from a stream function) that keeps the ink marbling for seconds."""
         p = self.p0.copy()
-        v = np.zeros_like(p)
         frames = []
-        dt = 1 / FPS
-        tang = self.rng.choice([-1, 1], size=len(p)) * (0.6 + self.rng.random(len(p)))
-        gain = (0.25 + self.rng.random(len(p)) ** 1.5)[:, None]
+        dt = 1 / FPS / substeps
+        gain = (0.12 + 1.5 * self.rng.random(len(p)) ** 1.6)
+        ph = self.rng.random(4) * 2 * math.pi
         for k in range(int(seconds * FPS)):
-            t = k * dt
-            if soap:
-                r = np.linalg.norm(p, axis=1, keepdims=True) + 1e-3
-                d = p / r
-                perp = np.stack([-d[:, 1], d[:, 0]], 1)
-                push = 620 * gain * math.exp(-t / 0.8) / (r / 70 + 1)
-                swirl = 230 * math.exp(-t / 3.0) * tang[:, None] * (r / (r + 80))
-                v += (push * d + swirl * perp) * dt
-                v *= 0.90
-                p += v * dt
-                r = np.linalg.norm(p, axis=1, keepdims=True)
-                over = r[:, 0] > MILK_R - 14
-                p[over] = p[over] / r[over] * (MILK_R - 14)
+            for sub in range(substeps):
+                t = (k * substeps + sub) * dt
+                x, y = p[:, 0], p[:, 1]
+                r = np.hypot(x, y) + 1e-3
+                push = 620 * gain * math.exp(-t / 0.7) / (r / 110 + 1)
+                vx = push * x / r
+                vy = push * y / r
+                # stream function psi = A sin(x/a + w t + p0) cos(y/b - w t + p1) + B sin((x+y)/c + p2)
+                A, B = 2600.0, 1500.0
+                amp = 0.25 + 0.75 * math.exp(-t / 3.5)
+                a1, b1, c1, w = 95.0, 120.0, 80.0, 0.5
+                s1 = np.sin(x / a1 + w * t + ph[0]); c_ = np.cos(y / b1 - w * t + ph[1])
+                dpsi_dx = A * np.cos(x / a1 + w * t + ph[0]) / a1 * c_ + B * np.cos((x + y) / c1 + ph[2]) / c1
+                dpsi_dy = -A * s1 * np.sin(y / b1 - w * t + ph[1]) / b1 + B * np.cos((x + y) / c1 + ph[2]) / c1
+                # small-scale eddies stretch the ink into tendrils
+                a2 = 42.0
+                dpsi_dx += 520 * np.cos(x / a2 + ph[3]) / a2 * np.sin(y / a2 - 0.8 * t)
+                dpsi_dy += 520 * np.sin(x / a2 + ph[3]) * np.cos(y / a2 - 0.8 * t) / a2
+                fade_in = min(1.0, t / 0.4)
+                vx += amp * fade_in * dpsi_dy
+                vy += -amp * fade_in * dpsi_dx
+                p[:, 0] += vx * dt
+                p[:, 1] += vy * dt
+                rr = np.hypot(p[:, 0], p[:, 1])
+                over = rr > MILK_R - 10
+                p[over] *= ((MILK_R - 10) / rr[over])[:, None]
             frames.append(p.copy())
         return frames
 
@@ -79,7 +102,7 @@ class Episode:
         self.cache = {}
         self.parts = Particles()
         self.sim = self.parts.simulate(dict(SCENES)["kabur"] + dict(SCENES)["kenapa"] + 0.5)
-        self.water = Particles(n_per=120, seed=3, spread=0.8)
+        self.water = Particles(n_per=2000, seed=3, spread=0.8)
 
     # ---------- pieces
     def tunas(self, pose, w=250):
@@ -176,19 +199,28 @@ class Episode:
             d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=liquid or (253, 249, 240))
 
     def ink(self, im, pts, cols, alpha=1.0, visible=None):
-        layer = Image.new("RGBA", (2 * PLATE_R, 2 * PLATE_R), (0, 0, 0, 0))
-        d = ImageDraw.Draw(layer)
-        for (x, y), ci, vis in zip(pts, cols, visible if visible is not None else [1] * len(pts)):
-            if vis <= 0:
+        """Smooth ink: per-colour density on a fine grid, blurred, used as alpha. No dots, no jaggies."""
+        size = 2 * PLATE_R
+        grid = size // 4
+        w = np.ones(len(pts)) if visible is None else np.asarray(visible, dtype=float)
+        layer = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+        for ci in range(len(DYES)):
+            m = (cols == ci) & (w > 0)
+            if not m.any():
                 continue
-            rr = 9 * vis
-            r, g, b = DYES[ci]
-            d.ellipse([PLATE_R + x - rr, PLATE_R + y - rr, PLATE_R + x + rr, PLATE_R + y + rr], fill=(r, g, b, int(170 * alpha)))
-        layer = layer.filter(ImageFilter.GaussianBlur(4))
-        mask = Image.new("L", layer.size, 0)
-        ImageDraw.Draw(mask).ellipse([PLATE_R - MILK_R, PLATE_R - MILK_R, PLATE_R + MILK_R, PLATE_R + MILK_R], fill=255)
-        a = Image.composite(layer.split()[3], Image.new("L", layer.size, 0), mask)
-        layer.putalpha(a)
+            h, _, _ = np.histogram2d(pts[m, 1] + PLATE_R, pts[m, 0] + PLATE_R, bins=grid, range=[[0, size], [0, size]], weights=w[m])
+            h = _blur(h, 2.2)
+            n_c = max(1.0, float((cols == ci).sum()))
+            dens = np.clip(h * (grid * grid) / n_c / 16.0, 0, 1) ** 0.85
+            a = Image.fromarray((dens * 230 * alpha).astype(np.uint8), "L").resize((size, size), Image.BICUBIC)
+            a = a.filter(ImageFilter.GaussianBlur(3))
+            col = Image.new("RGBA", (size, size), DYES[ci] + (255,))
+            col.putalpha(a)
+            layer.alpha_composite(col)
+        mask = Image.new("L", (size * 2, size * 2), 0)
+        ImageDraw.Draw(mask).ellipse([2 * (PLATE_R - MILK_R), 2 * (PLATE_R - MILK_R), 2 * (PLATE_R + MILK_R), 2 * (PLATE_R + MILK_R)], fill=255)
+        mask = mask.resize((size, size), Image.LANCZOS)
+        layer.putalpha(Image.fromarray(np.minimum(np.asarray(layer.split()[3]), np.asarray(mask))))
         im.alpha_composite(layer, (PLATE_C[0] - PLATE_R, PLATE_C[1] - PLATE_R))
 
     def cotton_bud(self, im, k):
@@ -336,7 +368,7 @@ def main():
     ep = Episode()
     n = int(TOTAL * FPS)
     proc = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
-                             "-i", "-", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "18", "-movflags", "+faststart", out],
+                             "-i", "-", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "14", "-tune", "animation", "-movflags", "+faststart", out],
                             stdin=subprocess.PIPE)
     for i in range(n):
         proc.stdin.write(ep.frame(i / FPS).tobytes())
