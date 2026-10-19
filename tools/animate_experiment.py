@@ -26,8 +26,9 @@ PLATE_C = (540, 860)
 PLATE_R = 330
 MILK_R = 285
 DYES = [(224, 69, 58), (243, 190, 64), (59, 125, 216), (63, 174, 106)]
-SCENES = [("judul", 2.6), ("bahan", 3.2), ("tuang", 2.6), ("tetes", 3.0), ("sabun", 2.4),
-          ("kabur", 4.6), ("kenapa", 4.2), ("air", 4.4), ("tutup", 3.4)]
+SCENES = [("judul", 3.6), ("bahan", 5.4), ("tuang", 3.6), ("tetes", 4.6), ("sabun", 4.0),
+          ("kabur", 7.0), ("kenapa", 6.2), ("air", 6.2), ("tutup", 4.6)]
+SLOW = 1.7  # the ink moves 1.7x slower than real time, so the reveal is easy to follow
 TOTAL = sum(d for _, d in SCENES)
 
 
@@ -58,12 +59,12 @@ class Particles:
         self.drop = np.array(born)
         self.rng = rng
 
-    def simulate(self, seconds, soap=True, substeps=3):
+    def simulate(self, seconds, soap=True, substeps=3, slow=1.0):
         """Positions per frame after the soap touches: a fast radial burst that fades, plus a slow
         divergence-free swirl (from a stream function) that keeps the ink marbling for seconds."""
         p = self.p0.copy()
         frames = []
-        dt = 1 / FPS / substeps
+        dt = 1 / FPS / substeps / slow
         gain = (0.12 + 1.5 * self.rng.random(len(p)) ** 1.6)
         ph = self.rng.random(4) * 2 * math.pi
         for k in range(int(seconds * FPS)):
@@ -101,7 +102,7 @@ class Episode:
     def __init__(self):
         self.cache = {}
         self.parts = Particles()
-        self.sim = self.parts.simulate(dict(SCENES)["kabur"] + dict(SCENES)["kenapa"] + 0.5)
+        self.sim = self.parts.simulate(dict(SCENES)["kabur"] + dict(SCENES)["kenapa"] + 0.5, slow=SLOW)
         self.water = Particles(n_per=2000, seed=3, spread=0.8)
 
     # ---------- pieces
@@ -280,6 +281,16 @@ class Episode:
     def scene(self, im, name, t):
         if name == "judul":
             self.headline(im, "Susu bisa nari?", t, y=300, size=110)
+            a = ease_out((t - 0.3) / 0.4)
+            if a > 0:
+                d = ImageDraw.Draw(im)
+                cf = font("body800", 30)
+                label = "USIA 3-6 TAHUN, DITEMENIN ORANG DEWASA"
+                cw = d.textlength(label, font=cf) + 48
+                chip = Image.new("RGBA", (int(cw), 60), (0, 0, 0, 0))
+                ImageDraw.Draw(chip).rounded_rectangle([0, 0, cw - 1, 59], radius=30, fill=C("sage-ink") + (255,))
+                ImageDraw.Draw(chip).text((cw / 2, 31), label, font=cf, fill=C("on-accent"), anchor="mm")
+                paste_alpha(im, chip, (LEFT, 450), a)
             self.plate(im)
             self.ink(im, self.parts.p0, self.parts.col, alpha=ease_out((t - 0.4) / 0.6))
             self.host(im, "mikir", t - 0.6)
