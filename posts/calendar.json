@@ -314,12 +314,14 @@
     },
     {
       "day": 31,
-      "date": "TBD",
+      "date": "2026-10-21",
       "series": "main",
       "slug": "d31-tujuh-indra",
       "job": "save",
       "title": "Anak punya 7 indra, bukan 5",
-      "status": "siap review"
+      "status": "dijadwalkan",
+      "scheduled_wib": "2026-10-21 19:00",
+      "via": "Metricool"
     }
   ],
   "backlog": [
