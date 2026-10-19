@@ -1,0 +1,29 @@
+{
+  "series": "main",
+  "job": "save",
+  "status": "naskah, menunggu review dan rekaman",
+  "caption": "Susu bisa nari? Cuma butuh 5 menit dan bahan dari dapur. Habis itu tanya anakmu: kalau pakai air putih, bakal sama nggak?\n\nMenurut anakmu, warnanya kabur ke mana? 😄\n\nSumber: Science Notes, Magic Milk Experiment\n\n#eksperimenanak #mainanak #stimulasianak #parentingindonesia #SeriMainDiRumah",
+  "overlays": [
+    {"shot": "A", "text": "Susu bisa nari?", "sub": "Eksperimen 1 menit, bahan dari dapur"},
+    {"shot": "A", "text": "Siapin: susu UHT full cream, pewarna makanan, sabun cuci piring, cotton bud, piring"},
+    {"shot": "B", "text": "1. Tuang susu tipis-tipis ke piring"},
+    {"shot": "C", "text": "2. Teteskan 3 sampai 4 warna di tengah"},
+    {"shot": "E", "text": "3. Celup cotton bud ke sabun, tempel di tengah. Jangan diaduk."},
+    {"shot": "F", "text": "Warnanya kabur!"},
+    {"shot": "F", "text": "Kenapa bisa?", "sub": "Sabun bikin permukaan susu kendor dan narik-narik lemaknya. Warnanya ikut kebawa.", "mascot": "riset"},
+    {"shot": "H", "text": "Tanya anakmu: kalau pakai air putih, bakal sama nggak?", "sub": "Coba bareng. Air nggak ada lemaknya, jadi warnanya diam aja."},
+    {"shot": "end", "text": "Ditemenin orang dewasa. Susunya jangan diminum, ya."},
+    {"shot": "end", "text": "Simpan buat main weekend", "pill": "SIMPAN", "mascot": "hore"}
+  ],
+  "shots": {
+    "A": "Semua bahan di atas nampan, diam 3 detik",
+    "B": "Tuang susu ke piring putih, 3 detik",
+    "C": "Teteskan 4 warna di tengah, 4 detik",
+    "D": "Close-up warna sebelum sabun, 1 detik",
+    "E": "Cotton bud dicelup sabun, 2 detik",
+    "F": "Tempel cotton bud di tengah, tahan diam 10 detik, terus rekam",
+    "G": "Tempel lagi di titik lain, 5 detik",
+    "H": "Bonus: sama persis tapi pakai air putih, 5 detik"
+  },
+  "source": "Science Notes, Magic Milk Science Experiment for Kids"
+}
