@@ -133,7 +133,9 @@
       "slug": "d12-nggak-apa-apa",
       "job": "send",
       "title": "Kata istri: nggak apa-apa. Artinya?",
-      "status": "siap review"
+      "status": "dijadwalkan",
+      "scheduled_wib": "2026-10-23 19:00",
+      "via": "Metricool"
     },
     {
       "day": 13,
@@ -151,7 +153,9 @@
       "slug": "d14-gtm",
       "job": "comment",
       "title": "Anakmu GTM lagi? Cek 4 hal ini dulu",
-      "status": "siap review"
+      "status": "dijadwalkan",
+      "scheduled_wib": "2026-10-22 19:00",
+      "via": "Metricool"
     },
     {
       "day": 15,

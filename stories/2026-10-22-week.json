@@ -1,0 +1,8 @@
+{
+  "note": "Story teasers for the Thursday and Friday posts.",
+  "job": "send",
+  "stories": [
+    {"id": "d14", "slug": "d14-gtm", "series": "mpasi", "line1": "Lengkapnya ada di feed", "line2": "Ketuk profil kami di atas, ya", "at": "2026-10-22T19:30:00"},
+    {"id": "d12", "slug": "d12-nggak-apa-apa", "series": "ayah", "line1": "Lengkapnya ada di feed", "line2": "Ketuk profil kami di atas, ya", "at": "2026-10-23T19:30:00"}
+  ]
+}
