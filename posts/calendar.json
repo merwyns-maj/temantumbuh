@@ -330,6 +330,17 @@
       "status": "dijadwalkan",
       "scheduled_wib": "2026-10-21 19:00",
       "via": "Metricool"
+    },
+    {
+      "day": "e01",
+      "date": "2026-10-24",
+      "series": "main",
+      "slug": "e01-susu-warna",
+      "job": "save",
+      "title": "Eksperimen 1 Menit: Susu bisa nari? (video animasi Tunas)",
+      "status": "dijadwalkan",
+      "scheduled_wib": "2026-10-24 09:00",
+      "via": "Metricool: IG Reel auto (musik Whimsy and Wonder), TikTok notifikasi (Merwyn pilih sound)"
     }
   ],
   "backlog": [
