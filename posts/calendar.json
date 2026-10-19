@@ -311,6 +311,15 @@
       "link": "https://sticker.ly/s/YUYOM1",
       "scheduled_wib": "2026-10-20 19:00",
       "via": "Metricool"
+    },
+    {
+      "day": 31,
+      "date": "TBD",
+      "series": "main",
+      "slug": "d31-tujuh-indra",
+      "job": "save",
+      "title": "Anak punya 7 indra, bukan 5",
+      "status": "siap review"
     }
   ],
   "backlog": [

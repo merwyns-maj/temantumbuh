@@ -1,0 +1,108 @@
+{
+  "series": "main",
+  "job": "save",
+  "usia": "1-5 TAHUN",
+  "caption": "Selain lihat, dengar, raba, cium, dan kecap, anak juga punya indra keseimbangan dan indra posisi tubuh. Dua ini dilatih lewat gerak: ayunan, guling-guling, dorong keranjang cucian. Simpan buat ide main weekend.\n\nDi rumahmu, main apa yang paling bikin anak heboh?\n\nSumber: AAP (Pediatrics, 2012), CDC\n\n#stimulasianak #mainsensori #balita #parentingindonesia #SeriMainDiRumah",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "MAIN DI RUMAH",
+      "lines": [
+        "ANAK PUNYA",
+        "7 INDRA,",
+        "BUKAN 5"
+      ],
+      "accent": 1,
+      "sub": "Dua yang sering kelupaan: keseimbangan dan posisi tubuh. Ini cara melatihnya sambil main.",
+      "mascot": "riset"
+    },
+    {
+      "type": "pyramid",
+      "kicker": "GAMBARANNYA",
+      "title": "Indra itu pondasinya",
+      "tiers": [
+        [
+          "7 indra",
+          "lihat, dengar, raba, cium, kecap, keseimbangan, posisi tubuh"
+        ],
+        [
+          "Gerak dan keseimbangan",
+          "duduk tegak, merangkak, lompat"
+        ],
+        [
+          "Mata dan tangan",
+          "menyusun, menggambar"
+        ],
+        [
+          "Belajar",
+          ""
+        ]
+      ],
+      "note": "Banyak terapis okupasi pakai gambaran kayak gini. Ini model buat gambaran, bukan hasil tes."
+    },
+    {
+      "type": "cheatsheet",
+      "kicker": "5 YANG UDAH KAMU KENAL",
+      "title": "Satu ide main per indra",
+      "rows": [
+        [
+          "Lihat",
+          "Main bayangan pakai senter di dinding"
+        ],
+        [
+          "Dengar",
+          "Tebak suara: kocok botol isi beras, ketuk panci"
+        ],
+        [
+          "Raba",
+          "Main air atau adonan tepung di baskom"
+        ],
+        [
+          "Cium",
+          "Tebak bau dapur: jeruk, daun pandan, kayu manis"
+        ],
+        [
+          "Kecap",
+          "Cicip buah yang asam dan manis waktu makan bareng"
+        ]
+      ],
+      "note": "Selalu ditemenin. Botol beras ditutup rapat, benda kecil jauhkan dari mulut."
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Indra keseimbangan (vestibular)",
+      "body": "Pusatnya di telinga bagian dalam. Dilatih lewat gerak: ayunan, guling-guling di kasur, atau digendong sambil muter pelan.",
+      "tips": "Bayi jangan pernah diguncang. Gerakannya pelan dan badannya selalu ditopang.",
+      "num": "06"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Indra posisi tubuh (proprioseptif)",
+      "body": "Bikin anak tahu posisi badannya tanpa harus lihat. Dilatih lewat dorong, tarik, angkat, dan lompat.",
+      "tips": "Ajak dorong keranjang cucian atau bawa kantong belanja kecil. Sekalian bantu kamu.",
+      "num": "07"
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Kapan perlu ke dokter?",
+      "body": "Kalau anak menghindari tekstur, suara, atau gerakan tertentu sampai ganggu makan, tidur, atau mainnya.",
+      "tips": "Ke dokter anak dulu. Dokter yang menilai perlu dirujuk ke terapis atau nggak.",
+      "number": false,
+      "tips_label": "LANGKAH PERTAMA"
+    },
+    {
+      "type": "cta",
+      "headline": "Nggak perlu mainan mahal.",
+      "accent": "Indra dilatih dari main sehari-hari.",
+      "pill": "SIMPAN BUAT MAIN WEEKEND",
+      "sub2": "Pilih satu ide, coba sore ini.",
+      "source": "Sumber: AAP (Pediatrics, 2012), CDC",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
+  ],
+  "tiktok_title": "Anak punya 7 indra, ini cara melatihnya di rumah"
+}

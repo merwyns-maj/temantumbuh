@@ -302,7 +302,7 @@ class Slide:
         if s.get("motif"):
             self.motif(s["motif"], 880, 180)
         if s.get("number", True):
-            self.disc_number(164, 276, 100, f"{self.idx:02d}", 110)
+            self.disc_number(164, 276, 100, s.get("num") or f"{self.idx:02d}", 110)
         if s.get("usia"):
             self.chip(292, 276, s["usia"], "surface-card", "ink-muted", outline="line")
         has_body = bool(s.get("body"))
@@ -491,6 +491,61 @@ class Slide:
                 d.line([m + 24, ry, W - m - 24, ry], fill=self.c("line"), width=2)
         if s.get("note"):
             by0 = y + card_h + 28
+            d.rounded_rectangle([m, by0, W - m, by0 + len(nlines) * nlh + 56], radius=RADIUS["radius-md"],
+                                fill=self.c("sage-tint"), outline=self.c("sage"), width=3)
+            ty = by0 + 28
+            for line in nlines:
+                d.text((m + 40, ty), line, font=nf, fill=self.c("ink"))
+                ty += nlh
+
+    def pyramid(self):
+        """Our own drawn pyramid: 'tiers' bottom to top as [label, small line]; never a copy of someone else's figure."""
+        d, s, m = self.d, self.spec, self.m
+        y = 200
+        if s.get("kicker"):
+            self.chip(m, 210, s["kicker"], "sage-ink", "on-accent", size=26)
+            y = 262
+        hf, hlh = style_font("slide-title")
+        for line in wrap(d, s["title"], hf, W - 2 * m):
+            d.text((m, y), line, font=hf, fill=self.c("ink"))
+            y += hlh
+        y += 36
+        nf, nlh = style_font("tips")
+        nlines = wrap(d, s.get("note", ""), nf, W - 2 * m - 80) if s.get("note") else []
+        note_h = (28 + len(nlines) * nlh + 56 + 30) if nlines else 0
+        tiers = s["tiers"]
+        n = len(tiers)
+        bottom = H - SPACE["footer-zone"] - note_h
+        height = bottom - y
+        th = height / n
+        if th < 120:
+            raise LayoutError(f"pyramid tiers only {th:.0f}px tall: shorten the title or note")
+        fills = s.get("fills", ["sage-tint", "seri-sekolah-bg", "seri-mpasi-bg", "blush"])
+        inks = s.get("inks", ["sage-ink", "seri-sekolah-ink", "seri-mpasi-ink", "terra-ink"])
+        cx, half_base, half_top, gap = W / 2, (W - 2 * m) / 2, 110, 10
+        lf, sf = font("display", 44), font("body700", 28)
+        for i, (label, small) in enumerate(tiers):
+            yb = bottom - i * th
+            yt = yb - th + gap
+            wb = half_base - (half_base - half_top) * i / n
+            wt = half_base - (half_base - half_top) * (i + 1) / n
+            d.polygon([(cx - wb, yb), (cx + wb, yb), (cx + wt, yt), (cx - wt, yt)], fill=self.c(fills[i % len(fills)]))
+            ink = self.c(inks[i % len(inks)])
+            maxw = 2 * wt - 40
+            size = 44
+            while d.textlength(label, font=font("display", size)) > maxw and size > 26:
+                size -= 2
+            lf = font("display", size)
+            sl = wrap(d, small, sf, maxw) if small else []
+            block = size + 8 + len(sl) * 36
+            ty = (yt + yb) / 2 - block / 2
+            d.text((cx, ty), label, font=lf, fill=ink, anchor="ma")
+            ty += size + 8
+            for line in sl:
+                d.text((cx, ty), line, font=sf, fill=ink, anchor="ma")
+                ty += 36
+        if nlines:
+            by0 = bottom + 30
             d.rounded_rectangle([m, by0, W - m, by0 + len(nlines) * nlh + 56], radius=RADIUS["radius-md"],
                                 fill=self.c("sage-tint"), outline=self.c("sage"), width=3)
             ty = by0 + 28
