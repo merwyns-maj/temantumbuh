@@ -100,9 +100,10 @@ Alternatives considered:
 | Shares per 1,000 views on send posts | 5.5 median | 6 |
 | Score vs views (Spearman) | 0.23 | 0.5 |
 
-## 8. Decisions needed from Merwyn
+## 8. Decisions (Merwyn, 21 Oct)
 
-1. Short video at 12:00 (Test A) starting Thu 22 Oct? Claude sends the d01 video for review first.
-2. Fri 23 Oct is d12 "Kamus suami" (dad series). Keep it, or swap in d08 Tummy time?
-3. Metricool Starter upgrade by 1 Nov, yes or no.
-4. Bio and pins update (5 minutes on the phone).
+1. Focus on parents of 0 to 3: yes.
+2. Short video at 12:00 from Thu 22 Oct: yes. The d01 video (20.6 s) was sent for review.
+3. d12 "Kamus suami" stays on Fri 23 Oct as the last dad-series carousel.
+4. Metricool Starter: try it for 1 month (monthly billing), then review against the 4 Nov results.
+5. Bio and pins: TikTok pins are d01, d04 and d02 (all 0 to 3). The sticker link goes in the TikTok bio as text and in the Instagram link field.
