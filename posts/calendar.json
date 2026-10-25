@@ -374,14 +374,14 @@
     },
     {
       "day": "i01",
-      "date": "2026-10-26",
+      "date": "2026-10-25",
       "series": "pintar",
       "slug": "i01-kenalan-tunas",
       "format": "video",
       "job": "comment",
       "title": "Video: Halo, aku Tunas (kenalan + 3 seri), untuk di-pin",
-      "status": "menunggu review",
-      "scheduled_wib": "2026-10-26 12:00",
+      "status": "disetujui (manual post)",
+      "scheduled_wib": "2026-10-25 siang (sebelum 19:00)",
       "via": "manual TikTok + IG Reels"
     }
   ],
