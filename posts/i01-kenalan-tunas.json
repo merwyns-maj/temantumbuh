@@ -3,18 +3,20 @@
   "job": "comment",
   "usia": "0-3 TAHUN",
   "format": "video",
-  "tiktok_title": "Kenalan sama Tunas: 3 seri buat orang tua anak 0 sampai 3 tahun",
-  "caption": "Halo, aku Tunas. Di sini kamu dapat tiga seri buat anak 0 sampai 3 tahun: Seri Anak Pintar, Seri MPASI, dan Seri Main di Rumah. Tiap hari jam 7 malam, bahasanya kayak ngobrol, sumbernya IDAI dan WHO.\n\nDari tiga ini, kamu paling butuh seri yang mana? Ceritain umur anakmu juga ya 👇\n\n#parentingindonesia #ibubaru #stimulasianak #mpasi #TemanTumbuh",
+  "tiktok_title": "Kenalan sama Tunas: seri buat orang tua anak 0 sampai 3 tahun",
+  "caption": "Info soal anak banyak banget, yang bener yang mana? Kenalan dulu, aku Tunas. Tiap hari jam 7 malam aku rangkumin buat kamu, bahasanya kayak ngobrol, sumbernya IDAI dan WHO. Buat anak 0 sampai 3 tahun.\n\nDari tiga seri ini, kamu paling suka yang mana? Atau ada topik yang pengen dibikinin seri sendiri? Ceritain di komen, sekalian umur anakmu ya 👇\n\n#parentingindonesia #ibubaru #stimulasianak #mpasi #TemanTumbuh",
   "slides": [
     {
       "type": "hook",
-      "kicker": "KENALAN DULU",
+      "kicker": "CAPEK GOOGLING?",
       "lines": [
-        "HALO,",
-        "AKU TUNAS"
+        "INFO ANAK",
+        "BANYAK BANGET,",
+        "YANG BENER",
+        "YANG MANA?"
       ],
-      "accent": 1,
-      "sub": "Teman ngobrol buat orang tua anak 0 sampai 3 tahun.",
+      "accent": 3,
+      "sub": "Kenalan dulu, aku Tunas. Aku rangkumin buat kamu.",
       "mascot": "halo"
     },
     {
@@ -22,29 +24,40 @@
       "series": "pintar",
       "title": "Seri Anak Pintar",
       "line": "Stimulasi dari hal sehari-hari, tanpa kelas mahal.",
-      "mascot": "riset"
+      "mascot": "riset",
+      "thumb": "out/d01-udah-stimulasi/slide-1.png"
     },
     {
       "type": "point",
       "series": "mpasi",
       "title": "Seri MPASI",
       "line": "Isi piring, cara potong, sampai anak GTM.",
-      "mascot": "sayang"
+      "mascot": "sayang",
+      "thumb": "out/d09-protein-hewani/slide-1.png"
     },
     {
       "type": "point",
       "series": "main",
       "title": "Seri Main di Rumah",
       "line": "Ide main 5 menit pakai barang di rumah.",
-      "mascot": "santai"
+      "mascot": "santai",
+      "thumb": "out/i01-thumbs/e01.png",
+      "thumb_top": 0.45
+    },
+    {
+      "type": "point",
+      "series": "sekolah",
+      "title": "Seri ke-4?",
+      "line": "Kamu yang pilih. Tulis topik yang kamu mau di komen.",
+      "mascot": "mikir"
     },
     {
       "type": "cta",
       "headline": "Tiap hari jam 7 malam.",
       "accent": "Sumbernya IDAI dan WHO.",
-      "pill": "BUTUH SERI YANG MANA?",
-      "mascot": "hore",
-      "source": "Sumber: IDAI, WHO, Kemenkes RI"
+      "pill": "PALING SUKA SERI MANA?",
+      "source": "Sumber: IDAI, WHO, Kemenkes RI",
+      "mascot": "hore"
     }
   ]
 }

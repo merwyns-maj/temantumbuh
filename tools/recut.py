@@ -126,8 +126,8 @@ class Recut:
             col = self.c("accent-text") if i == s.get("accent") else self.c("ink")
             key = ("hl", i)
             if key not in self.cache:
-                size = 118
-                while d.textlength(line, font=font("display", size)) > RIGHT - LEFT:
+                size = 118  # one size for every line, set by the widest, so the headline reads as one block
+                while max(d.textlength(l, font=font("display", size)) for l in s["lines"]) > RIGHT - LEFT:
                     size -= 4
                 self.cache[key] = text_layer([line], font("display", size), lh, [col])
             paste_alpha(im, self.cache[key], (LEFT - 40 * (1 - p), y0 + i * lh), p)
@@ -175,6 +175,28 @@ class Recut:
             if bar > 0:
                 y = 880 + layer.height + 10
                 d.rounded_rectangle([LEFT, y, LEFT + 220 * bar, y + 10], radius=5, fill=self.c("sage"))
+            if s.get("thumb"):  # optional preview card of one of our own posts, rises from below
+                tp = ease_out((t - 0.5) / 0.5)
+                if tp > 0:
+                    key = ("th", num)
+                    if key not in self.cache:
+                        src = Image.open(s["thumb"]).convert("RGB")
+                        side = min(src.width, src.height)
+                        top = int(s.get("thumb_top", 0) * (src.height - side))
+                        card = src.crop((0, top, side, top + side)).resize((330, 330), Image.LANCZOS)
+                        mask = Image.new("L", card.size, 0)
+                        ImageDraw.Draw(mask).rounded_rectangle([0, 0, 329, 329], radius=26, fill=255)
+                        out = Image.new("RGBA", (370, 370), (0, 0, 0, 0))
+                        shadow = Image.new("RGBA", (370, 370), (0, 0, 0, 0))
+                        ImageDraw.Draw(shadow).rounded_rectangle([20, 28, 350, 358], radius=26, fill=(60, 40, 20, 60))
+                        from PIL import ImageFilter
+                        out.alpha_composite(shadow.filter(ImageFilter.GaussianBlur(10)))
+                        card_rgba = card.convert("RGBA")
+                        card_rgba.putalpha(mask)
+                        out.alpha_composite(card_rgba, (20, 20))
+                        self.cache[key] = out.rotate(-4, resample=Image.BICUBIC, expand=True)
+                    c = self.cache[key]
+                    paste_alpha(im, c, (int((LEFT + RIGHT) / 2 - c.width / 2), int(1165 + 60 * (1 - tp))), tp)
             if s.get("mascot"):  # optional Tunas pose per point, top right
                 mp = back_out((t - 0.3) / 0.5)
                 if t > 0.3:
