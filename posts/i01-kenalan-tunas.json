@@ -1,0 +1,50 @@
+{
+  "series": "pintar",
+  "job": "comment",
+  "usia": "0-3 TAHUN",
+  "format": "video",
+  "tiktok_title": "Kenalan sama Tunas: 3 seri buat orang tua anak 0 sampai 3 tahun",
+  "caption": "Halo, aku Tunas. Di sini kamu dapat tiga seri buat anak 0 sampai 3 tahun: Seri Anak Pintar, Seri MPASI, dan Seri Main di Rumah. Tiap hari jam 7 malam, bahasanya kayak ngobrol, sumbernya IDAI dan WHO.\n\nDari tiga ini, kamu paling butuh seri yang mana? Ceritain umur anakmu juga ya 👇\n\n#parentingindonesia #ibubaru #stimulasianak #mpasi #TemanTumbuh",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "KENALAN DULU",
+      "lines": [
+        "HALO,",
+        "AKU TUNAS"
+      ],
+      "accent": 1,
+      "sub": "Teman ngobrol buat orang tua anak 0 sampai 3 tahun.",
+      "mascot": "halo"
+    },
+    {
+      "type": "point",
+      "series": "pintar",
+      "title": "Seri Anak Pintar",
+      "line": "Stimulasi dari hal sehari-hari, tanpa kelas mahal.",
+      "mascot": "riset"
+    },
+    {
+      "type": "point",
+      "series": "mpasi",
+      "title": "Seri MPASI",
+      "line": "Isi piring, cara potong, sampai anak GTM.",
+      "mascot": "sayang"
+    },
+    {
+      "type": "point",
+      "series": "main",
+      "title": "Seri Main di Rumah",
+      "line": "Ide main 5 menit pakai barang di rumah.",
+      "mascot": "santai"
+    },
+    {
+      "type": "cta",
+      "headline": "Tiap hari jam 7 malam.",
+      "accent": "Sumbernya IDAI dan WHO.",
+      "pill": "BUTUH SERI YANG MANA?",
+      "mascot": "hore",
+      "source": "Sumber: IDAI, WHO, Kemenkes RI"
+    }
+  ]
+}

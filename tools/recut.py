@@ -157,9 +157,10 @@ class Recut:
         p = back_out(t / 0.35)
         r = 120 * max(0.01, p)
         cx, cy = LEFT + 120, 680
-        d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=self.c(f"seri-{self.series}-bg"))
+        ser = s.get("series", self.series)  # a point can carry its own series colour (e.g. the intro video)
+        d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=self.c(f"seri-{ser}-bg"))
         if p > 0.6:
-            d.text((cx, cy + 6), f"{num:02d}", font=font("display", int(130 * min(1, p))), fill=self.c(f"seri-{self.series}-ink"), anchor="mm")
+            d.text((cx, cy + 6), f"{num:02d}", font=font("display", int(130 * min(1, p))), fill=self.c(f"seri-{ser}-ink"), anchor="mm")
         # title slides up
         q = ease_out((t - 0.15) / 0.4)
         if q > 0:
@@ -174,6 +175,22 @@ class Recut:
             if bar > 0:
                 y = 880 + layer.height + 10
                 d.rounded_rectangle([LEFT, y, LEFT + 220 * bar, y + 10], radius=5, fill=self.c("sage"))
+            if s.get("mascot"):  # optional Tunas pose per point, top right
+                mp = back_out((t - 0.3) / 0.5)
+                if t > 0.3:
+                    w, h = 220, 257
+                    sc = max(0.01, mp)
+                    m = self.mascot(s["mascot"], w, h).resize((max(1, int(w * sc)), max(1, int(h * sc))), Image.LANCZOS)
+                    bob = 6 * math.sin((t - 0.3) * 4) if t > 0.8 else 0
+                    im.alpha_composite(m, (int(RIGHT - w / 2 - m.width / 2), int(560 + h - m.height + bob)))
+            ln = ease_out((t - 0.6) / 0.4)
+            if ln > 0 and s.get("line"):  # optional one-line explainer under the title
+                key = ("ln", num)
+                if key not in self.cache:
+                    sf, slh = style_font("sub")
+                    lines = wrap(d, s["line"], sf, RIGHT - LEFT)
+                    self.cache[key] = text_layer(lines, sf, slh, [self.c("ink-muted")] * len(lines))
+                paste_alpha(im, self.cache[key], (LEFT, 880 + layer.height + 50 + 20 * (1 - ln)), ln)
 
     def cta(self, im, s, t):
         d = ImageDraw.Draw(im)
