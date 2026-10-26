@@ -75,8 +75,10 @@
       "slug": "d06-main-pas-hujan",
       "job": "save",
       "title": "Hujan dari pagi, anak mulai manjat lemari?",
-      "status": "siap review",
-      "scheduled_wib": "2026-10-29 19:00"
+      "status": "dijadwalkan",
+      "scheduled_wib": "2026-10-29 19:00",
+      "via": "Tebar (TikTok, Public, auto music)",
+      "tebar_post_id": "2062851f-eb04-4705-a447-c00b987ec66e"
     },
     {
       "day": 7,
@@ -109,7 +111,8 @@
       "job": "save",
       "title": "Bubur sayur doang belum cukup",
       "status": "disetujui (manual post)",
-      "scheduled_wib": "2026-10-26 19:00"
+      "scheduled_wib": "2026-10-26 19:00",
+      "via": "Tebar draft 26 Oct (test)"
     },
     {
       "day": 10,
@@ -118,8 +121,10 @@
       "slug": "d10-rotasi-mainan",
       "job": "save",
       "title": "Sebelum beli mainan baru, umpetin setengahnya",
-      "status": "siap review",
-      "scheduled_wib": "2026-10-27 19:00"
+      "status": "dijadwalkan",
+      "scheduled_wib": "2026-10-27 19:00",
+      "via": "Tebar (TikTok, Public, auto music)",
+      "tebar_post_id": "4723a690-3a7b-4140-8419-ac292cc708f8"
     },
     {
       "day": 11,
@@ -152,8 +157,10 @@
       "slug": "d13-motorik-halus",
       "job": "save",
       "title": "Jangan buru-buru les nulis",
-      "status": "siap review",
-      "scheduled_wib": "2026-10-28 19:00"
+      "status": "dijadwalkan",
+      "scheduled_wib": "2026-10-28 19:00",
+      "via": "Tebar (TikTok, Public, auto music)",
+      "tebar_post_id": "3f1db9cc-c424-44f7-891e-eeb05270dbab"
     },
     {
       "day": 14,
