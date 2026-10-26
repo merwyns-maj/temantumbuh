@@ -22,35 +22,40 @@
       "motif": "leaf",
       "title": "Sobek-sobek kertas",
       "body": "Koran bekas atau kertas warna. Gerakan nyobek ngelatih jempol dan telunjuk buat kerja sama.",
-      "tips": "Sobekannya bisa ditempel jadi gambar. Sekalian latihan bikin karya."
+      "tips": "Sobekannya bisa ditempel jadi gambar. Sekalian latihan bikin karya.",
+      "art": "sobek-kertas"
     },
     {
       "type": "point",
       "motif": "spark",
       "title": "Jepit jemuran",
       "body": "Jepit ke pinggir kardus atau gelas plastik. Butuh tenaga jari yang pas, persis kayak megang pensil nanti.",
-      "tips": "Mulai dari jepitan yang longgar. Yang keras bikin anak cepat nyerah."
+      "tips": "Mulai dari jepitan yang longgar. Yang keras bikin anak cepat nyerah.",
+      "art": "jepit-jemuran"
     },
     {
       "type": "point",
       "motif": "leaf",
       "title": "Meronce sedotan",
       "body": "Potong sedotan pendek-pendek, masukin ke tali sepatu. Mata dan tangan belajar kompak.",
-      "tips": "Selalu ditemenin karena potongannya kecil. Ujung tali diikat biar ronceannya nggak lepas terus."
+      "tips": "Selalu ditemenin karena potongannya kecil. Ujung tali diikat biar ronceannya nggak lepas terus.",
+      "art": "ronce-sedotan"
     },
     {
       "type": "point",
       "motif": "heart",
       "title": "Main playdough",
       "body": "Dipenyet, digulung, dicubit. Tiap gerakan nguatin otot-otot kecil di tangan.",
-      "tips": "Kasih alat makan plastik buat motong-motong. Biasanya jadi bagian favorit."
+      "tips": "Kasih alat makan plastik buat motong-motong. Biasanya jadi bagian favorit.",
+      "art": "playdough"
     },
     {
       "type": "point",
       "motif": "spark",
       "title": "Pindahin pompom pakai sendok",
-      "body": "Pindahin pompom atau potongan spons dari satu mangkuk ke mangkuk lain. Kelihatannya simpel, tapi butuh fokus dan kontrol.",
-      "tips": "Umur 4 tahun ke atas, naik level pakai penjepit makanan."
+      "body": "Pompom itu bola bulu kecil, ada di toko alat tulis. Pindahin pakai sendok dari mangkuk ke mangkuk. Ditemenin ya, ukurannya kecil.",
+      "tips": "Umur 4 tahun ke atas, naik level pakai penjepit makanan.",
+      "art": "pompom-sendok"
     },
     {
       "type": "cta",

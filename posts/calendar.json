@@ -356,7 +356,7 @@
       "file": "out/d01-udah-stimulasi-v2.mp4",
       "job": "comment",
       "title": "Video: Kamu udah stimulasi anak tiap hari",
-      "status": "menunggu review",
+      "status": "dibatalkan (video teks kurang kuat, ganti ke ilustrasi)",
       "scheduled_wib": "2026-10-27 12:00",
       "via": "TikTok only, Test A"
     },
@@ -368,7 +368,7 @@
       "format": "video",
       "job": "send",
       "title": "Video: Bukan salah Nenek",
-      "status": "belum dibuat",
+      "status": "dibatalkan (video teks kurang kuat, ganti ke ilustrasi)",
       "scheduled_wib": "2026-10-29 12:00",
       "via": "TikTok only, Test A"
     },

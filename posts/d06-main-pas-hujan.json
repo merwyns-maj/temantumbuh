@@ -23,35 +23,40 @@
       "motif": "leaf",
       "title": "Bikin tenda dari selimut",
       "body": "Kursi, meja, dan selimut udah cukup. Masuk bawa senter dan buku, langsung jadi petualangan.",
-      "tips": "Ajak dia ikut nyusun tendanya. Bagian itu sering lebih seru dari main di dalamnya."
+      "tips": "Ajak dia ikut nyusun tendanya. Bagian itu sering lebih seru dari main di dalamnya.",
+      "art": "tenda-selimut"
     },
     {
       "type": "point",
       "motif": "spark",
       "title": "Cari harta karun",
       "body": "Sembunyiin 5 mainan kecil di sekitar rumah, lalu kasih petunjuk kayak: di tempat yang dingin. Anak lari-larian, tapi tetap di dalam rumah.",
-      "tips": "Buat yang belum bisa baca, petunjuknya pakai gambar aja."
+      "tips": "Buat yang belum bisa baca, petunjuknya pakai gambar aja.",
+      "art": "harta-karun"
     },
     {
       "type": "point",
       "motif": "leaf",
       "title": "Jalan mobil-mobilan dari lakban",
       "body": "Tempel lakban kertas di lantai jadi jalan, tikungan, sama parkiran. Mobil-mobilan langsung punya kota sendiri.",
-      "tips": "Pakai lakban kertas. Gampang dicopot dan nggak ninggalin bekas di lantai."
+      "tips": "Pakai lakban kertas. Gampang dicopot dan nggak ninggalin bekas di lantai.",
+      "art": "jalan-lakban"
     },
     {
       "type": "point",
       "motif": "heart",
       "title": "Joget, terus diam kayak patung",
       "body": "Putar lagu kesukaannya. Pas musik berhenti, semua harus diam. Ketawanya dapet, capeknya juga dapet.",
-      "tips": "Gantian jadi yang matiin musik. Anak senang banget kalau dikasih pegang kendali."
+      "tips": "Gantian jadi yang matiin musik. Anak senang banget kalau dikasih pegang kendali.",
+      "art": "joget-patung"
     },
     {
       "type": "point",
       "motif": "spark",
       "title": "Lomba beresin mainan",
       "body": "Pasang timer 3 menit, siapa yang paling banyak masukin mainan ke kotak. Main selesai, rumah juga rapi.",
-      "tips": "Taruh di urutan terakhir. Kalau di awal, anaknya keburu curiga."
+      "tips": "Taruh di urutan terakhir. Kalau di awal, anaknya keburu curiga.",
+      "art": "lomba-beresin"
     },
     {
       "type": "cta",
