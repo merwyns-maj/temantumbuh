@@ -54,3 +54,11 @@ The **TemanTumbuh Tracker** dashboard (claude.ai artifact XJzjc2SGkkpRgwuQVPzndx
 - **Nightly log:** one row a night, written by the scheduled nightly KPI check (22:28 WIB), with a Discuss question when a decision is needed. Decisions agreed in chat are written back into the Decision column.
 
 GitHub holds the code, post specs and `data/predictions.csv`; the tracker holds the live numbers and decisions. Once Claude has repo access, the weekly calibration copies 7-day results from the tracker into `predictions.csv`.
+
+## Illustrations on point slides (from 26 Oct 2026)
+
+Merwyn's rule: every point slide that describes an activity, an object or a method gets an art strip that shows how it is done.
+- Add `"art": "<name>"` to the point; the file is `design/svg/food/art-<name>.svg`, viewBox 880 x 260, flat shapes in the token palette, no people, no character IP, no text other than one short label.
+- Generator helpers for the current set live in the session scratchpad (mkplay.py); hand-edit the SVGs for small fixes.
+- If render.py raises "no room for art", cut words from the body before shrinking the art.
+- Plain text-only videos are paused (views were 70 to 200). Video comes back only as a demonstration of an activity.

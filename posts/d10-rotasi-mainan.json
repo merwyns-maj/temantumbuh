@@ -23,28 +23,32 @@
       "motif": "leaf",
       "title": "Simpan setengah mainannya",
       "body": "Masukin sebagian ke kotak, taruh di tempat yang nggak kelihatan. Kebanyakan pilihan bikin anak cuma lompat dari satu mainan ke mainan lain.",
-      "tips": "Sisain 6 sampai 8 mainan aja di rak yang bisa dia jangkau."
+      "tips": "Sisain 6 sampai 8 mainan aja di rak yang bisa dia jangkau.",
+      "art": "simpan-setengah"
     },
     {
       "type": "point",
       "motif": "spark",
       "title": "Tukar tiap minggu",
       "body": "Minggu depan, keluarin yang disimpan dan simpan yang lama. Mainan lama kerasa kayak baru lagi.",
-      "tips": "Pilih satu hari tetap, misalnya Minggu sore, biar jadi kebiasaan."
+      "tips": "Pilih satu hari tetap, misalnya Minggu sore, biar jadi kebiasaan.",
+      "art": "tukar-minggu"
     },
     {
       "type": "point",
       "motif": "leaf",
       "title": "Campur jenisnya",
       "body": "Usahain ada mainan buat gerak, buat nyusun, buat pura-pura, plus buku. Jadi semua sisi perkembangannya kebagian.",
-      "tips": "Contohnya bola, balok, boneka atau masak-masakan, dan satu buku favorit."
+      "tips": "Contohnya bola, balok, boneka atau masak-masakan, dan satu buku favorit.",
+      "art": "campur-jenis"
     },
     {
       "type": "point",
       "motif": "heart",
       "title": "Pilih mainan yang bisa dimainin banyak cara",
       "body": "Balok, bola, kardus, dan kain bisa jadi apa aja, dari umur 1 sampai SD. Mainan yang fungsinya cuma satu biasanya cepat ditinggal.",
-      "tips": "Sebelum beli mainan baru, tanya dulu: ini bisa dimainin berapa cara?"
+      "tips": "Sebelum beli mainan baru, tanya dulu: ini bisa dimainin berapa cara?",
+      "art": "banyak-cara"
     },
     {
       "type": "cta",
