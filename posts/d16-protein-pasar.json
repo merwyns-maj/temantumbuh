@@ -1,0 +1,65 @@
+{
+  "series": "mpasi",
+  "job": "save",
+  "usia": "6 BULAN KE ATAS",
+  "tiktok_title": "Lauk MPASI seminggu, modal belanja di pasar",
+  "caption": "Lauk MPASI nggak harus salmon impor. Telur, ikan lokal, hati ayam, sama ayam atau daging giling dari pasar udah cukup buat seminggu. Yang penting tiap kali makan ada lauk hewaninya, dan jenisnya gantian.\n\nKamu biasanya belanja lauk MPASI di mana? Pasar, tukang sayur, atau online?\n\nSumber: Kemenkes RI (Panduan Hari Gizi Nasional 2024), WHO\n\n#mpasi #proteinhewani #mpasirumahan #parentingindonesia #SeriMPASI",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "BELANJA KE PASAR",
+      "lines": [
+        "LAUK MPASI",
+        "SEMINGGU,",
+        "MODAL PASAR"
+      ],
+      "accent": 2,
+      "sub": "Nggak perlu salmon impor. Ini contoh gantiannya.",
+      "mascot": "riset"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Senin dan Kamis: telur",
+      "body": "Kukus, dadar tanpa banyak minyak, atau campur ke bubur. Paling gampang buat hari sibuk.",
+      "tips": "Masak sampai matang, kuningnya juga.",
+      "art": "lauk-telur"
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Selasa dan Jumat: ikan lokal",
+      "body": "Lele, kembung, atau nila. Kukus, buang durinya dengan teliti, lalu haluskan.",
+      "tips": "Minta fillet di pasar biar durinya lebih sedikit.",
+      "art": "lauk-ikan"
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Rabu: hati ayam",
+      "body": "Juaranya zat besi dan teksturnya lembut. Cukup sesekali dalam seminggu.",
+      "tips": "Rebus sampai matang, lalu saring atau haluskan.",
+      "art": "lauk-hati"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Sabtu dan Minggu: ayam atau daging giling",
+      "body": "Gampang dibikin bola kecil atau dicampur ke bubur. Gantian jenis lauk itu lebih baik daripada satu jenis terus.",
+      "tips": "Sisa masakan simpan di kulkas, jangan dibiarin di suhu ruang.",
+      "art": "lauk-daging"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Tiap kali makan,",
+      "accent": "ada lauk hewaninya.",
+      "pill": "SIMPAN BUAT BELANJA MINGGU INI",
+      "sub2": "Kirim juga ke yang biasa belanja ke pasar.",
+      "source": "Sumber: Kemenkes RI (Panduan Hari Gizi Nasional 2024), WHO",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
+  ]
+}

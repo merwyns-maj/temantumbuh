@@ -184,21 +184,23 @@
     },
     {
       "day": 16,
-      "date": "2026-11-10",
+      "date": "2026-10-31",
       "series": "mpasi",
       "slug": "d16-protein-pasar",
       "job": "save",
       "title": "Lauk MPASI seminggu, modal murah dari pasar",
-      "status": "ide"
+      "status": "siap review",
+      "scheduled_wib": "2026-10-31 19:00"
     },
     {
       "day": 17,
-      "date": "2026-11-11",
+      "date": "2026-11-01",
       "series": "main",
       "slug": "d17-main-5-menit",
       "job": "save",
       "title": "5 ide main 5 menit tanpa persiapan",
-      "status": "ide"
+      "status": "siap review",
+      "scheduled_wib": "2026-11-01 19:00"
     },
     {
       "day": 18,
@@ -267,12 +269,13 @@
     },
     {
       "day": 25,
-      "date": "2026-11-19",
+      "date": "2026-10-30",
       "series": "pintar",
       "slug": "d25-ternyata-normal",
       "job": "send",
       "title": "Bayimu suka lempar makanan? Tenang, itu bukan nakal",
-      "status": "ide"
+      "status": "siap review",
+      "scheduled_wib": "2026-10-30 19:00"
     },
     {
       "day": 26,

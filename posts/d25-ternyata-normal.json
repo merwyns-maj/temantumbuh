@@ -1,0 +1,65 @@
+{
+  "series": "pintar",
+  "job": "send",
+  "usia": "6 BULAN-2 TAHUN",
+  "tiktok_title": "Bayimu suka lempar makanan? Tenang, itu bukan nakal",
+  "caption": "Bayimu lempar makanan terus? Tenang, itu bukan nakal. Dia lagi belajar sebab-akibat, lagi lihat reaksimu, dan tangannya lagi latihan. Yang bisa kamu lakuin: tetap tenang, siapin alas, dan baca tanda kenyangnya.\n\nDi rumahmu, makanan apa yang paling sering mendarat di lantai? 😅\n\nSumber: Zero to Three, Raising Children Network\n\n#mpasi #bayi #tumbuhkembanganak #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "BUKAN NAKAL",
+      "lines": [
+        "BAYIMU LEMPAR",
+        "MAKANAN",
+        "TERUS?"
+      ],
+      "accent": 2,
+      "sub": "Tenang dulu. Dia lagi belajar, bukan lagi ngelawan kamu.",
+      "mascot": "kaget"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Dia lagi belajar sebab-akibat",
+      "body": "Dijatuhin, jatuh. Dilempar, bunyi plok. Buat dia ini percobaan, makanya diulang terus.",
+      "tips": "Kasih bola kain yang boleh dilempar di luar jam makan.",
+      "art": "lempar-jatuh"
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Dia lagi lihat reaksimu",
+      "body": "Kalau tiap lemparan bikin heboh, buat dia itu permainan seru. Reaksi yang tenang bikin lemparannya kurang menarik.",
+      "tips": "Ambil makanannya tanpa banyak komentar, terus lanjut makan.",
+      "art": "reaksi-tenang"
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Tangannya lagi latihan",
+      "body": "Megang, ngeremes, ngelempar. Semua itu ngelatih jari dan bikin dia kenal tekstur makanan.",
+      "tips": "Potong makanan memanjang biar gampang digenggam.",
+      "art": "jari-latihan"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Siapin alasnya, bukan marahnya",
+      "body": "Taruh alas plastik atau handuk bekas di bawah kursi makan. Mandinya nanti aja, habis makan.",
+      "tips": "Lebih banyak dilempar daripada dimakan? Bisa jadi dia udah kenyang.",
+      "art": "alas-kursi"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Lempar makanan itu fase.",
+      "accent": "Dia lagi belajar, kamu nggak gagal.",
+      "pill": "KIRIM KE PASANGANMU",
+      "sub2": "Biar yang nyuapin di rumah sama-sama tenang.",
+      "source": "Sumber: Zero to Three, Raising Children Network",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
+  ]
+}
