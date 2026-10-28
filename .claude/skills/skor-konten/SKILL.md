@@ -36,8 +36,8 @@ Score each, using the anchors. Be strict: a 3 out of 5 is a normal post.
 
 | Criterion | Max | 5 looks like | 1 looks like |
 | --- | --- | --- | --- |
-| **Hook stops the thumb** | 15 | Opens on the parent's moment or a belief they hold ("Anggur, sosis, kelengkeng. Potongnya jangan bulat.") | Topic label ("5 tips MPASI") |
-| **Does its one job** | 15 | You can name the exact person it gets sent to, or why it gets saved, or the comment people will write | It is fine but nobody would forward it |
+| **Hook stops the thumb** | 20 | A flat statement that tells the parent something they did not expect, with concrete words: reassurance ("Kamu udah stimulasi anak tiap hari", 31k views), a new rule ("Masuk SD nggak ada tes calistung", 3.3k), gentle myth-busting ("Bukan salah Nenek. Ilmunya aja yang udah update", 4.7k), named objects ("Anggur, sosis, kelengkeng. Potongnya jangan bulat", 3.4k) | Topic label or a bare question ("Anakmu GTM lagi?", 212; "Tummy time nggak harus sambil nangis", 273) |
+| **Does its one job** | 10 | You can name the exact person it gets sent to, or why it gets saved, or the comment people will write | It is fine but nobody would forward it |
 | **Relief, not guilt** | 10 | Leaves parents calmer or laughing ("bukan salah kamu", "ternyata normal") | Lists everything they are doing wrong |
 | **Trust and safety** | 10 | Claims are soft and sourced; no formula promotion; nobody is shamed; humour makes the dad the joke and the mom the hero | A promise ("bikin pintar"), a jab at mertua, a complaining husband |
 | **Fresh** | 10 | A calendar or news peg, or an angle not already everywhere | Saturated topic told the usual way (tanda siap MPASI as a plain list) |
@@ -75,3 +75,4 @@ After at least 10 posts have 7 days of data (96% of reach happens in the first 1
 ## 5. Calibration log
 
 - 2026-10-17: initial weights from the research report. No real data yet.
+- 2026-10-28: first calibration, 13 TikTok posts (lifetime views from Tebar). Spearman with views: total score 0.36, hook 0.43, fresh 0.28, relief 0.07, job -0.11, trust -0.13. Moved 5 points from job (15 to 10) to hook (15 to 20) and rewrote the hook anchors with our own top and bottom posts. Caveat: the account's daily views fell from 25k (17 Oct) to under 1k (22 Oct onward) for every post, so post date is a confounder; the dad series sits in the bottom group whatever its hook. Not yet changed: audience breadth (re-check next week with the 0 to 3 focus posts).
