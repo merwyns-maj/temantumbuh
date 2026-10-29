@@ -191,8 +191,10 @@
       "slug": "d16-protein-pasar",
       "job": "save",
       "title": "Lauk MPASI seminggu, modal murah dari pasar",
-      "status": "siap review",
-      "scheduled_wib": "2026-10-31 19:00"
+      "status": "dijadwalkan",
+      "scheduled_wib": "2026-10-31 19:00",
+      "via": "Tebar (TikTok, Public, auto music)",
+      "tebar_post_id": "e5b3be7b-cef0-4765-ae02-2f92da4c3f2c"
     },
     {
       "day": 17,
@@ -201,8 +203,10 @@
       "slug": "d17-main-5-menit",
       "job": "save",
       "title": "5 ide main 5 menit tanpa persiapan",
-      "status": "siap review",
-      "scheduled_wib": "2026-11-01 19:00"
+      "status": "dijadwalkan",
+      "scheduled_wib": "2026-11-01 19:00",
+      "via": "Tebar (TikTok, Public, auto music)",
+      "tebar_post_id": "c48157b7-3f6f-4725-bb16-f83869f7c7b4"
     },
     {
       "day": 18,
@@ -276,8 +280,10 @@
       "slug": "d25-ternyata-normal",
       "job": "send",
       "title": "Bayimu suka lempar makanan? Tenang, itu bukan nakal",
-      "status": "siap review",
-      "scheduled_wib": "2026-10-30 19:00"
+      "status": "dijadwalkan",
+      "scheduled_wib": "2026-10-30 19:00",
+      "via": "Tebar (TikTok, Public, auto music)",
+      "tebar_post_id": "83f46a23-97c7-4583-a1dc-dd828c03f31c"
     },
     {
       "day": 26,
