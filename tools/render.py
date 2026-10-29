@@ -74,6 +74,14 @@ def style_font(name):
     return font(kind, _px(s["fontSize"])), _px(s["lineHeight"])
 
 
+def svg_ratio(name):
+    """width / height from an SVG's viewBox."""
+    import re
+    vb = re.search(r'viewBox="([^"]+)"', open(os.path.join(ROOT, "design", "svg", name), encoding="utf-8").read(1000))
+    _, _, w, h = (float(v) for v in vb.group(1).split())
+    return w / h
+
+
 def svg_image(name, size, height=None):
     png = cairosvg.svg2png(url=os.path.join(SVG_DIR, name), output_width=size, output_height=height or size)
     return Image.open(io.BytesIO(png)).convert("RGBA")
@@ -82,6 +90,8 @@ def svg_image(name, size, height=None):
 # Series whose corner shapes take the series tint instead of plain surface-200
 TINTED = {"mpasi"}
 ART_RATIO = 880 / 260  # food/art-*.svg cut diagrams
+HERO_RATIO = 880 / 420  # food/hero-*.svg hook illustrations (design v2)
+BIG_RATIO = 880 / 500  # food/big-*.svg point scenes (design v2)
 # Tunas mascot (design/svg/tunas/*.svg, 120 x 140 viewBox): hook top right, CTA in place of the motif
 MASCOT_HOOK = (172, 200)
 MASCOT_CTA = (206, 240)
@@ -225,6 +235,8 @@ class Slide:
 
     # ---------------- slide types
     def hook(self):
+        if self.spec.get("hero"):
+            return self.hook_hero()
         d, s, m = self.d, self.spec, self.m
         mascot_x = None
         if s.get("mascot"):
@@ -277,6 +289,85 @@ class Slide:
                 self.img.paste(im, (int(x0 + i * (size + gap)), iy), im)
         self.swipe()
 
+    def hook_hero(self):
+        """Hook with a big illustration on top (design v2): the first slide is the thumbnail people scroll past."""
+        d, s, m = self.d, self.spec, self.m
+        kf, ktrack = font("body800", 28), 1
+        kw = tracked_len(d, s["kicker"], kf, ktrack)
+        d.rounded_rectangle([m, 170, m + kw + 48, 228], radius=29, fill=self.c("sage-ink"))
+        tracked(d, (m + 24, 182), s["kicker"], kf, self.c("on-accent"), ktrack)
+        if self.post.get("usia"):
+            self.chip(m + kw + 48 + 16, 199, self.post["usia"], "surface-card", "ink-muted", outline="line")
+        ratio = svg_ratio(f"food/hero-{s['hero']}.svg")
+        hw = W - 2 * m + 40
+        hh = int(hw / ratio)
+        if hh > 430:
+            hh = 430
+            hw = int(hh * ratio)
+        im = svg_image(f"food/hero-{s['hero']}.svg", hw, hh)
+        self.img.paste(im, (int((W - hw) / 2), 250), im)
+        hf, lh = style_font("hook-display")
+        y = 250 + hh + 20
+        if len(s["lines"]) > 3:
+            raise LayoutError("hero hook takes at most 3 lines")
+        for i, line in enumerate(s["lines"]):
+            if d.textlength(line, font=hf) > W - 2 * m:
+                raise LayoutError(f"hook line too wide: {line!r}")
+            d.text((m, y), line, font=hf, fill=self.c("accent-text" if i == s.get("accent") else "ink"))
+            y += lh
+        y += 22
+        d.rounded_rectangle([m, y, m + 250, y + 8], radius=4, fill=self.c("terra"))
+        y += 36
+        sf, slh = style_font("sub")
+        lines = wrap(d, s["sub"], sf, W - 2 * m)
+        if len(lines) > 1:
+            raise LayoutError("hero hook sub must fit on one line")
+        d.text((m, y), lines[0], font=sf, fill=self.c("ink-muted"))
+        if y + slh > H - 240:
+            raise LayoutError("hero hook runs into the swipe cue: shorter hero or fewer lines")
+        self.swipe()
+
+    def cheat(self):
+        """One-page cheat sheet (design v2): every point as a row with its mini illustration, made to be screenshotted."""
+        d, s, m = self.d, self.spec, self.m
+        self.chip(m, 200, s.get("kicker", "CONTEKAN"), "sage-ink", "on-accent", size=26)
+        hf, hlh = style_font("slide-title")
+        y = 262
+        for line in wrap(d, s["title"], hf, W - 2 * m):
+            d.text((m, y), line, font=hf, fill=self.c("ink"))
+            y += hlh
+        y += 24
+        rows = s["rows"]
+        bottom = H - SPACE["footer-zone"] - (60 if s.get("note") else 0)
+        rh = min(230, (bottom - y) // len(rows))
+        if rh < 150:
+            raise LayoutError("cheat sheet rows too tight: fewer rows or a shorter title")
+        tf = font("body800", 40)
+        nf = font("body600", 32)
+        for i, r in enumerate(rows):
+            ry = y + i * rh
+            d.rounded_rectangle([m, ry + 8, W - m, ry + rh - 8], radius=RADIUS["radius-md"], fill=self.c("surface-card"),
+                                outline=self.c("line"), width=3)
+            self.disc_number(m + 62, ry + rh // 2, 38, str(i + 1), 44)
+            aw, ah = 300, int(300 / ART_RATIO)
+            im = svg_image(f"food/art-{r['art']}.svg", aw, ah)
+            self.img.paste(im, (W - m - aw - 16, int(ry + (rh - ah) / 2)), im)
+            tx, tw = m + 124, W - 2 * m - 124 - aw - 30
+            lines = wrap(d, r["text"], tf, tw)
+            sub = wrap(d, r.get("small", ""), nf, tw) if r.get("small") else []
+            if len(lines) > 2 or len(sub) > 1:
+                raise LayoutError(f"cheat row too long: {r['text']!r}")
+            th = len(lines) * 50 + len(sub) * 42
+            ty = ry + (rh - th) / 2
+            for line in lines:
+                d.text((tx, ty), line, font=tf, fill=self.c("ink"))
+                ty += 50
+            for line in sub:
+                d.text((tx, ty), line, font=nf, fill=self.c("ink-muted"))
+                ty += 42
+        if s.get("note"):
+            d.text((W / 2, bottom + 20), s["note"], font=font("body800", 32), fill=self.c("accent-text"), anchor="mm")
+
     def swipe(self):
         d = self.d
         f = font("display", 42)
@@ -305,7 +396,7 @@ class Slide:
             self.disc_number(164, 276, 100, s.get("num") or f"{self.idx:02d}", 110)
         if s.get("usia"):
             self.chip(292, 276, s["usia"], "surface-card", "ink-muted", outline="line")
-        has_body = bool(s.get("body"))
+        has_body = bool(s.get("body")) or bool(s.get("art_big"))  # a big scene takes the body's place
         # tips box first: the body yields to it
         lf, llh = style_font("box-label")
         tf, tlh = style_font("tips")
@@ -343,19 +434,21 @@ class Slide:
             if by1 > H - SPACE["footer-zone"]:
                 raise LayoutError("title plus box too tall: cut words")
         bf, blh = style_font("body")
-        blines = wrap(d, s["body"], bf, W - 2 * m) if has_body else []
+        blines = wrap(d, s["body"], bf, W - 2 * m) if s.get("body") else []
         if y + len(blines) * blh > by0 - 24:
             raise LayoutError(f"body runs into the tips box by {y + len(blines) * blh - (by0 - 24)}px: cut words")
         for line in blines:
             d.text((m, y), line, font=bf, fill=self.c("ink-muted"))
             y += blh
         if s.get("art"):
+            big = bool(s.get("art_big"))  # design v2: taller, detailed scene in food/big-<name>.svg
+            ratio = svg_ratio(f"food/big-{s['art']}.svg") if big else ART_RATIO
             room = by0 - y - 56
-            ah = min(250, room, int((W - 2 * m) / ART_RATIO))
-            if ah < 150:
-                raise LayoutError(f"no room for art {s['art']!r} ({room}px, need 150): cut body or tips words")
-            aw = int(ah * ART_RATIO)
-            im = svg_image(f"food/art-{s['art']}.svg", aw, ah)
+            ah = min(500 if big else 250, room, int((W - 2 * m + (60 if big else 0)) / ratio))
+            if ah < (300 if big else 150):
+                raise LayoutError(f"no room for art {s['art']!r} ({room}px): cut body or tips words")
+            aw = int(ah * ratio)
+            im = svg_image(f"food/{'big' if big else 'art'}-{s['art']}.svg", aw, ah)
             self.img.paste(im, (int((W - aw) / 2), int(y + 28 + (room - ah) / 2)), im)
         d.rounded_rectangle([m, by0, W - m, by1], radius=RADIUS["radius-md"], fill=self.c("sage-tint"),
                             outline=self.c("sage"), width=3)

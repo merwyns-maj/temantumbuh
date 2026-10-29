@@ -1,0 +1,94 @@
+{
+  "series": "pintar",
+  "job": "send",
+  "usia": "6 BULAN-2 TAHUN",
+  "tiktok_title": "Lempar makanan itu bukan nakal. Ini yang lagi dia pelajari",
+  "caption": "Lempar makanan itu bukan nakal. Dia lagi belajar sebab-akibat, lagi lihat reaksimu, dan tangannya lagi latihan. Yang bisa kamu lakuin: tetap tenang, siapin alas, dan baca tanda kenyangnya.\n\nDi rumahmu, makanan apa yang paling sering mendarat di lantai? 😅\n\nSumber: Zero to Three, Raising Children Network\n\n#mpasi #bayi #tumbuhkembanganak #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "TENANG DULU",
+      "lines": [
+        "LEMPAR MAKANAN",
+        "ITU BUKAN",
+        "NAKAL."
+      ],
+      "accent": 2,
+      "sub": "Dia lagi belajar, kamu nggak gagal.",
+      "mascot": "kaget",
+      "hero": "lempar"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Dia lagi belajar sebab-akibat",
+      "tips": "Kasih bola kain yang boleh dilempar di luar jam makan.",
+      "art": "lempar-jatuh",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Dia lagi lihat reaksimu",
+      "tips": "Ambil makanannya tanpa banyak komentar, terus lanjut makan.",
+      "art": "reaksi-tenang",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Tangannya lagi latihan",
+      "tips": "Potong makanan memanjang biar gampang digenggam.",
+      "art": "jari-latihan",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Siapin alasnya, bukan marahnya",
+      "tips": "Lebih banyak dilempar daripada dimakan? Bisa jadi dia udah kenyang.",
+      "art": "alas-kursi",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Pas dia lempar makanan:",
+      "rows": [
+        {
+          "text": "Tetap tenang",
+          "small": "Ambil, terus lanjut makan",
+          "art": "reaksi-tenang"
+        },
+        {
+          "text": "Kasih yang boleh dilempar",
+          "small": "Bola kain, di luar jam makan",
+          "art": "lempar-jatuh"
+        },
+        {
+          "text": "Potong memanjang",
+          "small": "Gampang digenggam",
+          "art": "jari-latihan"
+        },
+        {
+          "text": "Siapin alas",
+          "small": "Mandinya habis makan",
+          "art": "alas-kursi"
+        }
+      ],
+      "note": "Screenshot buat yang nyuapin di rumah"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Lempar makanan itu fase.",
+      "accent": "Dia lagi belajar, kamu nggak gagal.",
+      "pill": "KIRIM KE PASANGANMU",
+      "sub2": "Biar yang nyuapin di rumah sama-sama tenang.",
+      "source": "Sumber: Zero to Three, Raising Children Network",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
+  ]
+}
