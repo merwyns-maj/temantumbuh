@@ -107,3 +107,15 @@ Alternatives considered:
 3. d12 "Kamus suami" stays on Fri 23 Oct as the last dad-series carousel.
 4. Metricool Starter: try it for 1 month (monthly billing), then review against the 4 Nov results.
 5. Bio and pins: TikTok pins are d01, d04 and d02 (all 0 to 3). The sticker link goes in the TikTok bio as text and in the Instagram link field.
+
+## 9. Test D: two posts a day (2 to 15 Nov, agreed 29 Oct)
+
+- 12:00 "Contekan Cepat": 3 to 4 illustrated slides, one practical tip to save (0 to 3 focus, source on the last slide, score 70+). If one is not good enough, that day has one post.
+- 19:00 full carousel as now.
+- Both via Tebar, TikTok Public, auto music. Merwyn approves the whole week in one batch on Saturday.
+- Judge on 15 Nov: median views per slot, whether 19:00 posts drop after noon posts start, followers per week vs 27 Oct to 1 Nov. Keep two a day if the total rises and 19:00 holds.
+- Needs Tebar Starter (Rp17,900) after the Pro trial ends around 9 Nov: Free allows 30 posts a month.
+
+Topic plan, week of 2 Nov:
+- 19:00: d21 kirim ke pengasuh, d22 jawaban sopan "kok kurus?", d27 buku per usia, d29 18 bulan belum ngomong (IDAI/KPSP), d23 alat MPASI kepake vs pajangan, d24 mainan 100 cara, d15 screen time (WHO).
+- 12:00 Contekan: tanda bayi kenyang, porsi MPASI per usia, cek suhu air mandi, posisi tidur aman, gigi pertama, nenangin bayi nangis malam, demam: kapan ke dokter.
