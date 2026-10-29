@@ -284,7 +284,9 @@
       "status": "dijadwalkan",
       "scheduled_wib": "2026-10-30 19:00",
       "via": "Tebar (TikTok, Public, auto music)",
-      "tebar_post_id": "83f46a23-97c7-4583-a1dc-dd828c03f31c"
+      "tebar_post_id": "83f46a23-97c7-4583-a1dc-dd828c03f31c",
+      "design": "v2 (hero hook, big scenes, cheat sheet)",
+      "spec": "posts/d25-ternyata-normal-v2.json"
     },
     {
       "day": 26,

@@ -62,3 +62,11 @@ Merwyn's rule: every point slide that describes an activity, an object or a meth
 - Generators: `tools/mkplay.py` and `tools/mkplay2.py` (re-running overwrites hand fixes to the tenda, joget and tukar SVGs, so hand-edit small fixes after).
 - If render.py raises "no room for art", cut words from the body before shrinking the art.
 - Plain text-only videos are paused (views were 70 to 200). Video comes back only as a demonstration of an activity.
+
+## Design v2 (approved by Merwyn 29 Oct 2026)
+
+- Hook: `"hero": "<name>"` draws `design/svg/food/hero-<name>.svg` big on top, headline under it (max 3 lines, 1-line sub).
+- Points: `"art": "<name>", "art_big": true` draws `design/svg/food/big-<name>.svg` (a scene with floor, soft shadow and Tunas doing the activity) and replaces the body paragraph. Keep the "Coba ini" box.
+- Before the CTA: a `"type": "cheat"` slide (title, 3 to 4 rows of text + small line + mini art, a screenshot note).
+- Scenes are made in `tools/mkart_v2.py` and auto-cropped to their content.
+- Test from 2 Nov: 4 of 7 evening posts with a hero hook, 3 without; compare on 15 Nov.
