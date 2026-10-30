@@ -1,0 +1,102 @@
+{
+  "series": "pintar",
+  "job": "save",
+  "usia": "0-4 TAHUN",
+  "tiktok_title": "Anak di bawah 2 tahun dan layar: ini kata WHO (video call beda cerita)",
+  "caption": "Kata WHO, anak di bawah 2 tahun belum disaranin nonton layar. Umur 2 sampai 4 tahun, paling lama 1 jam sehari, makin sedikit makin baik. Video call sama nenek yang ditemenin kamu itu beda. Udah terlanjur sering nonton? Nggak apa-apa, kurangi pelan-pelan.\n\nDi rumahmu, layar paling sering nyala pas jam berapa?\n\nSumber: WHO (2019), American Academy of Pediatrics, Buku KIA Kemenkes\n\n#screentime #balita #bayi #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "KABAR LEGA",
+      "lines": [
+        "VIDEO CALL",
+        "SAMA NENEK",
+        "NGGAK DIHITUNG."
+      ],
+      "accent": 2,
+      "sub": "Ini batas layar buat anak di bawah 2 tahun.",
+      "mascot": "halo",
+      "hero": "w2e-videocall"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Di bawah 2 tahun: WHO belum nyaranin nonton layar",
+      "tips": "TV, video, game. Yang disaranin: dibacain buku dan diajak cerita.",
+      "art": "w2e-tv-mati",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Video call itu beda",
+      "tips": "Kata dokter anak (AAP) dan Buku KIA, video call yang ditemenin kamu itu boleh.",
+      "art": "w2e-vc",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "2 sampai 4 tahun: maks 1 jam sehari",
+      "tips": "1 jam itu batas atas, bukan target. Makin sedikit makin baik, dan lebih enak ditonton bareng.",
+      "art": "w2e-satu-jam",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Udah terlanjur? Nggak apa-apa",
+      "tips": "Kurangi pelan-pelan. Mulai dari 1 waktu dulu, misalnya pas makan, HP-nya ditaruh.",
+      "art": "w2e-pelan-pelan",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Gantinya: yang bisa dipegang dan diajak ngobrol",
+      "tips": "Panci dan sendok kayu pas kamu masak, buku, atau lagu sambil joget.",
+      "art": "w2e-gantinya",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Layar dan anak, singkatnya:",
+      "rows": [
+        {
+          "text": "Di bawah 2 tahun",
+          "small": "Belum disaranin nonton",
+          "art": "w2e-tv-mati"
+        },
+        {
+          "text": "Video call",
+          "small": "Boleh, ditemenin kamu",
+          "art": "w2e-vc"
+        },
+        {
+          "text": "2 sampai 4 tahun",
+          "small": "Maks 1 jam sehari",
+          "art": "w2e-satu-jam"
+        },
+        {
+          "text": "Udah terlanjur?",
+          "small": "Kurangi pelan-pelan",
+          "art": "w2e-pelan-pelan"
+        }
+      ],
+      "note": "Screenshot buat yang jagain di rumah"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Nggak harus nol besok pagi.",
+      "accent": "Kurangi dikit-dikit aja.",
+      "pill": "SIMPAN BUAT PEGANGAN",
+      "sub2": "Kirim juga ke yang jagain anakmu di rumah.",
+      "source": "Sumber: WHO (2019), American Academy of Pediatrics, Buku KIA Kemenkes",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "series": "pintar",
+  "job": "save",
+  "usia": "0-3 TAHUN",
+  "tiktok_title": "'Kok anaknya kurus?' 5 jawaban sopan buat komentar keluarga",
+  "caption": "Ditanya \"kok anaknya kurus?\" pas kumpul keluarga? Ini 5 jawaban sopan yang bisa kamu pakai. Yang nentuin anakmu tumbuh baik itu garis di KMS: berat badannya naik ikut kurva. Timbang tiap bulan di posyandu, dan kalau garisnya datar atau turun, bawa ke dokter anak.\n\nKomentar apa yang paling sering kamu dengar pas kumpul keluarga?\n\nSumber: Kemenkes (Ayo Sehat), IDAI\n\n#anakkurus #tumbuhkembang #posyandu #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "JAWABAN SOPAN",
+      "lines": [
+        "YANG NENTUIN",
+        "ANAKMU KURUS",
+        "ITU KMS, BUKAN",
+        "KOMENTAR."
+      ],
+      "accent": 3,
+      "sub": "5 jawaban santai buat \"kok anaknya kurus?\", plus cara ngeceknya.",
+      "mascot": "santai"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "\"Iya, badannya mungil. Yang penting grafiknya naik.\"",
+      "tips": "Kata Kemenkes, tumbuhnya baik kalau berat badan naik ikut kurva di KMS.",
+      "art": "w2e-kms-naik",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "\"Makasih udah perhatian. Bulan ini udah ditimbang kok.\"",
+      "tips": "Timbang tiap bulan di posyandu, jangan lupa bawa Buku KIA.",
+      "art": "w2e-timbang",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "\"Makasih. Kalau ragu, nanti aku tanya dokter anak.\"",
+      "tips": "Garis di KMS datar atau turun? Itu tandanya perlu dibawa ke dokter anak.",
+      "art": "w2e-kontrol",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "\"Iya nih, aktif banget. Capek ngejarnya.\"",
+      "tips": "Ganti topik pelan-pelan: ceritain 1 hal lucu yang baru dia bisa.",
+      "art": "w2e-aktif",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "\"Doain aja ya, Tante.\"",
+      "tips": "Senyum, makasih, sambil minum teh. Nggak semua komentar perlu dijelasin.",
+      "art": "w2e-teh",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Pas ditanya \"kok kurus?\"",
+      "rows": [
+        {
+          "text": "Lihat grafiknya",
+          "small": "Naik ikut kurva di KMS",
+          "art": "w2e-kms-naik"
+        },
+        {
+          "text": "Timbang tiap bulan",
+          "small": "Di posyandu, bawa Buku KIA",
+          "art": "w2e-timbang"
+        },
+        {
+          "text": "Garis datar atau turun",
+          "small": "Bawa ke dokter anak",
+          "art": "w2e-kontrol"
+        },
+        {
+          "text": "Senyum, makasih",
+          "small": "Nggak perlu debat",
+          "art": "w2e-teh"
+        }
+      ],
+      "note": "Screenshot sebelum acara keluarga"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Anakmu dinilai dari grafiknya,",
+      "accent": "bukan dari komentar.",
+      "pill": "SIMPAN BUAT ACARA KELUARGA",
+      "sub2": "Biar pas ditanya, kamu udah punya jawaban.",
+      "source": "Sumber: Kemenkes (Ayo Sehat), IDAI",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
+  ]
+}

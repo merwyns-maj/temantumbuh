@@ -1,0 +1,102 @@
+{
+  "series": "pintar",
+  "job": "save",
+  "usia": "0-3 TAHUN",
+  "tiktok_title": "Buku pertama bayi nggak harus mahal: per usia 0 sampai 3 tahun",
+  "caption": "Buku pertama bayi nggak harus mahal. 0 sampai 3 bulan: gambar kontras dan suaramu. 4 sampai 12 bulan: buku kain atau buku tebal, digigit juga nggak apa-apa. 1 sampai 2 tahun: buku buka-tutup dan gambar benda sehari-hari. 2 sampai 3 tahun: cerita pendek yang diulang-ulang. Cara bacanya: tunjuk, sebut, tunggu.\n\nBuku apa yang paling sering digigit di rumahmu?\n\nSumber: American Academy of Pediatrics, Zero to Three\n\n#bukuanak #bayi #stimulasi #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "NGGAK HARUS MAHAL",
+      "lines": [
+        "BUKU PERTAMA",
+        "BAYI BOLEH",
+        "DIGIGIT."
+      ],
+      "accent": 2,
+      "sub": "Ini buku yang pas buat tiap usia, 0 sampai 3 tahun.",
+      "mascot": "hore",
+      "hero": "w2e-buku"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "0 sampai 3 bulan: gambar kontras dan suaramu",
+      "tips": "Garis hitam tebal di kertas putih juga bisa. Yang paling dia suka tetap suaramu.",
+      "art": "w2e-buku-kontras",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "4 sampai 12 bulan: buku kain atau buku tebal",
+      "tips": "Digigit, dibanting, dibolak-balik. Itu cara dia kenalan sama buku.",
+      "art": "w2e-buku-kain",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "1 sampai 2 tahun: buka-tutup dan benda sehari-hari",
+      "tips": "Tanya \"kucingnya mana?\", terus biarin dia nunjuk.",
+      "art": "w2e-buku-flap",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "2 sampai 3 tahun: cerita pendek yang diulang",
+      "tips": "Minta buku yang sama 10 kali itu normal. Berhenti sebelum kata terakhir, biar dia yang lanjutin.",
+      "art": "w2e-buku-cerita",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Cara bacanya: tunjuk, sebut, tunggu",
+      "tips": "Tunjuk gambarnya, sebut namanya, terus tunggu dia nunjuk atau ngoceh balik. Nggak harus sampai halaman terakhir.",
+      "art": "w2e-buku-tunjuk",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Buku per usia:",
+      "rows": [
+        {
+          "text": "0 sampai 3 bulan",
+          "small": "Gambar kontras, suaramu",
+          "art": "w2e-buku-kontras"
+        },
+        {
+          "text": "4 sampai 12 bulan",
+          "small": "Buku kain atau buku tebal",
+          "art": "w2e-buku-kain"
+        },
+        {
+          "text": "1 sampai 2 tahun",
+          "small": "Buka-tutup, benda harian",
+          "art": "w2e-buku-flap"
+        },
+        {
+          "text": "2 sampai 3 tahun",
+          "small": "Cerita pendek, diulang",
+          "art": "w2e-buku-cerita"
+        }
+      ],
+      "note": "Screenshot sebelum beli buku"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Bukunya boleh murah.",
+      "accent": "Suaramu yang paling dia cari.",
+      "pill": "SIMPAN BUAT BELANJA BUKU",
+      "sub2": "Kirim juga ke yang mau kasih kado buat anakmu.",
+      "source": "Sumber: American Academy of Pediatrics, Zero to Three",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ]
+}

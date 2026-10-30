@@ -1,0 +1,102 @@
+{
+  "series": "mpasi",
+  "job": "send",
+  "usia": "6 BULAN-3 TAHUN",
+  "tiktok_title": "Anakmu dijagain nenek atau pengasuh? Slide ini buat mereka",
+  "caption": "Buat nenek, kakek, atau pengasuh yang nyuapin anakmu: madu tunggu sampai 1 tahun, anggur dan sosis dipotong memanjang, makan sambil duduk, cuci tangan pakai sabun, dan HP istirahat dulu pas makan. Bukan salah siapa-siapa, aturannya aja yang udah update.\n\nDi rumahmu, siapa yang paling sering nyuapin anak?\n\nSumber: IDAI, Buku KIA Kemenkes, American Academy of Pediatrics\n\n#mpasi #pengasuh #nenek #parentingindonesia #SeriMPASI",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "BUAT YANG NYUAPIN",
+      "lines": [
+        "MADU NUNGGU",
+        "1 TAHUN. ANGGUR",
+        "DIBELAH DULU."
+      ],
+      "accent": 0,
+      "sub": "Bukan salah Nenek. Ilmunya aja yang update.",
+      "mascot": "sayang",
+      "hero": "w2e-pengasuh"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Madu tunggu sampai 1 tahun",
+      "tips": "Kata IDAI, madu di bawah 12 bulan bisa bawa risiko botulisme. Termasuk buat obat batuk.",
+      "art": "w2e-madu",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Anggur dan sosis dipotong memanjang",
+      "tips": "Bulat utuh itu seukuran saluran napas anak. Belah memanjang, terus potong kecil.",
+      "art": "w2e-potong-panjang",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Makan sambil duduk, bukan sambil lari",
+      "tips": "Dudukin di kursi makan. Jangan disuapin sambil jalan-jalan, main, atau tiduran.",
+      "art": "w2e-duduk-makan",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Cuci tangan dulu, baru nyiapin makan",
+      "tips": "Pakai sabun dan air mengalir, sebelum masak dan sebelum nyuapin.",
+      "art": "w2e-cuci-tangan",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "HP dan TV istirahat dulu pas makan",
+      "tips": "Kata IDAI, makan nggak sambil main atau nonton. Biar dia fokus ke makanannya.",
+      "art": "w2e-hp-istirahat",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Tempel di kulkas:",
+      "rows": [
+        {
+          "text": "Madu tunggu 1 tahun",
+          "small": "Termasuk buat batuk",
+          "art": "w2e-madu"
+        },
+        {
+          "text": "Anggur, sosis memanjang",
+          "small": "Bukan bulat kayak koin",
+          "art": "w2e-potong-panjang"
+        },
+        {
+          "text": "Makan sambil duduk",
+          "small": "Nggak sambil lari",
+          "art": "w2e-duduk-makan"
+        },
+        {
+          "text": "HP istirahat dulu",
+          "small": "Fokus ke makanannya",
+          "art": "w2e-hp-istirahat"
+        }
+      ],
+      "note": "Screenshot buat yang jagain di rumah"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Yang jagain anakmu itu satu tim.",
+      "accent": "Kirim, biar aturannya sama.",
+      "pill": "KIRIM KE PENGASUH ANAKMU",
+      "sub2": "Atau ke grup WA keluarga. Ngobrolnya pelan-pelan aja.",
+      "source": "Sumber: IDAI, Buku KIA Kemenkes, American Academy of Pediatrics",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ]
+}

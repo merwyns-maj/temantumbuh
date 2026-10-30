@@ -1,0 +1,102 @@
+{
+  "series": "mpasi",
+  "job": "send",
+  "usia": "6-12 BULAN",
+  "tiktok_title": "Jangan checkout dulu: alat MPASI yang kepake vs yang jadi pajangan",
+  "caption": "Sebelum checkout alat MPASI: yang kepake itu kursi makan yang kokoh dan ada talinya, sendok kecil, mangkuk tebal, celemek, saringan atau garpu, dan gelas kecil buat latihan minum. Blender boleh nanti, alat khusus bayi yang lain boleh skip dulu.\n\nAlat MPASI apa yang akhirnya cuma jadi pajangan di rumahmu?\n\nSumber: IDAI, American Academy of Pediatrics\n\n#mpasi #perlengkapanbayi #mpasipertama #parentingindonesia #SeriMPASI",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "SEBELUM CHECKOUT",
+      "lines": [
+        "BLENDER MAHAL",
+        "BISA DIGANTI",
+        "GARPU."
+      ],
+      "accent": 2,
+      "sub": "Ini alat MPASI yang beneran kepake.",
+      "mascot": "santai",
+      "hero": "w2e-alat"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Kursi makan yang kokoh, ada talinya",
+      "tips": "Pakai talinya tiap duduk. Taruh jauh dari meja, biar kakinya nggak dorong kursi.",
+      "art": "w2e-kursi-tali",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Sendok kecil, mangkuk tebal, celemek",
+      "tips": "2 sendok cukup: 1 buat nyuapin, 1 buat dia pegang. Kata IDAI, dia boleh latihan sendiri.",
+      "art": "w2e-sendok-mangkuk",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Saringan atau garpu, nggak harus blender",
+      "tips": "Kata IDAI, teksturnya naik bertahap. Buat awal, saringan dan garpu udah cukup.",
+      "art": "w2e-garpu-saring",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Gelas kecil buat latihan minum",
+      "tips": "Gelas terbuka, isi air putih sedikit aja. Tumpah itu bagian dari latihan.",
+      "art": "w2e-gelas-kecil",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Yang sering cuma jadi pajangan",
+      "tips": "Penghangat makanan, cetakan lucu, alat masak khusus bayi. Coba pakai alat dapur yang ada dulu.",
+      "art": "w2e-pajangan",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Daftar belanja MPASI:",
+      "rows": [
+        {
+          "text": "Kursi makan + tali",
+          "small": "Taruh jauh dari meja",
+          "art": "w2e-kursi-tali"
+        },
+        {
+          "text": "Sendok, mangkuk, celemek",
+          "small": "2 sendok udah cukup",
+          "art": "w2e-sendok-mangkuk"
+        },
+        {
+          "text": "Saringan atau garpu",
+          "small": "Blender boleh nanti",
+          "art": "w2e-garpu-saring"
+        },
+        {
+          "text": "Gelas kecil terbuka",
+          "small": "Buat latihan minum",
+          "art": "w2e-gelas-kecil"
+        }
+      ],
+      "note": "Screenshot sebelum checkout"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Belanja secukupnya,",
+      "accent": "sisanya buat bahan makanan.",
+      "pill": "KIRIM KE PASANGANMU",
+      "sub2": "Atau ke teman yang lagi siap-siap MPASI.",
+      "source": "Sumber: IDAI, American Academy of Pediatrics",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
+  ]
+}

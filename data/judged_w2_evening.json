@@ -1,0 +1,16 @@
+{
+  "w2e-d21-kirim-pengasuh": {"hook": 4, "job": 5, "relief": 4, "trust": 5, "fresh": 3,
+    "note": "Clear forward-to-pengasuh job; grape and 'bukan salah Nenek' angles repeat d02 and d04, so freshness is the weak point."},
+  "w2e-d22-jawaban-sopan": {"hook": 4, "job": 4, "relief": 4, "trust": 5, "fresh": 4,
+    "note": "Kind to family and points to KMS instead of arguing; the hook sentence is a bit long to read in one glance."},
+  "w2e-d27-buku-per-usia": {"hook": 4, "job": 5, "relief": 4, "trust": 5, "fresh": 4,
+    "note": "Per-age guide is very savable; 'boleh digigit' is the surprise, the rest is a familiar list."},
+  "w2e-d29-belum-ngomong": {"hook": 4, "job": 4, "relief": 3, "trust": 5, "fresh": 4,
+    "note": "Worrying topic by nature; calm framing and the home slide help, but relief stays moderate."},
+  "w2e-d23-alat-mpasi": {"hook": 4, "job": 4, "relief": 4, "trust": 5, "fresh": 4,
+    "note": "Strong myth-busting hook; the send recipient (pasangan before checkout) is plausible, not certain."},
+  "w2e-d24-mainan-banyak-cara": {"hook": 4, "job": 4, "relief": 4, "trust": 4, "fresh": 3,
+    "note": "Natural follow-up to d10; open-ended play is a common topic, so freshness rests on the kardus hook."},
+  "w2e-d15-screen-time": {"hook": 5, "job": 4, "relief": 5, "trust": 4, "fresh": 3,
+    "note": "Reassuring hook; the video-call exception comes from AAP and Buku KIA, not WHO, and the slide says so."}
+}

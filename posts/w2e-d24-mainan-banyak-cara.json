@@ -1,0 +1,92 @@
+{
+  "series": "main",
+  "job": "save",
+  "usia": "1-3 TAHUN",
+  "tiktok_title": "1 mainan, banyak cara main: kardus, balok, bola, kain",
+  "caption": "Kardus, balok, bola, dan kain bisa dimainin banyak cara. Kardus jadi mobil atau terowongan, balok disusun lalu dirobohin, bola digelindingin bolak-balik, kain buat cilukba. Mainan sederhana kayak gini cocok buat main bareng.\n\nKardus paket di rumahmu biasanya jadi apa sama anak?\n\nSumber: American Academy of Pediatrics\n\n#mainananak #mainandirumah #balita #parentingindonesia #SeriMainDiRumah",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "HEMAT MAINAN",
+      "lines": [
+        "1 KARDUS BEKAS",
+        "ITU 4 MAINAN",
+        "SEKALIGUS."
+      ],
+      "accent": 2,
+      "sub": "Balok, bola, kardus, kain: masing-masing bisa dimainin banyak cara.",
+      "mascot": "hore"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Kardus: masuk-keluar, mobil, drum",
+      "tips": "Umur 1, masuk-keluar kardus aja udah seru. Umur 2 ke atas, ajak pura-pura jadi mobil.",
+      "art": "w2e-kardus",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Balok: susun, robohin, jadi jalan",
+      "tips": "Umur 1 senengnya robohin. Itu juga main. Umur 2, susun jadi jalan buat mobil-mobilan.",
+      "art": "w2e-balok",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Bola: gelinding, lempar, masukin ember",
+      "tips": "Duduk berhadapan, gelindingin bolak-balik. Umur 2 sampai 3, lempar ke kardus atau ember.",
+      "art": "w2e-bola",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Kain: cilukba, tarik, selimut boneka",
+      "tips": "Pakai taplak atau selendang bekas. Jangan dililit di leher, dan mainnya ditemenin.",
+      "art": "w2e-kain",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "1 mainan, banyak cara:",
+      "rows": [
+        {
+          "text": "Kardus",
+          "small": "Masuk-keluar, mobil, drum",
+          "art": "w2e-kardus"
+        },
+        {
+          "text": "Balok",
+          "small": "Susun, robohin, jalan",
+          "art": "w2e-balok"
+        },
+        {
+          "text": "Bola",
+          "small": "Gelinding, lempar, ember",
+          "art": "w2e-bola"
+        },
+        {
+          "text": "Kain",
+          "small": "Cilukba, tarik, selimut",
+          "art": "w2e-kain"
+        }
+      ],
+      "note": "Screenshot buat akhir pekan"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Mainannya sama,",
+      "accent": "cara mainnya yang baru.",
+      "pill": "SIMPAN BUAT AKHIR PEKAN",
+      "sub2": "Kardus paket minggu ini jangan dibuang dulu.",
+      "source": "Sumber: American Academy of Pediatrics",
+      "mascot": "hore"
+    }
+  ]
+}

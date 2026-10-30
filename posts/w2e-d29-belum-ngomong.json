@@ -1,0 +1,102 @@
+{
+  "series": "pintar",
+  "job": "save",
+  "usia": "12-24 BULAN",
+  "tiktok_title": "Anakmu 18 bulan belum ngomong? Ini batas yang perlu dicek, bukan ditunggu",
+  "caption": "Kata IDAI, ada beberapa batas yang perlu dicek ke dokter anak: belum nunjuk pakai jari di 12 bulan, belum ada 1 kata yang ada artinya di 16 bulan, belum bisa 2 kata yang nyambung di 24 bulan, atau kemampuan bicaranya hilang. Dicek bukan berarti ada apa-apa. Sambil nunggu jadwal, ajak ngobrol, nyanyi, dan bacain buku.\n\nAnakmu sekarang umur berapa, dan kata pertamanya apa?\n\nSumber: IDAI, Buku KIA Kemenkes, CDC\n\n#speechdelay #tumbuhkembanganak #balita #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "KATA IDAI",
+      "lines": [
+        "16 BULAN BELUM",
+        "ADA 1 KATA:",
+        "CEK, JANGAN",
+        "DITUNGGU."
+      ],
+      "accent": 3,
+      "sub": "Dicek bukan berarti ada apa-apa. Biar kamu tenang dan tahu langkahnya.",
+      "mascot": "riset"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "12 bulan: belum nunjuk pakai jari",
+      "tips": "Misalnya nunjuk lampu atau kucing biar kamu ikut lihat. Kata IDAI, ini salah satu tanda yang dicek.",
+      "art": "w2e-nunjuk",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "16 bulan: belum ada 1 kata yang ada artinya",
+      "tips": "Bukan ngoceh atau niru. Satu kata yang dia pakai buat sesuatu, kayak \"mam\" buat makan.",
+      "art": "w2e-satu-kata",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "24 bulan: belum bisa 2 kata yang nyambung",
+      "tips": "Contohnya \"bola jatuh\" atau \"mau mam\".",
+      "art": "w2e-dua-kata",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Ada satu aja? Bawa ke dokter anak",
+      "tips": "Termasuk kalau kata yang udah bisa malah hilang. Pendengarannya juga bisa diperiksa.",
+      "art": "w2e-ke-dokter",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Di rumah: ngobrol, nyanyi, bacain buku",
+      "tips": "Dia ngoceh, kamu jawab. Kata IDAI, HP dan TV bukan cara stimulasi yang baik.",
+      "art": "w2e-ngobrol",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Batas yang perlu dicek:",
+      "rows": [
+        {
+          "text": "12 bulan: belum nunjuk",
+          "small": "Ke lampu, kucing, mainan",
+          "art": "w2e-nunjuk"
+        },
+        {
+          "text": "16 bulan: belum 1 kata",
+          "small": "Selain ngoceh atau niru",
+          "art": "w2e-satu-kata"
+        },
+        {
+          "text": "24 bulan: belum 2 kata",
+          "small": "Kayak \"bola jatuh\"",
+          "art": "w2e-dua-kata"
+        },
+        {
+          "text": "Kata yang udah bisa hilang",
+          "small": "Umur berapa pun",
+          "art": "w2e-ke-dokter"
+        }
+      ],
+      "note": "Screenshot buat dibawa pas kontrol"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Dicek lebih awal itu bukan panik.",
+      "accent": "Itu kamu lagi perhatian.",
+      "pill": "SIMPAN BUAT CEK BULAN DEPAN",
+      "sub2": "Kirim juga ke pasanganmu, biar ngeceknya bareng.",
+      "source": "Sumber: IDAI, Buku KIA Kemenkes, CDC",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ]
+}
