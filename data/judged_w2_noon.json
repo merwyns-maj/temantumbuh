@@ -1,0 +1,16 @@
+{
+  "w2n-30-menit-malam": {"hook": 4, "job": 4, "relief": 5, "trust": 4, "fresh": 4,
+    "note": "Real working-mom comment as the peg; 'udah berarti' is reassurance, not a promise. Weakest: research line is about caregivers, not the 30 minutes."},
+  "w2n-gigi-pertama": {"hook": 4, "job": 4, "relief": 3, "trust": 5, "fresh": 4,
+    "note": "Myth-bust hook carries it; body is a plain checklist. Fluoride for babies may surprise parents used to non-fluoride baby paste."},
+  "w2n-tanda-kenyang": {"hook": 4, "job": 4, "relief": 4, "trust": 5, "fresh": 3,
+    "note": "Reframes GTM as a fullness cue; GTM topic did poorly before (212 views) but that hook was a bare question."},
+  "w2n-tidur-aman": {"hook": 4, "job": 5, "relief": 3, "trust": 4, "fresh": 3,
+    "note": "Clear send target (pasangan/pengasuh); safe sleep is saturated and co-sleeping is common, so the CTA stays gentle."},
+  "w2n-nangis-malam": {"hook": 4, "job": 4, "relief": 5, "trust": 5, "fresh": 4,
+    "note": "Permission to put the baby down is the unexpected part; shaking warning stated once, gently, per AAP."},
+  "w2n-porsi-mpasi": {"hook": 4, "job": 5, "relief": 4, "trust": 5, "fresh": 3,
+    "note": "Classic save chart; '2-3 sendok itu normal' gives the relief angle. Portion table is Kemenkes, not IDAI."},
+  "w2n-demam-kapan-dokter": {"hook": 3, "job": 5, "relief": 3, "trust": 5, "fresh": 3,
+    "note": "Most useful save of the week but the hook is a principle, not a surprise. No medicine names or doses."}
+}

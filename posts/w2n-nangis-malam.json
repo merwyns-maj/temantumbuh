@@ -1,0 +1,59 @@
+{
+  "series": "pintar",
+  "job": "save",
+  "usia": "0-12 BULAN",
+  "tiktok_title": "Bayi nangis jam 2 pagi? Kamu boleh taruh dia di boks dan tarik napas dulu",
+  "caption": "Bayi nangis malam: cek lapar, popok dan gerah, bedong kalau dia belum bisa guling, terus coba white noise dan ayun pelan. Kalau kamu udah di batas, taruh dia di boks yang aman dan tarik napas 10-15 menit.\n\nJam berapa biasanya drama malam di rumahmu?\n\nSumber: American Academy of Pediatrics (healthychildren.org)\n\n#bayinangis #newborn #begadang #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "JAM 2 PAGI",
+      "lines": [
+        "KAMU BOLEH",
+        "TARUH DIA DULU",
+        "DAN NAPAS."
+      ],
+      "accent": 2,
+      "sub": "Bayi aman di boks, kamu tenang dulu.",
+      "hero": "w2n-nangis-malam"
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Pas dia nangis malam:",
+      "rows": [
+        {
+          "text": "Cek lapar, popok, gerah",
+          "small": "Bajunya setebal bajumu",
+          "art": "w2n-nangis-cek"
+        },
+        {
+          "text": "Bedong",
+          "small": "Kalau belum bisa guling",
+          "art": "w2n-nangis-bedong"
+        },
+        {
+          "text": "White noise, ayun pelan",
+          "small": "Mirip suasana di perut",
+          "art": "w2n-nangis-sshh"
+        },
+        {
+          "text": "Taruh di boks, napas dulu",
+          "small": "10-15 menit, lalu coba lagi",
+          "art": "w2n-nangis-napas"
+        }
+      ],
+      "note": "Nggak reda sama sekali? Hubungi dokter."
+    },
+    {
+      "type": "cta",
+      "headline": "Capek dan kesel itu manusiawi.",
+      "accent": "Taruh dulu. Jangan diguncang.",
+      "pill": "SIMPAN BUAT JAM 2 PAGI",
+      "sub2": "Bayi di bawah 2 bulan nangis sambil demam? Langsung hubungi dokter.",
+      "source": "Sumber: American Academy of Pediatrics (healthychildren.org)",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ]
+}

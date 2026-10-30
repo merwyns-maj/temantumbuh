@@ -1,0 +1,59 @@
+{
+  "series": "pintar",
+  "job": "send",
+  "usia": "0-12 BULAN",
+  "tiktok_title": "Kasur bayi yang aman itu kosong. Kirim ke yang nidurin bayimu",
+  "caption": "Bayi paling aman tidur telentang, di kasur datar tanpa bantal, guling, boneka atau selimut tebal, sekamar sama kamu tapi beda kasur. Jangan sampai kegerahan juga.\n\nSiapa yang paling sering nidurin bayi di rumahmu?\n\nSumber: American Academy of Pediatrics, NICHD Safe to Sleep\n\n#tidurbayi #bayibarulahir #newborn #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "TIDUR AMAN",
+      "lines": [
+        "KASUR BAYI",
+        "YANG AMAN",
+        "ITU KOSONG."
+      ],
+      "accent": 2,
+      "sub": "Tanpa bantal, guling, boneka, selimut tebal.",
+      "hero": "w2n-tidur-aman"
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Tiap tidur, siang atau malam:",
+      "rows": [
+        {
+          "text": "Telentang",
+          "small": "Bukan tengkurap atau miring",
+          "art": "w2n-tidur-telentang"
+        },
+        {
+          "text": "Kasur datar dan padat",
+          "small": "Cuma pakai seprai pas",
+          "art": "w2n-tidur-kosong"
+        },
+        {
+          "text": "Sekamar, beda kasur",
+          "small": "Minimal 6 bulan pertama",
+          "art": "w2n-tidur-sekamar"
+        },
+        {
+          "text": "Jangan kegerahan",
+          "small": "Baju tipis, kepala terbuka",
+          "art": "w2n-tidur-gerah"
+        }
+      ],
+      "note": "Screenshot buat yang nidurin malam ini"
+    },
+    {
+      "type": "cta",
+      "headline": "Tidur dekat bayi itu naluri.",
+      "accent": "Amannya: sekamar, beda kasur.",
+      "pill": "KIRIM KE PASANGAN ATAU PENGASUH",
+      "sub2": "Biar semua yang nidurin bayi pakai cara yang sama.",
+      "source": "Sumber: American Academy of Pediatrics, NICHD Safe to Sleep",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ]
+}

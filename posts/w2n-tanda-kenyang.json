@@ -1,0 +1,59 @@
+{
+  "series": "mpasi",
+  "job": "save",
+  "usia": "6-23 BULAN",
+  "tiktok_title": "Nutup mulut nggak selalu GTM. 4 tanda anak udah kenyang",
+  "caption": "Buang muka, nutup mulut, dorong sendok, atau kasih kode bisa jadi tanda anak udah kenyang. Nggak harus habis, WHO nyaranin dibujuk pelan tanpa dipaksa.\n\nTanda kenyang anakmu yang paling kelihatan apa?\n\nSumber: CDC, WHO\n\n#mpasi #gtm #anakmakan #parentingindonesia #SeriMPASI",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "TANDA KENYANG",
+      "lines": [
+        "NUTUP MULUT",
+        "NGGAK SELALU",
+        "GTM."
+      ],
+      "accent": 2,
+      "sub": "Kadang itu cara dia bilang udah kenyang.",
+      "hero": "w2n-tanda-kenyang"
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Tanda dia udah kenyang:",
+      "rows": [
+        {
+          "text": "Buang muka",
+          "small": "Kepalanya noleh dari sendok",
+          "art": "w2n-kenyang-noleh"
+        },
+        {
+          "text": "Mulutnya ditutup rapat",
+          "small": "Pas sendok datang",
+          "art": "w2n-kenyang-mulut"
+        },
+        {
+          "text": "Dorong sendok atau piring",
+          "small": "Makanannya didorong jauh",
+          "art": "w2n-kenyang-dorong"
+        },
+        {
+          "text": "Kasih kode",
+          "small": "Bunyi atau gerakan tangan",
+          "art": "w2n-kenyang-kode"
+        }
+      ],
+      "note": "Lihat tandanya, bukan isi piringnya"
+    },
+    {
+      "type": "cta",
+      "headline": "Kenyang itu dia yang nentuin.",
+      "accent": "Tugasmu nawarin, bukan maksa.",
+      "pill": "SIMPAN BUAT JAM MAKAN",
+      "sub2": "Nggak harus habis. Khawatir berat badannya? Tanya dokter atau bidan.",
+      "source": "Sumber: CDC, WHO",
+      "disclaimer": true,
+      "mascot": "santai"
+    }
+  ]
+}

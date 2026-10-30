@@ -1,0 +1,59 @@
+{
+  "series": "pintar",
+  "job": "save",
+  "usia": "0-3 TAHUN",
+  "tiktok_title": "Kerja dari pagi sampai sore? 30 menit sebelum tidur ini udah berarti banget",
+  "caption": "Kerja seharian bukan berarti kamu ketinggalan. Pilih satu aja tiap malam: ngobrol pas mandi, baca 1 buku, nyanyi lagu yang sama, atau peluk sambil cerita hari ini.\n\nKamu biasanya ngapain sama anak sebelum tidur?\n\nSumber: Harvard Center on the Developing Child, American Academy of Pediatrics\n\n#ibubekerja #stimulasianak #rutinitastidur #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "BUAT YANG KERJA",
+      "lines": [
+        "PULANG KERJA,",
+        "30 MENIT AJA",
+        "UDAH BERARTI."
+      ],
+      "accent": 2,
+      "sub": "Nggak perlu nebus seharian kok.",
+      "hero": "w2n-30-menit-malam"
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Pilih 1 aja malam ini:",
+      "rows": [
+        {
+          "text": "Ngobrol pas mandi",
+          "small": "Sebut yang dia pegang",
+          "art": "w2n-mandi-ngobrol"
+        },
+        {
+          "text": "Baca 1 buku",
+          "small": "Buku yang sama juga boleh",
+          "art": "w2n-baca-buku"
+        },
+        {
+          "text": "Nyanyi lagu yang sama",
+          "small": "Lama-lama jadi tanda tidur",
+          "art": "w2n-nyanyi-lagu"
+        },
+        {
+          "text": "Peluk, cerita hari ini",
+          "small": "Walau dia belum bisa jawab",
+          "art": "w2n-peluk-cerita"
+        }
+      ],
+      "note": "Sempat main di lantai 10 menit? Bonus."
+    },
+    {
+      "type": "cta",
+      "headline": "Siang tadi, yang jagain di rumah juga udah stimulasi.",
+      "accent": "Malam, giliran kamu nyambung.",
+      "pill": "SIMPAN BUAT NANTI MALAM",
+      "sub2": "Riset nemuin, dekat sama pengasuh nggak ngurangin dekatnya dia sama kamu.",
+      "source": "Sumber: Harvard Center on the Developing Child, American Academy of Pediatrics",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "series": "mpasi",
+  "job": "save",
+  "usia": "6-23 BULAN",
+  "tiktok_title": "Baru mulai MPASI, 2-3 sendok itu normal. Contekan porsi per usia",
+  "caption": "Porsi MPASI naik pelan-pelan: 6-8 bulan mulai 2-3 sendok makan sampai ½ mangkuk, 9-11 bulan ½ sampai ¾ mangkuk, 12-23 bulan ¾ sampai 1 mangkuk ukuran 250 ml. ASI tetap lanjut.\n\nAnakmu sekarang umur berapa, sehari makan berapa kali?\n\nSumber: Kemenkes RI (Buku Menu Makanan Lokal 2023), WHO\n\n#mpasi #mpasi6bulan #porsimpasi #parentingindonesia #SeriMPASI",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "PORSI MPASI",
+      "lines": [
+        "2-3 SENDOK",
+        "DI AWAL MPASI",
+        "ITU NORMAL."
+      ],
+      "accent": 2,
+      "sub": "Porsinya naik pelan-pelan sesuai usia.",
+      "hero": "w2n-porsi-mpasi"
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Sekali makan, mangkuk 250 ml:",
+      "rows": [
+        {
+          "text": "6-8 bulan, 2-3x sehari",
+          "small": "Lumat, 2-3 sdm sampai ½",
+          "art": "w2n-porsi-6"
+        },
+        {
+          "text": "9-11 bulan, 3-4x sehari",
+          "small": "Cincang halus, finger food",
+          "art": "w2n-porsi-9"
+        },
+        {
+          "text": "12-23 bulan, 3-4x sehari",
+          "small": "Makanan keluarga",
+          "art": "w2n-porsi-12"
+        },
+        {
+          "text": "Camilan 1-2x sehari",
+          "small": "Di sela jam makan",
+          "art": "w2n-porsi-camilan"
+        }
+      ],
+      "note": "Kata WHO, ASI lanjut sampai 2 tahun atau lebih."
+    },
+    {
+      "type": "cta",
+      "headline": "Porsinya naik pelan-pelan.",
+      "accent": "Ikutin lapar dan kenyangnya.",
+      "pill": "SIMPAN BUAT JADWAL MAKAN",
+      "sub2": "Khawatir berat badannya? Bawa Buku KIA, tanya bidan atau dokter.",
+      "source": "Sumber: Kemenkes RI (Buku Menu Makanan Lokal 2023), WHO",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
+  ]
+}

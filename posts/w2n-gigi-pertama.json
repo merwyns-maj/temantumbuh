@@ -1,0 +1,59 @@
+{
+  "series": "pintar",
+  "job": "save",
+  "usia": "6-12 BULAN",
+  "tiktok_title": "Tumbuh gigi nggak bikin demam. Contekan gigi pertama, pasta seukuran butir beras",
+  "caption": "Gigi pertama biasanya muncul umur 6-12 bulan. Sikat sejak gigi pertama pakai pasta gigi berfluoride seukuran butir beras, dan demam 38°C ke atas bukan dari tumbuh gigi.\n\nGigi pertama anakmu muncul umur berapa?\n\nSumber: American Academy of Pediatrics (healthychildren.org)\n\n#tumbuhgigi #gigianak #bayi #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "MITOS GIGI",
+      "lines": [
+        "TUMBUH GIGI",
+        "NGGAK BIKIN",
+        "DEMAM."
+      ],
+      "accent": 2,
+      "sub": "Suhu 38°C ke atas, cek ke dokter ya.",
+      "hero": "w2n-gigi-pertama"
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Contekan gigi pertama:",
+      "rows": [
+        {
+          "text": "Muncul 6-12 bulan",
+          "small": "Biasanya gigi bawah depan",
+          "art": "w2n-gigi-muncul"
+        },
+        {
+          "text": "Ngiler dan gigit-gigit",
+          "small": "Gusinya bengkak, rewel dikit",
+          "art": "w2n-gigi-tanda"
+        },
+        {
+          "text": "Sikat sejak gigi pertama",
+          "small": "Pasta fluoride sebutir beras",
+          "art": "w2n-gigi-sikat"
+        },
+        {
+          "text": "Ke dokter gigi",
+          "small": "Sebelum ulang tahun pertama",
+          "art": "w2n-gigi-dokter"
+        }
+      ],
+      "note": "Sikat 2x sehari, yang terakhir sebelum tidur"
+    },
+    {
+      "type": "cta",
+      "headline": "Demamnya bukan dari gigi.",
+      "accent": "Biar dokter cek penyebabnya.",
+      "pill": "SIMPAN BUAT GIGI PERTAMA",
+      "sub2": "Kalung tumbuh gigi juga nggak disarankan. Risikonya tersedak dan tercekik.",
+      "source": "Sumber: American Academy of Pediatrics (healthychildren.org)",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
+  ]
+}

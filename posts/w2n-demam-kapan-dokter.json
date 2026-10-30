@@ -1,0 +1,59 @@
+{
+  "series": "pintar",
+  "job": "save",
+  "usia": "0-3 TAHUN",
+  "tiktok_title": "Anak demam? Lihat anaknya, bukan cuma termometernya. Ini kapan harus ke dokter",
+  "caption": "Demam itu suhu 38°C atau lebih. Langsung ke dokter kalau bayi di bawah 3 bulan demam, anak kejang, sesak, lemas banget, ada tanda kurang cairan, atau demamnya lewat 24 jam di anak bawah 2 tahun (lewat 3 hari di anak 2 tahun ke atas).\n\nBiasanya kamu mulai panik di angka berapa?\n\nSumber: American Academy of Pediatrics (healthychildren.org), Kemenkes RI\n\n#anakdemam #demamanak #kesehatananak #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "ANAK DEMAM",
+      "lines": [
+        "LIHAT ANAKNYA,",
+        "BUKAN CUMA",
+        "TERMOMETERNYA."
+      ],
+      "accent": 0,
+      "sub": "Ini tanda kapan harus langsung ke dokter.",
+      "hero": "w2n-demam-kapan-dokter"
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Langsung ke dokter kalau:",
+      "rows": [
+        {
+          "text": "Bayi di bawah 3 bulan",
+          "small": "Suhunya 38°C atau lebih",
+          "art": "w2n-demam-bayi"
+        },
+        {
+          "text": "Kejang, sesak, lemas banget",
+          "small": "Atau muncul ruam tanpa sebab",
+          "art": "w2n-demam-bahaya"
+        },
+        {
+          "text": "Tanda kurang cairan",
+          "small": "Jarang pipis, mulut kering",
+          "art": "w2n-demam-cairan"
+        },
+        {
+          "text": "Demam nggak turun-turun",
+          "small": "<2 thn: 24 jam. 2+ thn: 3 hari",
+          "art": "w2n-demam-lama"
+        }
+      ],
+      "note": "Demam turun tapi makin lemas? Tetap ke dokter."
+    },
+    {
+      "type": "cta",
+      "headline": "Di rumah: sering kasih minum, baju tipis selapis.",
+      "accent": "Soal obat, tanya apoteker.",
+      "pill": "SIMPAN BUAT JAGA-JAGA",
+      "sub2": "Kejang lebih dari 5 menit? Langsung ke IGD.",
+      "source": "Sumber: American Academy of Pediatrics (healthychildren.org), Kemenkes RI",
+      "disclaimer": true,
+      "mascot": "riset"
+    }
+  ]
+}

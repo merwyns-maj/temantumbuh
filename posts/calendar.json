@@ -183,7 +183,7 @@
       "slug": "d15-screen-time",
       "job": "save",
       "title": "WHO bilang maksimal 1 jam. Realitanya? Cara ngurangin tanpa perang",
-      "status": "ide"
+      "status": "diganti versi w2e (design v2)"
     },
     {
       "day": 16,
@@ -243,7 +243,7 @@
       "slug": "d21-kirim-ke-pengasuh",
       "job": "send",
       "title": "Anakmu dijagain nenek atau pengasuh? Kirim slide ini ke mereka",
-      "status": "ide"
+      "status": "diganti versi w2e (design v2)"
     },
     {
       "day": 22,
@@ -252,7 +252,7 @@
       "slug": "d22-jawaban-sopan",
       "job": "save",
       "title": "'Kok anaknya kurus?' 5 jawaban sopan buat komentar keluarga",
-      "status": "ide"
+      "status": "diganti versi w2e (design v2)"
     },
     {
       "day": 23,
@@ -261,7 +261,7 @@
       "slug": "d23-alat-mpasi",
       "job": "send",
       "title": "Jangan checkout dulu: alat MPASI yang kepake vs pajangan",
-      "status": "ide",
+      "status": "diganti versi w2e (design v2)",
       "affiliate": "alat MPASI"
     },
     {
@@ -271,7 +271,7 @@
       "slug": "d24-mainan-100-cara",
       "job": "save",
       "title": "Mainan murah yang bisa dimainin 100 cara",
-      "status": "ide",
+      "status": "diganti versi w2e (design v2)",
       "affiliate": "balok, mainan terbuka"
     },
     {
@@ -304,7 +304,7 @@
       "slug": "d27-buku-per-usia",
       "job": "save",
       "title": "Buku pertama bayi nggak harus mahal: per usia 0-3 tahun",
-      "status": "ide",
+      "status": "diganti versi w2e (design v2)",
       "affiliate": "soft book, buku kontras"
     },
     {
@@ -323,7 +323,7 @@
       "slug": "d29-belum-ngomong",
       "job": "save",
       "title": "Anakmu 18 bulan belum ngomong? Batas yang perlu dicek, bukan ditunggu",
-      "status": "ide, wajib sumber IDAI/KPSP"
+      "status": "diganti versi w2e (design v2)"
     },
     {
       "day": 30,
@@ -404,6 +404,174 @@
       "status": "disetujui (manual post)",
       "scheduled_wib": "2026-10-25 siang (sebelum 19:00)",
       "via": "manual TikTok + IG Reels"
+    },
+    {
+      "day": "w2n-1",
+      "date": "2026-11-02",
+      "series": "pintar",
+      "slug": "w2n-30-menit-malam",
+      "job": "save",
+      "title": "Kerja dari pagi sampai sore? 30 menit sebelum tidur ini udah berarti banget",
+      "status": "siap review",
+      "scheduled_wib": "2026-11-02 12:00",
+      "design": "v2 hero",
+      "via": "Tebar"
+    },
+    {
+      "day": "w2e-1",
+      "date": "2026-11-02",
+      "series": "mpasi",
+      "slug": "w2e-d21-kirim-pengasuh",
+      "job": "send",
+      "title": "Anakmu dijagain nenek atau pengasuh? Slide ini buat mereka",
+      "status": "siap review",
+      "scheduled_wib": "2026-11-02 19:00",
+      "design": "v2 hero",
+      "via": "Tebar"
+    },
+    {
+      "day": "w2n-2",
+      "date": "2026-11-03",
+      "series": "pintar",
+      "slug": "w2n-gigi-pertama",
+      "job": "save",
+      "title": "Tumbuh gigi nggak bikin demam. Contekan gigi pertama, pasta seukuran butir beras",
+      "status": "siap review",
+      "scheduled_wib": "2026-11-03 12:00",
+      "design": "v2 hero",
+      "via": "Tebar"
+    },
+    {
+      "day": "w2e-2",
+      "date": "2026-11-03",
+      "series": "pintar",
+      "slug": "w2e-d22-jawaban-sopan",
+      "job": "save",
+      "title": "'Kok anaknya kurus?' 5 jawaban sopan buat komentar keluarga",
+      "status": "siap review",
+      "scheduled_wib": "2026-11-03 19:00",
+      "design": "v2",
+      "via": "Tebar"
+    },
+    {
+      "day": "w2n-3",
+      "date": "2026-11-04",
+      "series": "mpasi",
+      "slug": "w2n-tanda-kenyang",
+      "job": "save",
+      "title": "Nutup mulut nggak selalu GTM. 4 tanda anak udah kenyang",
+      "status": "siap review",
+      "scheduled_wib": "2026-11-04 12:00",
+      "design": "v2 hero",
+      "via": "Tebar"
+    },
+    {
+      "day": "w2e-3",
+      "date": "2026-11-04",
+      "series": "pintar",
+      "slug": "w2e-d27-buku-per-usia",
+      "job": "save",
+      "title": "Buku pertama bayi nggak harus mahal: per usia 0 sampai 3 tahun",
+      "status": "siap review",
+      "scheduled_wib": "2026-11-04 19:00",
+      "design": "v2 hero",
+      "via": "Tebar"
+    },
+    {
+      "day": "w2n-4",
+      "date": "2026-11-05",
+      "series": "pintar",
+      "slug": "w2n-tidur-aman",
+      "job": "send",
+      "title": "Kasur bayi yang aman itu kosong. Kirim ke yang nidurin bayimu",
+      "status": "siap review",
+      "scheduled_wib": "2026-11-05 12:00",
+      "design": "v2 hero",
+      "via": "Tebar"
+    },
+    {
+      "day": "w2e-4",
+      "date": "2026-11-05",
+      "series": "pintar",
+      "slug": "w2e-d29-belum-ngomong",
+      "job": "save",
+      "title": "Anakmu 18 bulan belum ngomong? Ini batas yang perlu dicek, bukan ditunggu",
+      "status": "siap review",
+      "scheduled_wib": "2026-11-05 19:00",
+      "design": "v2",
+      "via": "Tebar"
+    },
+    {
+      "day": "w2n-5",
+      "date": "2026-11-06",
+      "series": "pintar",
+      "slug": "w2n-nangis-malam",
+      "job": "save",
+      "title": "Bayi nangis jam 2 pagi? Kamu boleh taruh dia di boks dan tarik napas dulu",
+      "status": "siap review",
+      "scheduled_wib": "2026-11-06 12:00",
+      "design": "v2 hero",
+      "via": "Tebar"
+    },
+    {
+      "day": "w2e-5",
+      "date": "2026-11-06",
+      "series": "mpasi",
+      "slug": "w2e-d23-alat-mpasi",
+      "job": "send",
+      "title": "Jangan checkout dulu: alat MPASI yang kepake vs yang jadi pajangan",
+      "status": "siap review",
+      "scheduled_wib": "2026-11-06 19:00",
+      "design": "v2 hero",
+      "via": "Tebar"
+    },
+    {
+      "day": "w2n-6",
+      "date": "2026-11-07",
+      "series": "mpasi",
+      "slug": "w2n-porsi-mpasi",
+      "job": "save",
+      "title": "Baru mulai MPASI, 2-3 sendok itu normal. Contekan porsi per usia",
+      "status": "siap review",
+      "scheduled_wib": "2026-11-07 12:00",
+      "design": "v2 hero",
+      "via": "Tebar"
+    },
+    {
+      "day": "w2e-6",
+      "date": "2026-11-07",
+      "series": "main",
+      "slug": "w2e-d24-mainan-banyak-cara",
+      "job": "save",
+      "title": "1 mainan, banyak cara main: kardus, balok, bola, kain",
+      "status": "siap review",
+      "scheduled_wib": "2026-11-07 19:00",
+      "design": "v2",
+      "via": "Tebar"
+    },
+    {
+      "day": "w2n-7",
+      "date": "2026-11-08",
+      "series": "pintar",
+      "slug": "w2n-demam-kapan-dokter",
+      "job": "save",
+      "title": "Anak demam? Lihat anaknya, bukan cuma termometernya. Ini kapan harus ke dokter",
+      "status": "siap review",
+      "scheduled_wib": "2026-11-08 12:00",
+      "design": "v2 hero",
+      "via": "Tebar"
+    },
+    {
+      "day": "w2e-7",
+      "date": "2026-11-08",
+      "series": "pintar",
+      "slug": "w2e-d15-screen-time",
+      "job": "save",
+      "title": "Anak di bawah 2 tahun dan layar: ini kata WHO (video call beda cerita)",
+      "status": "siap review",
+      "scheduled_wib": "2026-11-08 19:00",
+      "design": "v2 hero",
+      "via": "Tebar"
     }
   ],
   "backlog": [
