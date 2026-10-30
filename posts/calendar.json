@@ -281,12 +281,13 @@
       "slug": "d25-ternyata-normal",
       "job": "send",
       "title": "Bayimu suka lempar makanan? Tenang, itu bukan nakal",
-      "status": "dijadwalkan",
+      "status": "terbit",
       "scheduled_wib": "2026-10-30 19:00",
       "via": "Tebar (TikTok, Public, auto music)",
       "tebar_post_id": "83f46a23-97c7-4583-a1dc-dd828c03f31c",
       "design": "v2 (hero hook, big scenes, cheat sheet)",
-      "spec": "posts/d25-ternyata-normal-v2.json"
+      "spec": "posts/d25-ternyata-normal-v2.json",
+      "url": "https://www.tiktok.com/@temantumbuhid/video/7702429647857863944"
     },
     {
       "day": 26,
