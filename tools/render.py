@@ -349,8 +349,11 @@ class Slide:
             d.rounded_rectangle([m, ry + 8, W - m, ry + rh - 8], radius=RADIUS["radius-md"], fill=self.c("surface-card"),
                                 outline=self.c("line"), width=3)
             self.disc_number(m + 62, ry + rh // 2, 38, str(i + 1), 44)
-            aw, ah = 300, int(300 / ART_RATIO)
-            im = svg_image(f"food/art-{r['art']}.svg", aw, ah)
+            big = os.path.exists(os.path.join(ROOT, "design", "svg", "food", f"big-{r['art']}.svg"))
+            fname = f"food/big-{r['art']}.svg" if big else f"food/art-{r['art']}.svg"
+            ratio = svg_ratio(fname) if big else ART_RATIO
+            ah = min(rh - 30, int(300 / ratio)); aw = int(ah * ratio)
+            im = svg_image(fname, aw, ah)
             self.img.paste(im, (W - m - aw - 16, int(ry + (rh - ah) / 2)), im)
             tx, tw = m + 124, W - 2 * m - 124 - aw - 30
             lines = wrap(d, r["text"], tf, tw)
