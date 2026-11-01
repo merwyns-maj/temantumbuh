@@ -1,0 +1,102 @@
+{
+  "series": "main",
+  "job": "save",
+  "usia": "2-3 TAHUN",
+  "tiktok_title": "Kata riset, anak yang bantu beres-beres cenderung lebih fokus. Mulai umur 2",
+  "caption": "Ada riset dari La Trobe University (2022): anak 5 sampai 13 tahun yang lebih sering bantu kerjaan rumah, daya ingat dan kontrol dirinya cenderung lebih baik. Ini baru hubungan, belum tentu sebab-akibat. Tapi bantu beres-beres juga latihan tangan, latihan ikut aturan, dan rasa \"aku bisa\".\n\nMulainya bisa dari umur 2: mainan ke kotak, baju kotor ke keranjang, lap tumpahan, taruh sendok di meja. Yang penting ikut, bukan rapi.\n\nAnakmu paling semangat bantu yang mana? Ketik nomornya:\n1. Beresin mainan\n2. Baju ke keranjang\n3. Lap tumpahan\n4. Siapin meja\n\nSumber: Tepper dkk. 2022 (Australian Occupational Therapy Journal), Pathways.org, Children's Wisconsin\n\n#balita #montessori #parentingindonesia #mainandirumah #SeriMainDiRumah",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "KATA RISET",
+      "lines": [
+        "ANAK YANG",
+        "BANTU BERESIN,",
+        "LEBIH FOKUS."
+      ],
+      "accent": 2,
+      "sub": "Cenderung, bukan jaminan. Mulai umur 2.",
+      "mascot": "hore",
+      "hero": "w2e-beresin"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Riset La Trobe, anak 5-13 tahun",
+      "tips": "Yang sering bantu di rumah, fokus dan kontrol dirinya cenderung lebih baik. Hubungan, bukan jaminan.",
+      "art": "w2e-riset-fokus",
+      "art_big": true,
+      "tips_label": "TEMUANNYA"
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Mainan masuk kotak",
+      "tips": "Jadiin lomba atau nyanyi lagu beres-beres. Contohin dulu, baru ajak dia.",
+      "art": "w2e-mainan-kotak",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Baju kotor ke keranjang",
+      "tips": "Sekalian pilah warna: yang gelap ke sini, yang terang ke sana.",
+      "art": "w2e-baju-keranjang",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Lap tumpahan sendiri",
+      "tips": "Kasih lap kecil seukuran tangannya. Masih basah dikit nggak apa-apa.",
+      "art": "w2e-lap-tumpahan",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Bantu siapin meja makan",
+      "tips": "Bagian dia: sendok plastik dan serbet. Piring kaca biar orang dewasa.",
+      "art": "w2e-siapin-meja",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Tugas kecil umur 2-3:",
+      "rows": [
+        {
+          "text": "Mainan ke kotak",
+          "small": "Sambil nyanyi",
+          "art": "w2e-mainan-kotak"
+        },
+        {
+          "text": "Baju ke keranjang",
+          "small": "Sambil pilah warna",
+          "art": "w2e-baju-keranjang"
+        },
+        {
+          "text": "Lap tumpahan",
+          "small": "Pakai lap kecil",
+          "art": "w2e-lap-tumpahan"
+        },
+        {
+          "text": "Siapin meja",
+          "small": "Sendok dan serbet",
+          "art": "w2e-siapin-meja"
+        }
+      ],
+      "note": "Yang penting ikut, bukan rapi"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Pujinya pas dia lagi bantu,",
+      "accent": "bukan pas hasilnya rapi.",
+      "pill": "SIMPAN BUAT DICOBA BESOK",
+      "sub2": "Kasih satu tugas dulu. Besok tambah satu lagi.",
+      "source": "Sumber: Tepper dkk. 2022 (Australian Occupational Therapy Journal), Pathways.org, Children's Wisconsin",
+      "mascot": "hore"
+    }
+  ]
+}

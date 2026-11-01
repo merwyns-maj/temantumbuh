@@ -422,14 +422,15 @@
     {
       "day": "w2e-1",
       "date": "2026-11-02",
-      "series": "mpasi",
-      "slug": "w2e-d21-kirim-pengasuh",
-      "job": "send",
-      "title": "Anakmu dijagain nenek atau pengasuh? Slide ini buat mereka",
+      "series": "main",
+      "slug": "w2e-d32-bantu-beresin",
+      "job": "save",
+      "title": "Kata riset, anak yang bantu beres-beres cenderung lebih fokus. Mulai umur 2",
       "status": "siap review",
       "scheduled_wib": "2026-11-02 19:00",
       "design": "v2 hero",
-      "via": "Tebar"
+      "via": "Tebar",
+      "note": "Ganti w2e-d21 (madu dan anggur udah pernah dibahas), 1 Nov"
     },
     {
       "day": "w2n-2",
