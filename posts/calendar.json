@@ -414,10 +414,11 @@
       "slug": "w2n-30-menit-malam",
       "job": "save",
       "title": "Kerja dari pagi sampai sore? 30 menit sebelum tidur ini udah berarti banget",
-      "status": "siap review",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-02 12:00",
       "design": "v2 hero",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "fb13b375-cd04-4a9c-a92e-3d328922492d"
     },
     {
       "day": "w2e-1",
@@ -426,11 +427,12 @@
       "slug": "w2e-d32-bantu-beresin",
       "job": "save",
       "title": "Kata riset, anak yang bantu beres-beres cenderung lebih fokus. Mulai umur 2",
-      "status": "siap review",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-02 19:00",
       "design": "v2 hero",
       "via": "Tebar",
-      "note": "Ganti w2e-d21 (madu dan anggur udah pernah dibahas), 1 Nov"
+      "note": "Ganti w2e-d21 (madu dan anggur udah pernah dibahas), 1 Nov",
+      "tebar_post_id": "f5ec1e39-a450-4943-97ed-5745f1c6c853"
     },
     {
       "day": "w2n-2",
@@ -439,10 +441,11 @@
       "slug": "w2n-gigi-pertama",
       "job": "save",
       "title": "Tumbuh gigi nggak bikin demam. Contekan gigi pertama, pasta seukuran butir beras",
-      "status": "siap review",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-03 12:00",
       "design": "v2 hero",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "34a9af88-644a-43e4-8d0a-9ec8a6785d29"
     },
     {
       "day": "w2e-2",
@@ -451,10 +454,11 @@
       "slug": "w2e-d22-jawaban-sopan",
       "job": "save",
       "title": "'Kok anaknya kurus?' 5 jawaban sopan buat komentar keluarga",
-      "status": "siap review",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-03 19:00",
       "design": "v2",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "2e09d58c-3b23-4038-88b7-8f7ac646271b"
     },
     {
       "day": "w2n-3",
@@ -463,10 +467,11 @@
       "slug": "w2n-tanda-kenyang",
       "job": "save",
       "title": "Nutup mulut nggak selalu GTM. 4 tanda anak udah kenyang",
-      "status": "siap review",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-04 12:00",
       "design": "v2 hero",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "526c7906-2135-4b4c-8af6-89cc55261b05"
     },
     {
       "day": "w2e-3",
@@ -475,10 +480,11 @@
       "slug": "w2e-d27-buku-per-usia",
       "job": "save",
       "title": "Buku pertama bayi nggak harus mahal: per usia 0 sampai 3 tahun",
-      "status": "siap review",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-04 19:00",
       "design": "v2 hero",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "ce869af4-4784-4591-8366-b0c1f8bde643"
     },
     {
       "day": "w2n-4",
@@ -487,10 +493,11 @@
       "slug": "w2n-tidur-aman",
       "job": "send",
       "title": "Kasur bayi yang aman itu kosong. Kirim ke yang nidurin bayimu",
-      "status": "siap review",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-05 12:00",
       "design": "v2 hero",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "f1c08548-1c4c-4857-85f2-394128611432"
     },
     {
       "day": "w2e-4",
@@ -499,10 +506,11 @@
       "slug": "w2e-d29-belum-ngomong",
       "job": "save",
       "title": "Anakmu 16 bulan belum ngomong? Ini batas yang perlu dicek, bukan ditunggu",
-      "status": "siap review",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-05 19:00",
       "design": "v2",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "e4749765-8ff4-4707-a7b7-89814189e904"
     },
     {
       "day": "w2n-5",
@@ -511,10 +519,11 @@
       "slug": "w2n-nangis-malam",
       "job": "save",
       "title": "Bayi nangis jam 2 pagi? Kamu boleh taruh dia di boks dan tarik napas dulu",
-      "status": "siap review",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-06 12:00",
       "design": "v2 hero",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "f1268abc-389f-4bc1-9af1-ae30d55fc18e"
     },
     {
       "day": "w2e-5",
@@ -523,10 +532,11 @@
       "slug": "w2e-d23-alat-mpasi",
       "job": "send",
       "title": "Jangan checkout dulu: alat MPASI yang kepake vs yang jadi pajangan",
-      "status": "siap review",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-06 19:00",
       "design": "v2 hero",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "e88b6dc1-744b-4e4d-938e-cb7c1bf3891f"
     },
     {
       "day": "w2n-6",
@@ -535,10 +545,11 @@
       "slug": "w2n-porsi-mpasi",
       "job": "save",
       "title": "Baru mulai MPASI, 2-3 sendok itu normal. Contekan porsi per usia",
-      "status": "siap review",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-07 12:00",
       "design": "v2 hero",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "dee8ce1d-83a7-44cf-b109-b5379463b8d0"
     },
     {
       "day": "w2e-6",
@@ -547,10 +558,11 @@
       "slug": "w2e-d24-mainan-banyak-cara",
       "job": "save",
       "title": "1 mainan, banyak cara main: kardus, balok, bola, kain",
-      "status": "siap review",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-07 19:00",
       "design": "v2",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "30c066eb-3073-4f96-bc89-fc3d22498964"
     },
     {
       "day": "w2n-7",
@@ -559,10 +571,11 @@
       "slug": "w2n-demam-kapan-dokter",
       "job": "save",
       "title": "Anak demam? Lihat anaknya, bukan cuma termometernya. Ini kapan harus ke dokter",
-      "status": "siap review",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-08 12:00",
       "design": "v2 hero",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "d7661d7f-bc88-4bb0-8a28-818e25333554"
     },
     {
       "day": "w2e-7",
@@ -571,10 +584,11 @@
       "slug": "w2e-d15-screen-time",
       "job": "save",
       "title": "Anak di bawah 2 tahun dan layar: ini kata WHO (video call beda cerita)",
-      "status": "siap review",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-08 19:00",
       "design": "v2 hero",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "818403f5-0e77-403b-9d9b-42f1a5ea28f2"
     }
   ],
   "backlog": [
