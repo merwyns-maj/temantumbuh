@@ -34,6 +34,9 @@ SRC_URL = {
     "Orlando Health, Is Babywearing Hurting My Child's Hips? (2019)": "https://www.orlandohealth.com/content-hub/is-babywearing-hurting-my-childs-hips",
     "IDAI, Keterlambatan Bicara": "https://www.idai.or.id/artikel/klinik/keluhan-anak/keterlambatan-bicara",
     "IDAI, Mencegah Terlambat Bicara pada Anak": "https://www.idai.or.id/artikel/klinik/pengasuhan-anak/mencegah-terlambat-bicara-pada-anak",
+    "AAP, Swaddling: Is it Safe? (HealthyChildren.org)": "https://www.healthychildren.org/English/ages-stages/baby/diapers-clothing/Pages/Swaddling-Is-It-Safe.aspx",
+    "AAP, via The Bump: Is Baby Powder Safe?": "https://thebump.com/a/is-baby-powder-safe",
+    "Alodokter, Perawatan Tali Pusat": "https://www.alodokter.com/tidak-ada-yang-sulit-dalam-perawatan-tali-pusat",
     "BPOM": "https://cekbpom.pom.go.id",
     "Kemenkes RI, via Antara: Jangan sepelekan buku KIA": "https://www.antaranews.com/berita/2206862/jangan-sepelekan-buku-kia-untuk-pantau-tumbuh-kembang-anak",
 }
@@ -135,7 +138,7 @@ def main(out):
     # ---------------- Belanja Newborn
     ws = wb.create_sheet("Belanja Newborn")
     title(ws, "Belanja Newborn 0-3 bulan", "Wajib, berguna, atau skip dulu. Pilihan produk dan link toko segera diisi.")
-    rows = [[k, b, t, why, cek, "", "", "", note, src] for k, b, t, why, cek, note, src in K["newborn"]]
+    rows = [[k, f"{b} ({q})" if q != "-" else b, t, why, cek, "", "", "", note, src] for k, b, t, q, why, cek, note, src in K["newborn"]]
     table(ws, 4, ["Kategori", "Barang", "Tier", "Kenapa", "Cek sebelum beli", "Pilihan kami", "Shopee", "TikTok Shop", "Catatan", "Sumber"],
           rows, [16, 26, 14, 36, 36, 20, 12, 12, 34, 30], tier_col=2, src_col=9, todo_cols=(5, 6, 7))
     # ---------------- Worksheet
