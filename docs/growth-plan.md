@@ -119,3 +119,16 @@ Alternatives considered:
 Topic plan, week of 2 Nov:
 - 19:00: d21 kirim ke pengasuh, d22 jawaban sopan "kok kurus?", d27 buku per usia, d29 18 bulan belum ngomong (IDAI/KPSP), d23 alat MPASI kepake vs pajangan, d24 mainan 100 cara, d15 screen time (WHO).
 - 12:00 Contekan: tanda bayi kenyang, porsi MPASI per usia, cek suhu air mandi, posisi tidur aman, gigi pertama, nenangin bayi nangis malam, demam: kapan ke dokter.
+
+## 10. Review, 4 Nov (Tebar numbers, synced 4 Nov 08:39 WIB)
+
+| Metric | Before (21 to 26 Oct) | Since 27 Oct | Target 4 Nov |
+| --- | --- | --- | --- |
+| Median views per post (lifetime) | 227 (7 posts) | 608 (10 posts) | 3,000 |
+| Followers | 117 (21 Oct) | 168 (4 Nov) | 300 |
+| New followers per day | 2.9 | 4.9 | |
+| Followers per 1,000 views | 2.8 | 3.2 | 4 |
+
+- Organic is rising: median views up about 2.7x since the illustrated v2 design and the new hooks. Targets for 4 Nov are missed (they assumed the launch-week pace).
+- Best post since launch week: w2n gigi pertama (Contekan, 12:00), 5,588 views in under a day, 15.5x the account's usual. The first two noon Contekan posts both beat the 19:00 carousels of the same days (1,142 and 5,588 vs 562 and 556). Early, not yet a result: Test D is judged on 15 Nov.
+- Promote: skipped for now, per the rule agreed 29 Oct (organic is rising). Revisit on 15 Nov with Test D.
