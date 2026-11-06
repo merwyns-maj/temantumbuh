@@ -1,0 +1,78 @@
+{
+  "series": "pintar",
+  "job": "send",
+  "format": "story",
+  "usia": "1-3 TAHUN",
+  "tiktok_title": "Udah, jangan nangis. Jujur, siapa yang pernah bilang gini? Ini yang dia dengar",
+  "caption": "Biskuitnya cuma patah. Buat kita sepele, buat dia sedihnya beneran. Waktu kita bilang \"udah, jangan nangis\", niatnya biar dia cepat tenang. Tapi yang dia tangkap bisa beda.\n\nCoba tiga langkah ini:\n1. Sebut perasaannya\n2. Temenin dulu, nasihatnya nanti\n3. Udah tenang, baru cari jalan bareng\n\nKamu biasanya refleks bilang apa kalau anak nangis? Tulis di komen, kita belajar bareng 🤍\n\nSumber: Zero to Three, HSE (Irlandia)\n\n#emosianak #balita #tantrum #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "JUJUR, SIAPA YANG PERNAH?",
+      "lines": [
+        "\"UDAH,",
+        "JANGAN NANGIS.\""
+      ],
+      "accent": 1,
+      "sub": "Niatnya baik. Tapi yang dia dengar beda.",
+      "mascot": "kaget",
+      "hero": "s01-jangan-nangis"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Bukan karena nggak sayang",
+      "tips_label": "WAJAR KOK",
+      "tips": "Kita cuma pengen dia cepat tenang. Apalagi kalau lagi capek atau HP terus bunyi.",
+      "art": "s01-capek",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Tapi yang dia dengar:",
+      "tips_label": "DI KEPALANYA",
+      "tips": "Biskuit patah itu sepele buat kita. Buat dia, sedihnya beneran.",
+      "art": "s01-perasaanku-salah",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Langkah 1: Sebut perasaannya",
+      "tips_label": "COBA BILANG",
+      "tips": "\"Kamu sedih ya, biskuitnya patah.\" Turun ke tinggi matanya, suaranya pelan.",
+      "art": "s01-sebut-perasaan",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Langkah 2: Temenin dulu",
+      "tips_label": "COBA BILANG",
+      "tips": "\"Mama di sini.\" Peluk atau duduk di sebelahnya. Tenangmu bikin dia ikut tenang.",
+      "art": "s01-temenin",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Langkah 3: Baru cari jalan",
+      "tips_label": "COBA BILANG",
+      "tips": "\"Satu buat kamu, satu buat Ayah?\" Nasihat lebih masuk kalau dia udah tenang.",
+      "art": "s01-cari-jalan",
+      "art_big": true
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Peluk dulu,",
+      "accent": "nasihatnya nanti.",
+      "pill": "KIRIM KE PASANGANMU",
+      "sub2": "Kita belajar bareng. Ayah juga masih belajar.",
+      "source": "Sumber: Zero to Three, HSE (Irlandia)",
+      "mascot": "sayang"
+    }
+  ]
+}
