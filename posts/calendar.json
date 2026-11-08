@@ -598,10 +598,12 @@
       "slug": "w3n-ngobrol",
       "job": "save",
       "title": "Ngobrol soal cucian juga masuk hitungan. Contekan 4 kalimat buat ngajak anak ngobrol",
-      "status": "draft",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-09 12:00",
       "design": "v2",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "9126e635-3bb3-4bd5-adc4-1c0a11a2ee37",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
     },
     {
       "day": "w3e-1",
@@ -610,10 +612,12 @@
       "slug": "w3e-adhd",
       "job": "send",
       "title": "Anak 2 tahun nggak bisa diem? Itu belum tentu ADHD. Ini kata dokter anak",
-      "status": "draft",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-09 19:00",
       "design": "v2",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "76a824d4-2001-4d64-89e1-e61b7df91dd2",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
     },
     {
       "day": "w3n-2",
@@ -622,10 +626,12 @@
       "slug": "w3n-gigi-telat",
       "job": "save",
       "title": "1 tahun belum ada gigi itu bisa normal. Contekan buat yang giginya belum muncul",
-      "status": "draft",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-10 12:00",
       "design": "v2",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "c34eeb7a-c71c-411f-aa7b-1b995c4bfc26",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
     },
     {
       "day": "w3e-2",
@@ -634,10 +640,12 @@
       "slug": "w3e-newborn-skip",
       "job": "save",
       "title": "Belanja newborn: 4 barang yang sering dibeli, padahal bisa skip",
-      "status": "draft",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-10 19:00",
       "design": "v2",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "d8403e6a-8850-45a8-b3ef-96e3e874f747",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
     },
     {
       "day": "w3n-3",
@@ -646,10 +654,12 @@
       "slug": "w3n-kaki-o",
       "job": "send",
       "title": "Kaki O itu biasa sampai umur 2 tahun. Contekan kaki O, kirim ke grup keluarga",
-      "status": "draft",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-11 12:00",
       "design": "v2",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "b175c3fb-1dab-422b-a76f-eedc28384f4d",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
     },
     {
       "day": "w3e-3",
@@ -658,10 +668,12 @@
       "slug": "w3e-mitos-2",
       "job": "send",
       "title": "Bukan salah Nenek, bagian 2: bantal, pisang, madu, kuku. Ini versi update-nya",
-      "status": "draft",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-11 19:00",
       "design": "v2",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "28f5eeaa-d6c1-4cd6-a69f-d28b12c40198",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
     },
     {
       "day": "w3n-4",
@@ -670,10 +682,12 @@
       "slug": "w3n-ruam-popok",
       "job": "save",
       "title": "Ruam popok nggak butuh bedak. Contekan 4 langkah dan kapan ke dokter",
-      "status": "draft",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-12 12:00",
       "design": "v2",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "a6624071-3146-4a2f-803f-f69b50266bd0",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
     },
     {
       "day": "w3e-4",
@@ -682,10 +696,12 @@
       "slug": "w3e-s01-jangan-nangis",
       "job": "send",
       "title": "Udah, jangan nangis. Jujur, siapa yang pernah bilang gini? Ini yang dia dengar",
-      "status": "draft",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-12 19:00",
       "design": "v2",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "e3f5d7fe-ee77-4f3f-98ed-d1cb9013c973",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
     },
     {
       "day": "w3n-5",
@@ -694,10 +710,12 @@
       "slug": "w3n-kepala-peyang",
       "job": "save",
       "title": "Kepala peyang nggak ganggu otaknya. Contekan biar kepala bayi tetap bulat, tanpa bantal peyang",
-      "status": "draft",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-13 12:00",
       "design": "v2",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "106efa38-9f39-4c2a-98da-2c2d438364e0",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
     },
     {
       "day": "w3e-5",
@@ -706,10 +724,12 @@
       "slug": "w3e-kata-pertama",
       "job": "save",
       "title": "\"Aaa ooo\" itu udah latihan ngomong. Urutan bicara anak dari ocehan sampai kalimat",
-      "status": "draft",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-13 19:00",
       "design": "v2",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "6e5d8745-fd4d-4d26-9bc3-ca32035f494c",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
     },
     {
       "day": "w3n-6",
@@ -718,10 +738,12 @@
       "slug": "w3n-cegukan",
       "job": "save",
       "title": "Bayi cegukan nggak perlu dikagetin. Contekan cegukan bayi dan kapan cek ke dokter",
-      "status": "draft",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-14 12:00",
       "design": "v2",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "9a8bd038-0116-4d80-9d09-0519f83145d6",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
     },
     {
       "day": "w3e-6",
@@ -730,10 +752,12 @@
       "slug": "w3e-gelar-dokter-anak",
       "job": "save",
       "title": "Arti Sp.A, Subsp.AI, Subsp.GH dan kode lain di belakang nama dokter anak",
-      "status": "draft",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-14 19:00",
       "design": "v2",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "71f00422-8104-4154-a805-1b0a56b0e141",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
     },
     {
       "day": "w3n-7",
@@ -742,10 +766,12 @@
       "slug": "w3n-asip-simpan",
       "job": "send",
       "title": "ASIP di freezer kulkas 1 pintu cuma tahan 2 minggu. Contekan simpan ASIP dari Kemenkes",
-      "status": "draft",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-15 12:00",
       "design": "v2",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "1ee28ba0-e0f4-4d01-852c-5972df98a92a",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
     },
     {
       "day": "w3e-7",
@@ -754,10 +780,12 @@
       "slug": "w3e-jawaban-sopan-2",
       "job": "send",
       "title": "Bayi kecil nggak bisa bau tangan. 5 jawaban sopan buat komentar keluarga, bagian 2",
-      "status": "draft",
+      "status": "terjadwal",
       "scheduled_wib": "2026-11-15 19:00",
       "design": "v2",
-      "via": "Tebar"
+      "via": "Tebar",
+      "tebar_post_id": "4c559a95-184b-4468-aa13-755d61945a78",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
     }
   ],
   "backlog": [
