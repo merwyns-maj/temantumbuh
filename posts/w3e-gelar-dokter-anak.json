@@ -1,0 +1,142 @@
+{
+  "series": "pintar",
+  "job": "save",
+  "usia": "0-18 TAHUN",
+  "tiktok_title": "Arti Sp.A, Subsp.AI, Subsp.GH dan kode lain di belakang nama dokter anak",
+  "caption": "Sp.A artinya dokter spesialis anak. Kalau di belakangnya ada Subsp., dia dalami satu bidang lagi: Subsp.AI alergi dan imun, Subsp.GH pencernaan dan hati, Subsp.TKPS tumbuh kembang, dan seterusnya. Kadang ada (K) di belakangnya, artinya konsultan. Ada juga yang cuma nulis Sp.A(K), bidangnya bisa dicek di profil dokter di web RS.\n\nKebanyakan keluhan cukup ke Sp.A dulu, nanti dirujuk kalau perlu. Pakai BPJS, mulainya dari faskes 1 tempat kamu terdaftar. Kalau darurat, langsung ke IGD, nggak perlu nunggu rujukan.\n\nAnakmu pernah dirujuk ke dokter Subsp. apa?\n\nSumber: FKUI (Program Studi Subspesialis Ilmu Kesehatan Anak), Perpres 82/2018\n\n#dokteranak #spesialisanak #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "CONTEKAN GELAR",
+      "lines": [
+        "DOKTER ANAK",
+        "JUGA PUNYA",
+        "JURUSAN LAGI."
+      ],
+      "accent": 2,
+      "sub": "Kodenya ada di belakang nama.",
+      "mascot": "riset",
+      "hero": "w3e-gelar-pintu"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Cara baca gelarnya",
+      "tips": "Sp.A itu dokter spesialis anak. Subsp. di belakangnya, bidang yang dia dalami. (K) artinya konsultan.",
+      "tips_label": "CONTOH",
+      "art": "w3e-baca-gelar",
+      "art_big": true,
+      "number": false
+    },
+    {
+      "type": "cheat",
+      "kicker": "SCREENSHOT DULU",
+      "title": "Yang paling sering ketemu",
+      "rows": [
+        {
+          "text": "Subsp.AI: alergi, imun",
+          "small": "Eksim, alergi makanan",
+          "art": "w3e-subsp-ai"
+        },
+        {
+          "text": "Subsp.GH: pencernaan, hati",
+          "small": "Diare lama, kuning lama",
+          "art": "w3e-subsp-gh"
+        },
+        {
+          "text": "Subsp.TKPS: tumbuh kembang",
+          "small": "Telat bicara, telat jalan",
+          "art": "w3e-subsp-tkps"
+        },
+        {
+          "text": "Subsp.Resp: paru, napas",
+          "small": "Batuk lama, asma",
+          "art": "w3e-subsp-resp"
+        }
+      ]
+    },
+    {
+      "type": "cheat",
+      "kicker": "LANJUTANNYA",
+      "title": "Kalau keluhannya khusus",
+      "rows": [
+        {
+          "text": "Subsp.NPM: gizi, metabolik",
+          "small": "Berat badan seret",
+          "art": "w3e-subsp-npm"
+        },
+        {
+          "text": "Subsp.Neuro: saraf",
+          "small": "Epilepsi, kejang berulang",
+          "art": "w3e-subsp-neuro"
+        },
+        {
+          "text": "Subsp.Kardio: jantung",
+          "small": "Kelainan jantung bawaan",
+          "art": "w3e-subsp-kardio"
+        },
+        {
+          "text": "Subsp.Nefro: ginjal",
+          "small": "Infeksi saluran kemih berulang",
+          "art": "w3e-subsp-nefro"
+        }
+      ]
+    },
+    {
+      "type": "cheat",
+      "kicker": "LEBIH JARANG",
+      "title": "Tapi perlu tahu juga",
+      "rows": [
+        {
+          "text": "Subsp.End: hormon",
+          "small": "Tinggi badan, pubertas, tiroid",
+          "art": "w3e-subsp-end"
+        },
+        {
+          "text": "Subsp.H.Onk: darah, kanker",
+          "small": "Anemia berat, gampang memar",
+          "art": "w3e-subsp-honk"
+        },
+        {
+          "text": "Subsp.IPT: infeksi, tropis",
+          "small": "Demam lama, DBD, tifus",
+          "art": "w3e-subsp-ipt"
+        },
+        {
+          "text": "Subsp.Neo: bayi baru lahir",
+          "small": "Terutama yang prematur",
+          "art": "w3e-subsp-neo"
+        }
+      ],
+      "note": "Cuma Sp.A(K)? Bidangnya cek di web RS."
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Pakai BPJS? Mulai dari faskes 1",
+      "tips": "Puskesmas atau klinik tempat kamu terdaftar, dari situ dirujuk ke RS. Darurat? Langsung ke IGD.",
+      "art": "w3e-alur-rujuk",
+      "art_big": true,
+      "number": false,
+      "tips_label": "ALURNYA"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Kebanyakan keluhan cukup ke Sp.A dulu.",
+      "accent": "Subsp. biasanya lewat rujukan.",
+      "pill": "SIMPAN BUAT PAS DIRUJUK",
+      "sub2": "Biar nggak bingung baca papan nama di RS.",
+      "source": "Sumber: FKUI (Prodi Subspesialis IKA), Perpres 82/2018",
+      "disclaimer": true,
+      "mascot": "halo"
+    }
+  ],
+  "sources": [
+    "FKUI, Program Studi Subspesialis Ilmu Kesehatan Anak: 14 peminatan, graduates titled Sp.A(K) / Sp.A, Subsp. per peminatan. https://fk.ui.ac.id/program-subspesialis-ilmu-kesehatan-anak.html",
+    "Title strings checked on hospital and directory profiles (RS UI, RSCM, Primaya, Hermina, Mitra Keluarga, Mandaya, medicastore) on 4 Nov 2026. (K) is used inconsistently. Full list in posts/d22-gelar-dokter-anak.cek-fakta.json (project docs).",
+    "BPJS referral flow: Perpres 82/2018 Pasal 55 (FKTP first, then referral to FKRTL). Pasal 55(2)b and 63(1): emergencies may go straight to any facility. https://peraturan.go.id/files/ps82-2018.pdf"
+  ],
+  "notes": "Converted from d22-gelar-dokter-anak (fact-checked 4 Nov: 16 OK, 3 overstated fixed). Keeps the fixes: 'Epilepsi, kejang berulang', IGD exception, Sp.A(K) note. Replaces w3e-main-nunggu-masak on Sat 14 Nov 19:00 at Merwyn's request."
+}

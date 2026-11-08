@@ -726,10 +726,10 @@
     {
       "day": "w3e-6",
       "date": "2026-11-14",
-      "series": "main",
-      "slug": "w3e-main-nunggu-masak",
+      "series": "pintar",
+      "slug": "w3e-gelar-dokter-anak",
       "job": "save",
-      "title": "Lakban kertas di pintu kulkas udah jadi mainan. 5 ide main sambil nunggu masakan matang",
+      "title": "Arti Sp.A, Subsp.AI, Subsp.GH dan kode lain di belakang nama dokter anak",
       "status": "draft",
       "scheduled_wib": "2026-11-14 19:00",
       "design": "v2",
@@ -793,6 +793,10 @@
     "Buah yang wajib dipotong dulu sebelum masuk kotak bekal (anak SD)",
     "Uang jajan anak SD: biar belajar ngatur (jembatan ke worksheet Momo)",
     "Biaya tahun pertama punya bayi",
-    "Checklist hari pertama TK (jadwalkan Juni)"
+    "Checklist hari pertama TK (jadwalkan Juni)",
+    {
+      "slug": "w3e-main-nunggu-masak",
+      "note": "Built for 14 Nov, swapped out 8 Nov: Merwyn didn't like the lakban idea. Do not reuse as is."
+    }
   ]
 }
