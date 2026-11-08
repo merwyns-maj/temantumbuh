@@ -1,0 +1,59 @@
+{
+  "series": "pintar",
+  "job": "save",
+  "usia": "0-2 TAHUN",
+  "tiktok_title": "Ruam popok nggak butuh bedak. Contekan 4 langkah dan kapan ke dokter",
+  "caption": "Ruam popok nggak butuh bedak. Yang bantu justru simpel: ganti popok tiap basah atau kotor (paling lama tiap 4 jam), bilas pakai air, biarin kulitnya kering, lalu oles salep zinc. Kata IDAI, biasanya membaik dalam 2-3 hari. Kalau nggak membaik, makin luas, ada nanah, lepuh atau demam, bawa ke dokter anak.\n\nDulu di rumahmu, ruam popok biasanya dikasih apa?\n\nSumber: IDAI, NHS, American Academy of Pediatrics (healthychildren.org)\n\n#ruampopok #bayi #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "MITOS POPOK",
+      "lines": [
+        "RUAM POPOK",
+        "NGGAK BUTUH",
+        "BEDAK."
+      ],
+      "accent": 2,
+      "sub": "Yang bantu: air, udara, salep zinc.",
+      "hero": "w3n-ruam-popok"
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Contekan ruam popok:",
+      "rows": [
+        {
+          "text": "Ganti tiap basah",
+          "small": "Paling lama tiap 4 jam",
+          "art": "w3n-ruam-ganti"
+        },
+        {
+          "text": "Bilas pakai air",
+          "small": "Lalu tepuk-tepuk pelan",
+          "art": "w3n-ruam-air"
+        },
+        {
+          "text": "Biarin kering dulu",
+          "small": "Angin-anginkan sebentar",
+          "art": "w3n-ruam-angin"
+        },
+        {
+          "text": "Oles salep zinc",
+          "small": "Jadi lapisan pelindung kulit",
+          "art": "w3n-ruam-salep"
+        }
+      ],
+      "note": "Skip: bedak, sabun, tisu wangi atau beralkohol"
+    },
+    {
+      "type": "cta",
+      "headline": "Ruam popok itu umum.",
+      "accent": "Biasanya membaik 2-3 hari.",
+      "pill": "SIMPAN BUAT GANTI POPOK",
+      "sub2": "Bawa ke dokter anak kalau nggak membaik, makin luas, bernanah, lepuh, atau demam.",
+      "source": "Sumber: IDAI, NHS, American Academy of Pediatrics (healthychildren.org)",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
+  ]
+}

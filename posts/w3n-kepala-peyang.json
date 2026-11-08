@@ -1,0 +1,59 @@
+{
+  "series": "pintar",
+  "job": "save",
+  "usia": "0-6 BULAN",
+  "tiktok_title": "Kepala peyang nggak ganggu otaknya. Contekan biar kepala bayi tetap bulat, tanpa bantal peyang",
+  "caption": "Kepala peyang karena posisi nggak ganggu otak dan perkembangan anak, dan sering membaik sendiri seiring kepalanya tumbuh. Tidurnya tetap telentang. Cegahnya pas dia melek: tummy time ditemani, gantian arah kepala, dan jangan kelamaan di car seat atau bouncer. Bantal peyang nggak disarankan buat tidur.\n\nAnakmu dulu sukanya noleh ke kiri atau ke kanan?\n\nSumber: American Academy of Pediatrics (healthychildren.org), NHS\n\n#kepalapeyang #bayibaru #newborn #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "MITOS KEPALA",
+      "lines": [
+        "KEPALA PEYANG",
+        "NGGAK GANGGU",
+        "OTAKNYA."
+      ],
+      "accent": 2,
+      "sub": "Yang karena posisi tidur, kata AAP dan NHS.",
+      "hero": "w3n-kepala-peyang"
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Contekan kepala peyang:",
+      "rows": [
+        {
+          "text": "Tidur tetap telentang",
+          "small": "Paling aman buat tidurnya",
+          "art": "w3n-peyang-telentang"
+        },
+        {
+          "text": "Tummy time pas melek",
+          "small": "Ditemani, dicicil sampai 1 jam",
+          "art": "w3n-peyang-tummy"
+        },
+        {
+          "text": "Gantian arah kepala",
+          "small": "Tukar ujung kasur, ganti lengan",
+          "art": "w3n-peyang-arah"
+        },
+        {
+          "text": "Kurangi lama di car seat",
+          "small": "Juga bouncer dan ayunan",
+          "art": "w3n-peyang-duduk"
+        }
+      ],
+      "note": "Bantal peyang nggak aman buat tidur bayi"
+    },
+    {
+      "type": "cta",
+      "headline": "Sering membaik sendiri.",
+      "accent": "Seiring kepalanya tumbuh.",
+      "pill": "SIMPAN BUAT 6 BULAN PERTAMA",
+      "sub2": "Ke dokter anak kalau bentuk kepalanya bikin kamu khawatir, atau kepalanya selalu miring ke satu sisi.",
+      "source": "Sumber: American Academy of Pediatrics (healthychildren.org), NHS",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "series": "mpasi",
+  "job": "send",
+  "usia": "0-12 BULAN",
+  "tiktok_title": "Bayi 0-6 bulan nggak butuh air putih, panas pun. Contekan air putih sampai 1 tahun",
+  "caption": "Bayi 0-6 bulan nggak butuh air putih, bahkan pas cuaca panas. ASI hampir 90% isinya air (IDAI). Kalau dia kelihatan haus, susui lagi. Mulai 6 bulan, kenalin air sedikit-sedikit pakai gelas pas MPASI, kira-kira 120-240 ml sehari sampai umur 1 tahun (AAP). Dulu kasih air itu wajar, sekarang ilmunya udah nambah.\n\nKamu juga pernah ditanya \"udah dikasih air belum?\"\n\nSumber: WHO, IDAI, American Academy of Pediatrics (healthychildren.org)\n\n#asieksklusif #mpasi #bayi #parentingindonesia #SeriMPASI",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "MITOS AIR PUTIH",
+      "lines": [
+        "BAYI 0-6 BULAN",
+        "NGGAK BUTUH",
+        "AIR PUTIH."
+      ],
+      "accent": 2,
+      "sub": "Panas pun. ASI hampir 90% isinya air.",
+      "hero": "w3n-air-putih"
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Contekan air putih bayi:",
+      "rows": [
+        {
+          "text": "0-6 bulan: ASI aja",
+          "small": "Tanpa air putih, panas pun",
+          "art": "w3n-air-asi"
+        },
+        {
+          "text": "Susui lebih sering",
+          "small": "Pas panas, itu cara dia minum",
+          "art": "w3n-air-haus"
+        },
+        {
+          "text": "6 bulan: kenalin gelas",
+          "small": "Air sedikit-sedikit pas MPASI",
+          "art": "w3n-air-gelas"
+        },
+        {
+          "text": "6-12 bulan: 120-240 ml",
+          "small": "Sehari, ASI tetap lanjut",
+          "art": "w3n-air-takaran"
+        }
+      ],
+      "note": "Air terlalu dini bikin bayi nyusu lebih sedikit"
+    },
+    {
+      "type": "cta",
+      "headline": "Dulu kasih air itu wajar.",
+      "accent": "Sekarang kita tahu ASI cukup.",
+      "pill": "KIRIM KE NENEK DAN PENGASUH",
+      "sub2": "Kata WHO, air sebelum 6 bulan bisa bikin bayi nyusu lebih sedikit, diare, sampai kurang gizi.",
+      "source": "Sumber: WHO, IDAI, American Academy of Pediatrics (healthychildren.org)",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ]
+}

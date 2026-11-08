@@ -1,0 +1,59 @@
+{
+  "series": "pintar",
+  "job": "save",
+  "usia": "0-12 BULAN",
+  "tiktok_title": "Bayi cegukan nggak perlu dikagetin. Contekan cegukan bayi dan kapan cek ke dokter",
+  "caption": "Cegukan pada bayi itu umum dan biasanya berhenti sendiri dalam beberapa menit. Kata AAP, yang lebih terganggu biasanya orang tuanya, bukan bayinya. Kalau cegukan pas nyusu: jeda dulu, tegakkan badannya, sendawakan. Dikagetin atau tempel benang di dahi nggak perlu, dan bayi di bawah 6 bulan nggak perlu air putih.\n\nDulu di rumahmu, bayi cegukan biasanya diapain?\n\nSumber: American Academy of Pediatrics (healthychildren.org), Pregnancy Birth Baby (Pemerintah Australia), WHO\n\n#cegukanbayi #bayi #newborn #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "MITOS CEGUKAN",
+      "lines": [
+        "BAYI CEGUKAN",
+        "NGGAK PERLU",
+        "DIKAGETIN."
+      ],
+      "accent": 2,
+      "sub": "Biasanya berhenti sendiri dalam beberapa menit.",
+      "hero": "w3n-cegukan"
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Contekan cegukan bayi:",
+      "rows": [
+        {
+          "text": "Jeda nyusu sebentar",
+          "small": "Lanjut lagi kalau udah reda",
+          "art": "w3n-cegukan-jeda"
+        },
+        {
+          "text": "Tegakkan, sendawakan",
+          "small": "Tepuk-tepuk pelan punggungnya",
+          "art": "w3n-cegukan-sendawa"
+        },
+        {
+          "text": "Susui pas masih tenang",
+          "small": "Sebelum dia lapar banget",
+          "art": "w3n-cegukan-tenang"
+        },
+        {
+          "text": "Trik lama nggak perlu",
+          "small": "Dikagetin, tempel benang di dahi",
+          "art": "w3n-cegukan-mitos"
+        }
+      ],
+      "note": "Di bawah 6 bulan nggak perlu air putih, ASI cukup"
+    },
+    {
+      "type": "cta",
+      "headline": "Dia biasanya santai aja.",
+      "accent": "Yang panik malah kita.",
+      "pill": "SIMPAN BUAT PAS CEGUKAN",
+      "sub2": "Cek ke dokter anak kalau cegukan sering banget disertai rewel kesakitan pas nyusu, muntah menyembur, atau nggak mau nyusu.",
+      "source": "Sumber: American Academy of Pediatrics (healthychildren.org), Pregnancy Birth Baby (Pemerintah Australia), WHO",
+      "disclaimer": true,
+      "mascot": "santai"
+    }
+  ]
+}

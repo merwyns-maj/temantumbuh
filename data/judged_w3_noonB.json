@@ -1,0 +1,10 @@
+{
+  "w3n-ruam-popok": {"hook": 4, "job": 4, "relief": 4, "trust": 5, "fresh": 3,
+    "note": "Bedak is the everyday Indonesian reflex, so the myth flip lands; ruam popok itself is a saturated topic told as a plain 4-step list."},
+  "w3n-kepala-peyang": {"hook": 4, "job": 4, "relief": 5, "trust": 5, "fresh": 4,
+    "note": "Relief hook (not the brain) plus the bantal peyang warning; may draw pushback from parents who already bought one, keep replies gentle."},
+  "w3n-cegukan": {"hook": 3, "job": 4, "relief": 5, "trust": 4, "fresh": 3,
+    "note": "Startling is more an adult trick than a baby one, so the hook is weaker; no primary source calls the old tricks harmful, so the copy only says nggak perlu."},
+  "w3n-air-putih": {"hook": 4, "job": 5, "relief": 4, "trust": 5, "fresh": 3,
+    "note": "Clear send to nenek or pengasuh, framed kindly; the message is well known from IDAI campaigns, the hot-weather angle is the fresh part."}
+}
