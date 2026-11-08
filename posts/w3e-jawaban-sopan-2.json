@@ -1,0 +1,107 @@
+{
+  "series": "pintar",
+  "job": "send",
+  "usia": "0-3 TAHUN",
+  "tiktok_title": "Bayi kecil nggak bisa bau tangan. 5 jawaban sopan buat komentar keluarga, bagian 2",
+  "caption": "Komentar keluarga biasanya tanda sayang. Ilmunya aja yang udah update, bukan salah Nenek. Ini 5 jawaban santai plus faktanya:\n\n1. Belum jalan: WHO nyatat anak sehat mulai jalan sendiri di rentang sekitar 8 sampai 18 bulan. 18 bulan belum jalan, cek ke dokter anak.\n2. Bau tangan: kata AAP, bayi kecil nggak bisa jadi manja karena diperhatiin.\n3. Pendiam: malu sama orang baru itu wajar, CDC malah masukin ke daftar perkembangan umur 9 bulan.\n4. ASI aja cukup? WHO dan Kemenkes nyaranin ASI aja di 6 bulan pertama. Ragu, tanya dokter anak.\n5. Belum disapih: WHO dan Kemenkes nyaranin ASI lanjut sampai 2 tahun, WHO bilang boleh lebih.\n\nKomentar apa lagi yang sering kamu dengar?\n\nSumber: WHO, Kemenkes, AAP (healthychildren.org), CDC\n\n#parentingindonesia #tumbuhkembang #keluarga #bayi #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "JAWABAN SOPAN 2",
+      "lines": [
+        "BAYI KECIL",
+        "NGGAK BISA",
+        "BAU TANGAN."
+      ],
+      "accent": 2,
+      "sub": "Plus 4 jawaban santai buat komentar keluarga.",
+      "mascot": "santai",
+      "hero": "w3e-bau-tangan"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "\"Lagi nabung tenaga, Nek. Masih dalam rentang kok.\"",
+      "tips": "WHO: anak sehat mulai jalan sendiri di 8-18 bulan. Lewat itu, cek ke dokter anak.",
+      "tips_label": "FAKTANYA",
+      "art": "w3e-belum-jalan",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "\"Mumpung masih muat digendong, Tante.\"",
+      "tips": "Kata AAP, bayi kecil nggak bisa jadi manja karena diperhatiin. Peluk aja.",
+      "tips_label": "FAKTANYA",
+      "art": "w3e-digendong",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "\"Lagi ngamatin. Kayak ayahnya pas ngelamar.\"",
+      "tips": "Kata CDC, malu sama orang baru itu wajar. Di rumah juga diam? Tanya dokter anak.",
+      "tips_label": "FAKTANYA",
+      "art": "w3e-pendiam",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "\"Kenyang, Nek. 6 bulan pertama ASI aja udah cukup.\"",
+      "tips": "Saran WHO dan Kemenkes. Timbang tiap bulan, ragu dikit tanya dokter anak.",
+      "tips_label": "FAKTANYA",
+      "art": "w3e-asi-kenyang",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "\"Masih boleh sampai 2 tahun, Nek. Atau lebih.\"",
+      "tips": "Saran WHO dan Kemenkes, ditemenin MPASI. Kapan berhenti, kamu yang mutusin.",
+      "tips_label": "FAKTANYA",
+      "art": "w3e-sapih",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Pas dikomentarin keluarga:",
+      "rows": [
+        {
+          "text": "Belum jalan",
+          "small": "Rentangnya sampai 18 bulan",
+          "art": "w3e-belum-jalan"
+        },
+        {
+          "text": "Bau tangan",
+          "small": "Bayi kecil nggak bisa manja",
+          "art": "w3e-digendong"
+        },
+        {
+          "text": "Pendiam",
+          "small": "Malu sama orang baru itu wajar",
+          "art": "w3e-pendiam"
+        },
+        {
+          "text": "Belum disapih",
+          "small": "ASI boleh sampai 2 tahun",
+          "art": "w3e-sapih"
+        }
+      ],
+      "note": "Senyum, makasih, ganti topik"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Komentarnya tanda sayang.",
+      "accent": "Jawabnya boleh santai.",
+      "pill": "KIRIM KE PASANGANMU",
+      "sub2": "Biar kalian kompak jawabnya pas kumpul keluarga.",
+      "source": "Sumber: WHO, Kemenkes, AAP (healthychildren.org), CDC",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ]
+}

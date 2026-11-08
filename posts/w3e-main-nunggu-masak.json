@@ -1,0 +1,101 @@
+{
+  "series": "main",
+  "job": "save",
+  "usia": "1-3 TAHUN",
+  "tiktok_title": "Lakban kertas di pintu kulkas udah jadi mainan. 5 ide main sambil nunggu masakan matang",
+  "caption": "Nunggu nasi atau sayur matang, anak udah nempel di kaki. Coba 5 ini: lakban kertas di pintu kulkas, bola koran dilempar ke keranjang, sortir sayur dan buah utuh, tarik kain dari kotak tisu bekas, dan siaran langsung dari dapur.\n\nAturan amannya sama semua: dia main di titik yang jauh dari kompor, gagang panci hadap ke belakang, dan kamu tetap bisa lihat dia. Magnet kecil kulkas simpan dulu (AAP), dan barang yang muat masuk gulungan tisu toilet jangan dikasih ke anak di bawah 3 tahun (CPSC).\n\nAnakmu paling betah yang nomor berapa?\n\nSumber: AAP (healthychildren.org), Zero to Three, CPSC\n\n#mainananak #balita #stimulasianak #parentingindonesia #SeriMainDiRumah",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "SAMBIL NUNGGU MATANG",
+      "lines": [
+        "LAKBAN KERTAS",
+        "DI PINTU KULKAS",
+        "UDAH MAINAN."
+      ],
+      "accent": 2,
+      "sub": "5 ide main dekat dapur, jauh dari kompor.",
+      "mascot": "hore",
+      "hero": "w3e-masak-main"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Copot lakban di pintu kulkas",
+      "tips": "Tempel 10 potong lakban kertas, biar dia copotin satu-satu. Magnet kecil kulkas simpan dulu, bisa ketelan.",
+      "art": "w3e-lakban-kulkas",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Lempar bola koran ke keranjang",
+      "tips": "Remas koran, lilit lakban kertas. Bikin segede jeruk, jangan kecil-kecil.",
+      "art": "w3e-bola-koran",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Sortir wortel, kentang, apel utuh",
+      "tips": "Yang oranye ke keranjang ini, sisanya ke sana. Anggur dan tomat ceri jangan, bisa nyangkut.",
+      "art": "w3e-sortir-sayur",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Tarik kain dari kotak tisu bekas",
+      "tips": "Isi pakai lap dan serbet bersih. Pilih yang tanpa tali dan tanpa kancing.",
+      "art": "w3e-kotak-tisu",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Siaran langsung dari dapur",
+      "tips": "Dia di kursi makan, jauh dari kompor. Kamu ceritain: \"Wortelnya Mama potong.\"",
+      "art": "w3e-siaran-masak",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Main sambil nunggu matang:",
+      "rows": [
+        {
+          "text": "Lakban di kulkas",
+          "small": "Magnet kecil simpan dulu",
+          "art": "w3e-lakban-kulkas"
+        },
+        {
+          "text": "Bola koran",
+          "small": "Segede jeruk",
+          "art": "w3e-bola-koran"
+        },
+        {
+          "text": "Sortir sayur utuh",
+          "small": "Anggur jangan",
+          "art": "w3e-sortir-sayur"
+        },
+        {
+          "text": "Tarik kain",
+          "small": "Tanpa tali, tanpa kancing",
+          "art": "w3e-kotak-tisu"
+        }
+      ],
+      "note": "Muat masuk gulungan tisu toilet? Simpan dulu"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Dia sibuk di zona aman,",
+      "accent": "masakanmu matang tenang.",
+      "pill": "SIMPAN BUAT MASAK BESOK",
+      "sub2": "Gagang panci hadap ke belakang, dan dia tetap kelihatan dari tempatmu berdiri.",
+      "source": "Sumber: AAP (healthychildren.org), Zero to Three, CPSC",
+      "mascot": "hore"
+    }
+  ]
+}

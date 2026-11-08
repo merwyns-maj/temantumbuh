@@ -1,0 +1,102 @@
+{
+  "series": "pintar",
+  "job": "save",
+  "usia": "0-3 TAHUN",
+  "tiktok_title": "\"Aaa ooo\" itu udah latihan ngomong. Urutan bicara anak dari ocehan sampai kalimat",
+  "caption": "Kata IDAI, bayi mulai \"aaa\" dan \"uuh\" sekitar umur 2-3 bulan. Sekitar 6 bulan jadi ocehan \"bababa\", 9-12 bulan mulai \"mama\" atau \"papa\" yang ada artinya, 12-18 bulan kata pertama, dan 18-24 bulan mulai gabung 2 kata. Daftar CDC (2022) isinya hal yang udah bisa kebanyakan anak (75%) di umur itu, jadi wajar kalau ada yang lebih cepat atau lebih lambat dikit.\n\nTiap tahap, satu hal yang bisa kamu lakuin: balas ocehannya terus jeda, tiru suaranya, sambung suaranya jadi kata, sebut nama benda yang dia lihat atau tunjuk, dan tambah 1 kata dari omongannya.\n\nKalau di 16 bulan belum ada 1 kata yang ada artinya, atau di 24 bulan belum bisa 2 kata, bawa ke dokter anak. Batas lengkapnya ada di post kami tanggal 5 Nov.\n\nKata pertama anakmu apa, dan umur berapa?\n\nSumber: IDAI, CDC Learn the Signs. Act Early. (2022)\n\n#perkembangananak #bayi #balita #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "KATA PERTAMA",
+      "lines": [
+        "\"AAA OOO\" ITU",
+        "UDAH LATIHAN",
+        "NGOMONG."
+      ],
+      "accent": 2,
+      "sub": "Dari ocehan sampai kalimat, ini urutannya.",
+      "mascot": "sayang",
+      "hero": "w3e-ocehan"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "2-4 bulan: \"aaa\", \"ooo\"",
+      "tips": "Pas dia ngoceh, balas, terus diam 2 detik. Kasih dia giliran \"jawab\".",
+      "art": "w3e-aaa-ooo",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "6 bulan: gantian bersuara, tiup \"brrr\"",
+      "tips": "Tiru suaranya, kayak main pingpong. Dia \"brrr\", kamu \"brrr\" juga.",
+      "art": "w3e-brrr",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "9 bulan: \"mamama\", \"bababa\"",
+      "tips": "Ulang suaranya, terus sambung jadi kata. \"Ba-ba\" jadi \"bola\".",
+      "art": "w3e-bababa",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "12-18 bulan: kata pertama",
+      "tips": "Biasanya \"mama\" atau \"papa\" dulu. Pas dia lihat kucing atau lampu, sebut namanya.",
+      "art": "w3e-kata-pertama",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "18-24 bulan: gabung 2 kata",
+      "tips": "Tambah 1 kata dari omongannya. \"Mobil jalan\" jadi \"mobil jalan cepat\".",
+      "art": "w3e-dua-kata",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Ngomongnya, kamu jawabnya:",
+      "rows": [
+        {
+          "text": "2-4 bulan: \"aaa ooo\"",
+          "small": "Balas, terus jeda",
+          "art": "w3e-aaa-ooo"
+        },
+        {
+          "text": "9 bulan: \"bababa\"",
+          "small": "Sambung jadi kata",
+          "art": "w3e-bababa"
+        },
+        {
+          "text": "12 bulan: \"mama\"",
+          "small": "Sebut yang dia lihat",
+          "art": "w3e-kata-pertama"
+        },
+        {
+          "text": "2 tahun: 2 kata",
+          "small": "Tambah 1 kata",
+          "art": "w3e-dua-kata"
+        }
+      ],
+      "note": "16 bulan belum ada 1 kata? Ke dokter anak"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Dia ngoceh, kamu jawab.",
+      "accent": "Itu udah stimulasi.",
+      "pill": "SIMPAN SAMPAI DIA 3 TAHUN",
+      "sub2": "Tiap anak beda cepatnya. Batas yang perlu dicek ada di post kami 5 Nov.",
+      "source": "Sumber: IDAI, CDC Learn the Signs. Act Early. (2022)",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
+  ]
+}
