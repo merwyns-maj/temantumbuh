@@ -37,6 +37,8 @@ SRC_URL = {
     "AAP, Swaddling: Is it Safe? (HealthyChildren.org)": "https://www.healthychildren.org/English/ages-stages/baby/diapers-clothing/Pages/Swaddling-Is-It-Safe.aspx",
     "AAP, via The Bump: Is Baby Powder Safe?": "https://thebump.com/a/is-baby-powder-safe",
     "Alodokter, Perawatan Tali Pusat": "https://www.alodokter.com/tidak-ada-yang-sulit-dalam-perawatan-tali-pusat",
+    "AAP, Make Baby's Room Safe (HealthyChildren.org)": "https://www.healthychildren.org/English/safety-prevention/at-home/Pages/Make-Babys-Room-Safe.aspx",
+    "IDAI, Perawatan Bayi Baru Lahir; Buku KIA 2024": "https://www.idai.or.id/artikel/klinik/pengasuhan-anak/perawatan-bayi-baru-lahir",
     "BPOM": "https://cekbpom.pom.go.id",
     "Kemenkes RI, via Antara: Jangan sepelekan buku KIA": "https://www.antaranews.com/berita/2206862/jangan-sepelekan-buku-kia-untuk-pantau-tumbuh-kembang-anak",
 }

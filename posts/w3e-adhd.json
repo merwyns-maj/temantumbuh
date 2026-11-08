@@ -1,0 +1,105 @@
+{
+  "series": "pintar",
+  "job": "send",
+  "usia": "1-3 TAHUN",
+  "tiktok_title": "Anak 2 tahun nggak bisa diem? Itu belum tentu ADHD. Ini kata dokter anak",
+  "caption": "Anak umur 1 sampai 3 tahun memang aktif banget dan cepat bosan. Lari, manjat, pindah-pindah mainan. Itu bagian dari tumbuh kembang yang normal, bukan label.\n\nADHD sendiri baru bisa dinilai dokter mulai sekitar umur 4. Panduan dokter anak Amerika (AAP) dibuat buat anak 4 sampai 18 tahun, dan MSD Manual nulis aktif dan berisik itu umum sampai umur 4.\n\nYang bisa kamu lakuin sekarang:\n1. Rutinitas yang mirip tiap hari\n2. Mainnya sebentar-sebentar, ganti kegiatan\n3. Kasih ruang buat lari dan manjat\n4. Layar: umur 1 nggak usah, umur 2 paling lama 1 jam (WHO)\n\nTetap boleh tanya kok. Ikut cek KPSP di posyandu atau puskesmas, dan ke dokter anak kalau kamu khawatir. Apalagi kalau umur 2 belum bisa kalimat 2 kata (IDAI).\n\nSiapa di rumahmu yang paling sering bilang \"anak ini nggak bisa diem\"?\n\nSumber: AAP (Pediatrics 2019), MSD Manual, MedlinePlus, CDC, WHO 2019, IDAI\n\n#balita #toddler #tumbuhkembanganak #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "BELUM TENTU ADHD",
+      "lines": [
+        "ANAK 2 TAHUN",
+        "NGGAK BISA DIEM",
+        "ITU NORMAL."
+      ],
+      "accent": 2,
+      "sub": "Aktif banget memang wajar di umur segini.",
+      "mascot": "hore",
+      "hero": "w3a-adhd"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Aktif dan cepat bosan itu wajar",
+      "tips_label": "KATA BUKU MEDIS",
+      "tips": "Anak 2 tahun umumnya aktif dan jarang bisa diem. Fokusnya juga masih pendek. Itu normal buat umurnya.",
+      "art": "w3a-aktif",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "ADHD baru dinilai mulai umur 4",
+      "tips_label": "KATA DOKTER ANAK",
+      "tips": "Panduan AAP dibuat buat anak 4 sampai 18 tahun. Di bawah 4, susah dibedain dari aktif yang normal.",
+      "art": "w3a-umur-4",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Yang bantu sekarang: rutinitas",
+      "tips": "Makan, main, mandi, tidur di jam yang mirip tiap hari. Dia jadi tahu habis ini apa.",
+      "art": "w3a-rutinitas",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Kasih ruang lari, kurangi layar",
+      "tips": "WHO: umur 1-2 tahun aktif minimal 3 jam sehari. Layar: umur 1 nggak usah, umur 2 paling lama 1 jam.",
+      "art": "w3a-ruang-gerak",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Khawatir? Tanya aja",
+      "tips_label": "COBA INI",
+      "tips": "Ikut cek KPSP di posyandu atau puskesmas. Kalau masih ragu, ke dokter anak.",
+      "art": "w3a-tanya-dokter",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Normal, atau tanya dokter:",
+      "rows": [
+        {
+          "text": "Lari, manjat, susah diem",
+          "small": "Normal di 1-3 tahun",
+          "art": "w3a-aktif"
+        },
+        {
+          "text": "Cepat bosan, ganti mainan",
+          "small": "Normal di 1-3 tahun",
+          "art": "w3a-cek-normal"
+        },
+        {
+          "text": "Umur 2 belum kalimat 2 kata",
+          "small": "Baiknya tanya dokter",
+          "art": "w3a-cek-bicara"
+        },
+        {
+          "text": "Makin berat, atau kamu ragu",
+          "small": "Baiknya tanya dokter",
+          "art": "w3a-cek-dokter"
+        }
+      ],
+      "note": "Aktif bukan berarti nakal"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Dia lagi tumbuh,",
+      "accent": "bukan lagi bikin ulah.",
+      "pill": "KIRIM KE GRUP WA KELUARGA",
+      "sub2": "Biar semua yang jagain dia lebih sabar bareng.",
+      "source": "Sumber: AAP (Pediatrics 2019), MSD Manual, MedlinePlus, CDC, WHO 2019, IDAI",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
+  ]
+}

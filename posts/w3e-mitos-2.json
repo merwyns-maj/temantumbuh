@@ -1,0 +1,102 @@
+{
+  "series": "pintar",
+  "job": "send",
+  "usia": "0-3 TAHUN",
+  "tiktok_title": "Bukan salah Nenek, bagian 2: bantal, pisang, madu, kuku. Ini versi update-nya",
+  "caption": "Bagian 2 dari \"Bukan salah Nenek, ilmunya aja yang udah update\". Nenek ngerawat kita dulu pakai ilmu terbaik yang ada waktu itu. Sekarang ilmunya nambah, itu aja.\n\n1. Bantal biar kepala nggak peang. Bantal di tempat tidur bayi bisa bikin sesak napas (AAP). Biar kepala nggak peang: tummy time pas dia bangun, ditemenin.\n2. Pisang kerok atau air putih sebelum 6 bulan. Buku KIA: sampai 6 bulan cukup ASI, jangan tambah air putih atau makanan kecuali disaranin dokter atau tenaga kesehatan.\n3. Madu sebelum 1 tahun. Bisa bawa kuman penyebab botulisme, keracunan yang berat buat bayi (CDC).\n4. Kuku nggak boleh dipotong sebelum 40 hari. Kuku panjang bikin bayi nyakar mukanya sendiri. AAP nyaranin dipotong atau dikikir minimal seminggu sekali, paling gampang pas dia tidur.\n\nDi keluargamu, mitos mana yang paling sering kamu dengar?\n\nSumber: AAP (HealthyChildren.org), CDC, Buku KIA Kemenkes 2024, WHO\n\n#mitosbayi #newborn #ibubaru #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "BUKAN SALAH NENEK, BAG. 2",
+      "lines": [
+        "BANTAL, PISANG,",
+        "MADU, KUKU:",
+        "ILMUNYA UPDATE."
+      ],
+      "accent": 2,
+      "sub": "Dulu infonya belum sebanyak sekarang.",
+      "mascot": "sayang",
+      "hero": "w3a-mitos-2"
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "label": "KATA ORANG DULU",
+      "title": "\"Bantal biar nggak peang.\"",
+      "tips_label": "KATA DOKTER ANAK SEKARANG",
+      "tips": "Bantal bisa bikin bayi sesak. Biar nggak peang: tummy time pas dia bangun, ditemenin.",
+      "art": "w3a-bantal",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "label": "KATA ORANG DULU",
+      "title": "\"Pisang kerok biar kenyang.\"",
+      "tips_label": "KATA BUKU KIA",
+      "tips": "Sampai 6 bulan cukup ASI. Pisang dan air putih nunggu dulu.",
+      "art": "w3a-pisang",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "label": "KATA ORANG DULU",
+      "title": "\"Kasih madu dikit, biar sehat.\"",
+      "tips_label": "KATA DOKTER ANAK SEKARANG",
+      "tips": "Di bawah 1 tahun, madu bisa bawa kuman botulisme. Tunggu umur 1 dulu.",
+      "art": "w3a-madu",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "label": "KATA ORANG DULU",
+      "title": "\"Kuku jangan dipotong dulu.\"",
+      "tips_label": "KATA DOKTER ANAK SEKARANG",
+      "tips": "Kuku panjang bikin dia nyakar muka. Potong minimal seminggu sekali, pas dia tidur.",
+      "art": "w3a-kuku",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Versi update-nya:",
+      "rows": [
+        {
+          "text": "Bantal",
+          "small": "Ganti tummy time",
+          "art": "w3a-bantal"
+        },
+        {
+          "text": "Pisang, air putih",
+          "small": "Tunggu 6 bulan",
+          "art": "w3a-pisang"
+        },
+        {
+          "text": "Madu",
+          "small": "Tunggu 1 tahun",
+          "art": "w3a-madu"
+        },
+        {
+          "text": "Potong kuku",
+          "small": "Tiap minggu, pas tidur",
+          "art": "w3a-kuku"
+        }
+      ],
+      "note": "Bukan salah Nenek, ilmunya yang nambah"
+    },
+    {
+      "type": "cta",
+      "motif": "logo",
+      "headline": "Nenek ngerawat kita pakai",
+      "accent": "ilmu terbaik waktu itu.",
+      "pill": "KIRIM KE GRUP WA KELUARGA",
+      "sub2": "Kirimnya pakai stiker peluk, bukan pakai debat.",
+      "source": "Sumber: AAP (HealthyChildren.org), CDC, Buku KIA Kemenkes 2024, WHO",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ]
+}

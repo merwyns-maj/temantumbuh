@@ -278,5 +278,109 @@
     "trust": 4,
     "fresh": 5,
     "note": "First story-format post (structure studied from omonganibu, own topic and art): scene, confession hook, child's view, 3 steps with exact words, quotable close, kirim ke pasangan. New family characters (Mama, Ayah, Adek). Dad slips, then redeems himself."
+  },
+  "w3e-adhd": {
+    "hook": 4,
+    "job": 4,
+    "relief": 5,
+    "trust": 5,
+    "fresh": 4,
+    "note": "Relief hook with a concrete age; the send target (grup WA keluarga) is implied, not named on a slide."
+  },
+  "w3e-newborn-skip": {
+    "hook": 4,
+    "job": 4,
+    "relief": 4,
+    "trust": 5,
+    "fresh": 3,
+    "note": "Gurita and baby walker repeat d04 mitos-bayi; the shopping-list angle is what makes it new."
+  },
+  "w3e-mitos-2": {
+    "hook": 4,
+    "job": 5,
+    "relief": 4,
+    "trust": 5,
+    "fresh": 3,
+    "note": "Sequel of a proven format, so less fresh; hook relies on named objects plus the d04 promise."
+  },
+  "w3e-kata-pertama": {
+    "hook": 4,
+    "job": 5,
+    "relief": 5,
+    "trust": 5,
+    "fresh": 3,
+    "note": "Reassuring reframe of babbling, IDAI+CDC aligned and points back to the 5 Nov red flags; speech stages are a common topic, freshness comes from one action per stage."
+  },
+  "w3e-main-nunggu-masak": {
+    "hook": 4,
+    "job": 5,
+    "relief": 4,
+    "trust": 5,
+    "fresh": 3,
+    "note": "Named objects in the hook (lakban kertas, kulkas) and a fresh set vs d03; kitchen play itself is a familiar topic and Tunas scenes are small on slide 2."
+  },
+  "w3e-jawaban-sopan-2": {
+    "hook": 5,
+    "job": 4,
+    "relief": 5,
+    "trust": 5,
+    "fresh": 4,
+    "note": "Bau tangan myth-bust hook in the 'bukan salah Nenek' tone; send-to-pasangan is plausible but the strongest share (to family WA) is deliberately avoided so relatives are not shamed."
+  },
+  "w3n-ngobrol": {
+    "hook": 4,
+    "job": 5,
+    "relief": 5,
+    "trust": 5,
+    "fresh": 4,
+    "note": "Keeps the 'ketik MAU' promise, so the save is built in; hook is reassurance with a concrete chore, not a surprise fact. Serve-and-return itself is a common topic."
+  },
+  "w3n-gigi-telat": {
+    "hook": 4,
+    "job": 4,
+    "relief": 5,
+    "trust": 4,
+    "fresh": 4,
+    "note": "Answers a real viewer question with relief; 'bisa normal' is hedged on purpose. Sources differ on when to check (MedlinePlus says 9 months), so we point to the 1-year dental visit instead of a number."
+  },
+  "w3n-kaki-o": {
+    "hook": 4,
+    "job": 4,
+    "relief": 5,
+    "trust": 5,
+    "fresh": 4,
+    "note": "Kemenkes calls bedong-biar-lurus a myth, a natural forward to the family group; risk is that it reads as correcting the elders, so the CTA says bukan salah siapa-siapa."
+  },
+  "w3n-ruam-popok": {
+    "hook": 4,
+    "job": 4,
+    "relief": 4,
+    "trust": 5,
+    "fresh": 3,
+    "note": "Bedak is the everyday Indonesian reflex, so the myth flip lands; ruam popok itself is a saturated topic told as a plain 4-step list."
+  },
+  "w3n-kepala-peyang": {
+    "hook": 4,
+    "job": 4,
+    "relief": 5,
+    "trust": 5,
+    "fresh": 4,
+    "note": "Relief hook (not the brain) plus the bantal peyang warning; may draw pushback from parents who already bought one, keep replies gentle."
+  },
+  "w3n-cegukan": {
+    "hook": 3,
+    "job": 4,
+    "relief": 5,
+    "trust": 4,
+    "fresh": 3,
+    "note": "Startling is more an adult trick than a baby one, so the hook is weaker; no primary source calls the old tricks harmful, so the copy only says nggak perlu."
+  },
+  "w3n-air-putih": {
+    "hook": 4,
+    "job": 5,
+    "relief": 4,
+    "trust": 5,
+    "fresh": 3,
+    "note": "Clear send to nenek or pengasuh, framed kindly; the message is well known from IDAI campaigns, the hot-weather angle is the fresh part."
   }
 }

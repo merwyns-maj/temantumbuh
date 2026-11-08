@@ -1,0 +1,98 @@
+{
+  "series": "pintar",
+  "job": "save",
+  "usia": "0-3 BULAN",
+  "tiktok_title": "Belanja newborn: 4 barang yang sering dibeli, padahal bisa skip",
+  "caption": "4 barang ini sering ada di daftar belanja newborn, padahal dokter anak nggak nyaranin:\n\n1. Bedak bayi. Kata AAP, jangan dipakai di bayi karena bubuknya bisa kehirup. Lipatan kulit cukup dikeringin pakai handuk.\n2. Gurita. Kata IDAI, bayi napasnya banyak pakai otot perut. Cukup atasan dari bahan lembut yang nyerap keringat.\n3. Alkohol atau antiseptik buat tali pusat. Buku KIA dan IDAI: jangan oles apa-apa, biarin terbuka dan kering. Kalau kotor, cuci pakai air bersih dan sabun, lalu keringkan. Kalau kemerahannya melebar ke perut atau bau bernanah, segera ke puskesmas.\n4. Baby walker. IDAI nyaranin nggak dipakai buat bayi yang belajar jalan. Main di lantai lebih aman.\n\nDaftar belanja newborn lengkapnya lagi kami siapin.\n\nMenurutmu barang apa lagi yang ternyata nggak kepake waktu newborn?\n\nSumber: AAP (HealthyChildren.org), IDAI, Buku KIA Kemenkes 2024\n\n#newborn #ibuhamil #perlengkapanbayi #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "BELANJA NEWBORN",
+      "lines": [
+        "BEDAK, GURITA,",
+        "BABY WALKER:",
+        "BOLEH SKIP."
+      ],
+      "accent": 2,
+      "sub": "Plus 1 lagi buat tali pusat. Lebih hemat.",
+      "mascot": "mikir",
+      "hero": "w3a-newborn-skip"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Bedak bayi: bubuknya bisa kehirup",
+      "tips_label": "GANTINYA",
+      "tips": "AAP nyaranin bedak nggak dipakai di bayi. Lipatan kulit cukup dikeringin pakai handuk, ditepuk pelan.",
+      "art": "w3a-bedak",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Gurita: bayi napas pakai otot perut",
+      "tips_label": "GANTINYA",
+      "tips": "Kata IDAI, gurita nggak usah dipakai. Cukup atasan dari bahan lembut yang nyerap keringat.",
+      "art": "w3a-gurita",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Alkohol atau antiseptik buat tali pusat",
+      "tips_label": "GANTINYA",
+      "tips": "Jangan oles apa-apa. Biarin terbuka dan kering, lipat popok di bawah tali pusat.",
+      "art": "w3a-tali-pusat",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Baby walker: risiko jatuh dan kebentur",
+      "tips_label": "GANTINYA",
+      "tips": "IDAI nyaranin baby walker nggak dipakai. Main di lantai jauh lebih aman.",
+      "art": "w3a-lantai",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Skip dulu, gantinya:",
+      "rows": [
+        {
+          "text": "Bedak bayi",
+          "small": "Handuk, ditepuk pelan",
+          "art": "w3a-bedak"
+        },
+        {
+          "text": "Gurita",
+          "small": "Atasan bahan lembut",
+          "art": "w3a-gurita"
+        },
+        {
+          "text": "Alkohol tali pusat",
+          "small": "Biarin kering dan terbuka",
+          "art": "w3a-tali-pusat"
+        },
+        {
+          "text": "Baby walker",
+          "small": "Main di lantai",
+          "art": "w3a-lantai"
+        }
+      ],
+      "note": "Screenshot sebelum belanja"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Uangnya simpan buat",
+      "accent": "yang beneran kepake.",
+      "pill": "SIMPAN BUAT BELANJA NANTI",
+      "sub2": "Daftar lengkapnya lagi kami siapin.",
+      "source": "Sumber: AAP (HealthyChildren.org), IDAI, Buku KIA Kemenkes 2024",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
+  ]
+}
