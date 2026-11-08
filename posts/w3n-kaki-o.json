@@ -1,0 +1,59 @@
+{
+  "series": "pintar",
+  "job": "send",
+  "usia": "1-3 TAHUN",
+  "tiktok_title": "Kaki O itu biasa sampai umur 2 tahun. Contekan kaki O, kirim ke grup keluarga",
+  "caption": "Kaki O di umur 1-2 tahun itu biasa banget. Kata AAP, banyak anak kakinya bengkok ke luar sampai sekitar 2 tahun, terus malah kelihatan kayak huruf X sampai sekitar 6 tahun, baru lurus pelan-pelan. Kemenkes nyebut bedong ketat biar kaki lurus dan gendong nyamping bikin kaki O itu mitos. Bedong ketat dengan kaki diluruskan malah bisa ganggu pinggul bayi (AAP). Sepatu khusus atau alat juga nggak perlu buat kaki O yang biasa. Cek ke dokter kalau cuma satu kaki, makin bengkok setelah 2 tahun, anak kesakitan, sering jatuh, atau jauh lebih pendek dari teman seumurnya.\n\nDi keluargamu, siapa yang dulu paling rajin bedong?\n\nSumber: Kemenkes (keslan.kemkes.go.id), American Academy of Pediatrics (healthychildren.org), NHS\n\n#kakiO #tumbuhkembanganak #toddler #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "MITOS KAKI",
+      "lines": [
+        "KAKI O ITU",
+        "BIASA SAMPAI",
+        "UMUR 2 TAHUN."
+      ],
+      "accent": 2,
+      "sub": "Lurus sendiri, bukan karena dibedong.",
+      "hero": "w3n-kaki-o"
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Contekan kaki O:",
+      "rows": [
+        {
+          "text": "Lurus pelan-pelan",
+          "small": "Umumnya mulai sekitar 2 tahun",
+          "art": "w3n-kakio-lurus"
+        },
+        {
+          "text": "Bedong nggak bikin lurus",
+          "small": "Ketat malah ganggu pinggul",
+          "art": "w3n-kakio-bedong"
+        },
+        {
+          "text": "Sepatu khusus nggak perlu",
+          "small": "Buat kaki O yang biasa",
+          "art": "w3n-kakio-sepatu"
+        },
+        {
+          "text": "Cuma 1 kaki yang bengkok?",
+          "small": "Cek ke dokter anak",
+          "art": "w3n-kakio-dokter"
+        }
+      ],
+      "note": "Juga kalau makin bengkok lewat 2 tahun atau nyeri"
+    },
+    {
+      "type": "cta",
+      "headline": "Kakinya lagi tumbuh.",
+      "accent": "Kasih waktu, pantau aja.",
+      "pill": "KIRIM KE GRUP WA KELUARGA",
+      "sub2": "Digendong nyamping juga bukan penyebabnya. Jadi bukan salah siapa-siapa.",
+      "source": "Sumber: Kemenkes, American Academy of Pediatrics (healthychildren.org), NHS",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
+  ]
+}

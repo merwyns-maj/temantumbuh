@@ -1,0 +1,59 @@
+{
+  "series": "pintar",
+  "job": "save",
+  "usia": "6-18 BULAN",
+  "tiktok_title": "1 tahun belum ada gigi itu bisa normal. Contekan buat yang giginya belum muncul",
+  "caption": "Ada yang nanya di komen: anak 1 tahun belum tumbuh gigi karena apa? Waktu gigi pertama muncul memang beda-beda banget. Kata AAP, ada bayi yang belum punya gigi di ulang tahun pertamanya, dan waktunya bisa dipengaruhi keturunan. NHS juga nyebut ada yang baru mulai tumbuh gigi setelah 12 bulan. Sambil nunggu, lap gusinya habis makan, dan umur 1 tahun pas buat kunjungan pertama ke dokter gigi. Dokter yang bisa cek apakah perlu diperiksa lebih lanjut.\n\nGigi pertama kamu dulu muncul umur berapa, kata orang tuamu?\n\nSumber: American Academy of Pediatrics (healthychildren.org), NHS (nhs.uk)\n\n#tumbuhgigi #gigianak #bayi #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "JAWAB KOMEN",
+      "lines": [
+        "1 TAHUN BELUM",
+        "ADA GIGI ITU",
+        "BISA NORMAL."
+      ],
+      "accent": 2,
+      "sub": "Ada yang baru tumbuh setelah 12 bulan.",
+      "hero": "w3n-gigi-telat"
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Gigi belum muncul juga?",
+      "rows": [
+        {
+          "text": "Rentangnya lebar",
+          "small": "Ada yang lewat 12 bulan",
+          "art": "w3n-gigitelat-rentang"
+        },
+        {
+          "text": "Bisa soal keturunan",
+          "small": "Tanya Nenek, kamu dulu kapan",
+          "art": "w3n-gigitelat-keturunan"
+        },
+        {
+          "text": "Usap gusinya habis makan",
+          "small": "Pakai kasa atau washlap basah",
+          "art": "w3n-gigitelat-lap"
+        },
+        {
+          "text": "1 tahun: ke dokter gigi",
+          "small": "Biar gusinya ikut dicek",
+          "art": "w3n-gigitelat-dokter"
+        }
+      ],
+      "note": "Gigi susu biasanya lengkap di umur 2-3 tahun"
+    },
+    {
+      "type": "cta",
+      "headline": "Belum ada gigi bukan salah kamu.",
+      "accent": "Biar dokter yang cek gusinya.",
+      "pill": "SIMPAN BUAT KONTROL 1 TAHUN",
+      "sub2": "Ada yang bikin kamu khawatir, kayak tumbuh kembang lain ikut telat? Cerita juga ke dokter anak.",
+      "source": "Sumber: American Academy of Pediatrics (healthychildren.org), NHS",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ]
+}

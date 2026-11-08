@@ -1,0 +1,59 @@
+{
+  "series": "pintar",
+  "job": "save",
+  "usia": "0-3 TAHUN",
+  "tiktok_title": "Ngobrol soal cucian juga masuk hitungan. Contekan 4 kalimat buat ngajak anak ngobrol",
+  "caption": "Ini contekan yang kemarin dijanjiin buat yang ketik MAU 🤍 Nggak perlu kartu atau mainan khusus. Ceritain yang lagi kamu kerjain, sebut yang dia tunjuk, tambahin kata yang dia ucapin, kasih 2 pilihan. Habis itu diam sebentar dan tunggu gilirannya. Dia ngoceh atau nunjuk juga udah termasuk jawab.\n\nKalimat mana yang paling sering kamu pakai di rumah?\n\nSumber: Harvard Center on the Developing Child (5 Steps for Brain-Building Serve and Return), CDC Learn the Signs. Act Early. (tips 1 tahun dan 18 bulan), ZERO TO THREE\n\n#ngobroldengananak #stimulasibicara #toddler #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "CONTEKAN NGOBROL",
+      "lines": [
+        "NGOBROL SOAL",
+        "CUCIAN JUGA",
+        "MASUK HITUNGAN."
+      ],
+      "accent": 2,
+      "sub": "Ini 4 kalimat yang bisa kamu pakai hari ini.",
+      "hero": "w3n-ngobrol"
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "4 kalimat buat ngajak ngobrol:",
+      "rows": [
+        {
+          "text": "\"Ayah lagi cuci piring.\"",
+          "small": "Ceritain yang lagi kamu kerjain",
+          "art": "w3n-ngobrol-cerita"
+        },
+        {
+          "text": "\"Itu kucing. Meong.\"",
+          "small": "Sebut yang dia tunjuk",
+          "art": "w3n-ngobrol-tunjuk"
+        },
+        {
+          "text": "\"Iya, mobil merah lewat.\"",
+          "small": "Pas dia bilang \"mobil\"",
+          "art": "w3n-ngobrol-tambah"
+        },
+        {
+          "text": "\"Mau pisang atau pepaya?\"",
+          "small": "Kasih 2 pilihan",
+          "art": "w3n-ngobrol-pilih"
+        }
+      ],
+      "note": "Habis ngomong, diam sebentar. Tunggu gilirannya."
+    },
+    {
+      "type": "cta",
+      "headline": "Dia ngoceh, kamu jawab.",
+      "accent": "Itu udah ngobrol.",
+      "pill": "SIMPAN BUAT DI RUMAH",
+      "sub2": "Belum bisa ngomong? Nunjuk, senyum dan ngoceh juga termasuk giliran dia.",
+      "source": "Sumber: Harvard Center on the Developing Child, CDC (Learn the Signs), ZERO TO THREE",
+      "disclaimer": true,
+      "mascot": "halo"
+    }
+  ]
+}

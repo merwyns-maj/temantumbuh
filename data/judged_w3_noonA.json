@@ -1,0 +1,8 @@
+{
+  "w3n-ngobrol": {"hook": 4, "job": 5, "relief": 5, "trust": 5, "fresh": 4,
+    "note": "Keeps the 'ketik MAU' promise, so the save is built in; hook is reassurance with a concrete chore, not a surprise fact. Serve-and-return itself is a common topic."},
+  "w3n-gigi-telat": {"hook": 4, "job": 4, "relief": 5, "trust": 4, "fresh": 4,
+    "note": "Answers a real viewer question with relief; 'bisa normal' is hedged on purpose. Sources differ on when to check (MedlinePlus says 9 months), so we point to the 1-year dental visit instead of a number."},
+  "w3n-kaki-o": {"hook": 4, "job": 4, "relief": 5, "trust": 5, "fresh": 4,
+    "note": "Kemenkes calls bedong-biar-lurus a myth, a natural forward to the family group; risk is that it reads as correcting the elders, so the CTA says bukan salah siapa-siapa."}
+}
