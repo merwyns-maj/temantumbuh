@@ -390,5 +390,13 @@
     "trust": 5,
     "fresh": 5,
     "note": "Pure save utility, already fact-checked; weakest is relief: it informs more than it reassures, CTA leans on 'cukup ke Sp.A dulu' to calm."
+  },
+  "w3n-asip-simpan": {
+    "hook": 5,
+    "job": 5,
+    "relief": 3,
+    "trust": 5,
+    "fresh": 4,
+    "note": "Myth-flip with a number like gigi pertama; caregivers handle the stock so the send is real. Relief is only the CTA line."
   }
 }

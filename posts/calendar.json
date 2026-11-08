@@ -738,10 +738,10 @@
     {
       "day": "w3n-7",
       "date": "2026-11-15",
-      "series": "mpasi",
-      "slug": "w3n-air-putih",
+      "series": "ibu",
+      "slug": "w3n-asip-simpan",
       "job": "send",
-      "title": "Bayi 0-6 bulan nggak butuh air putih, panas pun. Contekan air putih sampai 1 tahun",
+      "title": "ASIP di freezer kulkas 1 pintu cuma tahan 2 minggu. Contekan simpan ASIP dari Kemenkes",
       "status": "draft",
       "scheduled_wib": "2026-11-15 12:00",
       "design": "v2",
@@ -797,6 +797,10 @@
     {
       "slug": "w3e-main-nunggu-masak",
       "note": "Built for 14 Nov, swapped out 8 Nov: Merwyn didn't like the lakban idea. Do not reuse as is."
+    },
+    {
+      "slug": "w3n-air-putih",
+      "note": "Built for 15 Nov noon, swapped 8 Nov for ASIP storage (air putih already a slide in w3e-mitos-2). Ready to use in a later week."
     }
   ]
 }

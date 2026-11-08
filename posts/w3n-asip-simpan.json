@@ -1,0 +1,96 @@
+{
+  "series": "ibu",
+  "job": "send",
+  "usia": "0-24 BULAN",
+  "tiktok_title": "ASIP di freezer kulkas 1 pintu cuma tahan 2 minggu. Contekan simpan ASIP dari Kemenkes",
+  "caption": "Stok ASIP di freezer kulkas 1 pintu tahannya sekitar 2 minggu. Freezer kulkas 2 pintu yang lebih dingin, bisa 3 sampai 6 bulan (Kemenkes). Di suhu ruang kita yang 27-32°C, ASIP cuma aman 4 jam. Di kulkas bagian bawah 2-3 hari, taruh di belakang, jangan di pintu.\n\nUdah dicairin di kulkas? Habiskan dalam 24 jam. Udah dihangatkan, habiskan dalam 2 jam, sisa minum juga dibuang setelah 2 jam. Yang udah cair jangan dibekukan lagi, dan jangan dicairin pakai microwave (CDC).\n\nDi rumahmu, ASIP disimpan di kulkas yang mana?\n\nSumber: Kemenkes RI (PMBA, rilis 29 Mei 2024), CDC\n\n#asip #asieksklusif #busui #parentingindonesia #SeriIbu",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "CONTEKAN ASIP",
+      "lines": [
+        "FREEZER",
+        "KULKAS 1 PINTU",
+        "CUMA 2 MINGGU."
+      ],
+      "accent": 2,
+      "sub": "Yang 2 pintu bisa 3-6 bulan.",
+      "hero": "w3n-asip-freezer"
+    },
+    {
+      "type": "cheat",
+      "kicker": "SCREENSHOT DULU",
+      "title": "ASIP baru diperah tahan:",
+      "rows": [
+        {
+          "text": "Suhu ruang: 4 jam",
+          "small": "Ruangan 27-32°C",
+          "art": "w3n-asip-ruang"
+        },
+        {
+          "text": "Cooler bag: 24 jam",
+          "small": "Pakai ice pack",
+          "art": "w3n-asip-cooler"
+        },
+        {
+          "text": "Kulkas bawah: 2-3 hari",
+          "small": "Taruh belakang, bukan di pintu",
+          "art": "w3n-asip-kulkas"
+        },
+        {
+          "text": "Freezer 1 pintu: 2 minggu",
+          "small": "Suhunya -15 sampai 0°C",
+          "art": "w3n-asip-1pintu"
+        },
+        {
+          "text": "Freezer 2 pintu: 3-6 bulan",
+          "small": "Suhunya -20 sampai -18°C",
+          "art": "w3n-asip-2pintu"
+        }
+      ]
+    },
+    {
+      "type": "cheat",
+      "kicker": "KALAU UDAH CAIR",
+      "title": "Habiskan dalam:",
+      "rows": [
+        {
+          "text": "Cair di kulkas: 24 jam",
+          "small": "Dihitung sejak cair semua",
+          "art": "w3n-asip-cair"
+        },
+        {
+          "text": "Udah dihangatkan: 2 jam",
+          "small": "Rendam air hangat, bukan microwave",
+          "art": "w3n-asip-hangat"
+        },
+        {
+          "text": "Sisa minum: 2 jam",
+          "small": "Lewat itu, buang",
+          "art": "w3n-asip-sisa"
+        },
+        {
+          "text": "Jangan dibekukan lagi",
+          "small": "Sekali cair, nggak balik ke freezer",
+          "art": "w3n-asip-beku"
+        }
+      ],
+      "note": "Pakai yang paling lama dulu"
+    },
+    {
+      "type": "cta",
+      "headline": "Merahnya udah capek-capek,",
+      "accent": "simpannya jangan sampai salah.",
+      "pill": "KIRIM KE PENGASUH DAN PASANGAN",
+      "sub2": "Biar stok ASIP-mu nggak kebuang sia-sia.",
+      "source": "Sumber: Kemenkes RI (PMBA, 29 Mei 2024), CDC",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ],
+  "sources": [
+    "Kemenkes RI, rilis Biro Komunikasi 29 Mei 2024 (Rekomendasi Pemberian ASI Perah, mengutip buku PMBA untuk Kader 2021): suhu ruang 27-32°C 4 jam, di bawah 25°C 6-8 jam, cooler bag 24 jam, kulkas di bawah 4°C 2-3 hari, freezer kulkas 1 pintu (-15 sampai 0°C) 2 minggu, freezer kulkas 2 pintu (-20 sampai -18°C) 3-6 bulan. https://sehatnegeriku.kemkes.go.id/?p=45624",
+    "CDC, Breast Milk Storage and Preparation: thawed in fridge use within 24 hours from fully thawed, warmed or at room temp use within 2 hours, never refreeze, leftover from a feeding within 2 hours, never thaw or heat in a microwave, store at the back of the fridge not the door, use oldest milk first. https://www.cdc.gov/breastfeeding/breast-milk-preparation-and-storage/handling-breastmilk.html"
+  ],
+  "notes": "Replaces w3n-air-putih on Sun 15 Nov 12:00 (air putih already covered in w3e-mitos-2). Fridge time uses the stricter Kemenkes 2-3 days, not CDC 4 days. Milk drawn in ASI bags only, no bottles or teats (PP 28/2024)."
+}
