@@ -1,0 +1,182 @@
+{
+ "P01": {
+  "slug": "w3n-gigi-telat",
+  "set": "forward"
+ },
+ "P02": {
+  "slug": "d09-protein-hewani",
+  "set": "backtest"
+ },
+ "P03": {
+  "slug": "d11-siap-sekolah",
+  "set": "backtest"
+ },
+ "P04": {
+  "slug": "w2n-30-menit-malam",
+  "set": "backtest"
+ },
+ "P05": {
+  "slug": "w2e-d24-mainan-banyak-cara",
+  "set": "backtest"
+ },
+ "P06": {
+  "slug": "w3e-jawaban-sopan-2",
+  "set": "forward"
+ },
+ "P07": {
+  "slug": "w3n-ngobrol",
+  "set": "forward"
+ },
+ "P08": {
+  "slug": "w3n-kepala-peyang",
+  "set": "forward"
+ },
+ "P09": {
+  "slug": "w2n-tanda-kenyang",
+  "set": "backtest"
+ },
+ "P10": {
+  "slug": "w2e-d22-jawaban-sopan",
+  "set": "backtest"
+ },
+ "P11": {
+  "slug": "w2e-d23-alat-mpasi",
+  "set": "backtest"
+ },
+ "P12": {
+  "slug": "d08-tummy-time",
+  "set": "backtest"
+ },
+ "P13": {
+  "slug": "d03-mainan-dari-dapur",
+  "set": "backtest"
+ },
+ "P14": {
+  "slug": "d10-rotasi-mainan",
+  "set": "backtest"
+ },
+ "P15": {
+  "slug": "w2n-gigi-pertama",
+  "set": "backtest"
+ },
+ "P16": {
+  "slug": "d04-mitos-bayi",
+  "set": "backtest"
+ },
+ "P17": {
+  "slug": "w3n-kaki-o",
+  "set": "forward"
+ },
+ "P18": {
+  "slug": "d01-udah-stimulasi",
+  "set": "backtest"
+ },
+ "P19": {
+  "slug": "d25-ternyata-normal-v2",
+  "set": "backtest"
+ },
+ "P20": {
+  "slug": "d17-main-5-menit",
+  "set": "backtest"
+ },
+ "P21": {
+  "slug": "w2e-d32-bantu-beresin",
+  "set": "backtest"
+ },
+ "P22": {
+  "slug": "d12-nggak-apa-apa",
+  "set": "backtest"
+ },
+ "P23": {
+  "slug": "w2e-d27-buku-per-usia",
+  "set": "backtest"
+ },
+ "P24": {
+  "slug": "w2n-nangis-malam",
+  "set": "backtest"
+ },
+ "P25": {
+  "slug": "w2n-porsi-mpasi",
+  "set": "backtest"
+ },
+ "P26": {
+  "slug": "d07-suami-bisa-bantu",
+  "set": "backtest"
+ },
+ "P27": {
+  "slug": "d16-protein-pasar",
+  "set": "backtest"
+ },
+ "P28": {
+  "slug": "w3e-adhd",
+  "set": "forward"
+ },
+ "P29": {
+  "slug": "w3n-ruam-popok",
+  "set": "forward"
+ },
+ "P30": {
+  "slug": "w3e-gelar-dokter-anak",
+  "set": "forward"
+ },
+ "P31": {
+  "slug": "w2n-demam-kapan-dokter",
+  "set": "forward"
+ },
+ "P32": {
+  "slug": "w3n-cegukan",
+  "set": "forward"
+ },
+ "P33": {
+  "slug": "d14-gtm",
+  "set": "backtest"
+ },
+ "P34": {
+  "slug": "w2n-tidur-aman",
+  "set": "backtest"
+ },
+ "P35": {
+  "slug": "d13-motorik-halus",
+  "set": "backtest"
+ },
+ "P36": {
+  "slug": "w3n-asip-simpan",
+  "set": "forward"
+ },
+ "P37": {
+  "slug": "w3e-mitos-2",
+  "set": "forward"
+ },
+ "P38": {
+  "slug": "d02-potong-makanan",
+  "set": "backtest"
+ },
+ "P39": {
+  "slug": "w3e-newborn-skip",
+  "set": "forward"
+ },
+ "P40": {
+  "slug": "w3e-s01-jangan-nangis",
+  "set": "forward"
+ },
+ "P41": {
+  "slug": "d05-keluhan-suami",
+  "set": "backtest"
+ },
+ "P42": {
+  "slug": "w3e-kata-pertama",
+  "set": "forward"
+ },
+ "P43": {
+  "slug": "w2e-d15-screen-time",
+  "set": "forward"
+ },
+ "P44": {
+  "slug": "d06-main-pas-hujan",
+  "set": "backtest"
+ },
+ "P45": {
+  "slug": "w2e-d29-belum-ngomong",
+  "set": "backtest"
+ }
+}
