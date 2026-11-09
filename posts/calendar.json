@@ -607,7 +607,9 @@
       "old_tebar_post_ids": [
         "9126e635-3bb3-4bd5-adc4-1c0a11a2ee37"
       ],
-      "first_comment_auto": true
+      "first_comment_auto": true,
+      "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32.",
+      "first_comment_result": "pending at +31 min, no platform_post_id/permalink from TikTok yet; Merwyn asked to paste + pin manually"
     },
     {
       "day": "w3e-1",
@@ -625,7 +627,8 @@
       "old_tebar_post_ids": [
         "76a824d4-2001-4d64-89e1-e61b7df91dd2"
       ],
-      "first_comment_auto": true
+      "first_comment_auto": true,
+      "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32."
     },
     {
       "day": "w3n-2",
@@ -643,7 +646,8 @@
       "old_tebar_post_ids": [
         "c34eeb7a-c71c-411f-aa7b-1b995c4bfc26"
       ],
-      "first_comment_auto": true
+      "first_comment_auto": true,
+      "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32."
     },
     {
       "day": "w3e-2",
@@ -661,7 +665,8 @@
       "old_tebar_post_ids": [
         "d8403e6a-8850-45a8-b3ef-96e3e874f747"
       ],
-      "first_comment_auto": true
+      "first_comment_auto": true,
+      "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32."
     },
     {
       "day": "w3n-3",
@@ -679,7 +684,8 @@
       "old_tebar_post_ids": [
         "b175c3fb-1dab-422b-a76f-eedc28384f4d"
       ],
-      "first_comment_auto": true
+      "first_comment_auto": true,
+      "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32."
     },
     {
       "day": "w3e-3",
@@ -697,7 +703,8 @@
       "old_tebar_post_ids": [
         "28f5eeaa-d6c1-4cd6-a69f-d28b12c40198"
       ],
-      "first_comment_auto": true
+      "first_comment_auto": true,
+      "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32."
     },
     {
       "day": "w3n-4",
@@ -715,7 +722,8 @@
       "old_tebar_post_ids": [
         "a6624071-3146-4a2f-803f-f69b50266bd0"
       ],
-      "first_comment_auto": true
+      "first_comment_auto": true,
+      "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32."
     },
     {
       "day": "w3e-4",
@@ -733,7 +741,8 @@
       "old_tebar_post_ids": [
         "e3f5d7fe-ee77-4f3f-98ed-d1cb9013c973"
       ],
-      "first_comment_auto": true
+      "first_comment_auto": true,
+      "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32."
     },
     {
       "day": "w3n-5",
@@ -751,7 +760,8 @@
       "old_tebar_post_ids": [
         "106efa38-9f39-4c2a-98da-2c2d438364e0"
       ],
-      "first_comment_auto": true
+      "first_comment_auto": true,
+      "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32."
     },
     {
       "day": "w3e-5",
@@ -769,7 +779,8 @@
       "old_tebar_post_ids": [
         "6e5d8745-fd4d-4d26-9bc3-ca32035f494c"
       ],
-      "first_comment_auto": true
+      "first_comment_auto": true,
+      "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32."
     },
     {
       "day": "w3n-6",
@@ -787,7 +798,8 @@
       "old_tebar_post_ids": [
         "9a8bd038-0116-4d80-9d09-0519f83145d6"
       ],
-      "first_comment_auto": true
+      "first_comment_auto": true,
+      "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32."
     },
     {
       "day": "w3e-6",
@@ -805,7 +817,8 @@
       "old_tebar_post_ids": [
         "71f00422-8104-4154-a805-1b0a56b0e141"
       ],
-      "first_comment_auto": true
+      "first_comment_auto": true,
+      "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32."
     },
     {
       "day": "w3n-7",
@@ -823,7 +836,8 @@
       "old_tebar_post_ids": [
         "1ee28ba0-e0f4-4d01-852c-5972df98a92a"
       ],
-      "first_comment_auto": true
+      "first_comment_auto": true,
+      "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32."
     },
     {
       "day": "w3e-7",
@@ -841,7 +855,8 @@
       "old_tebar_post_ids": [
         "4c559a95-184b-4468-aa13-755d61945a78"
       ],
-      "first_comment_auto": true
+      "first_comment_auto": true,
+      "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32."
     }
   ],
   "backlog": [
