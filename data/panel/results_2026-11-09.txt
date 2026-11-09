@@ -1,0 +1,77 @@
+personas: andi, dewi, maya, rina, sari
+
+BACKTEST all (n=29), Spearman vs views
+  our score (skor-konten total)          -0.01
+  panel mean stop                        +0.13
+  panel mean swipe                       +0.09
+  panel mean save                        +0.26
+  panel mean send                        -0.07
+  panel mean comment                     +0.02
+  panel composite (stop x save/send)     +0.12
+    persona andi: stop                   -0.14
+    persona dewi: stop                   -0.04
+    persona maya: stop                   +0.08
+    persona rina: stop                   +0.14
+    persona sari: stop                   +0.22
+
+BACKTEST without d01 (account launch boost) (n=28), Spearman vs views
+  our score (skor-konten total)          -0.03
+  panel mean stop                        +0.14
+  panel mean swipe                       +0.05
+  panel mean save                        +0.30
+  panel mean send                        -0.06
+  panel mean comment                     +0.07
+  panel composite (stop x save/send)     +0.14
+    persona andi: stop                   -0.14
+    persona dewi: stop                   +0.01
+    persona maya: stop                   +0.03
+    persona rina: stop                   +0.12
+    persona sari: stop                   +0.24
+
+BACKTEST week 2 only (same design, same cadence) (n=12), Spearman vs views
+  our score (skor-konten total)          -0.70
+  panel mean stop                        +0.21
+  panel mean swipe                       +0.07
+  panel mean save                        +0.07
+  panel mean send                        -0.01
+  panel mean comment                     +0.22
+  panel composite (stop x save/send)     +0.14
+    persona andi: stop                   -0.12
+    persona dewi: stop                   -0.26
+    persona maya: stop                   -0.20
+    persona rina: stop                   +0.48
+    persona sari: stop                   +0.30
+
+Top 8 by panel composite vs views:
+  d02-potong-makanan           comp 10.17  score  96  views 3380
+  d12-nggak-apa-apa            comp  8.80  score  90  views 227
+  w2e-d29-belum-ngomong        comp  8.58  score  88  views 965
+  d04-mitos-bayi               comp  8.18  score  96  views 4808
+  d05-keluhan-suami            comp  7.29  score  91  views 381
+  w2e-d22-jawaban-sopan        comp  7.23  score  90  views 627
+  d16-protein-pasar            comp  7.15  score  83  views 695
+  w2n-tanda-kenyang            comp  7.12  score  80  views 740
+
+FORWARD set, panel prediction (rank by composite):
+   1. w2e-d15-screen-time          comp  9.06  stop 6.0  score  92
+   2. w2n-demam-kapan-dokter       comp  8.68  stop 5.6  score  76
+   3. w3e-kata-pertama             comp  8.47  stop 5.8  score  92
+   4. w3e-mitos-2                  comp  8.41  stop 5.8  score  90
+   5. w3e-jawaban-sopan-2          comp  8.06  stop 5.6  score  96
+   6. w3n-kaki-o                   comp  6.58  stop 4.8  score  84
+   7. w3e-s01-jangan-nangis        comp  6.53  stop 4.8  score  94
+   8. w3e-gelar-dokter-anak        comp  6.30  stop 4.6  score  92
+   9. w3n-ngobrol                  comp  6.07  stop 4.4  score  86
+  10. w3e-adhd                     comp  5.90  stop 4.4  score  92
+  11. w3n-ruam-popok               comp  5.85  stop 4.4  score  80
+  12. w3n-asip-simpan              comp  5.24  stop 4.0  score  86
+  13. w3n-cegukan                  comp  4.75  stop 3.8  score  76
+  14. w3e-newborn-skip             comp  4.61  stop 3.6  score  88
+  15. w3n-kepala-peyang            comp  4.32  stop 3.6  score  84
+  16. w3n-gigi-telat               comp  3.45  stop 3.0  score  82
+
+Week 2 noon vs evening (same day pairs, Mon-Sat): noon won 6 of 6.
+Notes: n=29 needs |rho| > ~0.37 to be significant (p<.05); n=12 needs > ~0.58.
+Panel = weak (+0.1 to +0.3, not significant). Baby-mom personas (Rina, Sari) best; dad persona (Andi) negative.
+Our skor-konten total = ~0 overall and -0.70 within week 2: it rewards long evening posts, which did worse than short noon cheat sheets.
+Forward check: re-run analyze.py with actuals on 16 Nov for the 16 forward posts.
