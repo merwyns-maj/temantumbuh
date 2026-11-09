@@ -602,8 +602,12 @@
       "scheduled_wib": "2026-11-09 12:00",
       "design": "v2",
       "via": "Tebar",
-      "tebar_post_id": "9126e635-3bb3-4bd5-adc4-1c0a11a2ee37",
-      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
+      "tebar_post_id": "5629cae8-2a5b-4263-aa8e-71f445806068",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc",
+      "old_tebar_post_ids": [
+        "9126e635-3bb3-4bd5-adc4-1c0a11a2ee37"
+      ],
+      "first_comment_auto": true
     },
     {
       "day": "w3e-1",
@@ -616,8 +620,12 @@
       "scheduled_wib": "2026-11-09 19:00",
       "design": "v2",
       "via": "Tebar",
-      "tebar_post_id": "76a824d4-2001-4d64-89e1-e61b7df91dd2",
-      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
+      "tebar_post_id": "cc4a09ba-a70d-40e4-9598-6960e382962c",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc",
+      "old_tebar_post_ids": [
+        "76a824d4-2001-4d64-89e1-e61b7df91dd2"
+      ],
+      "first_comment_auto": true
     },
     {
       "day": "w3n-2",
@@ -630,8 +638,12 @@
       "scheduled_wib": "2026-11-10 12:00",
       "design": "v2",
       "via": "Tebar",
-      "tebar_post_id": "c34eeb7a-c71c-411f-aa7b-1b995c4bfc26",
-      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
+      "tebar_post_id": "0882a5d4-663e-4a02-999f-0e0fda0a0d5e",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc",
+      "old_tebar_post_ids": [
+        "c34eeb7a-c71c-411f-aa7b-1b995c4bfc26"
+      ],
+      "first_comment_auto": true
     },
     {
       "day": "w3e-2",
@@ -644,8 +656,12 @@
       "scheduled_wib": "2026-11-10 19:00",
       "design": "v2",
       "via": "Tebar",
-      "tebar_post_id": "d8403e6a-8850-45a8-b3ef-96e3e874f747",
-      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
+      "tebar_post_id": "bea3f57f-106f-4877-8a26-9032cba097b4",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc",
+      "old_tebar_post_ids": [
+        "d8403e6a-8850-45a8-b3ef-96e3e874f747"
+      ],
+      "first_comment_auto": true
     },
     {
       "day": "w3n-3",
@@ -658,8 +674,12 @@
       "scheduled_wib": "2026-11-11 12:00",
       "design": "v2",
       "via": "Tebar",
-      "tebar_post_id": "b175c3fb-1dab-422b-a76f-eedc28384f4d",
-      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
+      "tebar_post_id": "93c923ff-dece-4e13-9afb-3ed33be352a0",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc",
+      "old_tebar_post_ids": [
+        "b175c3fb-1dab-422b-a76f-eedc28384f4d"
+      ],
+      "first_comment_auto": true
     },
     {
       "day": "w3e-3",
@@ -672,8 +692,12 @@
       "scheduled_wib": "2026-11-11 19:00",
       "design": "v2",
       "via": "Tebar",
-      "tebar_post_id": "28f5eeaa-d6c1-4cd6-a69f-d28b12c40198",
-      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
+      "tebar_post_id": "0a701d1e-1abd-4a7b-ac1b-fd1f6c3962eb",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc",
+      "old_tebar_post_ids": [
+        "28f5eeaa-d6c1-4cd6-a69f-d28b12c40198"
+      ],
+      "first_comment_auto": true
     },
     {
       "day": "w3n-4",
@@ -686,8 +710,12 @@
       "scheduled_wib": "2026-11-12 12:00",
       "design": "v2",
       "via": "Tebar",
-      "tebar_post_id": "a6624071-3146-4a2f-803f-f69b50266bd0",
-      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
+      "tebar_post_id": "c7b99774-3ef5-41a9-b058-8c32a0475a37",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc",
+      "old_tebar_post_ids": [
+        "a6624071-3146-4a2f-803f-f69b50266bd0"
+      ],
+      "first_comment_auto": true
     },
     {
       "day": "w3e-4",
@@ -700,8 +728,12 @@
       "scheduled_wib": "2026-11-12 19:00",
       "design": "v2",
       "via": "Tebar",
-      "tebar_post_id": "e3f5d7fe-ee77-4f3f-98ed-d1cb9013c973",
-      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
+      "tebar_post_id": "90756baa-99e6-479b-b431-5007ab0010f0",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc",
+      "old_tebar_post_ids": [
+        "e3f5d7fe-ee77-4f3f-98ed-d1cb9013c973"
+      ],
+      "first_comment_auto": true
     },
     {
       "day": "w3n-5",
@@ -714,8 +746,12 @@
       "scheduled_wib": "2026-11-13 12:00",
       "design": "v2",
       "via": "Tebar",
-      "tebar_post_id": "106efa38-9f39-4c2a-98da-2c2d438364e0",
-      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
+      "tebar_post_id": "5c63c34c-138f-4655-888b-9bf13099e3d2",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc",
+      "old_tebar_post_ids": [
+        "106efa38-9f39-4c2a-98da-2c2d438364e0"
+      ],
+      "first_comment_auto": true
     },
     {
       "day": "w3e-5",
@@ -728,8 +764,12 @@
       "scheduled_wib": "2026-11-13 19:00",
       "design": "v2",
       "via": "Tebar",
-      "tebar_post_id": "6e5d8745-fd4d-4d26-9bc3-ca32035f494c",
-      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
+      "tebar_post_id": "e20c5309-728a-45ca-9c12-0682982d49e8",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc",
+      "old_tebar_post_ids": [
+        "6e5d8745-fd4d-4d26-9bc3-ca32035f494c"
+      ],
+      "first_comment_auto": true
     },
     {
       "day": "w3n-6",
@@ -742,8 +782,12 @@
       "scheduled_wib": "2026-11-14 12:00",
       "design": "v2",
       "via": "Tebar",
-      "tebar_post_id": "9a8bd038-0116-4d80-9d09-0519f83145d6",
-      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
+      "tebar_post_id": "f6f511f4-22bd-4343-8ab6-a132a1a46ae0",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc",
+      "old_tebar_post_ids": [
+        "9a8bd038-0116-4d80-9d09-0519f83145d6"
+      ],
+      "first_comment_auto": true
     },
     {
       "day": "w3e-6",
@@ -756,8 +800,12 @@
       "scheduled_wib": "2026-11-14 19:00",
       "design": "v2",
       "via": "Tebar",
-      "tebar_post_id": "71f00422-8104-4154-a805-1b0a56b0e141",
-      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
+      "tebar_post_id": "39b2c58a-a4fa-4716-afeb-47662a8be361",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc",
+      "old_tebar_post_ids": [
+        "71f00422-8104-4154-a805-1b0a56b0e141"
+      ],
+      "first_comment_auto": true
     },
     {
       "day": "w3n-7",
@@ -770,8 +818,12 @@
       "scheduled_wib": "2026-11-15 12:00",
       "design": "v2",
       "via": "Tebar",
-      "tebar_post_id": "1ee28ba0-e0f4-4d01-852c-5972df98a92a",
-      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
+      "tebar_post_id": "4ca36ec6-00a0-4ae9-9c4d-8fd1712a9281",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc",
+      "old_tebar_post_ids": [
+        "1ee28ba0-e0f4-4d01-852c-5972df98a92a"
+      ],
+      "first_comment_auto": true
     },
     {
       "day": "w3e-7",
@@ -784,8 +836,12 @@
       "scheduled_wib": "2026-11-15 19:00",
       "design": "v2",
       "via": "Tebar",
-      "tebar_post_id": "4c559a95-184b-4468-aa13-755d61945a78",
-      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc"
+      "tebar_post_id": "070ebaf4-0002-4e55-bb4b-55b95b37fd06",
+      "media_sha": "6111e9b6584c19a97ec1e512e1e8f8b286ea16bc",
+      "old_tebar_post_ids": [
+        "4c559a95-184b-4468-aa13-755d61945a78"
+      ],
+      "first_comment_auto": true
     }
   ],
   "backlog": [
