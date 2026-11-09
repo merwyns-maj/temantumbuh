@@ -609,7 +609,8 @@
       ],
       "first_comment_auto": true,
       "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32.",
-      "first_comment_result": "pending at +31 min, no platform_post_id/permalink from TikTok yet; Merwyn asked to paste + pin manually"
+      "first_comment_result": "not sent: Tebar never linked the TikTok post (platform_post_id null); manual paste asked",
+      "permalink": "https://www.tiktok.com/@temantumbuhid/video/7706032257047301397"
     },
     {
       "day": "w3e-1",
@@ -628,7 +629,9 @@
         "76a824d4-2001-4d64-89e1-e61b7df91dd2"
       ],
       "first_comment_auto": true,
-      "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32."
+      "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32.",
+      "first_comment_result": "sent automatically (comment_id 7706137803880678162), post linked at +0.5 min",
+      "permalink": "https://www.tiktok.com/@temantumbuhid/video/7706139986009066804"
     },
     {
       "day": "w3n-2",
