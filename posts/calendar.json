@@ -650,7 +650,9 @@
         "c34eeb7a-c71c-411f-aa7b-1b995c4bfc26"
       ],
       "first_comment_auto": true,
-      "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32."
+      "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32.",
+      "permalink": "https://www.tiktok.com/@temantumbuhid/video/7706403191151217928",
+      "first_comment_result": "post linked; get_post output did not include first_comment status, Merwyn asked to check/paste"
     },
     {
       "day": "w3e-2",
