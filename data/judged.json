@@ -398,5 +398,117 @@
     "trust": 5,
     "fresh": 4,
     "note": "Myth-flip with a number like gigi pertama; caregivers handle the stock so the send is real. Relief is only the CTA line."
+  },
+  "w4s-wake-window": {
+    "hook": 4,
+    "job": 5,
+    "relief": 4,
+    "trust": 5,
+    "fresh": 4,
+    "note": "Concrete newborn fact (feeding counts as awake time) but not a myth-buster; 12-18 month row has no published range, so it says '3 jam lebih' and the slide labels every number 'kisaran kasar'."
+  },
+  "w4s-jam-tidur": {
+    "hook": 4,
+    "job": 4,
+    "relief": 3,
+    "trust": 4,
+    "fresh": 3,
+    "note": "Jam 8 corrects late bedtimes with a number, but parents of 10 pm sleepers may feel judged (CTA softens it); bedtimes are our arithmetic from SCHN/AASM, and the baby row gives no clock time."
+  },
+  "w4s-growth-spurt": {
+    "hook": 5,
+    "job": 4,
+    "relief": 5,
+    "trust": 4,
+    "fresh": 4,
+    "note": "Hits the commonest ASI-kurang worry head on; the hook is absolute on its own, so the sub line and wet-diaper note carry the safety limit."
+  },
+  "w4l-asi-naik": {
+    "hook": 4,
+    "job": 4,
+    "relief": 5,
+    "trust": 5,
+    "fresh": 3,
+    "note": "Hook reframes the katuk habit warmly with a concrete answer, but 'how to boost ASI' is a saturated topic; the save comes from the 5-row cheat."
+  },
+  "w4l-mastitis": {
+    "hook": 5,
+    "job": 5,
+    "relief": 4,
+    "trust": 5,
+    "fresh": 4,
+    "note": "Myth-correcting hook (no urut) backed by the 2022 ABM protocol, which most Indonesian content still contradicts; risk is that 'nggak perlu diurut' clashes with what bidan or family advise, so the copy names the source."
+  },
+  "w4l-overstimulasi": {
+    "hook": 4,
+    "job": 4,
+    "relief": 5,
+    "trust": 4,
+    "fresh": 4,
+    "note": "Hook says 'dia minta jeda' flatly although cues are 'bisa jadi'; the slides soften it. Comment ask is easy (one word)."
+  },
+  "w4l-finger-food": {
+    "hook": 4,
+    "job": 5,
+    "relief": 4,
+    "trust": 5,
+    "fresh": 3,
+    "note": "Finger food is a crowded topic; the gagging-vs-tersedak hook is the fresh part. 'Gagging' is code-mix some moms may not know."
+  },
+  "w4l-kakak-adik": {
+    "hook": 4,
+    "job": 4,
+    "relief": 5,
+    "trust": 5,
+    "fresh": 4,
+    "note": "Relief hook against the 'kakak harus langsung sayang' norm, but no number; audience is only parents expecting a second child."
+  },
+  "w4l-ayah-main": {
+    "hook": 4,
+    "job": 5,
+    "relief": 4,
+    "trust": 4,
+    "fresh": 4,
+    "note": "Research is correlational (softened on slide 01); 'latihan sabar' is a framing, and the ayah series has underperformed whatever the hook."
+  },
+  "w4l-s02-tantrum-minimarket": {
+    "hook": 4,
+    "job": 5,
+    "relief": 5,
+    "trust": 5,
+    "fresh": 3,
+    "note": "Tantrum is a saturated topic; the minimarket-kasir scene and the no-judgement 3-way comment question carry it."
+  },
+  "w4s-susu-uht": {
+    "hook": 4,
+    "job": 4,
+    "relief": 3,
+    "trust": 5,
+    "fresh": 4,
+    "note": "Concrete limit flips 'makin banyak makin bagus', but most of our audience is under 12 months, so the save is for later and relief is only the CTA line."
+  },
+  "w4s-asip-ml": {
+    "hook": 4,
+    "job": 5,
+    "relief": 4,
+    "trust": 4,
+    "fresh": 4,
+    "note": "Strong save for return-to-work moms; the 30 ml per jam rule is our own arithmetic from HSE's 750 ml a day, shown as such on the slide."
+  },
+  "w4s-kolik": {
+    "hook": 4,
+    "job": 4,
+    "relief": 5,
+    "trust": 5,
+    "fresh": 3,
+    "note": "Relief hook with a date to hold on to; kolik itself is saturated, the tag-team angle for the partner is the fresh part."
+  },
+  "w4s-gula": {
+    "hook": 4,
+    "job": 4,
+    "relief": 3,
+    "trust": 5,
+    "fresh": 3,
+    "note": "6 sendok teh is concrete but familiar to some parents; no product numbers on slides (none primary-sourced), so the label maths carries it."
   }
 }
