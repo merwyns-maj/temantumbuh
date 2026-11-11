@@ -1,0 +1,114 @@
+{
+  "series": "pintar",
+  "job": "comment",
+  "format": "story",
+  "usia": "1-3 TAHUN",
+  "tiktok_title": "Anak tantrum di minimarket bukan salahmu. Ini yang bantu pas dia minta permen di kasir",
+  "caption": "Antrean panjang, permen pas di depan kasir, dan dia mulai teriak. Semua orang tua pernah di posisi ini. Tantrum paling sering di umur 1 sampai 3 tahun, dan itu cara dia ngeluarin emosi yang belum bisa dia omongin.\n\nYang bantu:\n1. Tenang dulu. Kalau kamu tenang, dia biasanya lebih cepat reda\n2. Sebut perasaannya: \"Kamu pengen permen, kesel ya\"\n3. Batasnya jelas, dan jangan dituruti cuma biar diam\n4. Kasih pilihan kecil yang dua-duanya kamu oke\n5. Kalau perlu, pindah ke tempat yang lebih sepi\n\nBoleh kok kadang bilang iya. Asal diputusin sebelum dia tantrum, bukan karena tantrumnya.\n\nJujur, kamu biasanya gimana: dituruti, dicuekin, atau dimarahin? Semua pernah, nggak ada yang dihakimi di sini 🤍\n\nSumber: AAP (healthychildren.org), Zero to Three, CDC\n\n#tantrum #balita #emosianak #parentingindonesia #SeriAnakPintar",
+  "first_comment": "Kamu biasanya gimana: dituruti, dicuekin, atau dimarahin? Semua pernah 🤍",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "DRAMA DI KASIR",
+      "lines": [
+        "ANAK TANTRUM",
+        "DI MINIMARKET",
+        "BUKAN SALAHMU."
+      ],
+      "accent": 2,
+      "sub": "Paling sering umur 1-3 tahun, kata AAP.",
+      "mascot": "kaget",
+      "hero": "w4le-tantrum-kasir"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Semua orang ngelihatin",
+      "tips_label": "WAJAR KOK",
+      "tips": "Tantrum itu cara anak ngeluarin emosi yang belum bisa dia omongin. Bukan tanda kamu gagal.",
+      "art": "w4le-tantrum-antre",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Langkah 1: Tenang dulu",
+      "tips_label": "COBA INI",
+      "tips": "Tarik napas, turunin suara. Kalau kamu tenang, dia biasanya lebih cepat reda.",
+      "art": "w4le-tantrum-tenang",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Langkah 2: Sebut perasaannya",
+      "tips_label": "COBA BILANG",
+      "tips": "\"Kamu pengen permen, kesel ya.\" Perasaannya diterima, permintaannya belum tentu.",
+      "art": "w4le-tantrum-sebut",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Langkah 3: Batasnya jelas",
+      "tips_label": "COBA BILANG",
+      "tips": "\"Permennya nggak hari ini.\" Kalau dikasih cuma biar diam, besok dia coba cara yang sama.",
+      "art": "w4le-tantrum-batas",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Langkah 4: Kasih pilihan kecil",
+      "tips_label": "COBA BILANG",
+      "tips": "\"Mau pegang pisang, atau bawa keranjang?\" Dua pilihan yang dua-duanya kamu oke.",
+      "art": "w4le-tantrum-pilihan",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Kalau dia tantrum di kasir:",
+      "rows": [
+        {
+          "text": "Tenang dulu",
+          "small": "Tarik napas, suara pelan",
+          "art": "w4le-tantrum-tenang"
+        },
+        {
+          "text": "Sebut perasaannya",
+          "small": "\"Kamu kesel ya\"",
+          "art": "w4le-tantrum-sebut"
+        },
+        {
+          "text": "Batas yang jelas",
+          "small": "Bukan dituruti biar diam",
+          "art": "w4le-tantrum-batas"
+        },
+        {
+          "text": "Pilihan kecil",
+          "small": "Dua-duanya kamu oke",
+          "art": "w4le-tantrum-pilihan"
+        },
+        {
+          "text": "Pindah ke tempat sepi",
+          "small": "Kalau perlu",
+          "art": "w4le-tantrum-sepi"
+        }
+      ],
+      "note": "Semua orang tua pernah ngalamin"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Jujur, kamu biasanya yang mana?",
+      "accent": "Dituruti, dicuekin, atau dimarahin?",
+      "pill": "JAWAB DI KOMEN",
+      "sub2": "Semua pernah. Di sini nggak ada yang dihakimi.",
+      "source": "Sumber: AAP (healthychildren.org), Zero to Three, CDC",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ]
+}

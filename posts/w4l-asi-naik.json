@@ -1,0 +1,118 @@
+{
+  "series": "ibu",
+  "job": "save",
+  "usia": "0-6 BULAN",
+  "tiktok_title": "Pelancar ASI nomor satu itu bayimu sendiri. Daun katuk boleh, tapi buktinya terbatas",
+  "first_comment": "Kamu nyusuin langsung, pompa, atau dua-duanya? 👇",
+  "caption": "Pelancar ASI yang paling ngaruh itu bayimu sendiri. ASI dibikin sesuai yang keluar: makin sering disusuin atau dipompa, makin banyak yang dibikin lagi. Newborn biasanya nyusu 8-12 kali sehari, malam juga.\n\nYang bantu: pelekatan yang pas (mulut buka lebar, bibir bawah keluar), dekap kulit ke kulit, kasih dua sisi gantian, dan ibu yang makan, minum, dan tidur cukup. Daun katuk boleh dimakan, tapi bukti ilmiah pelancar ASI dari tanaman masih terbatas. Kalau ragu, tanya konselor menyusui di puskesmas atau RS terdekat.\n\nDi rumahmu, pelancar ASI apa yang paling sering disaranin?\n\nSumber: WHO, Kemenkes RI, IDAI, ABM Clinical Protocol No. 9 (2018), CDC, HSE Ireland\n\n#asi #busui #menyusui #parentingindonesia #SeriIbu",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "FAKTA ASI",
+      "lines": [
+        "PELANCAR ASI",
+        "NOMOR SATU:",
+        "BAYIMU SENDIRI."
+      ],
+      "accent": 2,
+      "sub": "Katuk boleh, tapi buktinya terbatas.",
+      "hero": "w4c-asi-katuk"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "ASI dibikin sesuai yang keluar",
+      "tips": "Newborn nyusu 8-12x sehari, malam juga. Lagi pisah sama bayi? Pompa sesering jadwal nyusunya.",
+      "art": "w4c-asi-sering",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Mulut bayi buka lebar",
+      "tips": "Bibir bawah dower keluar, nempel sampai area gelap, bukan cuma puting. Nyeri terus? Tanya konselor laktasi.",
+      "art": "w4c-asi-pelekatan",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Dekap kulit ke kulit",
+      "tips": "Bayi cuma pakai popok, tempel di dadamu, tutup selimut. Ini bantu dia siap nyusu.",
+      "art": "w4c-asi-skin",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Kasih dua sisi, gantian",
+      "tips": "Isapan mulai jarang? Lepas pelan, tawarin sisi satunya. Pakai pompa? Perah dua sisi juga.",
+      "art": "w4c-asi-dua",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Ibu juga perlu makan dan tidur",
+      "tips": "Minum 12-14 gelas sehari, tidur pas bayi tidur. Katuk boleh jadi sayurnya, tapi bukan andalan.",
+      "art": "w4c-asi-ibu",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "SCREENSHOT DULU",
+      "title": "Biar ASI naik:",
+      "rows": [
+        {
+          "text": "Susui 8-12x sehari",
+          "small": "Ikutin bayi, malam juga",
+          "art": "w4c-ic-sering"
+        },
+        {
+          "text": "Mulut buka lebar",
+          "small": "Bibir bawah dower keluar",
+          "art": "w4c-ic-latch"
+        },
+        {
+          "text": "Kulit ke kulit",
+          "small": "Pakai popok dan selimut",
+          "art": "w4c-ic-skin"
+        },
+        {
+          "text": "Dua sisi gantian",
+          "small": "Pompa juga dua sisi",
+          "art": "w4c-ic-dua"
+        },
+        {
+          "text": "Ragu? Konselor laktasi",
+          "small": "Di puskesmas atau RS",
+          "art": "w4c-ic-konselor"
+        }
+      ],
+      "note": "Katuk boleh, tapi bukan andalan"
+    },
+    {
+      "type": "cta",
+      "headline": "ASI-mu ikut permintaan bayi.",
+      "accent": "Kalau seret, bukan salah kamu.",
+      "pill": "SIMPAN BUAT PAS ASI SERET",
+      "sub2": "Masih ragu? Tanya konselor menyusui di puskesmas atau RS.",
+      "source": "Sumber: WHO, Kemenkes RI, IDAI, ABM Protokol No. 9 (2018), CDC, HSE Ireland",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ],
+  "sources": [
+    "WHO fact sheet Infant and young child feeding: breastfeed responsively, as often as the child wants, day and night. https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding",
+    "WHO Ten Steps to Successful Breastfeeding, step 4 (immediate, uninterrupted skin-to-skin) and step 8 (respond to feeding cues). https://www.who.int/thailand/activities/ten-steps-to-successful-breastfeeding",
+    "Kemenkes RI, Memperlancar Produksi ASI (Biro Komunikasi, Agustus 2024): susui sesering dan selama bayi menghendaki, pelekatan dan posisi yang benar, hubungi konselor menyusui di fasilitas kesehatan terdekat. https://kemkes.go.id/id/memperlancar-produksi-asi",
+    "Kemenkes RI (Ditjen Yankes, RSUP Fatmawati), Kebutuhan Gizi Ibu Menyusui, 3 Okt 2024: minum air putih 12-14 gelas/hari. https://keslan.kemkes.go.id/view_artikel/3697/kebutuhan-gizi-ibu-menyusui-inilah-kunci-anak-sehat",
+    "IDAI, dr. Citra Amelinda SpA IBCLC via Antara 24 Mar 2022: the more often the baby breastfeeds, the more milk is produced (quote: Semakin sering disusui, akan semakin banyak ASI yang diproduksi). https://kupang.antaranews.com/berita/79985/menyusui-lebih-sering-membuat-asi-makin-lancar",
+    "ABM Clinical Protocol #9 Use of Galactogogues, 2018 (Brodribb, Breastfeed Med 13(5):307-314): increase frequency and effectiveness of milk removal first. galactogogues will not increase supply with infrequent drainage. little or no scientific evidence for herbal galactogogues. a lactation expert should evaluate first. https://www.e-lactancia.org/media/papers/Galactogogues-protocol_ABMeng-BFM2018.pdf",
+    "CDC How Much and How Often to Breastfeed: about 8 to 12 times in 24 hours. frequent feeding helps increase supply. https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/how-much-and-how-often.html",
+    "CDC Newborn Breastfeeding Basics: good latch, mouth open wide over the areola, lips turned out. if not at the breast, pump as often as baby eats. https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/newborn-basics.html",
+    "NHS Leeds Teaching Hospitals, Supporting early lactation: when swallowing slows, unlatch and offer the other breast. skin-to-skin helps baby feel ready to breastfeed. https://www.leedsth.nhs.uk/patients/resources/supporting-early-lactation-for-mothers/",
+    "HSE Ireland, Pumping breast milk: pumping both breasts at the same time expresses more milk. supply depends on how often you express. https://www2.hse.ie/babies-children/breastfeeding/expressing-pumping/pumping-breast-milk-for-your-premature-or-ill-baby/"
+  ],
+  "notes": "Long format (Test E). Art: Mama (hijab) holding baby wrapped in a blanket, no anatomy, no bottles. Katuk is framed as fine to eat but not the main lever (ABM #9: little evidence for herbal galactogogues). No booster products or galactagogue drugs named."
+}

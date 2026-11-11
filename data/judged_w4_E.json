@@ -1,0 +1,26 @@
+{
+ "w4l-kakak-adik": {
+  "hook": 4,
+  "job": 4,
+  "relief": 5,
+  "trust": 5,
+  "fresh": 4,
+  "note": "Relief hook against the 'kakak harus langsung sayang' norm, but no number; audience is only parents expecting a second child."
+ },
+ "w4l-ayah-main": {
+  "hook": 4,
+  "job": 5,
+  "relief": 4,
+  "trust": 4,
+  "fresh": 4,
+  "note": "Research is correlational (softened on slide 01); 'latihan sabar' is a framing, and the ayah series has underperformed whatever the hook."
+ },
+ "w4l-s02-tantrum-minimarket": {
+  "hook": 4,
+  "job": 5,
+  "relief": 5,
+  "trust": 5,
+  "fresh": 3,
+  "note": "Tantrum is a saturated topic; the minimarket-kasir scene and the no-judgement 3-way comment question carry it."
+ }
+}

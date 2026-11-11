@@ -1,0 +1,109 @@
+{
+  "series": "pintar",
+  "job": "send",
+  "format": "story",
+  "usia": "KAKAK 2-5 TAHUN",
+  "tiktok_title": "Kakak boleh kesel sama adik barunya. Ini cara nyiapin kakak sebelum adik lahir",
+  "caption": "Kakak nggak harus langsung sayang sama adiknya. Kesel, cemburu, minta digendong lagi, ngompol lagi: itu wajar dan biasanya reda pelan-pelan.\n\nYang bisa disiapin dari sekarang:\n1. Ajak ikut nyiapin barang adik, tapi jangan dipaksa\n2. Baca buku soal adik bayi, ceritain yang jujur (adik sering nangis, belum bisa diajak main)\n3. Lepas popok atau pindah kasur: mulai jauh sebelum adik lahir, atau tunda dulu\n4. Waktu berdua sama kakak tiap hari, walau sebentar\n5. Kesel boleh, mukul nggak. Jangan dimarahin karena cemburu\n\nBonus: minta tamu yang jenguk sapa kakak dulu, baru lihat adiknya.\n\nJarak umur kakak sama adik di rumahmu berapa tahun?\n\nSumber: AAP (healthychildren.org), Raising Children Network, Zero to Three, CDC\n\n#kakakadik #hamilanakkedua #parentingindonesia #balita #SeriAnakPintar",
+  "first_comment": "Jarak umur kakak sama adik di rumahmu berapa tahun? Tulis angkanya 👇",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "MAU PUNYA ADIK",
+      "lines": [
+        "KAKAK",
+        "BOLEH KESEL",
+        "SAMA ADIKNYA."
+      ],
+      "accent": 1,
+      "sub": "Nggak harus langsung sayang kok.",
+      "mascot": "sayang",
+      "hero": "w4le-kakak-kesel"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Ajak dia ikut nyiapin",
+      "tips_label": "COBA INI",
+      "tips": "Pilih baju adik bareng, beresin kasur bayi bareng. Kalau dia nggak mau, jangan dipaksa.",
+      "art": "w4le-ajak-nyiapin",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Baca buku soal adik bayi",
+      "tips_label": "CERITAIN YANG JUJUR",
+      "tips": "Adik nanti sering nangis, sering nyusu, dan belum bisa diajak main. Jadi dia nggak kaget.",
+      "art": "w4le-baca-cerita",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Jangan barengan adik lahir",
+      "tips_label": "SARAN AHLI",
+      "tips": "Lepas popok atau pindah kasur: beresin jauh sebelum adik lahir, atau tunda sampai adik agak besar.",
+      "art": "w4le-rutinitas",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Waktu berdua, walau sebentar",
+      "tips_label": "COBA INI",
+      "tips": "Pas adik tidur, baca 1 buku atau main balok sama kakak. Ayah juga bisa ambil giliran.",
+      "art": "w4le-berdua",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Kesel boleh, mukul nggak",
+      "tips_label": "COBA BILANG",
+      "tips": "\"Kamu kesel ya, Mama sibuk terus. Boleh kesel, tapi nggak boleh mukul adik.\"",
+      "art": "w4le-terima-kesal",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Sebelum adik lahir:",
+      "rows": [
+        {
+          "text": "Ajak ikut nyiapin",
+          "small": "Tapi jangan dipaksa",
+          "art": "w4le-ajak-nyiapin"
+        },
+        {
+          "text": "Baca buku adik bayi",
+          "small": "Ceritain yang jujur",
+          "art": "w4le-baca-cerita"
+        },
+        {
+          "text": "Waktu berdua",
+          "small": "Tiap hari, sebentar aja",
+          "art": "w4le-berdua"
+        },
+        {
+          "text": "Tamu sapa kakak dulu",
+          "small": "Baru lihat adiknya",
+          "art": "w4le-tamu-kakak"
+        }
+      ],
+      "note": "Ngompol lagi atau minta digendong? Wajar"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Kakak juga baru pertama kali",
+      "accent": "jadi kakak.",
+      "pill": "KIRIM KE PASANGANMU",
+      "sub2": "Atau ke Nenek yang nanti bantu jagain kakak.",
+      "source": "Sumber: AAP (healthychildren.org), Raising Children Network, Zero to Three, CDC",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ]
+}

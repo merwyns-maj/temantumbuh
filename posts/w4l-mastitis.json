@@ -1,0 +1,106 @@
+{
+  "series": "ibu",
+  "job": "save",
+  "usia": "0-24 BULAN",
+  "tiktok_title": "Mastitis nggak perlu diurut keras. Panduan terbaru ABM 2022: kompres dingin, susui seperti biasa",
+  "first_comment": "Pernah kena mastitis? Jawab aja: pernah atau belum 👇",
+  "caption": "Panduan mastitis terbaru dari Academy of Breastfeeding Medicine (Protokol No. 36, 2022) beda dari yang dulu sering kita dengar. Payudara merah, nyeri, dan bengkak, kadang sampai demam dan menggigil, nggak perlu diurut keras dan nggak perlu dipompa sampai kosong. Pijat keras malah bikin radang makin parah.\n\nYang disaranin: tetap susui sesuai maunya bayi, kompres dingin (boleh tiap jam), usap kulit pelan, pakai bra yang pas, dan obat nyeri sesuai anjuran dokter. ASI-nya tetap aman buat bayi.\n\nKe dokter kalau demam lewat 24 jam, nggak membaik setelah 12-24 jam dirawat, merah makin meluas, atau ada benjolan berisi cairan.\n\nDulu kamu disaranin apa pas payudara bengkak?\n\nSumber: ABM Clinical Protocol No. 36 (2022), WHO\n\n#mastitis #busui #menyusui #parentingindonesia #SeriIbu",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "PANDUAN TERBARU",
+      "lines": [
+        "MASTITIS",
+        "NGGAK PERLU",
+        "DIURUT."
+      ],
+      "accent": 2,
+      "sub": "Kompres dingin, susui seperti biasa.",
+      "hero": "w4c-mas-dingin"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Merah, nyeri, bengkak",
+      "tips": "Demam, menggigil, badan pegal kayak mau flu. Lewat 24 jam belum turun? Ke dokter.",
+      "tips_label": "BISA JUGA",
+      "art": "w4c-mas-tanda",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Tetap susui seperti biasa",
+      "tips": "ASI-nya aman buat bayi. Ikutin maunya bayi aja, nggak usah dipaksa lebih sering.",
+      "art": "w4c-mas-susui",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Jangan diurut keras",
+      "tips": "Urut keras bikin radang dan bengkak makin parah. Cukup usap kulit pelan, kayak ngelus kucing.",
+      "art": "w4c-mas-pijat",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Jangan pompa sampai kosong",
+      "tips": "Pompa berlebih bikin produksi makin banyak, malah makin bengkak. Perah secukupnya aja.",
+      "art": "w4c-mas-pompa",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Kompres dingin, obat nyeri",
+      "tips": "Es dibungkus handuk tipis, boleh tiap 1 jam. Obat nyeri yang aman buat busui, tanya dokter dulu.",
+      "art": "w4c-mas-kompres",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "SCREENSHOT DULU",
+      "title": "Ke dokter kalau:",
+      "rows": [
+        {
+          "text": "Demam lewat 24 jam",
+          "small": "Atau menggigil dan berdebar",
+          "art": "w4c-ic-demam"
+        },
+        {
+          "text": "Nggak membaik",
+          "small": "Udah 12-24 jam dirawat",
+          "art": "w4c-ic-jam"
+        },
+        {
+          "text": "Merah makin meluas",
+          "small": "Makin keras dan panas",
+          "art": "w4c-ic-meluas"
+        },
+        {
+          "text": "Ada benjolan berisi cairan",
+          "small": "Bisa jadi abses",
+          "art": "w4c-ic-benjol"
+        }
+      ],
+      "note": "Ke dokter itu wajar, bukan lebay"
+    },
+    {
+      "type": "cta",
+      "headline": "Mastitis umum dialami busui.",
+      "accent": "Kamu nggak sendirian.",
+      "pill": "SIMPAN BUAT JAGA-JAGA",
+      "sub2": "Pakai bra yang pas. Masih ragu? Tanya dokter atau konselor laktasi.",
+      "source": "Sumber: ABM Clinical Protocol No. 36 (2022), WHO",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ],
+  "sources": [
+    "Mitchell KB et al., ABM Clinical Protocol #36: The Mastitis Spectrum, Revised 2022. Breastfeed Med 2022.17(5):360-376. doi:10.1089/bfm.2022.29207.kbm. Inflammatory mastitis: erythematous, edematous, painful area with fever, chills, tachycardia. feed on demand, do not aim to empty. express only what the infant consumes, pumping to empty perpetuates hyperlactation. avoid deep massage (causes more inflammation, edema, microvascular injury), light sweeping lymphatic drainage instead. supportive bra. ice can be applied every hour. NSAIDs/paracetamol. evaluate if persistent systemic symptoms >24 h. abscess = progressive induration and erythema, palpable fluid collection. safe for the infant to consume milk from a breast with bacterial mastitis. mastitis is a common complication of lactation. https://simplebooklet.com/bfm202229207kbmver9mitchell?textonly=1",
+    "WHO, Mastitis: causes and management (2000): antibiotic treatment indicated if symptoms do not improve after 12-24 hours of improved milk removal or are severe from the beginning. breastfeeding should continue. rest and analgesics. https://www.e-lactancia.org/media/papers/Mastitis-WHO2000.pdf"
+  ],
+  "notes": "Long format (Test E). Follows ABM #36 (2022), which replaces older warm-compress and firm-massage advice still common in Indonesia (UNICEF parenting page still says warm compress and gentle massage toward the nipple). No drug names or doses on slides. Art: Mama in hijab with an ice pack, baby in a blanket, icons only, no anatomy, no bottles."
+}

@@ -1,4 +1,4 @@
-"""Flat illustrated family for story posts: Mama (hijab), Ayah, Adek (about 2 years).
+"""Flat illustrated family for story posts: Mama (hijab), Ayah, Adek (about 2 years), Kakak (about 4-5 years, pigtails).
 No real faces, not photoreal (CLAUDE.md rule 6). Same palette as artkit.
 person(kind, cx, cy, s, expr, arms) draws a bust (head + torso); cy is the head centre, s the scale (1 = adult head r 62).
 expr: senang, lembut, sedih, nangis, capek, kaget, ngomel. arms: none, pegang, peluk, tangan-dada.
@@ -6,7 +6,8 @@ expr: senang, lembut, sedih, nangis, capek, kaget, ngomel. arms: none, pegang, p
 from artkit import *
 
 SKIN = '#f3cba5'; SKIND = '#e2ad83'; HAIR = '#3b2f2a'; CHEEK = '#f2a38c'
-OUTFIT = {'mama': (SAGE, SD), 'ayah': (SKY, SKYD), 'adek': (SUN, SUND)}
+OUTFIT = {'mama': (SAGE, SD), 'ayah': (SKY, SKYD), 'adek': (SUN, SUND), 'kakak': (TERRA, TD)}
+HEAD_R = {'adek': 54, 'kakak': 58}   # kakak: older sibling (~4-5 years, pigtails); others 62
 HIJAB = ('#d98b72', '#c4735b')
 
 def _brows(cx, ey, r, dx, w, kind):
@@ -71,10 +72,10 @@ def _arms(kind, cx, ty, r, arms, col, cold):
     return ''
 
 def person(kind, cx, cy, s=1.0, expr='senang', arms='none', flip=False):
-    r = 62 * s if kind != 'adek' else 54 * s
+    r = HEAD_R.get(kind, 62) * s
     col, cold = OUTFIT[kind]
     ty = cy + r * 0.95          # top of torso
-    tw = r * (1.35 if kind != 'adek' else 1.15)
+    tw = r * {'adek': 1.15, 'kakak': 1.2}.get(kind, 1.35)
     th = r * 2.6  # long torso: a table drawn in front cuts it off
     g = []
     # torso
@@ -87,6 +88,10 @@ def person(kind, cx, cy, s=1.0, expr='senang', arms='none', flip=False):
         g.append(f'<path d="M{cx+r*0.35} {cy-r*1.0} Q{cx+r*1.2} {cy-r*0.6} {cx+r*1.05} {cy+r*0.6}" stroke="{hd}" stroke-width="{r*0.12}" fill="none" opacity="0.5"/>')
     else:
         g.append(f'<rect x="{cx-r*0.22}" y="{cy+r*0.7}" width="{r*0.44}" height="{r*0.4}" fill="{SKIND}"/>')
+    if kind == 'kakak':  # two pigtails behind the head, with sun-yellow ties
+        for k in (-1, 1):
+            g.append(f'<ellipse cx="{cx+k*r*1.12}" cy="{cy-r*0.05}" rx="{r*0.34}" ry="{r*0.46}" fill="{HAIR}" transform="rotate({k*-18} {cx+k*r*1.12} {cy-r*0.05})"/>')
+            g.append(f'<circle cx="{cx+k*r*0.9}" cy="{cy-r*0.42}" r="{r*0.13}" fill="{SUN}"/>')
     # face
     g.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{r*0.86 if kind=="mama" else r}" ry="{r*0.92 if kind=="mama" else r}" fill="{SKIN}"/>')
     if kind == 'ayah':
@@ -95,6 +100,8 @@ def person(kind, cx, cy, s=1.0, expr='senang', arms='none', flip=False):
     if kind == 'adek':
         g.append(f'<path d="M{cx-r*0.95} {cy-r*0.25} Q{cx-r*0.9} {cy-r*1.05} {cx} {cy-r*1.02} Q{cx+r*0.9} {cy-r*1.05} {cx+r*0.95} {cy-r*0.25} Q{cx+r*0.5} {cy-r*0.6} {cx} {cy-r*0.55} Q{cx-r*0.5} {cy-r*0.65} {cx-r*0.95} {cy-r*0.25} Z" fill="{HAIR}"/>')
         g.append(f'<path d="M{cx-r*0.05} {cy-r*1.0} Q{cx+r*0.2} {cy-r*1.35} {cx+r*0.35} {cy-r*1.15}" stroke="{HAIR}" stroke-width="{r*0.12}" fill="none" stroke-linecap="round"/>')
+    if kind == 'kakak':  # full hair cap with a fringe
+        g.append(f'<path d="M{cx-r*1.0} {cy-r*0.05} Q{cx-r*1.05} {cy-r*1.1} {cx} {cy-r*1.06} Q{cx+r*1.05} {cy-r*1.1} {cx+r*1.0} {cy-r*0.05} Q{cx+r*0.9} {cy-r*0.45} {cx+r*0.55} {cy-r*0.5} Q{cx+r*0.2} {cy-r*0.36} {cx} {cy-r*0.5} Q{cx-r*0.25} {cy-r*0.36} {cx-r*0.55} {cy-r*0.5} Q{cx-r*0.9} {cy-r*0.45} {cx-r*1.0} {cy-r*0.05} Z" fill="{HAIR}"/>')
     if kind == 'mama':
         g.append(f'<path d="M{cx-r*0.88} {cy-r*0.2} Q{cx-r*0.8} {cy-r*0.95} {cx} {cy-r*0.92} Q{cx+r*0.8} {cy-r*0.95} {cx+r*0.88} {cy-r*0.2} Q{cx+r*0.6} {cy-r*0.7} {cx} {cy-r*0.72} Q{cx-r*0.6} {cy-r*0.7} {cx-r*0.88} {cy-r*0.2} Z" fill="{HIJAB[1]}"/>')
     # cheeks, eyes, mouth
@@ -142,7 +149,7 @@ def table(y, H, col=FLOOR, edge=BOX):
     """A table or floor edge drawn IN FRONT of the busts, so they sit behind it."""
     return f'<rect x="0" y="{y}" width="880" height="{H-y}" rx="18" fill="{col}"/><rect x="0" y="{y}" width="880" height="12" rx="6" fill="{edge}" opacity="0.35"/>'
 
-def head_r(kind, s): return (62 if kind != 'adek' else 54) * s
+def head_r(kind, s): return HEAD_R.get(kind, 62) * s
 def seat(kind, s, top, holding=False):
     """Head-centre y so the hands (holding) or the chest sit just above a table top."""
     r = head_r(kind, s)

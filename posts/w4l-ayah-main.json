@@ -1,0 +1,108 @@
+{
+  "series": "ayah",
+  "job": "send",
+  "usia": "1-3 TAHUN",
+  "tiktok_title": "Gulat sama ayah itu latihan sabar. Ide main fisik ala ayah dan aturan amannya",
+  "caption": "Kuda-kudaan, pesawat-pesawatan, gulat kaos kaki, kejar-kejaran. Kelihatannya cuma rusuh, tapi rangkuman 16 studi nemuin main fisik ayah-anak berhubungan sama kontrol diri dan kemampuan emosi anak. Hubungan ya, bukan jaminan.\n\nKuncinya gantian menang. Pas kalah, anak latihan nahan kesel. Ayah yang menang terus, anaknya nggak dapat latihannya. Ayah yang kalah terus juga sama.\n\nBuat bayi beda aturannya: jangan dilempar ke atas, jangan digoyang keras. Kepalanya belum kuat.\n\nAnakmu paling suka main apa sama ayahnya?\n\nSumber: StGeorge & Freeman 2017 (Infant Mental Health Journal), Freeman (University of Newcastle), AAP (healthychildren.org)\n\n#ayahbaru #mainsamaayah #balita #parentingindonesia #SeriAyahBaru",
+  "first_comment": "Di rumahmu, siapa yang paling sering jadi kuda? Ayah atau Mama? 👇",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "BUAT PARA AYAH",
+      "lines": [
+        "GULAT SAMA",
+        "AYAH ITU",
+        "LATIHAN SABAR."
+      ],
+      "accent": 2,
+      "sub": "Asal Ayah nggak menang terus.",
+      "mascot": "hore",
+      "hero": "w4le-ayah-kalah"
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Kalah juga bagian dari latihan",
+      "tips_label": "KATA RISET",
+      "tips": "Rangkuman 16 studi: main fisik sama ayah berhubungan sama kontrol diri anak. Pas kalah, dia latihan nahan kesel.",
+      "art": "w4le-gantian",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Kuda-kudaan di karpet",
+      "tips_label": "COBA INI",
+      "tips": "Jalan pelan, dia pegangan di bahu Ayah. Gelar karpet atau selimut tebal di bawah.",
+      "art": "w4le-kuda",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Pesawat-pesawatan",
+      "tips_label": "COBA INI",
+      "tips": "Ayah tiduran, dia telungkup di tulang kering Ayah. Rendah aja, tangannya dipegangin.",
+      "art": "w4le-pesawat",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Gulat kaos kaki",
+      "tips_label": "ATURANNYA",
+      "tips": "Masing-masing pakai 1 kaos kaki. Yang duluan copot kaos kaki lawan, menang. Gantian ya, Yah.",
+      "art": "w4le-gulat-kaos-kaki",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Masih bayi? Beda aturannya",
+      "tips_label": "PENTING",
+      "tips": "Jangan dilempar ke atas, jangan digoyang keras. Kepalanya belum kuat. Cukup digendong dan diayun pelan.",
+      "art": "w4le-bayi-pelan",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Main fisik sama Ayah:",
+      "rows": [
+        {
+          "text": "Kuda-kudaan",
+          "small": "Pelan, ada karpet",
+          "art": "w4le-kuda"
+        },
+        {
+          "text": "Pesawat-pesawatan",
+          "small": "Rendah, tangan dipegang",
+          "art": "w4le-pesawat"
+        },
+        {
+          "text": "Gulat kaos kaki",
+          "small": "Gantian menang",
+          "art": "w4le-gulat-kaos-kaki"
+        },
+        {
+          "text": "Kejar-kejaran",
+          "small": "Ayah pura-pura lambat",
+          "art": "w4le-kejar"
+        }
+      ],
+      "note": "Dia bilang udahan? Berhenti."
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Ayah ngos-ngosan duluan,",
+      "accent": "anaknya masih minta lagi.",
+      "pill": "KIRIM KE SUAMI",
+      "sub2": "Mama udah jagain seharian. Malam ini Ayah yang jadi kudanya.",
+      "source": "Sumber: StGeorge & Freeman 2017 (Infant Mental Health Journal), Freeman (University of Newcastle), AAP (healthychildren.org)",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
+  ]
+}
