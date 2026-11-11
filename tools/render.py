@@ -35,6 +35,8 @@ SERIES = {
     "ibu": ("SERI IBU", "seri-ibu.svg"),
 }
 DISCLAIMER = "Konten edukasi umum. Untuk kondisi khusus, konsultasikan dengan dokter anak."
+# "disclaimer": "ibu" on the CTA = a post about the mother's own health (breastfeeding, mastitis)
+DISCLAIMER_IBU = "Konten edukasi umum. Untuk kondisi khusus, konsultasikan dengan dokter atau konselor laktasi."
 
 
 class LayoutError(Exception):
@@ -526,7 +528,8 @@ class Slide:
             sf2 = font("body800", 26)
             blocks.append(text_block(wrap(d, s["source"], sf2, 860), sf2, clh, "sage-ink"))
         if s.get("disclaimer"):
-            blocks.append(text_block(wrap(d, DISCLAIMER, cf, 820), cf, clh, "ink-muted"))
+            dt = DISCLAIMER_IBU if s.get("disclaimer") == "ibu" else DISCLAIMER
+            blocks.append(text_block(wrap(d, dt, cf, 820), cf, clh, "ink-muted"))
         gap = 34
         total = sum(h for h, _ in blocks) + gap * (len(blocks) - 1)
         top, bottom = 160, H - 170
