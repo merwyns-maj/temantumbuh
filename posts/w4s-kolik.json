@@ -1,0 +1,94 @@
+{
+  "series": "pintar",
+  "job": "send",
+  "usia": "0-4 BULAN",
+  "tiktok_title": "Kolik biasanya reda di umur 3-4 bulan. Aturan 3 dan cara gantian nenangin bayi",
+  "first_comment": "Bayimu paling rewel jam berapa? 👇",
+  "caption": "Dokter biasanya nyebut kolik kalau bayi sehat nangis lebih dari 3 jam sehari, lebih dari 3 hari seminggu, selama lebih dari 3 minggu. Puncaknya sekitar umur 6 minggu, sering sore sampai malam, dan biasanya reda di umur 3-4 bulan. Penyebab pastinya belum diketahui, jadi ini bukan salah kamu.\n\nYang bisa dicoba: gendong sambil jalan, ayun pelan, suara sshh atau kipas, tengkurapkan di pangkuan sambil usap punggungnya (kalau tidur, pindahkan telentang). Udah mulai kesal? Gantian sama pasangan. Kalau sendirian, taruh bayi telentang di boks dan keluar kamar sebentar. Bayi jangan pernah diguncang.\n\nKe dokter kalau bayi muntah hijau atau berdarah, demam, lemas, susah napas, beratnya nggak naik, atau tangisnya lemah atau beda dari biasanya.\n\nDi rumahmu, siapa yang paling jago nenangin bayi?\n\nSumber: American Academy of Pediatrics (healthychildren.org), MSD Manual, NHS\n\n#kolik #bayibaru #newborn #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "BAYI KOLIK",
+      "lines": [
+        "KOLIK BIASANYA",
+        "REDA DI UMUR",
+        "3-4 BULAN."
+      ],
+      "accent": 2,
+      "sub": "Aturan 3: 3 jam, 3 hari, 3 minggu.",
+      "hero": "w4b-kolik-ayah"
+    },
+    {
+      "type": "cheat",
+      "kicker": "ATURAN 3",
+      "title": "Disebut kolik kalau nangis:",
+      "rows": [
+        {
+          "text": "Lebih dari 3 jam",
+          "small": "Dalam sehari",
+          "art": "w4b-kolik-3jam"
+        },
+        {
+          "text": "Lebih dari 3 hari",
+          "small": "Dalam seminggu",
+          "art": "w4b-kolik-3hari"
+        },
+        {
+          "text": "Lebih dari 3 minggu",
+          "small": "Puncaknya sekitar umur 6 minggu",
+          "art": "w4b-kolik-3minggu"
+        },
+        {
+          "text": "Tapi bayinya sehat",
+          "small": "Mau minum, beratnya naik",
+          "art": "w4b-kolik-sehat"
+        }
+      ],
+      "note": "Yang mastiin itu kolik atau bukan, dokter"
+    },
+    {
+      "type": "cheat",
+      "kicker": "GANTIAN NENANGIN",
+      "title": "Coba satu-satu:",
+      "rows": [
+        {
+          "text": "Gendong sambil jalan",
+          "small": "Pakai gendongan juga boleh",
+          "art": "w4b-kolik-gendong"
+        },
+        {
+          "text": "Ayun pelan",
+          "small": "Pelan aja, jangan pernah diguncang",
+          "art": "w4b-kolik-ayun"
+        },
+        {
+          "text": "Suara sshh atau kipas",
+          "small": "Suara datar yang terus-terusan",
+          "art": "w4b-kolik-sshh"
+        },
+        {
+          "text": "Tengkurap di pangkuan",
+          "small": "Usap punggung, tidur pindah telentang",
+          "art": "w4b-kolik-pangkuan"
+        }
+      ],
+      "note": "Mulai kesal? Gantian, atau keluar kamar sebentar"
+    },
+    {
+      "type": "cta",
+      "headline": "Kolik bukan salah kamu.",
+      "accent": "Malam ini gantian ya.",
+      "pill": "KIRIM KE PASANGAN",
+      "sub2": "Ke dokter kalau muntah hijau, demam, lemas, susah napas, atau tangisnya beda dari biasa.",
+      "source": "Sumber: AAP (healthychildren.org), MSD Manual, NHS",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ],
+  "sources": [
+    "MSD Manual Versi Konsumen (Bahasa Indonesia), Kolik: kolik jika tangisan berlangsung lebih dari 3 jam sehari dan lebih dari 3 hari seminggu selama lebih dari 3 minggu. muncul di bulan pertama, puncak sekitar usia 6 minggu, mereda usia 3-4 bulan. tanda peringatan: muntah (hijau, berdarah, menyembur), perubahan tinja, suhu tubuh abnormal, lesu, sulit naik berat badan, kesulitan bernapas, memar. https://www.msdmanuals.com/id/home/masalah-kesehatan-anak/gejala-pada-bayi-dan-anak-anak/kolik",
+    "AAP HealthyChildren.org, Colic (updated 4/22/2024): no definite explanation. peaks about 3 hours a day by 6 weeks. fussy periods often 6 pm to midnight. usually stops by 3 to 4 months. soothing: walk the baby in a carrier, rocking, white noise or fan, tummy-down across knees rubbing the back (back to sleep in the crib if asleep). have someone take over or lay the baby on the back in the crib and leave the room for a few minutes. a baby should never be shaken. https://www.healthychildren.org/English/ages-stages/baby/crying-colic/Pages/colic.aspx",
+    "NHS, Colic: crying more than 3 hours a day, 3 days a week for at least 1 week in an otherwise healthy baby. usually stops by 3-4 months. urgent if weak or high-pitched cry or cry not like their normal cry. see GP if not gaining weight. https://www.nhs.uk/content-widgets/health-a-to-z/colic"
+  ],
+  "notes": "Short format (4 slides). Rule of 3 follows the MSD Manual wording (NHS uses a looser 1-week version. we went with the classic 3 weeks as the brief asked). Soothing list leaves out AAP's pacifier and formula tips (PP 28/2024) and swaddling. No medicine, gripe water, drops or oils mentioned anywhere. No diagnosis: the note sends the call to a doctor."
+}

@@ -1,0 +1,93 @@
+{
+  "series": "mpasi",
+  "job": "send",
+  "usia": "6-36 BULAN",
+  "tiktok_title": "Batas gula anak cuma 6 sendok teh sehari. Di bawah 2 tahun, nol. Cara hitung dari label",
+  "first_comment": "Di rumahmu, jajan manis anak paling sering dari siapa? 👇",
+  "caption": "AAP nyaranin gula tambahan buat anak 2 tahun ke atas kurang dari 25 gram sehari, kira-kira 6 sendok teh. Di bawah 2 tahun, nggak usah dikasih gula tambahan. Kemenkes juga minta gula tambahan anak di bawah 2 tahun dibatasi banget, dan lebih milih manis alami dari buah.\n\nCara hitung dari label: cari baris gula di tabel nilai gizi, lihat itu per sajian atau per kemasan, lalu gramnya dibagi 4. Label tulis gula 20 g? Itu kira-kira 5 sendok teh, hampir jatah seharian. Cek juga label teh kemasan, susu kotak rasa dan biskuit.\n\nBukan salah Kakek Nenek kok. Dulu belum banyak yang bahas, ilmunya aja yang udah update.\n\nCamilan manis anakmu biasanya apa?\n\nSumber: American Academy of Pediatrics (healthychildren.org), Kemenkes RI\n\n#gulaanak #mpasi #camilananak #parentingindonesia #SeriMPASI",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "BATAS GULA",
+      "lines": [
+        "BATAS GULA ANAK",
+        "CUMA 6 SENDOK",
+        "TEH SEHARI."
+      ],
+      "accent": 1,
+      "sub": "Itu umur 2 tahun ke atas. Di bawahnya, nol.",
+      "hero": "w4b-gula-6sdt"
+    },
+    {
+      "type": "cheat",
+      "kicker": "SCREENSHOT DULU",
+      "title": "Hitung gula dari label:",
+      "rows": [
+        {
+          "text": "Di bawah 2 tahun: nol",
+          "small": "Nggak usah ditambah gula",
+          "art": "w4b-gula-nol"
+        },
+        {
+          "text": "Cari baris gula",
+          "small": "Di tabel nilai gizi",
+          "art": "w4b-gula-label"
+        },
+        {
+          "text": "Per sajian atau kemasan?",
+          "small": "Sekotak bisa lebih dari 1 sajian",
+          "art": "w4b-gula-sajian"
+        },
+        {
+          "text": "Gramnya dibagi 4",
+          "small": "Gula 20 g kira-kira 5 sendok teh",
+          "art": "w4b-gula-bagi4"
+        }
+      ],
+      "note": "Teh kemasan, susu kotak rasa, biskuit: cek semua"
+    },
+    {
+      "type": "cheat",
+      "kicker": "TUKAR PELAN-PELAN",
+      "title": "Pas mau ngasih yang manis:",
+      "rows": [
+        {
+          "text": "Teh manis jadi air putih",
+          "small": "Minuman utama setelah 1 tahun",
+          "art": "w4b-gula-airputih"
+        },
+        {
+          "text": "Susu rasa jadi susu plain",
+          "small": "Cokelat dan stroberi ada gulanya",
+          "art": "w4b-gula-susuplain"
+        },
+        {
+          "text": "Biskuit jadi buah potong",
+          "small": "Manisnya alami",
+          "art": "w4b-gula-buah"
+        },
+        {
+          "text": "Bukan salah Nenek",
+          "small": "Ilmunya aja yang udah update",
+          "art": "w4b-gula-grup"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "headline": "Sayang cucu nggak harus manis,",
+      "accent": "pelukan juga manis kok.",
+      "pill": "KIRIM KE GRUP KELUARGA",
+      "sub2": "Biar yang di rumah, Kakek Nenek dan pengasuh, pakai hitungan yang sama.",
+      "source": "Sumber: AAP (healthychildren.org), Kemenkes RI (Desember 2024)",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
+  ],
+  "sources": [
+    "AAP HealthyChildren.org, How to Reduce Added Sugar in Your Child's Diet (updated 8/14/2024): less than 25 grams (about 6 teaspoons) of added sugar per day for children 2 and older. avoid foods and drinks with added sugar under 2. many labels list added sugar. sweet tea named as a sugary drink. https://healthychildren.org/English/healthy-living/nutrition/Pages/How-to-Reduce-Added-Sugar-in-Your-Childs-Diet.aspx",
+    "AAP HealthyChildren.org, Recommended Drinks for Children Age 5 & Younger (updated 10/3/2023): water as the main drink after 12 months. chocolate, strawberry and other flavored milks contain added sugars. https://healthychildren.org/English/healthy-living/nutrition/Pages/Recommended-Drinks-for-Young-Children-Ages-0-5.aspx",
+    "Kemenkes RI, Batasi Gula dan Garam untuk MPASI (19 Des 2024): gula tambahan anak di bawah 2 tahun dibatasi di bawah 5% total kalori, gula alami dari buah segar lebih disarankan. mengutip pedoman UNICEF dan WHO (no added sugar or salt). https://kemkes.go.id/id/batasi-gula-dan-garam-untuk-mpasi"
+  ],
+  "notes": "Short format (4 slides). Grams to teaspoons uses AAP's own 25 g = about 6 tsp (about 4 g per tsp). '20 g' is a worked example, not a product claim. No product sugar numbers on slides: the only Indonesian per-drink average I found (Kemenkes, 22.8 g per 250 ml) was reported by news outlets only, no primary page, so it is left out. Under 2 is phrased 'nggak usah ditambah gula' (AAP avoid, WHO/UNICEF via Kemenkes) while the caption gives Kemenkes' softer <5% kalori wording. No brands."
+}

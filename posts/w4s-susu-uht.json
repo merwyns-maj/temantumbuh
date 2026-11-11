@@ -1,0 +1,71 @@
+{
+  "series": "mpasi",
+  "job": "save",
+  "usia": "12-24 BULAN",
+  "tiktok_title": "Anak 1 tahun cukup 2 gelas susu sehari. Lebih dari 3 gelas bisa bikin makannya dikit",
+  "first_comment": "Anakmu udah kenalan sama susu UHT belum? Jawab udah atau belum 👇",
+  "caption": "Susu sapi plain (UHT atau pasteurisasi) boleh mulai umur 1 tahun. Buat umur 1-2 tahun, AAP nyaranin full cream tanpa rasa, sekitar 2 gelas sehari (kira-kira 480 ml). Batas atasnya 3 gelas, sekitar 720 ml.\n\nKenapa nggak boleh kebanyakan? Susu cepat bikin kenyang, jadi pas jam makan anaknya udah nggak lapar. Susu juga rendah zat besi, jadi kalau kebanyakan bisa bikin anak kurang zat besi. Kasih pakai gelas, barengan jam makan, setelah dia makan dulu.\n\nMasih menyusui? ASI tetap lanjut sampai 2 tahun.\n\nSekarang anakmu sehari minum susu berapa gelas?\n\nSumber: American Academy of Pediatrics (healthychildren.org), Kemenkes RI, WHO\n\n#susuanak #mpasi #anak1tahun #parentingindonesia #SeriMPASI",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "SUSU UHT",
+      "lines": [
+        "ANAK 1 TAHUN",
+        "CUKUP 2 GELAS",
+        "SUSU SEHARI."
+      ],
+      "accent": 1,
+      "sub": "Lebih dari itu, makannya bisa jadi dikit.",
+      "hero": "w4b-susu-2gelas"
+    },
+    {
+      "type": "cheat",
+      "kicker": "SCREENSHOT DULU",
+      "title": "Susu sapi setelah 1 tahun:",
+      "rows": [
+        {
+          "text": "Mulai umur 1 tahun",
+          "small": "Sebelum itu, belum susu sapi",
+          "art": "w4b-susu-umur1"
+        },
+        {
+          "text": "Plain, full cream",
+          "small": "Tanpa rasa, tanpa gula",
+          "art": "w4b-susu-plain"
+        },
+        {
+          "text": "2 gelas sehari",
+          "small": "1 gelas kira-kira 240 ml",
+          "art": "w4b-susu-2gelas"
+        },
+        {
+          "text": "Lebih dari 3 gelas",
+          "small": "Kenyang duluan, kurang zat besi",
+          "art": "w4b-susu-kebanyakan"
+        },
+        {
+          "text": "Makan dulu, baru susu",
+          "small": "Pakai gelas, barengan jam makan",
+          "art": "w4b-susu-jammakan"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "headline": "Susu itu teman makan,",
+      "accent": "bukan pengganti makan.",
+      "pill": "SIMPAN BUAT ULANG TAHUN PERTAMA",
+      "sub2": "Masih menyusui? ASI tetap lanjut sampai 2 tahun.",
+      "source": "Sumber: AAP (healthychildren.org), Kemenkes RI, WHO",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
+  ],
+  "sources": [
+    "AAP HealthyChildren.org, Recommended Drinks for Children Age 5 & Younger (updated 10/3/2023): 12-24 months cow's milk 16 oz/day (2 cups), whole milk for 12-24 months, flavored milks contain added sugars. https://healthychildren.org/English/healthy-living/nutrition/Pages/Recommended-Drinks-for-Young-Children-Ages-0-5.aspx",
+    "AAP HealthyChildren.org, Your Toddler Only Wants Milk? (Barton Schmitt MD, updated 9/29/2025): AAP recommends no more than 16 to 24 ounces (473 to 750 mL) a day after the first birthday. too much milk can lead to iron-deficiency anemia. milk fills little ones up, they aren't hungry at mealtime. offer milk with meals only and only after the child eats some solid food. replace bottles with cups. https://www.healthychildren.org/English/ages-stages/toddler/nutrition/Pages/your-toddler-only-wants-milk-how-to-ease-milk-dependency-and-encourage-a-healthy-diet.aspx",
+    "AAP HealthyChildren.org, Anemia and Your Child: do not give cow's milk until over 12 months. after the first birthday limit to no more than 24 ounces a day. milk is low in iron and can make children feel full. https://www.healthychildren.org/English/health-issues/conditions/chronic/pages/Anemia-and-Your-Child.aspx",
+    "Kemenkes RI, Jaga Kualitas Nutrisi, Ini Rekomendasi Terbaik Pemberian ASI (31 Mei 2024): pemberian ASI dilanjutkan sampai usia 2 tahun. https://kemkes.go.id/id/jaga-kualitas-nutrisi-ini-rekomendasi-terbaik-pemberian-asi"
+  ],
+  "notes": "Short format (3 slides). 1 gelas = 1 US cup = 240 ml. 2 gelas = 480 ml (AAP 16 oz), batas atas 3 gelas = 720 ml (AAP 24 oz, 710-750 ml). 'Kenyang duluan' is AAP's 'fills them up / not hungry at mealtime'. we avoid the word GTM as a cause. No formula, no growing-up milk, no brands, no bottle in art (glasses and a plain carton only)."
+}

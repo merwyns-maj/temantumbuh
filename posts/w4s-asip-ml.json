@@ -1,0 +1,96 @@
+{
+  "series": "ibu",
+  "job": "save",
+  "usia": "0-6 BULAN",
+  "tiktok_title": "Bayi 1-6 bulan cukup 90-120 ml ASIP sekali minum. Cara hitung stok buat ditinggal kerja",
+  "first_comment": "Kamu balik kerja pas bayimu umur berapa bulan? 👇",
+  "caption": "Setelah umur 4-5 minggu, sekali minum biasanya sekitar 90-120 ml. Sehari kira-kira 750 ml, dan jumlah ini nggak banyak berubah sampai 6 bulan (HSE Irlandia, La Leche League GB). Jadi stok ASIP nggak perlu ditambah tiap bulan.\n\nCara hitung buat ditinggal kerja: 750 ml dibagi 24 jam, kira-kira 30 ml per jam kamu pergi. Pergi 10 jam? Siapkan sekitar 300 ml, dibagi jadi 3 kali minum. Simpan juga beberapa kantong kecil 50-100 ml buat tambahan, biar nggak ada yang kebuang.\n\nIni angka kasar. Bayi beda-beda, jadi ikuti tanda lapar dan kenyangnya.\n\nBayimu sekali minum ASIP biasanya habis berapa ml?\n\nSumber: HSE Irlandia, La Leche League GB, Australian Breastfeeding Association, CDC\n\n#asip #asieksklusif #busuibekerja #parentingindonesia #SeriIbu",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "CONTEKAN ASIP",
+      "lines": [
+        "BAYI 1-6 BULAN",
+        "CUKUP 90-120 ML",
+        "SEKALI MINUM."
+      ],
+      "accent": 1,
+      "sub": "Sampai 6 bulan, jumlahnya hampir sama.",
+      "hero": "w4b-asip-ml"
+    },
+    {
+      "type": "cheat",
+      "kicker": "SCREENSHOT DULU",
+      "title": "Sekali minum, kira-kira:",
+      "rows": [
+        {
+          "text": "Hari pertama: 5 ml",
+          "small": "Kira-kira 1 sendok teh",
+          "art": "w4b-asip-hari1"
+        },
+        {
+          "text": "Hari ketiga: 15-30 ml",
+          "small": "Lambungnya masih kecil",
+          "art": "w4b-asip-hari3"
+        },
+        {
+          "text": "Minggu pertama: s.d. 60 ml",
+          "small": "Pelan-pelan naik",
+          "art": "w4b-asip-minggu1"
+        },
+        {
+          "text": "1-6 bulan: 90-120 ml",
+          "small": "Sehari sekitar 750 ml",
+          "art": "w4b-asip-bulan"
+        }
+      ],
+      "note": "Bayi beda-beda, ini angka kira-kira"
+    },
+    {
+      "type": "cheat",
+      "kicker": "BUAT DITINGGAL KERJA",
+      "title": "Hitung stok ASIP-nya:",
+      "rows": [
+        {
+          "text": "30 ml per jam pergi",
+          "small": "750 ml dibagi 24 jam",
+          "art": "w4b-asip-perjam"
+        },
+        {
+          "text": "Pergi 10 jam? 300 ml",
+          "small": "Termasuk waktu di jalan",
+          "art": "w4b-asip-pergi"
+        },
+        {
+          "text": "Bagi per sekali minum",
+          "small": "300 ml jadi 3 kali 100 ml",
+          "art": "w4b-asip-bagi"
+        },
+        {
+          "text": "Siapkan kantong kecil",
+          "small": "50-100 ml, buat kalau masih lapar",
+          "art": "w4b-asip-kecil"
+        }
+      ],
+      "note": "Pakai yang paling lama disimpan dulu"
+    },
+    {
+      "type": "cta",
+      "headline": "Nggak harus habis,",
+      "accent": "ikuti lapar dan kenyangnya.",
+      "pill": "SIMPAN BUAT HARI PERTAMA KERJA",
+      "sub2": "Sisa minum lewat 2 jam dibuang ya. Cara simpan ASIP ada di post kami sebelumnya.",
+      "source": "Sumber: HSE Irlandia, La Leche League GB, Australian Breastfeeding Association, CDC",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ],
+  "sources": [
+    "HSE Ireland, How much breast milk to express (reviewed 18/02/2026): day 1 few drops to 5 ml (about 1 teaspoon), day 2 5-15 ml, day 3 15-30 ml per feed. first week full-term no more than 5-60 ml at a feed. after 4-5 weeks about 90-120 ml per feed and 700-900 ml a day. 1 to 6 months fed only breast milk about 750 ml a day. per feed = 750 divided by number of feeds. https://www2.hse.ie/babies-children/breastfeeding/expressing-pumping/how-much-breast-milk-express/",
+    "La Leche League GB, Expressing & Storing Milk: for babies older than one month a feed is approximately 60-120 ml. milk production peaks by about one month and stays relatively stable until around six months. average around 750-800 ml. https://laleche.org.uk/?p=1756",
+    "Australian Breastfeeding Association, Pump milk stash: store milk in small amounts (50-100 mL) so carers can offer what your baby needs and to reduce wastage. https://www.breastfeeding.asn.au/resources/pump-milk-stash",
+    "CDC, How Much and How Often to Breastfeed (reviewed 16 Apr 2026): babies take what they need and stop when full. follow hunger cues. https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/how-much-and-how-often.html",
+    "CDC, Breast Milk Storage and Preparation (already used in w3n-asip-simpan): leftover milk from a feeding used within 2 hours. use oldest milk first. https://www.cdc.gov/breastfeeding/breast-milk-preparation-and-storage/handling-breastmilk.html"
+  ],
+  "notes": "Short format (4 slides). Sequel to w3n-asip-simpan. '30 ml per jam' is our arithmetic from HSE's 750 ml/day divided by 24 hours (31 ml), shown on the slide as the working, not presented as a guideline. '3 kali 100 ml' sits inside HSE's 90-120 ml per feed. Copy says 'sekali minum', never 'per botol'. the word botol is not used anywhere and the art shows only ASI bags and a small cup."
+}
