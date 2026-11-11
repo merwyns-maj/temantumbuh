@@ -865,6 +865,146 @@
       ],
       "first_comment_auto": true,
       "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32."
+    },
+    {
+      "date": "2026-11-16",
+      "scheduled_wib": "2026-11-16 12:00",
+      "slug": "w4s-wake-window",
+      "series": "pintar",
+      "job": "save",
+      "status": "draf",
+      "format": "short",
+      "test": "Test E slot x format"
+    },
+    {
+      "date": "2026-11-16",
+      "scheduled_wib": "2026-11-16 19:00",
+      "slug": "w4l-overstimulasi",
+      "series": "pintar",
+      "job": "comment",
+      "status": "draf",
+      "format": "long",
+      "test": "Test E slot x format"
+    },
+    {
+      "date": "2026-11-17",
+      "scheduled_wib": "2026-11-17 12:00",
+      "slug": "w4l-asi-naik",
+      "series": "ibu",
+      "job": "save",
+      "status": "draf",
+      "format": "long",
+      "test": "Test E slot x format (swap day)"
+    },
+    {
+      "date": "2026-11-17",
+      "scheduled_wib": "2026-11-17 19:00",
+      "slug": "w4s-susu-uht",
+      "series": "mpasi",
+      "job": "save",
+      "status": "draf",
+      "format": "short",
+      "test": "Test E slot x format (swap day)"
+    },
+    {
+      "date": "2026-11-18",
+      "scheduled_wib": "2026-11-18 12:00",
+      "slug": "w4s-asip-ml",
+      "series": "ibu",
+      "job": "save",
+      "status": "draf",
+      "format": "short",
+      "test": "Test E slot x format"
+    },
+    {
+      "date": "2026-11-18",
+      "scheduled_wib": "2026-11-18 19:00",
+      "slug": "w4l-kakak-adik",
+      "series": "pintar",
+      "job": "send",
+      "status": "draf",
+      "format": "long",
+      "test": "Test E slot x format"
+    },
+    {
+      "date": "2026-11-19",
+      "scheduled_wib": "2026-11-19 12:00",
+      "slug": "w4l-mastitis",
+      "series": "ibu",
+      "job": "save",
+      "status": "draf",
+      "format": "long",
+      "test": "Test E slot x format (swap day)"
+    },
+    {
+      "date": "2026-11-19",
+      "scheduled_wib": "2026-11-19 19:00",
+      "slug": "w4s-kolik",
+      "series": "pintar",
+      "job": "send",
+      "status": "draf",
+      "format": "short",
+      "test": "Test E slot x format (swap day)"
+    },
+    {
+      "date": "2026-11-20",
+      "scheduled_wib": "2026-11-20 12:00",
+      "slug": "w4s-jam-tidur",
+      "series": "pintar",
+      "job": "save",
+      "status": "draf",
+      "format": "short",
+      "test": "Test E slot x format"
+    },
+    {
+      "date": "2026-11-20",
+      "scheduled_wib": "2026-11-20 19:00",
+      "slug": "w4l-ayah-main",
+      "series": "ayah",
+      "job": "send",
+      "status": "draf",
+      "format": "long",
+      "test": "Test E slot x format"
+    },
+    {
+      "date": "2026-11-21",
+      "scheduled_wib": "2026-11-21 12:00",
+      "slug": "w4l-finger-food",
+      "series": "mpasi",
+      "job": "save",
+      "status": "draf",
+      "format": "long",
+      "test": "Test E slot x format (swap day)"
+    },
+    {
+      "date": "2026-11-21",
+      "scheduled_wib": "2026-11-21 19:00",
+      "slug": "w4s-gula",
+      "series": "mpasi",
+      "job": "send",
+      "status": "draf",
+      "format": "short",
+      "test": "Test E slot x format (swap day)"
+    },
+    {
+      "date": "2026-11-22",
+      "scheduled_wib": "2026-11-22 12:00",
+      "slug": "w4s-growth-spurt",
+      "series": "pintar",
+      "job": "save",
+      "status": "draf",
+      "format": "short",
+      "test": "Test E slot x format"
+    },
+    {
+      "date": "2026-11-22",
+      "scheduled_wib": "2026-11-22 19:00",
+      "slug": "w4l-s02-tantrum-minimarket",
+      "series": "pintar",
+      "job": "comment",
+      "status": "draf",
+      "format": "long",
+      "test": "Test E slot x format"
     }
   ],
   "backlog": [
