@@ -1,0 +1,108 @@
+{
+  "series": "mpasi",
+  "job": "save",
+  "usia": "8-12 BULAN",
+  "tiktok_title": "Bayi gagging bukan berarti tersedak. Contekan finger food pertama",
+  "first_comment": "Finger food pertama bayimu apa? Tulis 1 kata aja 👇",
+  "caption": "Bayi huek-huek, mata berair, lidahnya melet pas makan finger food? Itu gagging, refleks normal waktu dia belajar tekstur baru. Gagging itu berisik. Tersedak itu diam: dia nggak bisa nangis, batuk, atau napas. Itu darurat, langsung tolong.\n\nContekan finger food pertama:\n1. Mulai sekitar 8-9 bulan, pas dia udah bisa duduk tegak dan bawa makanan ke mulut.\n2. Potong sepanjang jari orang dewasa, lunak sampai bisa dipenyet jari.\n3. Contoh: wortel kukus, alpukat atau pisang matang, telur dadar potong panjang.\n4. Tunda dulu: kacang utuh, anggur utuh, popcorn, apel dan wortel mentah.\n5. Selalu duduk tegak dan ditemenin.\n\nCara potong anggur dan sosis ada di post kami sebelumnya.\n\nFinger food pertama bayimu apa?\n\nSumber: WHO, IDAI, NHS, HSE Ireland, AAP (healthychildren.org), CDC\n\n#fingerfood #mpasi #mpasi8bulan #parentingindonesia #SeriMPASI",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "FINGER FOOD PERTAMA",
+      "lines": [
+        "BAYI GAGGING",
+        "BUKAN BERARTI",
+        "TERSEDAK."
+      ],
+      "accent": 2,
+      "sub": "Gagging itu berisik. Tersedak itu diam.",
+      "mascot": "riset",
+      "hero": "w4d-gagging"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Mulai sekitar 8-9 bulan",
+      "tips_label": "PATOKANNYA",
+      "tips": "Udah bisa duduk tegak dan bawa makanan ke mulut sendiri. Kata WHO, kebanyakan bayi bisa di 8 bulan.",
+      "art": "w4d-ff-mulai",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Panjangnya seukuran jari orang dewasa",
+      "tips_label": "BIAR APA",
+      "tips": "Gampang digenggam, ujungnya nongol di atas kepalan. Lunak sampai bisa dipenyet jari.",
+      "art": "w4d-ff-ukuran",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Wortel kukus, alpukat, telur dadar",
+      "tips_label": "CONTOHNYA",
+      "tips": "Sayur dikukus sampai lunak. Buah yang udah matang. Telur dadar dipotong panjang.",
+      "art": "w4d-ff-contoh",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Kacang utuh, anggur utuh, popcorn: tunda",
+      "tips_label": "KENAPA",
+      "tips": "Keras atau bulat, gampang nyangkut. Apel dan wortel mentah juga. Anggur boleh, asal dipotong 4 memanjang.",
+      "art": "w4d-ff-tunda",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Gagging berisik, tersedak diam",
+      "tips_label": "BEDANYA",
+      "tips": "Huek-huek, mata berair, lidah melet: tunggu, dia lagi belajar. Nggak bisa nangis atau napas: langsung tolong.",
+      "art": "w4d-ff-gagging",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Finger food pertama:",
+      "rows": [
+        {
+          "text": "Mulai 8-9 bulan",
+          "small": "Udah bisa duduk tegak",
+          "art": "w4d-ff-mulai"
+        },
+        {
+          "text": "Seukuran jari kamu",
+          "small": "Lunak, bisa dipenyet jari",
+          "art": "w4d-ff-ukuran"
+        },
+        {
+          "text": "Sayur kukus, buah lunak",
+          "small": "Telur dadar potong panjang",
+          "art": "w4d-ff-contoh"
+        },
+        {
+          "text": "Duduk tegak, ditemenin",
+          "small": "Jangan sambil main atau jalan",
+          "art": "w4d-ff-duduk"
+        }
+      ],
+      "note": "Tunda: kacang utuh, anggur utuh, popcorn"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Dia lagi belajar makan.",
+      "accent": "Kamu cukup duduk di sebelahnya.",
+      "pill": "SIMPAN BUAT FINGER FOOD PERTAMA",
+      "sub2": "Cara potong anggur dan sosis ada di post kami sebelumnya.",
+      "source": "Sumber: WHO, IDAI, NHS, HSE, AAP (healthychildren.org), CDC",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
+  ]
+}

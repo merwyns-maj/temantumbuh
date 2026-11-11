@@ -1,0 +1,107 @@
+{
+  "series": "pintar",
+  "job": "comment",
+  "usia": "0-12 BULAN",
+  "tiktok_title": "Bayi buang muka pas diajak main? Bukan ngambek, dia minta jeda",
+  "first_comment": "Bayimu paling sering kasih kode yang mana? Nguap, cegukan, atau buang muka? 👇",
+  "caption": "Kamu udah stimulasi bayimu tiap hari. Ngobrol, nyanyi, main cilukba. Tapi otak bayi juga butuh istirahat dari rame-rame.\n\nKalau dia buang muka, badannya melengkung, tangannya ngepal, nguap atau cegukan pas lagi main, atau rewel pas rumah lagi rame, bisa jadi dia lagi bilang \"udah cukup, jeda dulu\". Kata AAP, bayi buang muka itu cara dia ngatur sendiri biar nggak kewalahan. Bukan nolak kamu.\n\nJedanya gampang: stop main sebentar, redupkan lampu, kecilin suara, dekap dia di dada. Kalau dia udah tenang dan natap kamu lagi, berarti siap main lagi.\n\nBayimu paling sering kasih kode yang mana?\n\nSumber: AAP (healthychildren.org), Zero to Three, NHS Whittington Health, Raising Children Network\n\n#stimulasibayi #bayi #newborn #parentingindonesia #SeriAnakPintar",
+  "slides": [
+    {
+      "type": "hook",
+      "motif": "sun",
+      "kicker": "KODE BAYI",
+      "lines": [
+        "BAYI BUANG MUKA",
+        "BUKAN NGAMBEK.",
+        "DIA MINTA JEDA."
+      ],
+      "accent": 2,
+      "sub": "Stimulasinya udah cukup. Ini kode lainnya.",
+      "mascot": "sayang",
+      "hero": "w4d-buang-muka"
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Buang muka pas diajak main",
+      "tips_label": "ARTINYA",
+      "tips": "Kata AAP, noleh itu cara bayi ngatur sendiri biar nggak kewalahan. Bukan nolak kamu.",
+      "art": "w4d-noleh",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Badan melengkung, tangan ngepal",
+      "tips_label": "ARTINYA",
+      "tips": "Kadang tangan dan kakinya gerak nggak beraturan. Badannya lagi bilang: udah cukup.",
+      "art": "w4d-melengkung",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "heart",
+      "title": "Nguap atau cegukan pas lagi main",
+      "tips_label": "ARTINYA",
+      "tips": "Belum tentu ngantuk. Bisa jadi dia minta istirahat dari lampu terang dan suara rame.",
+      "art": "w4d-nguap",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "leaf",
+      "title": "Rewel pas banyak tamu atau TV nyala",
+      "tips_label": "ARTINYA",
+      "tips": "Popok udah dicek, udah kenyang, tetap nangis? Bisa jadi dia kebanyakan rame.",
+      "art": "w4d-rame",
+      "art_big": true
+    },
+    {
+      "type": "point",
+      "motif": "spark",
+      "title": "Jedanya: lampu redup, suara pelan, didekap",
+      "tips": "Matiin TV, ngomong pelan. Dekap di dada tanpa diajak main. Kalau dia ketiduran, biarin.",
+      "art": "w4d-jeda",
+      "art_big": true
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Kalau muncul kodenya:",
+      "rows": [
+        {
+          "text": "Stop main dulu",
+          "small": "Mainan disingkirin sebentar",
+          "art": "w4d-c-stop"
+        },
+        {
+          "text": "Redupkan lampu",
+          "small": "Pindah ke kamar yang tenang",
+          "art": "w4d-c-lampu"
+        },
+        {
+          "text": "Kecilin suara",
+          "small": "Matiin TV, ngomong pelan",
+          "art": "w4d-c-suara"
+        },
+        {
+          "text": "Dekap di dada",
+          "small": "Nggak usah ditatap terus",
+          "art": "w4d-c-dekap"
+        }
+      ],
+      "note": "Dia natap kamu lagi? Berarti siap main lagi"
+    },
+    {
+      "type": "cta",
+      "motif": "heart",
+      "headline": "Jeda juga bagian dari stimulasi.",
+      "accent": "Kamu udah baca kodenya.",
+      "pill": "KODE BAYIMU YANG MANA?",
+      "sub2": "Nguap, cegukan, atau buang muka? Cerita di komen.",
+      "source": "Sumber: AAP (healthychildren.org), Zero to Three, NHS, Raising Children Network",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
+  ]
+}
