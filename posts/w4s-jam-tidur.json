@@ -1,0 +1,96 @@
+{
+  "series": "pintar",
+  "job": "save",
+  "usia": "BAYI SAMPAI SD",
+  "tiktok_title": "Bangun jam 6, balita idealnya udah tidur jam 8 malam. Contekan jam tidur per usia",
+  "caption": "Balita 1-2 tahun butuh tidur malam sekitar 10-12 jam. Kalau bangunnya jam 6 pagi, berarti jam 8 malam udah tidur.\n\nTotal tidur sehari semalam, termasuk tidur siang (AASM, didukung AAP): bayi 4-12 bulan 12-16 jam, balita 1-2 tahun 11-14 jam, prasekolah 3-5 tahun 10-13 jam, anak SD 6-12 tahun 9-12 jam. Bayi di bawah 4 bulan 14-17 jam (WHO).\n\nSekarang masih tidur jam 10? Nggak apa-apa. Majuin pelan-pelan, yang penting jam tidur dan bangunnya ajek tiap hari.\n\nAnakmu biasanya tidur malam jam berapa?\n\nSumber: AASM 2016, WHO 2019, Sydney Children's Hospitals Network, Plunket\n\n#jamtidur #tidurbayi #balita #parentingindonesia #SeriAnakPintar",
+  "first_comment": "Anakmu biasanya tidur malam jam berapa? 👇",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "JAM TIDUR",
+      "lines": [
+        "BANGUN JAM 6,",
+        "BALITA TIDURNYA",
+        "JAM 8 MALAM."
+      ],
+      "accent": 2,
+      "sub": "Paling telat. Malamnya butuh 10-12 jam.",
+      "hero": "w4a-jam-tidur"
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Butuh tidur sehari semalam:",
+      "rows": [
+        {
+          "text": "4-12 bulan: 12-16 jam",
+          "small": "Bayi, termasuk tidur siang",
+          "art": "w4a-usia-bayi"
+        },
+        {
+          "text": "1-2 tahun: 11-14 jam",
+          "small": "Balita, termasuk tidur siang",
+          "art": "w4a-usia-balita"
+        },
+        {
+          "text": "3-5 tahun: 10-13 jam",
+          "small": "Prasekolah, tidur siang opsional",
+          "art": "w4a-usia-prasekolah"
+        },
+        {
+          "text": "6-12 tahun: 9-12 jam",
+          "small": "Anak SD, jangan kurang dari 9",
+          "art": "w4a-usia-sd"
+        }
+      ],
+      "note": "Bayi di bawah 4 bulan: 14-17 jam"
+    },
+    {
+      "type": "cheat",
+      "kicker": "BANGUN JAM 6 PAGI",
+      "title": "Udah tidur paling telat jam:",
+      "rows": [
+        {
+          "text": "Bayi: ikutin tanda ngantuk",
+          "small": "Cek contekan wake window kami",
+          "art": "w4a-jam-tanda"
+        },
+        {
+          "text": "Balita: jam 8 malam",
+          "small": "Malamnya butuh 10-12 jam",
+          "art": "w4a-jam-8"
+        },
+        {
+          "text": "Prasekolah: jam 8 malam",
+          "small": "Kalau udah nggak tidur siang",
+          "art": "w4a-jam-8"
+        },
+        {
+          "text": "Anak SD: jam 9 malam",
+          "small": "Biar dapat minimal 9 jam",
+          "art": "w4a-jam-9"
+        }
+      ],
+      "note": "Masuk kamar lebih awal buat rutinitas tidur"
+    },
+    {
+      "type": "cta",
+      "headline": "Sekarang masih jam 10 malam?",
+      "accent": "Majuin pelan-pelan aja.",
+      "pill": "SIMPAN BUAT ATUR JAM TIDUR",
+      "sub2": "Yang penting jam tidur dan bangunnya ajek tiap hari.",
+      "source": "Sumber: AASM (didukung AAP), WHO, Sydney Children's Hospitals Network, Plunket",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ],
+  "sources": [
+    "AASM pediatric consensus 2016 (Paruthi et al., J Clin Sleep Med), endorsed by AAP: 4-12 months 12-16 h, 1-2 years 11-14 h, 3-5 years 10-13 h per 24 h including naps, 6-12 years 9-12 h. No recommendation under 4 months. https://www.eurekalert.org/news-releases/685231",
+    "WHO 2019, Guidelines on physical activity, sedentary behaviour and sleep for children under 5: 0-3 months 14-17 h, 4-11 months 12-16 h, 1-2 years 11-14 h, 3-4 years 10-13 h with a nap optional, regular sleep and wake times. https://www.who.int/news/item/24-04-2019-to-grow-up-healthy-children-need-to-sit-less-and-play-more",
+    "Sydney Children's Hospitals Network (NSW Health), Sleep recommendations for toddlers: 1 and 2 year olds sleep about 10-12 hours at night, naps 1-2.5 h, consistent sleep and wake-up times. https://www.schn.health.nsw.gov.au/kids-health-hub/healthy-sleep-children/sleep-recommendations-age/sleep-recommendations-toddlers-1-3",
+    "Plunket (NZ), Sleep 1-2 years: 11-14 h in 24 h with a 10-12 hour sleep at night, typical bedtime 6.30-7 pm in its example with a 7 am wake-up. https://www.plunket.org.nz/child-development/sleep/sleep-1-2-years/sleep-1-2-years/",
+    "Tresillian, Responsive settling 12 months to toddler: bedtime routines should take no longer than 30 to 40 minutes. https://www.tresillian.org.au/media/0hdnauuu/tre-26_4331-tip-responsive-settling-12-months-to-toddler.pdf"
+  ],
+  "notes": "SHORT format (4 slides). Bedtimes are our arithmetic from a 6:00 wake-up: balita 6:00 minus the 10 h night floor (SCHN, Plunket) = 20:00, prasekolah without a nap 6:00 minus the 10 h total floor (AASM) = 20:00, SD 6:00 minus 9 h (AASM) = 21:00. No source gives a night-only figure for babies, so the baby row points to the wake-window post instead of a clock time. Bed art has no pillow or blanket to stay consistent with safe sleep."
+}

@@ -1,0 +1,102 @@
+{
+  "series": "pintar",
+  "job": "save",
+  "usia": "0-18 BULAN",
+  "tiktok_title": "Newborn bisa ngantuk lagi sejam setelah bangun. Contekan wake window 0-18 bulan",
+  "caption": "Newborn bisa udah ngantuk lagi 1-1,5 jam setelah bangun, dan waktu nyusu ikut dihitung. Makin besar, makin lama kuat melek: 6-12 bulan sekitar 2-3 jam, mendekati 1 tahun 3-4 jam.\n\nAngka wake window ini kisaran kasar, bukan pedoman resmi dokter anak. Yang nomor satu tetap tanda ngantuknya: menguap, tatapan kosong, tarik telinga, rewel. Tidurkan selalu telentang, di kasur datar tanpa bantal dan selimut.\n\nTotal tidur sehari semalam: 0-3 bulan 14-17 jam (WHO), 4-12 bulan 12-16 jam, 1-2 tahun 11-14 jam (AASM, didukung AAP).\n\nBayimu sekarang kuat melek berapa lama?\n\nSumber: WHO 2019, AASM 2016, Raising Children Network, Tresillian\n\n#tidurbayi #wakewindow #bayibarulahir #parentingindonesia #SeriAnakPintar",
+  "first_comment": "Bayimu sekarang umur berapa bulan? 👇",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "WAKE WINDOW",
+      "lines": [
+        "NEWBORN BISA",
+        "NGANTUK LAGI",
+        "SEJAM KEMUDIAN."
+      ],
+      "accent": 2,
+      "sub": "Waktu nyusunya udah ikut dihitung.",
+      "hero": "w4a-melek-tidur"
+    },
+    {
+      "type": "cheat",
+      "kicker": "KISARAN KASAR",
+      "title": "Kuat melek berapa lama:",
+      "rows": [
+        {
+          "text": "0-3 bulan: 1-2 jam",
+          "small": "Tidur total 14-17 jam sehari",
+          "art": "w4a-ww-0-3"
+        },
+        {
+          "text": "4-6 bulan: 1,5-3 jam",
+          "small": "Tidur total 12-16 jam sehari",
+          "art": "w4a-ww-4-6"
+        },
+        {
+          "text": "6-9 bulan: 2-3 jam",
+          "small": "Tidur total 12-16 jam sehari",
+          "art": "w4a-ww-6-9"
+        },
+        {
+          "text": "9-12 bulan: 2,5-4 jam",
+          "small": "Tidur total 12-16 jam sehari",
+          "art": "w4a-ww-9-12"
+        },
+        {
+          "text": "12-18 bulan: 3 jam lebih",
+          "small": "Tidur total 11-14 jam sehari",
+          "art": "w4a-ww-12-18"
+        }
+      ],
+      "note": "Patokan kasar, bukan aturan dokter"
+    },
+    {
+      "type": "cheat",
+      "kicker": "NOMOR SATU",
+      "title": "Tanda ngantuk, ikutin ini dulu:",
+      "rows": [
+        {
+          "text": "Menguap",
+          "small": "Atau tatapannya kosong",
+          "art": "w4a-tanda-nguap"
+        },
+        {
+          "text": "Tarik telinga",
+          "small": "Tangannya ngepal",
+          "art": "w4a-tanda-telinga"
+        },
+        {
+          "text": "Kaki tangan menyentak",
+          "small": "Kadang badannya melengkung",
+          "art": "w4a-tanda-sentak"
+        },
+        {
+          "text": "Rewel, nempel terus",
+          "small": "Bosan sama mainannya",
+          "art": "w4a-tanda-rewel"
+        }
+      ],
+      "note": "Udah muncul? Tidurin, walau jamnya belum"
+    },
+    {
+      "type": "cta",
+      "headline": "Jam cuma patokan.",
+      "accent": "Bayimu yang paling tahu.",
+      "pill": "SIMPAN BUAT JADWAL TIDURNYA",
+      "sub2": "Tidurin selalu telentang, di kasur datar tanpa bantal dan selimut.",
+      "source": "Sumber: WHO, AASM (didukung AAP), Raising Children Network, Tresillian",
+      "disclaimer": true,
+      "mascot": "santai"
+    }
+  ],
+  "sources": [
+    "Raising Children Network (Australian Government funded), Tired signs in babies: newborns may get tired as soon as 1-1.5 hours after waking, some stay happy 2 hours or more. 3-6 months tired after 1.5-3 hours awake. 6-12 months after 2-3 hours. Newborn tired signs: pulling at ears, closing fists, yawning, staring into space, jerky arm and leg movements or arching backwards, frowning. Baby signs: clinginess, grizzling or crying, boredom with toys. https://raisingchildren.net.au/babies/sleep/understanding-sleep/tired-signs and https://raisingchildren.net.au/newborns/sleep/understanding-sleep/tired-signs",
+    "Tresillian (NSW child and family health), daily routines: 4-6 weeks average awake time 1-2 hours, 7-12 weeks 1-2.5 hours, including feed and play. 6-8 months 2-3 hours. 9-10 months 2.5-3.5 hours. 11-12 months 3-4 hours. around 14 months many move to one nap. https://www.tresillian.org.au/newborn/routines/ , https://www.tresillian.org.au/baby/sleep/7-to-12-months/ , https://www.tresillian.org.au/baby/routines/9-to-12-months/",
+    "Plunket (NZ), Sleep 1-2 years: most toddlers go from two naps to one between 12 and 18 months. example day implies longer awake stretches with one nap. https://www.plunket.org.nz/child-development/sleep/sleep-1-2-years/sleep-1-2-years/",
+    "WHO 2019, Guidelines on physical activity, sedentary behaviour and sleep for children under 5: 0-3 months 14-17 h, 4-11 months 12-16 h, 1-2 years 11-14 h, including naps. https://www.who.int/news/item/24-04-2019-to-grow-up-healthy-children-need-to-sit-less-and-play-more",
+    "AASM pediatric consensus 2016 (Paruthi et al., J Clin Sleep Med), endorsed by AAP: 4-12 months 12-16 h, 1-2 years 11-14 h per 24 h including naps. no recommendation under 4 months. https://www.eurekalert.org/news-releases/685231",
+    "Wake windows are not part of AAP or AASM guidance. pediatric sleep physician Craig Canapari notes little evidence behind them. https://drcraigcanapari.com/wake-windows"
+  ],
+  "notes": "SHORT format (4 slides). Wake-window numbers are rough ranges from Raising Children Network and Tresillian, labelled 'kisaran kasar' on the slide and 'bukan pedoman resmi dokter anak' in the caption. 12-18 months has no published range in our sources: '3 jam lebih' is the 11-12 month floor (Tresillian 3-4 h) and grows with the switch to one nap (Plunket). Totals: WHO for 0-3 months (AASM has none under 4 months), AASM/WHO after. Crib art: telentang, flat empty mattress."
+}

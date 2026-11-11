@@ -1,0 +1,62 @@
+{
+  "series": "pintar",
+  "job": "save",
+  "usia": "0-6 BULAN",
+  "tiktok_title": "Sering nyusu bukan tanda ASI kurang. Contekan growth spurt dan perkiraan waktunya",
+  "caption": "Tiba-tiba minta nyusu terus dan lebih rewel? Bisa jadi dia lagi growth spurt, masa tumbuh cepat. Biasanya cuma 2-3 hari, terus pola nyusunya balik kayak semula.\n\nNyusu lebih sering ini bukan karena ASI-mu kurang. Justru dengan nyusu sesering dia mau, produksi ASI ikut nyesuain. Payudara terasa kosong di masa ini juga wajar.\n\nPerkiraan waktunya sekitar umur 2-3 minggu, 6 minggu, 3 bulan dan 5-6 bulan. Tiap bayi beda, bisa maju atau mundur.\n\nPopok basahnya berkurang, bayi lemas, atau berat badannya nggak naik? Langsung cek ke dokter anak atau konselor laktasi.\n\nBayimu pernah tiba-tiba nyusu terus di umur berapa?\n\nSumber: HSE Ireland, La Leche League Canada, Maryland Department of Health (WIC)\n\n#growthspurt #menyusui #asi #parentingindonesia #SeriAnakPintar",
+  "first_comment": "Bayimu sekarang umur berapa minggu? 👇",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "GROWTH SPURT",
+      "lines": [
+        "SERING NYUSU",
+        "BUKAN TANDA",
+        "ASI KURANG."
+      ],
+      "accent": 2,
+      "sub": "Bisa jadi dia lagi growth spurt.",
+      "hero": "w4a-growth-spurt"
+    },
+    {
+      "type": "cheat",
+      "kicker": "PERKIRAAN WAKTU",
+      "title": "Biasanya muncul sekitar umur:",
+      "rows": [
+        {"text": "2-3 minggu", "small": "Sering yang pertama kerasa", "art": "w4a-gs-2-3mg"},
+        {"text": "6 minggu", "small": "Sekitar 1,5 bulan", "art": "w4a-gs-6mg"},
+        {"text": "3 bulan", "small": "Bisa maju atau mundur", "art": "w4a-gs-3bl"},
+        {"text": "5-6 bulan", "small": "Tiap bayi beda", "art": "w4a-gs-6bl"}
+      ],
+      "note": "Biasanya cuma 2-3 hari, terus balik normal"
+    },
+    {
+      "type": "cheat",
+      "kicker": "PAS LAGI KEJADIAN",
+      "title": "Tandanya, terus siapin ini:",
+      "rows": [
+        {"text": "Minta nyusu terus", "small": "Susui aja, jangan dibatasi", "art": "w4a-gs-nyusu"},
+        {"text": "Lebih rewel", "small": "Wajar, ini cuma sebentar", "art": "w4a-gs-rewel"},
+        {"text": "Air minum dan camilan", "small": "Taruh dekat tempat nyusui", "art": "w4a-gs-minum"},
+        {"text": "Pantau popok basah", "small": "Sebanyak biasa, tandanya baik", "art": "w4a-gs-popok"}
+      ],
+      "note": "Popok basah berkurang? Cek ke dokter anak"
+    },
+    {
+      "type": "cta",
+      "headline": "Dia nyusu terus biar ASI-mu nambah.",
+      "accent": "Badanmu ngikutin kok.",
+      "pill": "SIMPAN BUAT GROWTH SPURT BERIKUTNYA",
+      "sub2": "Payudara terasa kosong di masa ini juga wajar. Minta pasangan pegang urusan rumah dulu.",
+      "source": "Sumber: HSE Ireland, La Leche League Canada, Maryland Dept. of Health (WIC)",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ],
+  "sources": [
+    "HSE (Ireland's national health service), Weight gain in breastfed babies: growth spurts at 2 to 3 weeks, 6 weeks, 3 months and 5 to 6 months. Baby may seem hungry all the time and breasts can feel empty (cluster feeding). It may last 2 to 3 days, then baby settles back into a similar pattern. Feeding on demand helps increase milk supply. Best not to limit feeds. A good time to rest. It does not mean they are feeding more because you do not have enough milk. https://www2.hse.ie/wellbeing/child-health/weight-gain-in-breastfed-babies.html",
+    "La Leche League Canada, Growth Spurts and Frequent-Feeding Days: expected around 10 days, 3 weeks, 6 weeks, 3 months and 6 months, may happen at any time. After about 48-72 hours baby usually returns to the previous routine. Signs all is well include the same number of wet and dirty diapers and weight gain. Growth spurts are normal and not a sign of low milk supply. https://www.lllc.ca/sites/default/files/Growth%20Spurts%20and%20Frequent-Feeding%20Days-1.pdf",
+    "Maryland Department of Health WIC, What is a growth spurt: first about 2 to 3 weeks after birth, others about 6 weeks, 3 months and 6 months, most last 1 to 2 days. Signs: extra fussy or cries more, nurses more often and longer. Nurse when hunger cues appear. Breasts are never empty. https://health.maryland.gov/phpa/wic/Pages/what_is_a_growth_spurt_en.aspx"
+  ],
+  "notes": "SHORT format (4 slides). Timing follows HSE (2-3 weeks, 6 weeks, 3 months, 5-6 months), close to Merwyn's list. Sources differ on length (Maryland 1-2 days, HSE 2-3 days, LLL 48-72 h): slides say 'biasanya cuma 2-3 hari'. 'Sering yang pertama kerasa' on the 2-3 week row follows Maryland's 'first growth spurt'. The hook is scoped by the sub line and the wet-diaper safety note, so it does not claim frequent feeding can never mean a problem. Water and snack row is a practical comfort tip, not a supply claim. Art: Mama hugging the baby, ASI drops only, no bottle or teat."
+}

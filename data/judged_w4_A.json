@@ -1,0 +1,8 @@
+{
+  "w4s-wake-window": {"hook": 4, "job": 5, "relief": 4, "trust": 5, "fresh": 4,
+    "note": "Concrete newborn fact (feeding counts as awake time) but not a myth-buster; 12-18 month row has no published range, so it says '3 jam lebih' and the slide labels every number 'kisaran kasar'."},
+  "w4s-jam-tidur": {"hook": 4, "job": 4, "relief": 3, "trust": 4, "fresh": 3,
+    "note": "Jam 8 corrects late bedtimes with a number, but parents of 10 pm sleepers may feel judged (CTA softens it); bedtimes are our arithmetic from SCHN/AASM, and the baby row gives no clock time."},
+  "w4s-growth-spurt": {"hook": 5, "job": 4, "relief": 5, "trust": 4, "fresh": 4,
+    "note": "Hits the commonest ASI-kurang worry head on; the hook is absolute on its own, so the sub line and wet-diaper note carry the safety limit."}
+}
