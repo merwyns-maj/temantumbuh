@@ -875,9 +875,12 @@
       "slug": "w4s-wake-window",
       "series": "pintar",
       "job": "save",
-      "status": "draf",
+      "status": "terjadwal",
       "format": "short",
-      "test": "Test E slot x format"
+      "test": "Test E slot x format",
+      "tebar_post_id": "479e8ec8-1a18-494b-83e4-72d00f4eb426",
+      "first_comment_auto": true,
+      "media": "tebar-upload (13 Nov; media repo push returned 403)"
     },
     {
       "date": "2026-11-16",
@@ -885,9 +888,12 @@
       "slug": "w4l-overstimulasi",
       "series": "pintar",
       "job": "comment",
-      "status": "draf",
+      "status": "terjadwal",
       "format": "long",
-      "test": "Test E slot x format"
+      "test": "Test E slot x format",
+      "tebar_post_id": "0f9f5051-fa6c-46ed-b129-7b2db2c4a712",
+      "first_comment_auto": true,
+      "media": "tebar-upload (13 Nov; media repo push returned 403)"
     },
     {
       "date": "2026-11-17",
@@ -895,9 +901,12 @@
       "slug": "w4l-asi-naik",
       "series": "ibu",
       "job": "save",
-      "status": "draf",
+      "status": "terjadwal",
       "format": "long",
-      "test": "Test E slot x format (swap day)"
+      "test": "Test E slot x format (swap day)",
+      "tebar_post_id": "a5f33fae-574f-48b3-8f5b-e1289daf4453",
+      "first_comment_auto": true,
+      "media": "tebar-upload (13 Nov; media repo push returned 403)"
     },
     {
       "date": "2026-11-17",
@@ -905,9 +914,12 @@
       "slug": "w4s-susu-uht",
       "series": "mpasi",
       "job": "save",
-      "status": "draf",
+      "status": "terjadwal",
       "format": "short",
-      "test": "Test E slot x format (swap day)"
+      "test": "Test E slot x format (swap day)",
+      "tebar_post_id": "5108f083-b13e-43cf-a640-35cf2864a959",
+      "first_comment_auto": true,
+      "media": "tebar-upload (13 Nov; media repo push returned 403)"
     },
     {
       "date": "2026-11-18",
@@ -915,9 +927,12 @@
       "slug": "w4s-asip-ml",
       "series": "ibu",
       "job": "save",
-      "status": "draf",
+      "status": "terjadwal",
       "format": "short",
-      "test": "Test E slot x format"
+      "test": "Test E slot x format",
+      "tebar_post_id": "d59cefea-7bfb-4882-83d5-689fec33c264",
+      "first_comment_auto": true,
+      "media": "tebar-upload (13 Nov; media repo push returned 403)"
     },
     {
       "date": "2026-11-18",
@@ -925,9 +940,12 @@
       "slug": "w4l-kakak-adik",
       "series": "pintar",
       "job": "send",
-      "status": "draf",
+      "status": "terjadwal",
       "format": "long",
-      "test": "Test E slot x format"
+      "test": "Test E slot x format",
+      "tebar_post_id": "db507456-0872-46a0-8408-747c6d8f5763",
+      "first_comment_auto": true,
+      "media": "tebar-upload (13 Nov; media repo push returned 403)"
     },
     {
       "date": "2026-11-19",
@@ -935,9 +953,12 @@
       "slug": "w4l-mastitis",
       "series": "ibu",
       "job": "save",
-      "status": "draf",
+      "status": "terjadwal",
       "format": "long",
-      "test": "Test E slot x format (swap day)"
+      "test": "Test E slot x format (swap day)",
+      "tebar_post_id": "efdfd0d7-c9f4-4c50-b58c-7c46f97a9442",
+      "first_comment_auto": true,
+      "media": "tebar-upload (13 Nov; media repo push returned 403)"
     },
     {
       "date": "2026-11-19",
@@ -945,9 +966,12 @@
       "slug": "w4s-kolik",
       "series": "pintar",
       "job": "send",
-      "status": "draf",
+      "status": "terjadwal",
       "format": "short",
-      "test": "Test E slot x format (swap day)"
+      "test": "Test E slot x format (swap day)",
+      "tebar_post_id": "ce35f9f7-0445-4d2b-a061-df95d456ce66",
+      "first_comment_auto": true,
+      "media": "tebar-upload (13 Nov; media repo push returned 403)"
     },
     {
       "date": "2026-11-20",
@@ -955,9 +979,12 @@
       "slug": "w4s-jam-tidur",
       "series": "pintar",
       "job": "save",
-      "status": "draf",
+      "status": "terjadwal",
       "format": "short",
-      "test": "Test E slot x format"
+      "test": "Test E slot x format",
+      "tebar_post_id": "972dd241-3c38-4420-a861-db3157cf04de",
+      "first_comment_auto": true,
+      "media": "tebar-upload (13 Nov; media repo push returned 403)"
     },
     {
       "date": "2026-11-20",
@@ -965,9 +992,12 @@
       "slug": "w4l-ayah-main",
       "series": "ayah",
       "job": "send",
-      "status": "draf",
+      "status": "terjadwal",
       "format": "long",
-      "test": "Test E slot x format"
+      "test": "Test E slot x format",
+      "tebar_post_id": "6d243707-a8da-400d-8e12-c9b8c6a7187c",
+      "first_comment_auto": true,
+      "media": "tebar-upload (13 Nov; media repo push returned 403)"
     },
     {
       "date": "2026-11-21",
@@ -975,9 +1005,12 @@
       "slug": "w4l-finger-food",
       "series": "mpasi",
       "job": "save",
-      "status": "draf",
+      "status": "terjadwal",
       "format": "long",
-      "test": "Test E slot x format (swap day)"
+      "test": "Test E slot x format (swap day)",
+      "tebar_post_id": "71da39cd-1a99-4d32-a4c3-f1b6ceaca455",
+      "first_comment_auto": true,
+      "media": "tebar-upload (13 Nov; media repo push returned 403)"
     },
     {
       "date": "2026-11-21",
@@ -985,9 +1018,12 @@
       "slug": "w4s-gula",
       "series": "mpasi",
       "job": "send",
-      "status": "draf",
+      "status": "terjadwal",
       "format": "short",
-      "test": "Test E slot x format (swap day)"
+      "test": "Test E slot x format (swap day)",
+      "tebar_post_id": "58c38a41-c9ff-4764-b473-d2c20bddfee4",
+      "first_comment_auto": true,
+      "media": "tebar-upload (13 Nov; media repo push returned 403)"
     },
     {
       "date": "2026-11-22",
@@ -995,9 +1031,12 @@
       "slug": "w4s-growth-spurt",
       "series": "pintar",
       "job": "save",
-      "status": "draf",
+      "status": "terjadwal",
       "format": "short",
-      "test": "Test E slot x format"
+      "test": "Test E slot x format",
+      "tebar_post_id": "ec9a7f25-a2d8-48be-8a2e-47bf8517d6a7",
+      "first_comment_auto": true,
+      "media": "tebar-upload (13 Nov; media repo push returned 403)"
     },
     {
       "date": "2026-11-22",
@@ -1005,9 +1044,12 @@
       "slug": "w4l-s02-tantrum-minimarket",
       "series": "pintar",
       "job": "comment",
-      "status": "draf",
+      "status": "terjadwal",
       "format": "long",
-      "test": "Test E slot x format"
+      "test": "Test E slot x format",
+      "tebar_post_id": "57b6697d-5261-43a2-9ab7-7696abcb06e9",
+      "first_comment_auto": true,
+      "media": "tebar-upload (13 Nov; media repo push returned 403)"
     }
   ],
   "backlog": [
