@@ -822,7 +822,7 @@
       "slug": "w3e-gelar-dokter-anak",
       "job": "save",
       "title": "Arti Sp.A, Subsp.AI, Subsp.GH dan kode lain di belakang nama dokter anak",
-      "status": "terjadwal",
+      "status": "terbit",
       "scheduled_wib": "2026-11-14 19:00",
       "design": "v2",
       "via": "Tebar",
@@ -832,7 +832,8 @@
         "71f00422-8104-4154-a805-1b0a56b0e141"
       ],
       "first_comment_auto": true,
-      "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32."
+      "pin_reminder_rule": "Pin reminder rule (9 Nov): get_post and read targets[0].first_comment.status. Say 'tap pin' only if it shows the comment posted (a comment_id is set). If pending, failed, or no permalink: send the drafted comment text to paste + pin, plus the link if known. Ngobrol 9 Nov: published 12:00:57, still no permalink and first_comment pending at 12:32.",
+      "permalink": "https://www.tiktok.com/@temantumbuhid/video/7707995313780329734"
     },
     {
       "day": "w3n-7",
