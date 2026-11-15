@@ -1,0 +1,8 @@
+Tunas Imunisasi (crayon test), TemanTumbuh
+
+Characters and story: TemanTumbuh (Tunas is our own mascot).
+Rendering engine: gl.js, crayon.js and rig.js copied from Lemo-Opuscar (github.com/lemomo-ai/lemo-opuscar), code under the MIT licence. Built with the library's render, mux and sfx tools (MIT).
+Style guidance: Lemo-Opuscar "Crayon Picture Book" STYLE.md (CC BY-NC 4.0). It was used as direction only and not copied. Films made with the library belong to their maker (library README).
+Font: Patrick Hand by Patrick Wagesreiter, SIL Open Font License 1.1 (fonts/patrickhand_OFL.txt).
+Music and sound: synthesised in mix.py (Karplus-Strong pluck, music box, glockenspiel, woodblock, noise foley). No samples.
+Voice: PLACEHOLDER from espeak-ng (GPL-3.0 program; its output is not covered by the GPL). To be replaced by a licensed ElevenLabs voice before publishing.
