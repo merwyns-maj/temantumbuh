@@ -15,7 +15,7 @@ on:
 
 concurrency:
   group: render-${{ inputs.film || 'pentol-e01' }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 env:
   FILM: ${{ inputs.film || 'pentol-e01' }}
@@ -64,7 +64,11 @@ jobs:
           PLAYWRIGHT_CHROME: ${{ steps.chrome.outputs.chrome-path }}
         run: |
           n=$(printf %02d ${{ matrix.shard }})
-          node core/render/video.mjs "films/$FILM" --fps 24 --workers 2 --shard ${{ matrix.shard }}/$SHARDS --out "../out/s$n.mp4" 2>&1 | grep -v -E "Shader Error|Program Info|Material (Name|Type)|^$" | tee -a "$GITHUB_WORKSPACE/log.txt" || true
+          for try in 1 2 3; do   # a slow first frame can time out once; try again
+            [ -s "../out/s$n.mp4" ] && break
+            echo "attempt $try" | tee -a "$GITHUB_WORKSPACE/log.txt"
+            node core/render/video.mjs "films/$FILM" --fps 24 --workers 2 --shard ${{ matrix.shard }}/$SHARDS --out "../out/s$n.mp4" 2>&1 | grep -v -E "Shader Error|Program Info|Material (Name|Type)|^$" | tee -a "$GITHUB_WORKSPACE/log.txt" || true
+          done
           test -s "../out/s$n.mp4"
       - name: Report the error
         if: failure()
