@@ -1,0 +1,92 @@
+# Renders a pop-up book episode in the cloud, free (public repo).
+# Run it: GitHub > Actions > "Render video" > Run workflow (works from the phone app too).
+# It also runs by itself whenever something under video/ is pushed.
+# The finished MP4 is attached to the run as an artifact (kept 30 days).
+name: Render video
+on:
+  workflow_dispatch:
+    inputs:
+      film:
+        description: Folder under video/ to render
+        default: pentol-e01
+  push:
+    branches: [main]
+    paths: ['video/**', '.github/workflows/render-video.yml']
+
+concurrency:
+  group: render-${{ inputs.film || 'pentol-e01' }}
+  cancel-in-progress: true
+
+env:
+  FILM: ${{ inputs.film || 'pentol-e01' }}
+  SHARDS: 20
+  LEMO_REF: 3a7132b996be0241c1ea0ab180d519f06e6f10b6   # lemomo-ai/lemo-opuscar, pinned so renders stay identical
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: video
+      - uses: actions/checkout@v4
+        with:
+          repository: lemomo-ai/lemo-opuscar
+          ref: ${{ env.LEMO_REF }}
+          path: lemo
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Set up the engine and the film
+        run: |
+          cp video/render/video.mjs lemo/core/render/video.mjs
+          cp -r "video/$FILM" "lemo/films/$FILM"
+          (cd lemo && npm install --no-audit --no-fund)
+          (cd "lemo/films/$FILM" && npm install --no-audit --no-fund)
+      - name: Render slice ${{ matrix.shard }} of 20
+        working-directory: lemo
+        env:
+          LEMO_ANGLE: swiftshader
+          PLAYWRIGHT_CHROME: /usr/bin/google-chrome
+        run: |
+          set -o pipefail
+          n=$(printf %02d ${{ matrix.shard }})
+          node core/render/video.mjs "films/$FILM" --fps 24 --workers 2 --shard ${{ matrix.shard }}/$SHARDS --out "../out/s$n.mp4" 2>&1 | grep -v -E "Shader Error|Program Info|Material (Name|Type)|^$" || true
+          test -s "../out/s$n.mp4"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: slice-${{ matrix.shard }}
+          path: out/*.mp4
+          retention-days: 2
+
+  join:
+    needs: render
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: slice-*
+          merge-multiple: true
+          path: out
+      - name: Join the slices
+        working-directory: out
+        run: |
+          ls s*.mp4 | sort | sed "s/.*/file '&'/" > list.txt
+          test "$(wc -l < list.txt)" -eq "$SHARDS"
+          ffmpeg -y -loglevel error -f concat -safe 0 -i list.txt -c copy "$FILM.mp4"
+          echo "Duration: $(ffprobe -v error -show_entries format=duration -of csv=p=0 "$FILM.mp4") s"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.FILM }}-video
+          path: out/${{ env.FILM }}.mp4
+          retention-days: 30
+          compression-level: 0

@@ -1,0 +1,8 @@
+node_modules/
+out/
+render.log
+stills/t_*
+stills/a_*
+stills/b_*
+*.mp4
+!preview-720p.mp4
