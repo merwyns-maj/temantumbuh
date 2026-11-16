@@ -24,7 +24,7 @@ env:
 
 jobs:
   render:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 300
     strategy:
       fail-fast: false
@@ -42,10 +42,17 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - uses: browser-actions/setup-chrome@v1
+        id: chrome
+        with:
+          chrome-version: stable
       - name: Install ffmpeg
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+        id: ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
       - name: Set up the engine and the film
+        id: setup
         run: |
+          exec > >(tee -a "$GITHUB_WORKSPACE/log.txt") 2>&1
           cp video/render/video.mjs lemo/core/render/video.mjs
           cp -r "video/$FILM" "lemo/films/$FILM"
           (cd lemo && npm install --no-audit --no-fund)
@@ -54,12 +61,17 @@ jobs:
         working-directory: lemo
         env:
           LEMO_ANGLE: swiftshader
-          PLAYWRIGHT_CHROME: /usr/bin/google-chrome
+          PLAYWRIGHT_CHROME: ${{ steps.chrome.outputs.chrome-path }}
         run: |
-          set -o pipefail
           n=$(printf %02d ${{ matrix.shard }})
-          node core/render/video.mjs "films/$FILM" --fps 24 --workers 2 --shard ${{ matrix.shard }}/$SHARDS --out "../out/s$n.mp4" 2>&1 | grep -v -E "Shader Error|Program Info|Material (Name|Type)|^$" || true
+          node core/render/video.mjs "films/$FILM" --fps 24 --workers 2 --shard ${{ matrix.shard }}/$SHARDS --out "../out/s$n.mp4" 2>&1 | grep -v -E "Shader Error|Program Info|Material (Name|Type)|^$" | tee -a "$GITHUB_WORKSPACE/log.txt" || true
           test -s "../out/s$n.mp4"
+      - name: Report the error
+        if: failure()
+        run: |
+          msg=$(tail -c 3000 log.txt 2>/dev/null | sed 's/%/%25/g' | awk 'BEGIN{ORS="%0A"}1')
+          echo "::error title=Steps::chrome=${{ steps.chrome.outcome }} ffmpeg=${{ steps.ffmpeg.outcome }} setup=${{ steps.setup.outcome }}"
+          echo "::error title=Render log tail::${msg:-no log}"
       - uses: actions/upload-artifact@v4
         with:
           name: slice-${{ matrix.shard }}
@@ -68,7 +80,7 @@ jobs:
 
   join:
     needs: render
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Install ffmpeg
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
