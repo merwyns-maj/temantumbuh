@@ -132,3 +132,23 @@ Topic plan, week of 2 Nov:
 - Organic is rising: median views up about 2.7x since the illustrated v2 design and the new hooks. Targets for 4 Nov are missed (they assumed the launch-week pace).
 - Best post since launch week: w2n gigi pertama (Contekan, 12:00), 5,588 views in under a day, 15.5x the account's usual. The first two noon Contekan posts both beat the 19:00 carousels of the same days (1,142 and 5,588 vs 562 and 556). Early, not yet a result: Test D is judged on 15 Nov.
 - Promote: skipped for now, per the rule agreed 29 Oct (organic is rising). Revisit on 15 Nov with Test D.
+
+## 11. Review, 16 Nov: Test D verdict (Tebar numbers, synced 16 Nov 07:31 WIB)
+
+Views are lifetime views at the sync. The baseline posts are 15 to 20 days old, while Test D posts are between half a day and 14 days old, so newer posts are understated. Posts from 14 and 15 Nov are still climbing. The account-level daily views in Tebar lag by a few days (they do not include most of the 14 Nov hit yet), so per-post views are used below.
+
+| Metric | Baseline: 27 Oct to 1 Nov, one post a day | Test D: 2 to 15 Nov, two a day |
+| --- | --- | --- |
+| Median views, 19:00 post | 610 (6 posts) | 621 (14 posts); week 1: 636, week 2: 415 |
+| Median views, 12:00 post | n/a | 273 (14 posts); week 1: 830, week 2: 217 |
+| Median views per day, both posts | 623 | 1,466 |
+| New followers per week | +37 (26 Oct to 2 Nov) | +16 (2 to 9 Nov), +49 (9 to 16 Nov) |
+| Followers | 130 (26 Oct) | 232 (16 Nov) |
+
+- **Verdict: keep two a day, with a watch on noon.** Both rules agreed on 29 Oct are met: total views per day more than doubled, and the 19:00 slot held (621 vs 610; week 1 at similar ages was 636).
+- **Noon faded in week 2.** In week 1 the noon post beat the 19:00 post on 4 of 7 days. In week 2 it won on only 1 of 7, and the noon median dropped from 830 to 217. Week 2's noon topics were narrower newborn issues (late teeth, kaki O, ruam popok, kepala peyang, cegukan, ASIP). Format and slot are still confounded: in the one swap (7 Nov), the short post at 19:00 got 2,199 and the long one at noon got 230. Week 4 (Test E: format swapped on Tue, Thu and Sat) separates them.
+- **Hits, not volume, drive growth.** Three posts made 79% of Test D views: gelar dokter anak (73,300, 19:00 long), gigi pertama (23,238, 12:00 short) and kata pertama (10,981, 19:00 long). All three are reference posts with age or milestone ranges, or a decoder of something parents see but can't read. Without the hits, the median post did about 415 views.
+- **Followers didn't scale with views.** Gelar dokter anak got 73,300 views and 25 follows (0.3 per 1,000 views). The hits reach non-followers who save and leave. Weekly follower gain averaged 32.5 vs 37 at baseline.
+- **Promote: still skip.** Reach isn't the bottleneck (organic hits reached 73k); conversion is. Fix the profile and pinned posts first (pin the three hits, plus a bio line that names the series), then retest. Revisit on 30 Nov.
+- **Persona panel, forward check** (results in data/panel/results_2026-11-16.txt). On the 16 posts judged before they went out, Spearman vs views was panel +0.44 and skor-konten +0.57. Within one slot it drops to panel +0.00 (19:00) and +0.38 (12:00), and skor-konten +0.15 and -0.35. So most of the signal is just "19:00 long beat 12:00 short this week". The panel ranked kata pertama 3rd and gelar 8th of 16. Neither the panel nor skor-konten spots a hit yet.
+- **skor-konten change (proposed):** add a "topic type" item worth about 20 points: a reference post a parent will come back to (age or milestone ranges, decoding a label, a referral path) scores high; opinion or myth lists score low. Take the points from the hook-craft items, which showed no signal within a slot. Leave slot and format weights alone until Test E ends on 22 Nov.

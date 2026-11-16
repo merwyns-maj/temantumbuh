@@ -1,0 +1,115 @@
+personas: andi, dewi, maya, rina, sari
+
+BACKTEST all (n=29), Spearman vs views
+  our score (skor-konten total)          -0.00
+  panel mean stop                        +0.13
+  panel mean swipe                       +0.09
+  panel mean save                        +0.29
+  panel mean send                        -0.06
+  panel mean comment                     +0.02
+  panel composite (stop x save/send)     +0.13
+    persona andi: stop                   -0.14
+    persona dewi: stop                   -0.02
+    persona maya: stop                   +0.08
+    persona rina: stop                   +0.11
+    persona sari: stop                   +0.22
+
+BACKTEST without d01 (account launch boost) (n=28), Spearman vs views
+  our score (skor-konten total)          -0.02
+  panel mean stop                        +0.15
+  panel mean swipe                       +0.06
+  panel mean save                        +0.33
+  panel mean send                        -0.05
+  panel mean comment                     +0.06
+  panel composite (stop x save/send)     +0.15
+    persona andi: stop                   -0.15
+    persona dewi: stop                   +0.04
+    persona maya: stop                   +0.03
+    persona rina: stop                   +0.09
+    persona sari: stop                   +0.25
+
+BACKTEST week 2 only (same design, same cadence) (n=12), Spearman vs views
+  our score (skor-konten total)          -0.65
+  panel mean stop                        +0.21
+  panel mean swipe                       +0.06
+  panel mean save                        +0.14
+  panel mean send                        +0.03
+  panel mean comment                     +0.22
+  panel composite (stop x save/send)     +0.15
+    persona andi: stop                   -0.14
+    persona dewi: stop                   -0.15
+    persona maya: stop                   -0.20
+    persona rina: stop                   +0.37
+    persona sari: stop                   +0.33
+
+Top 8 by panel composite vs views:
+  d02-potong-makanan           comp 10.17  score  96  views 3386
+  d12-nggak-apa-apa            comp  8.80  score  90  views 228
+  w2e-d29-belum-ngomong        comp  8.58  score  88  views 1199
+  d04-mitos-bayi               comp  8.18  score  96  views 4832
+  d05-keluhan-suami            comp  7.29  score  91  views 382
+  w2e-d22-jawaban-sopan        comp  7.23  score  90  views 629
+  d16-protein-pasar            comp  7.15  score  83  views 698
+  w2n-tanda-kenyang            comp  7.12  score  80  views 742
+
+FORWARD set, panel prediction (rank by composite):
+   1. w2e-d15-screen-time          comp  9.06  stop 6.0  score  92
+   2. w2n-demam-kapan-dokter       comp  8.68  stop 5.6  score  76
+   3. w3e-kata-pertama             comp  8.47  stop 5.8  score  92
+   4. w3e-mitos-2                  comp  8.41  stop 5.8  score  90
+   5. w3e-jawaban-sopan-2          comp  8.06  stop 5.6  score  96
+   6. w3n-kaki-o                   comp  6.58  stop 4.8  score  84
+   7. w3e-s01-jangan-nangis        comp  6.53  stop 4.8  score  94
+   8. w3e-gelar-dokter-anak        comp  6.30  stop 4.6  score  92
+   9. w3n-ngobrol                  comp  6.07  stop 4.4  score  86
+  10. w3e-adhd                     comp  5.90  stop 4.4  score  92
+  11. w3n-ruam-popok               comp  5.85  stop 4.4  score  80
+  12. w3n-asip-simpan              comp  5.24  stop 4.0  score  86
+  13. w3n-cegukan                  comp  4.75  stop 3.8  score  76
+  14. w3e-newborn-skip             comp  4.61  stop 3.6  score  88
+  15. w3n-kepala-peyang            comp  4.32  stop 3.6  score  84
+  16. w3n-gigi-telat               comp  3.45  stop 3.0  score  82
+
+FORWARD all (judged before posting) (n=16), Spearman vs views
+  our score (skor-konten total)          +0.57
+  panel mean stop                        +0.43
+  panel mean swipe                       +0.30
+  panel mean save                        +0.45
+  panel mean send                        +0.34
+  panel mean comment                     +0.36
+  panel composite (stop x save/send)     +0.44
+    persona andi: stop                   +0.52
+    persona dewi: stop                   +0.47
+    persona maya: stop                   +0.42
+    persona rina: stop                   -0.05
+    persona sari: stop                   -0.25
+
+FORWARD, posts at least 2 days old (n=13), Spearman vs views
+  our score (skor-konten total)          +0.44
+  panel mean stop                        +0.42
+  panel mean swipe                       +0.26
+  panel mean save                        +0.36
+  panel mean send                        +0.43
+  panel mean comment                     +0.34
+  panel composite (stop x save/send)     +0.43
+    persona andi: stop                   +0.53
+    persona dewi: stop                   +0.46
+    persona maya: stop                   +0.38
+    persona rina: stop                   -0.03
+    persona sari: stop                   -0.24
+  w3e-gelar-dokter-anak        views  73300  comp  6.30  score  92
+  w3e-kata-pertama             views  10981  comp  8.47  score  92
+  w3e-adhd                     views    613  comp  5.90  score  92
+  w2e-d15-screen-time          views    570  comp  9.06  score  92
+  w3e-jawaban-sopan-2          views    415  comp  8.06  score  96
+  w2n-demam-kapan-dokter       views    391  comp  8.68  score  76
+  w3e-newborn-skip             views    379  comp  4.61  score  88
+  w3e-s01-jangan-nangis        views    295  comp  6.53  score  94
+  w3n-ruam-popok               views    282  comp  5.85  score  80
+  w3n-asip-simpan              views    264  comp  5.24  score  86
+  w3n-kepala-peyang            views    245  comp  4.32  score  84
+  w3n-kaki-o                   views    217  comp  6.58  score  84
+  w3n-cegukan                  views    214  comp  4.75  score  76
+  w3e-mitos-2                  views    202  comp  8.41  score  90
+  w3n-gigi-telat               views    197  comp  3.45  score  82
+  w3n-ngobrol                  views    180  comp  6.07  score  86

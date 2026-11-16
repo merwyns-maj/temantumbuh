@@ -55,3 +55,10 @@ for s in sorted(bt, key=lambda s: -composite(s))[:8]: print(f'  {s:28s} comp {co
 fw = [key[c]['slug'] for c in key if key[c]['set'] == 'forward']
 print('\nFORWARD set, panel prediction (rank by composite):')
 for i, s in enumerate(sorted(fw, key=lambda s: -composite(s)), 1): print(f'  {i:2d}. {s:28s} comp {composite(s):5.2f}  stop {feat(s,"stop"):.1f}  score {score.get(s, 0):3.0f}')
+
+# forward check: only when the actuals file has views for the forward set
+fw_act = [s for s in fw if s in act]
+if fw_act:
+    report(fw_act, 'FORWARD all (judged before posting)')
+    report([s for s in fw_act if act[s].get('age_days', 9) >= 2], 'FORWARD, posts at least 2 days old')
+    for s in sorted(fw_act, key=lambda s: -act[s]['views']): print(f'  {s:28s} views {act[s]["views"]:6d}  comp {composite(s):5.2f}  score {score.get(s, 0):3.0f}')
