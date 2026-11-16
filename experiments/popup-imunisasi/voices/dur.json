@@ -1,0 +1,36 @@
+{
+ "lines": [
+  {
+   "id": "n1",
+   "text": "Hari ini, Tunas mau imunisasi."
+  },
+  {
+   "id": "n2",
+   "text": "Tunas agak deg-degan. Nggak apa-apa."
+  },
+  {
+   "id": "n3",
+   "text": "Mama pegang tangan Tunas."
+  },
+  {
+   "id": "n4",
+   "text": "Rasanya sakit sebentar. Boleh nangis."
+  },
+  {
+   "id": "n5",
+   "text": "Imunisasi bantu badan Tunas melawan kuman."
+  },
+  {
+   "id": "n6",
+   "text": "Tunas hebat!"
+  }
+ ],
+ "dur": {
+  "n1": 3.977,
+  "n2": 4.34,
+  "n3": 2.774,
+  "n4": 4.425,
+  "n5": 4.622,
+  "n6": 1.324
+ }
+}
