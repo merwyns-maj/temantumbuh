@@ -54,7 +54,7 @@ jobs:
         run: |
           exec > >(tee -a "$GITHUB_WORKSPACE/log.txt") 2>&1
           cp video/render/video.mjs lemo/core/render/video.mjs
-          cp -r "video/$FILM" "lemo/films/$FILM"
+          mkdir -p lemo/films && cp -r "video/$FILM" "lemo/films/$FILM"
           (cd lemo && npm install --no-audit --no-fund)
           (cd "lemo/films/$FILM" && npm install --no-audit --no-fund)
       - name: Render slice ${{ matrix.shard }} of 20
