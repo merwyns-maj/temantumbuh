@@ -965,12 +965,13 @@
       "slug": "w4l-mastitis",
       "series": "ibu",
       "job": "save",
-      "status": "terjadwal",
+      "status": "terbit",
       "format": "long",
       "test": "Test E slot x format (swap day)",
       "tebar_post_id": "efdfd0d7-c9f4-4c50-b58c-7c46f97a9442",
       "first_comment_auto": true,
-      "media": "tebar-upload (13 Nov; media repo push returned 403)"
+      "media": "tebar-upload (13 Nov; media repo push returned 403)",
+      "permalink": "https://www.tiktok.com/@temantumbuhid/video/7709742883926019329"
     },
     {
       "date": "2026-11-19",
@@ -978,12 +979,13 @@
       "slug": "w4s-kolik",
       "series": "pintar",
       "job": "send",
-      "status": "terjadwal",
+      "status": "terbit",
       "format": "short",
       "test": "Test E slot x format (swap day)",
       "tebar_post_id": "ce35f9f7-0445-4d2b-a061-df95d456ce66",
       "first_comment_auto": true,
-      "media": "tebar-upload (13 Nov; media repo push returned 403)"
+      "media": "tebar-upload (13 Nov; media repo push returned 403)",
+      "permalink": "https://www.tiktok.com/@temantumbuhid/video/7709851093248855302"
     },
     {
       "date": "2026-11-20",
