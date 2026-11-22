@@ -1044,30 +1044,30 @@
       "permalink": "https://www.tiktok.com/@temantumbuhid/video/7710593307537050881"
     },
     {
-      "date": "2026-11-22",
-      "scheduled_wib": "2026-11-22 12:00",
+      "date": "2026-11-23",
+      "scheduled_wib": "2026-11-23 12:00",
       "slug": "w4s-growth-spurt",
       "series": "pintar",
       "job": "save",
       "status": "terjadwal",
       "format": "short",
-      "test": "Test E slot x format",
+      "test": "moved out of Test E (failed on 22 Nov)",
       "tebar_post_id": "ec9a7f25-a2d8-48be-8a2e-47bf8517d6a7",
       "first_comment_auto": true,
-      "media": "tebar-upload (13 Nov; media repo push returned 403)"
+      "media": "all 4 slides re-rendered and re-uploaded 22 Nov (slide 1 dropped by Tebar; noon post failed with photo_pull_failed)"
     },
     {
       "date": "2026-11-22",
-      "scheduled_wib": "2026-11-22 19:00",
+      "scheduled_wib": "2026-11-22 19:07",
       "slug": "w4l-s02-tantrum-minimarket",
       "series": "pintar",
       "job": "comment",
-      "status": "terjadwal",
+      "status": "terbit",
       "format": "long",
       "test": "Test E slot x format",
       "tebar_post_id": "57b6697d-5261-43a2-9ab7-7696abcb06e9",
       "first_comment_auto": true,
-      "media": "tebar-upload (13 Nov; media repo push returned 403)"
+      "media": "re-rendered slides 4 and 6 re-uploaded 22 Nov (Tebar had dropped them)"
     }
   ],
   "backlog": [
