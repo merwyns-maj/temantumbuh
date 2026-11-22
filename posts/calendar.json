@@ -1087,9 +1087,11 @@
       "slug": "w5s-menu-mpasi-1",
       "series": "mpasi",
       "job": "save",
-      "status": "disetujui, belum dijadwalkan",
+      "status": "terjadwal",
       "format": "short",
-      "note": "waiting on egg/meat swap question"
+      "tebar_post_id": "c6b231e3-4feb-4023-b5e4-917318311d65",
+      "first_comment_auto": true,
+      "media": "tebar-upload 23 Nov"
     },
     {
       "date": "2026-11-24",
