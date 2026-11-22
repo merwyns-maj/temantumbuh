@@ -1068,6 +1068,40 @@
       "tebar_post_id": "57b6697d-5261-43a2-9ab7-7696abcb06e9",
       "first_comment_auto": true,
       "media": "re-rendered slides 4 and 6 re-uploaded 22 Nov (Tebar had dropped them)"
+    },
+    {
+      "date": "2026-11-23",
+      "scheduled_wib": "2026-11-23 19:00",
+      "slug": "w5s-ww-isi",
+      "series": "main",
+      "job": "save",
+      "status": "terjadwal",
+      "format": "short",
+      "tebar_post_id": "1cc5446d-4ee3-49f2-b5b8-1d386ca597b6",
+      "first_comment_auto": true,
+      "media": "tebar-upload 22 Nov"
+    },
+    {
+      "date": "2026-11-24",
+      "scheduled_wib": "2026-11-24 12:00",
+      "slug": "w5s-menu-mpasi-1",
+      "series": "mpasi",
+      "job": "save",
+      "status": "disetujui, belum dijadwalkan",
+      "format": "short",
+      "note": "waiting on egg/meat swap question"
+    },
+    {
+      "date": "2026-11-24",
+      "scheduled_wib": "2026-11-24 19:00",
+      "slug": "w5s-rebutan-mainan",
+      "series": "pintar",
+      "job": "send",
+      "status": "terjadwal",
+      "format": "short",
+      "tebar_post_id": "73ffee03-8ee7-40cd-85bd-584431c415b3",
+      "first_comment_auto": true,
+      "media": "tebar-upload 22 Nov"
     }
   ],
   "backlog": [
