@@ -1,0 +1,113 @@
+{
+  "series": "mpasi",
+  "job": "save",
+  "usia": "6-12+ BULAN",
+  "tiktok_title": "Menu MPASI seminggu, lauk hewani tiap hari. Edisi 1",
+  "caption": "Bingung masak apa minggu ini? Ini contoh menu seminggu dengan lauk hewani tiap hari: telur, ikan, hati ayam, daging, ayam. WHO menyarankan makanan hewani tiap hari buat anak 6-23 bulan, dan Kemenkes juga ngajak kasih protein hewani tiap makan.\n\nTeksturnya ikut usia: 6-8 bulan dihaluskan kental, 9-11 bulan dicincang, 12 bulan ke atas ikut menu keluarga dipotong kecil. Tambah sedikit lemak (minyak, santan, mentega) di tiap porsi.\n\nIni contoh, bukan aturan. Ada riwayat alergi? Tanya dokter anak dulu.\n\nLauk favorit anakmu apa?\n\nSumber: WHO 2023, Kemenkes RI, IDAI\n\n#menumpasi #mpasi #mpasi6bulan #parentingindonesia #SeriMPASI",
+  "first_comment": "Minggu depan mau menu lauk apa? Request di sini 👇",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "MENU MINGGU INI",
+      "lines": [
+        "LAUK HEWANI",
+        "TIAP HARI,",
+        "INI MENUNYA."
+      ],
+      "accent": 2,
+      "sub": "Edisi 1. Teksturnya ikut usia.",
+      "hero": "w5a-menu"
+    },
+    {
+      "type": "cheat",
+      "kicker": "SENIN-KAMIS",
+      "title": "Menu seminggu, bagian 1:",
+      "rows": [
+        {
+          "text": "Senin: telur + labu siam",
+          "small": "Telur dimasak sampai matang",
+          "art": "lauk-telur"
+        },
+        {
+          "text": "Selasa: ikan + bayam",
+          "small": "Ikan kembung, buang durinya",
+          "art": "lauk-ikan"
+        },
+        {
+          "text": "Rabu: hati ayam + wortel",
+          "small": "Hati dimasak sampai matang",
+          "art": "lauk-hati"
+        },
+        {
+          "text": "Kamis: daging sapi + brokoli",
+          "small": "Dihaluskan atau dicincang",
+          "art": "lauk-daging"
+        }
+      ],
+      "note": "Karbonya bubur nasi atau nasi tim"
+    },
+    {
+      "type": "cheat",
+      "kicker": "JUMAT-MINGGU",
+      "title": "Menu seminggu, bagian 2:",
+      "rows": [
+        {
+          "text": "Jumat: ikan + tahu + labu",
+          "small": "Ikan nila atau gabus",
+          "art": "lauk-ikan"
+        },
+        {
+          "text": "Sabtu: ayam + tempe + buncis",
+          "small": "Ayam tanpa kulit, dicincang",
+          "art": "w5a-ayam"
+        },
+        {
+          "text": "Minggu: telur + tomat",
+          "small": "Orak-arik lembut, tomat dikupas",
+          "art": "lauk-telur"
+        }
+      ],
+      "note": "Tiap porsi tambah minyak, santan, atau mentega"
+    },
+    {
+      "type": "cheat",
+      "kicker": "TEKSTUR",
+      "title": "Ikut usianya:",
+      "rows": [
+        {
+          "text": "6-8 bulan: dihaluskan, kental",
+          "small": "Mulai 2-3 sdm, naik pelan-pelan",
+          "art": "w2n-porsi-6"
+        },
+        {
+          "text": "9-11 bulan: dicincang",
+          "small": "Sekitar ½ mangkuk per makan",
+          "art": "w2n-porsi-9"
+        },
+        {
+          "text": "12 bulan+: menu keluarga",
+          "small": "¾-1 mangkuk, potong kecil",
+          "art": "w2n-porsi-12"
+        }
+      ],
+      "note": "Mangkuk ukuran 250 ml"
+    },
+    {
+      "type": "cta",
+      "headline": "Minggu depan menu baru.",
+      "accent": "Simpan biar nggak bingung masak.",
+      "pill": "SIMPAN BUAT BELANJA",
+      "sub2": "Ada riwayat alergi? Tanya dokter anak dulu.",
+      "source": "Sumber: WHO 2023, Kemenkes RI, IDAI",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ],
+  "sources": [
+    "WHO Guideline for complementary feeding of infants and young children 6-23 months of age (2023), recommendation: meat, fish or eggs should be eaten daily. fruits and vegetables daily. pulses, nuts and seeds frequently. https://www.who.int/publications/i/item/9789240081864",
+    "WHO/PAHO Guiding principles for complementary feeding and WHO Infant and young child feeding counselling: 6-8 months start with 2-3 tablespoons per feed increasing to about half a 250 ml cup, 2-3 meals. 9-11 months half a 250 ml cup, 3-4 meals plus 1-2 snacks. 12-23 months three quarters to one 250 ml cup, 3-4 meals plus 1-2 snacks. texture from thick puree to finely chopped to family foods. (Same figures as our w2n-porsi-mpasi post.)",
+    "Kemenkes RI, Hari Gizi / HKN 2023 on protein hewani for children: protein hewani di setiap makan untuk anak, contoh telur, ikan, ayam, daging, hati. https://ayosehat.kemkes.go.id",
+    "IDAI, Rekomendasi Praktik Pemberian Makan Berbasis Bukti pada Bayi dan Batita di Indonesia (2015) and IDAI MPASI guidance: tekstur bertahap (lumat, lembik/cincang, makanan keluarga), tambahkan lemak, protein hewani. https://www.idai.or.id/artikel/klinik/asi/pemberian-makanan-pendamping-air-susu-ibu-mpasi"
+  ],
+  "notes": "SHORT format (5 slides), first edition of the weekly MPASI menu (backlog: rutin mingguan). The menu itself is our example combination, said so in the caption. No salt, sugar or honey talk. no formula, bottle. Fish choices are low-mercury local fish (kembung, nila, gabus), no tongkol or tuna. New art: hero-w5a-menu and big-w5a-ayam. the rest reused. Next editions rotate the vegetables and add one new lauk."
+}

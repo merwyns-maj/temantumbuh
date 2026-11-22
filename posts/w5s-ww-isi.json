@@ -1,0 +1,96 @@
+{
+  "series": "main",
+  "job": "save",
+  "usia": "0-18 BULAN",
+  "tiktok_title": "Bayi udah melek, terus mainin apa? Contekan ide main sesuai usia",
+  "caption": "Wake window itu waktu melek di antara dua tidur. Diisinya nggak perlu mainan mahal: ngobrol, tengkurap di lantai, cilukba, masukin balok ke wadah. Kamu tetap mainan favoritnya.\n\nMenjelang tidur, ganti yang tenang: lampu redup, baca buku atau nyanyi pelan. Main yang heboh taruh di awal waktu melek.\n\nTengkurap cuma pas melek dan ditemenin. Tidurnya tetap telentang.\n\nBayimu paling suka main apa?\n\nSumber: CDC Learn the Signs. Act Early., AAP (healthychildren.org), Tresillian\n\n#wakewindow #mainsamabayi #stimulasibayi #parentingindonesia #SeriMainDiRumah",
+  "first_comment": "Bayimu paling suka main apa? Tulis 1 kata aja 👇",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "WAKE WINDOW",
+      "lines": [
+        "UDAH MELEK,",
+        "TERUS",
+        "MAININ APA?"
+      ],
+      "accent": 2,
+      "sub": "Ide main sesuai usia, nggak perlu mahal.",
+      "hero": "w5a-ww-isi"
+    },
+    {
+      "type": "cheat",
+      "kicker": "CONTEKAN",
+      "title": "Ide main pas dia melek:",
+      "rows": [
+        {
+          "text": "0-3 bulan: ngobrol, tengkurap",
+          "small": "Di lantai, selalu ditemenin",
+          "art": "w2e-ngobrol"
+        },
+        {
+          "text": "4-6 bulan: genggam & tiru suara",
+          "small": "Kerincingan, buku kain",
+          "art": "w2e-buku-kain"
+        },
+        {
+          "text": "6-9 bulan: cilukba, cari mainan",
+          "small": "Sembunyiin di bawah kain",
+          "art": "cilukba-kain"
+        },
+        {
+          "text": "9-12 bulan: masuk-keluar wadah",
+          "small": "Balok ke kotak, gantian oper",
+          "art": "w2e-mainan-kotak"
+        },
+        {
+          "text": "12-18 bulan: susun & dorong",
+          "small": "Balok, bola, tunjuk gambar buku",
+          "art": "w2e-balok"
+        }
+      ],
+      "note": "Mainan besar, jauhkan benda kecil"
+    },
+    {
+      "type": "cheat",
+      "kicker": "MENJELANG TIDUR",
+      "title": "Ganti ke yang tenang:",
+      "rows": [
+        {
+          "text": "Redupkan lampu",
+          "small": "Suara pelan, TV mati",
+          "art": "w4d-c-lampu"
+        },
+        {
+          "text": "Baca buku atau nyanyi",
+          "small": "Urutannya sama tiap hari",
+          "art": "w2n-baca-buku"
+        },
+        {
+          "text": "Lihat tanda ngantuknya",
+          "small": "Nguap, tatapan kosong, rewel",
+          "art": "w4a-tanda-nguap"
+        }
+      ],
+      "note": "Main heboh taruh di awal waktu melek"
+    },
+    {
+      "type": "cta",
+      "headline": "Bayimu paling suka main apa?",
+      "accent": "Simpan buat ide besok.",
+      "pill": "SIMPAN BUAT IDE MAIN",
+      "sub2": "Tengkurap cuma pas melek dan ditemenin.",
+      "source": "Sumber: CDC Learn the Signs. Act Early., AAP (healthychildren.org), Tresillian",
+      "disclaimer": true,
+      "mascot": "hore"
+    }
+  ],
+  "sources": [
+    "CDC Learn the Signs. Act Early., Milestones by 4 Months, what you can do: talk back to baby's sounds, play on the floor or a play mat every day, safe toys easy to hold like rattles or cloth books, read and sing. https://www.cdc.gov/act-early/milestones/4-months.html",
+    "CDC Learn the Signs. Act Early., Milestones by 9 Months, what you can do: peek-a-boo with a cloth, hide a toy under a blanket, dump blocks out of a container and put them back, my turn your turn with a toy, name pictures in books. https://www.cdc.gov/act-early/milestones/9-months.html",
+    "CDC Milestones by 2 Months (talk, read, sing. tummy time while awake and supervised) and by 18 Months (stacking blocks, push toys, books). https://www.cdc.gov/act-early/milestones/2-months.html",
+    "AAP healthychildren.org, Back to Sleep, Tummy to Play: tummy time only while the baby is awake and someone is watching. always on the back for sleep. https://www.healthychildren.org/English/ages-stages/baby/sleep/Pages/Back-to-Sleep-Tummy-to-Play.aspx",
+    "Tresillian, Responsive settling: a calm, predictable bedtime routine. routines should take no longer than 30 to 40 minutes. https://www.tresillian.org.au/media/0hdnauuu/tre-26_4331-tip-responsive-settling-12-months-to-toddler.pdf"
+  ],
+  "notes": "SHORT format (4 slides), sequel to w4s-wake-window (our best-saved post). Activity ideas are CDC 'what you can do' tips grouped by age. we present them as ideas, not a schedule. All row art reused from earlier posts. only the hero is new (tools/mkart_w5_A.py). Caption kept short per Merwyn's viewer feedback."
+}

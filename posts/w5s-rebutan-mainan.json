@@ -1,0 +1,69 @@
+{
+  "series": "pintar",
+  "job": "send",
+  "usia": "1-4 TAHUN",
+  "tiktok_title": "Anak rebutan mainan? Belum bisa berbagi itu wajar. 3 kalimat yang bantu",
+  "caption": "Anak rebutan mainan, terus kamu suruh \"ayo dong, kasih adiknya\"? Wajar kalau belum berhasil. Kemampuan berbagi baru berkembang sekitar 3,5 sampai 4 tahun (Zero to Three). Sebelum itu dia lagi belajar nunggu, dan itu susah.\n\nYang bantu: hentikan rebutannya dengan tenang, sebut perasaan dua-duanya, terus gantian pakai timer. Yang nunggu dikasih mainan lain dulu. Biar timer yang bilang \"waktunya gantian\", bukan kamu.\n\nKirim ke yang suka jagain anakmu, biar kalimatnya sama di rumah.\n\nSumber: Zero to Three, AAP (healthychildren.org)\n\n#anakrebutan #balita #kakakadik #parentingindonesia #SeriAnakPintar",
+  "first_comment": "Di rumahmu, mainan yang paling sering direbutin apa? 👇",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "REBUTAN MAINAN",
+      "lines": [
+        "BELUM BISA",
+        "BERBAGI?",
+        "WAJAR KOK."
+      ],
+      "accent": 2,
+      "sub": "Ini 3 kalimat yang bantu.",
+      "hero": "w5a-rebutan"
+    },
+    {
+      "type": "point",
+      "usia": "1-4 TAHUN",
+      "title": "Berbagi baru bisa sekitar 3,5-4 tahun",
+      "art": "w5a-sebut",
+      "art_big": true,
+      "tips_label": "JADI",
+      "tips": "Sebelum itu dia lagi belajar nunggu. Bantu pelan-pelan, jangan dipaksa langsung kasih."
+    },
+    {
+      "type": "cheat",
+      "kicker": "3 KALIMAT",
+      "title": "Pas rebutan, coba bilang:",
+      "rows": [
+        {
+          "text": "\"Stop, nggak boleh rebut.\"",
+          "small": "Amankan dulu, suara tenang",
+          "art": "w5a-stop"
+        },
+        {
+          "text": "\"Kamu pengen juga, kesel ya.\"",
+          "small": "Sebut perasaan dua-duanya",
+          "art": "w5a-sebut"
+        },
+        {
+          "text": "\"Gantian, pakai timer.\"",
+          "small": "Yang nunggu main yang lain dulu",
+          "art": "w5a-timer"
+        }
+      ],
+      "note": "Udah tenang? Ajarin bilang \"Boleh gantian?\""
+    },
+    {
+      "type": "cta",
+      "headline": "Kirim ke yang jagain anakmu.",
+      "accent": "Biar kalimatnya sama di rumah.",
+      "pill": "KIRIM KE PENGASUH ATAU NENEK",
+      "sub2": "Sama-sama sabar, bukan cari siapa yang salah.",
+      "source": "Sumber: Zero to Three, AAP (healthychildren.org)",
+      "disclaimer": true,
+      "mascot": "halo"
+    }
+  ],
+  "sources": [
+    "Zero to Three, Helping Young Children With Sharing: sharing skills develop between 3.5 and 4 years. 43% of parents expected mastery by age 2. Strategies: calmly stop grabbing ('No grabbing'), narrate and name both children's feelings ('It's OK to be upset when you have to wait'), long turns with another activity for the waiting child, use a timer so the adult isn't the one calling time, model asking 'Can I have a turn?' once everyone is calm. https://www.zerotothree.org/resource/helping-young-children-with-sharing/",
+    "AAP healthychildren.org, Social Development in Preschoolers: around age 3 children learn to take turns and share toys in small groups, though not always. you'll need to encourage this cooperation. each gets an equal turn. https://www.healthychildren.org/English/ages-stages/preschool/Pages/Social-Development-in-Preschoolers.aspx"
+  ],
+  "notes": "SHORT format (4 slides), job send: to the nanny, Nenek or partner so the whole household uses the same words. 'Kakak dulu' covers siblings. it works the same with friends. No blame on anyone, no forced sharing. New art: hero-w5a-rebutan, big-w5a-stop, big-w5a-sebut, big-w5a-timer."
+}
