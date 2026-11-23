@@ -164,7 +164,7 @@ Test E ran 16 to 22 Nov. Mon, Wed, Fri and Sun put the short post at 12:00 and t
 | All | 449 | 314 | |
 
 - **Format matters more than slot.** Short beat long overall (median 681 vs 303) and in both slots (467 vs 431 at noon, 894 vs 180 at 19:00). Slot did not point one way. Short did better at 19:00, long did better at noon, so there is no slot effect to act on.
-- **The hit was a short reference post again.** ASIP ml (Wed 12:00, short, 4 slides) got 17,921 views, 426 saves and 56 follows. That is 24 follows per 1,000 views at 3.1 per 1,000 views on Gelar dokter anak. A how-much number parents look up is the best format we have found for both saves and follows.
+- **The hit was a short reference post again.** ASIP ml (Wed 12:00, short, 4 slides) got 17,921 views, 426 saves and 56 follows. That is 3.1 follows per 1,000 views, against 0.5 per 1,000 on Gelar dokter anak. A how-much number parents look up is the best format we have found for both saves and follows.
 - **Long posts keep people for less.** Completion rates for long posts were 2 to 24% (median about 12%), short posts 13 to 41% (median about 31%). The long posts that did fine (ASI naik 2,026, overstimulasi 773) are reference posts too.
 - **Noon fade (section 11): gone.** The noon median was 830 in week 1 and 217 in week 2. In week 4 it was 449, slightly above 19:00 (314). The week-2 dip looks like noise, not a dead slot.
 - **Followers: 334, +75 in the 7 days** (best week so far; +16 and +49 in the two weeks before). Account views were 36% lower than the week before, which had the 93k Gelar dokter anak hit.
