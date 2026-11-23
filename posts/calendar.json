@@ -1049,12 +1049,13 @@
       "slug": "w4s-growth-spurt",
       "series": "pintar",
       "job": "save",
-      "status": "terjadwal",
+      "status": "terbit",
       "format": "short",
       "test": "moved out of Test E (failed on 22 Nov)",
       "tebar_post_id": "ec9a7f25-a2d8-48be-8a2e-47bf8517d6a7",
       "first_comment_auto": true,
-      "media": "all 4 slides re-rendered and re-uploaded 22 Nov (slide 1 dropped by Tebar; noon post failed with photo_pull_failed)"
+      "media": "all 4 slides re-rendered and re-uploaded 22 Nov (slide 1 dropped by Tebar; noon post failed with photo_pull_failed)",
+      "permalink": "https://www.tiktok.com/@temantumbuhid/video/7711227885142445330"
     },
     {
       "date": "2026-11-22",
@@ -1075,11 +1076,12 @@
       "slug": "w5s-ww-isi",
       "series": "main",
       "job": "save",
-      "status": "terjadwal",
+      "status": "terbit",
       "format": "short",
       "tebar_post_id": "1cc5446d-4ee3-49f2-b5b8-1d386ca597b6",
       "first_comment_auto": true,
-      "media": "tebar-upload 22 Nov"
+      "media": "tebar-upload 22 Nov",
+      "permalink": "https://www.tiktok.com/@temantumbuhid/photo/7711336143630929160"
     },
     {
       "date": "2026-11-24",
