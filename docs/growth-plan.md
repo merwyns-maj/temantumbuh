@@ -152,3 +152,24 @@ Views are lifetime views at the sync. The baseline posts are 15 to 20 days old, 
 - **Promote: still skip.** Reach isn't the bottleneck (organic hits reached 73k); conversion is. Fix the profile and pinned posts first (pin the three hits, plus a bio line that names the series), then retest. Revisit on 30 Nov.
 - **Persona panel, forward check** (results in data/panel/results_2026-11-16.txt). On the 16 posts judged before they went out, Spearman vs views was panel +0.44 and skor-konten +0.57. Within one slot it drops to panel +0.00 (19:00) and +0.38 (12:00), and skor-konten +0.15 and -0.35. So most of the signal is just "19:00 long beat 12:00 short this week". The panel ranked kata pertama 3rd and gelar 8th of 16. Neither the panel nor skor-konten spots a hit yet.
 - **skor-konten change (proposed):** add a "topic type" item worth about 20 points: a reference post a parent will come back to (age or milestone ranges, decoding a label, a referral path) scores high; opinion or myth lists score low. Take the points from the hook-craft items, which showed no signal within a slot. Leave slot and format weights alone until Test E ends on 22 Nov.
+
+## 12. Review, 23 Nov: Test E verdict (format vs slot, Tebar numbers synced 23 Nov 07:31 WIB)
+
+Test E ran 16 to 22 Nov. Mon, Wed, Fri and Sun put the short post at 12:00 and the long one at 19:00. Tue, Thu and Sat swapped them. Growth spurt (Sun 12:00, short) failed because Tebar dropped a slide, and went out Mon 23 Nov instead, so it is left out. Tantrum minimarket went out at 19:07 on Sun. Views are lifetime views at the sync, so Fri to Sun posts have had only one to three days and are understated. Each cell has three or four posts: this is a small sample, and one post can move a median.
+
+| | 12:00 | 19:00 | All |
+|---|---|---|---|
+| Short | 467 (wake window 467, ASIP ml 17,921, jam tidur 189) | 894 (susu UHT 894, kolik 1,217, gula 314) | 681 |
+| Long | 431 (ASI naik 2,026, mastitis 431, finger food 303) | 180 (overstimulasi 773, kakak adik 181, ayah main 179, tantrum 170) | 303 |
+| All | 449 | 314 | |
+
+- **Format matters more than slot.** Short beat long overall (median 681 vs 303) and in both slots (467 vs 431 at noon, 894 vs 180 at 19:00). Slot did not point one way. Short did better at 19:00, long did better at noon, so there is no slot effect to act on.
+- **The hit was a short reference post again.** ASIP ml (Wed 12:00, short, 4 slides) got 17,921 views, 426 saves and 56 follows. That is 24 follows per 1,000 views at 3.1 per 1,000 views on Gelar dokter anak. A how-much number parents look up is the best format we have found for both saves and follows.
+- **Long posts keep people for less.** Completion rates for long posts were 2 to 24% (median about 12%), short posts 13 to 41% (median about 31%). The long posts that did fine (ASI naik 2,026, overstimulasi 773) are reference posts too.
+- **Noon fade (section 11): gone.** The noon median was 830 in week 1 and 217 in week 2. In week 4 it was 449, slightly above 19:00 (314). The week-2 dip looks like noise, not a dead slot.
+- **Followers: 334, +75 in the 7 days** (best week so far; +16 and +49 in the two weeks before). Account views were 36% lower than the week before, which had the 93k Gelar dokter anak hit.
+
+**Decisions**
+- Week 5: keep two posts a day at 12:00 and 19:00, all short (4 to 5 slides), and put the most "look it up" post of each day in either slot.
+- skor-konten: give no weight to slot. For format, drop the "aim for 6 to 9 slides" machine check, which marks our best posts down, and score 4 to 5 slides as full marks. Apply the reference-post item proposed in section 11 (about 20 points), since ASIP ml confirms it.
+- Recheck on 30 Nov with week 5 numbers: all-short weeks will show whether short wins on topic or on format.
