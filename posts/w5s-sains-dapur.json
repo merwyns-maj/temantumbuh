@@ -1,0 +1,84 @@
+{
+  "series": "main",
+  "job": "save",
+  "usia": "2-5 TAHUN",
+  "tiktok_title": "Eksperimen sains pakai barang dapur, sesuai usia. Plus aturan amannya",
+  "caption": "Nggak perlu beli mainan sains. Baskom air, es batu, pewarna makanan, soda kue dan cuka udah cukup buat eksperimen seru di rumah.\n\nKuncinya: suruh dia nebak dulu sebelum dicoba. \"Menurutmu ini tenggelam atau terapung?\" Salah tebak juga bagian dari belajar.\n\nAturan aman: selalu ditemenin, jangan tinggal anak di dekat air walau sebentar, dan jauhkan barang kecil yang bisa ketelan. Soda kue dan cuka dituang orang dewasa, jauhkan dari mata.\n\nEksperimen mana yang mau dicoba weekend ini?\n\nSumber: AAP (healthychildren.org), PBS KIDS for Parents\n\n#eksperimenanak #mainsamaanak #balita #parentingindonesia #SeriMainDiRumah",
+  "first_comment": "Eksperimen mana yang mau dicoba duluan? Tulis nomornya 👇",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "SAINS DI DAPUR",
+      "lines": [
+        "EKSPERIMEN",
+        "PAKAI BARANG",
+        "DAPUR."
+      ],
+      "accent": 2,
+      "sub": "Ide sesuai usia, plus aturan amannya.",
+      "hero": "w5b-sains"
+    },
+    {
+      "type": "cheat",
+      "kicker": "2-3 TAHUN",
+      "title": "Buat si kecil:",
+      "rows": [
+        {
+          "text": "Tenggelam atau terapung",
+          "small": "Baskom air, sendok, tutup besar",
+          "art": "w5b-terapung"
+        },
+        {
+          "text": "Es batu warna-warni",
+          "small": "Bekukan air berwarna",
+          "art": "w5b-es-warna"
+        },
+        {
+          "text": "Campur warna",
+          "small": "Biru + kuning jadi apa?",
+          "art": "w5b-warna"
+        }
+      ],
+      "note": "Barang kecil simpan dulu, bisa ketelan"
+    },
+    {
+      "type": "cheat",
+      "kicker": "4-5 TAHUN",
+      "title": "Buat yang udah besar:",
+      "rows": [
+        {
+          "text": "Gunung meletus",
+          "small": "Soda kue + cuka, dewasa tuang",
+          "art": "w5b-gunung"
+        },
+        {
+          "text": "Air jalan-jalan",
+          "small": "Tisu dapur antar gelas",
+          "art": "w5b-tisu"
+        },
+        {
+          "text": "Tebak dulu, baru coba",
+          "small": "Tanya: menurutmu kenapa?",
+          "art": "w2e-ngobrol"
+        }
+      ],
+      "note": "Selalu ditemenin, jauhkan dari mata"
+    },
+    {
+      "type": "cta",
+      "headline": "Simpan buat weekend.",
+      "accent": "Bahannya tinggal ambil di dapur.",
+      "pill": "SIMPAN BUAT AKHIR PEKAN",
+      "sub2": "Dekat air, anak jangan ditinggal walau sebentar.",
+      "source": "Sumber: AAP (healthychildren.org), PBS KIDS for Parents",
+      "disclaimer": false,
+      "mascot": "hore"
+    }
+  ],
+  "sources": [
+    "PBS KIDS for Parents, Sink or Float Experiment: fill a large bowl with water, predict float or sink, test items, sort and talk about the results. https://www.pbs.org/parents/crafts-and-experiments/sink-or-float-experiment",
+    "AAP healthychildren.org, Choking Prevention: keep small objects and toys with small parts away from infants and children, and follow the age guidance on toy packaging. https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Choking-Prevention.aspx",
+    "AAP healthychildren.org, Water safety at home: never leave a young child alone near water, including buckets and basins, even for a moment. https://www.healthychildren.org/English/safety-prevention/at-play/Pages/Water-Safety-And-Young-Children.aspx"
+  ],
+  "notes": "SHORT format (4 slides), Seri Main di Rumah. The experiments are common early-years science play (PBS, Questacon, playgroup guides). the safety lines carry the AAP sources. Volcano uses a plain plastic bottle (wide cap, no teat), poured by an adult. No disclaimer slide needed (not health content). New art in tools/mkart_w5_B.py."
+}

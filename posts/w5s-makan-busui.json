@@ -1,0 +1,85 @@
+{
+  "series": "ibu",
+  "job": "save",
+  "usia": "BUSUI",
+  "tiktok_title": "Busui boleh makan pedas dan minum es? Ini yang beneran perlu dibatasi",
+  "caption": "\"Jangan makan pedas, nanti bayinya mencret.\" \"Jangan minum es, nanti bayinya pilek.\" Kata CDC, umumnya ibu menyusui nggak perlu menghindari makanan tertentu. Bayi pilek itu karena virus, bukan karena es yang kamu minum.\n\nYang beneran ada batasnya: kafein sekitar 300 mg sehari (2-3 gelas kopi), ikan rendah merkuri 2-3 porsi seminggu, dan alkohol paling aman nggak sama sekali.\n\nBayi kelihatan rewel tiap kamu makan sesuatu? Catat, terus tanya dokter atau konselor laktasi. Bukan salah Nenek kok, ilmunya aja yang udah update.\n\nSumber: CDC, NHS, UNICEF Indonesia\n\n#busui #ibumenyusui #mitosmenyusui #parentingindonesia #SeriIbu",
+  "first_comment": "Makanan apa yang paling sering dilarang ke kamu? 👇",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "MAKAN PAS MENYUSUI",
+      "lines": [
+        "PEDAS & ES",
+        "DILARANG?",
+        "BOLEH KOK."
+      ],
+      "accent": 2,
+      "sub": "Ini yang beneran perlu dibatasi.",
+      "hero": "w5b-busui"
+    },
+    {
+      "type": "cheat",
+      "kicker": "MITOS",
+      "title": "Yang sering dilarang:",
+      "rows": [
+        {
+          "text": "Pedas: boleh",
+          "small": "Umumnya nggak perlu dihindari",
+          "art": "w5b-cabai"
+        },
+        {
+          "text": "Minum es: boleh",
+          "small": "Pilek itu karena virus, bukan es",
+          "art": "w5b-es"
+        },
+        {
+          "text": "Kol, kacang, nangka: boleh",
+          "small": "Kecuali bayi jelas bereaksi",
+          "art": "w5b-kol"
+        }
+      ],
+      "note": "Bayi rewel tiap kamu makan sesuatu? Catat, tanya dokter"
+    },
+    {
+      "type": "cheat",
+      "kicker": "FAKTA",
+      "title": "Yang beneran ada batasnya:",
+      "rows": [
+        {
+          "text": "Kopi: 2-3 gelas sehari",
+          "small": "Kafein sekitar 300 mg",
+          "art": "w5b-kopi"
+        },
+        {
+          "text": "Ikan: 2-3 porsi seminggu",
+          "small": "Nila, lele, kembung, bandeng",
+          "art": "lauk-ikan"
+        },
+        {
+          "text": "Alkohol: lebih aman nggak",
+          "small": "Paling aman nggak minum",
+          "art": "w5b-alkohol"
+        }
+      ],
+      "note": "Makan bergizi seimbang, minum tiap haus"
+    },
+    {
+      "type": "cta",
+      "headline": "Simpan buat jawab yang ngelarang.",
+      "accent": "Bukan salah Nenek, ilmunya udah update.",
+      "pill": "SIMPAN BUAT JAWAB MITOS",
+      "sub2": "Ragu? Tanya dokter atau konselor laktasi.",
+      "source": "Sumber: CDC, NHS, UNICEF Indonesia",
+      "disclaimer": true,
+      "mascot": "sayang"
+    }
+  ],
+  "sources": [
+    "CDC, Maternal Diet (breastfeeding special circumstances): generally, women do not need to limit or avoid specific foods while breastfeeding. Caffeine about 300 mg or less per day (2 to 3 cups of coffee) usually does not harm the infant. Fish: 2 to 3 servings (8 to 12 oz) a week from Best Choices, 1 serving from Good Choices, avoid the high-mercury list. https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/maternal-diet.html",
+    "NHS Start for Life, Food and drinks to avoid when breastfeeding: no more than 300 mg caffeine a day. Limit swordfish, marlin, shark to 1 portion a week, no more than 2 portions of oily fish a week. No evidence to avoid peanuts unless allergic. 'It's safer not to drink any alcohol'. https://www.nhs.uk/start-for-life/baby/feeding-your-baby/breastfeeding/healthy-diet-when-breastfeeding/food-and-drinks-to-avoid-when-breastfeeding/",
+    "UNICEF Indonesia, Terjawab: 14 Mitos tentang Menyusui: ibu menyusui butuh menu bergizi seimbang, nggak perlu makanan hambar. Kalau bayi bereaksi pada makanan tertentu, konsultasi ke dokter. https://www.unicef.org/indonesia/id/gizi/artikel/terjawab-14-mitos-tentang-menyusui",
+    "Alodokter, Apakah ibu menyusui boleh minum es: suhu air es disesuaikan dengan suhu tubuh. bayi pilek umumnya karena virus, bukan air es yang diminum ibunya. https://www.alodokter.com/apakah-ibu-menyusui-boleh-minum-es-cek-faktanya-di-sini"
+  ],
+  "notes": "SHORT format (4 slides), Seri Ibu. Myth-busting framed kindly ('bukan salah Nenek'). Fish list: low-mercury local fish (nila, lele, kembung, bandeng), no tongkol/tuna/marlin advice needed on the slide. No formula, no supplements, no brand. New art: hero-w5b-busui, big-w5b-cabai, -es, -kol, -kopi, -alkohol (tools/mkart_w5_B.py)."
+}

@@ -534,5 +534,21 @@
   "trust": 5,
   "fresh": 4,
   "note": "'Belum bisa berbagi itu wajar' relieves guilt; 3 copyable lines for the nanny or Nenek make the send job real. Zero to Three age range is the trust anchor."
+ },
+ "w5s-makan-busui": {
+  "hook": 4,
+  "job": 4,
+  "relief": 5,
+  "trust": 5,
+  "fresh": 3,
+  "note": "Pedas/es myths are what Nenek says every day; CDC 'no foods to avoid' plus the 3 real limits (kafein, ikan, alkohol) make it a save-and-show post. Myth posts are common, the 'what IS limited' slide is the fresh half."
+ },
+ "w5s-sains-dapur": {
+  "hook": 4,
+  "job": 4,
+  "relief": 3,
+  "trust": 4,
+  "fresh": 4,
+  "note": "Weekend activity reference split by age; kitchen items only. Safety lines are AAP-backed. Lower relief, it's a fun post, not a worry post."
  }
 }
