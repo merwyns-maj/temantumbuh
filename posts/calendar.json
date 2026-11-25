@@ -1108,6 +1108,32 @@
       "first_comment_auto": true,
       "media": "tebar-upload 22 Nov",
       "permalink": "https://www.tiktok.com/@temantumbuhid/photo/7711706263666707719"
+    },
+    {
+      "date": "2026-11-26",
+      "scheduled_wib": "2026-11-26 12:00",
+      "slug": "w5s-makan-busui",
+      "series": "ibu",
+      "job": "save",
+      "status": "terjadwal",
+      "format": "short",
+      "tebar_post_id": "549640fb-1bae-4ae2-b146-8777fc45a253",
+      "first_comment_auto": true,
+      "media": "tebar-upload 25 Nov",
+      "note": "planned Wed 25, moved to Thu (approved late)"
+    },
+    {
+      "date": "2026-11-26",
+      "scheduled_wib": "2026-11-26 19:00",
+      "slug": "w5s-sains-dapur",
+      "series": "main",
+      "job": "save",
+      "status": "terjadwal",
+      "format": "short",
+      "tebar_post_id": "57d91275-17c4-4191-8c66-ee4eabd3610c",
+      "first_comment_auto": true,
+      "media": "tebar-upload 25 Nov",
+      "note": "planned Wed 25, moved to Thu"
     }
   ],
   "backlog": [
