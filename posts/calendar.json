@@ -1115,12 +1115,13 @@
       "slug": "w5s-makan-busui",
       "series": "ibu",
       "job": "save",
-      "status": "terjadwal",
+      "status": "terbit",
       "format": "short",
       "tebar_post_id": "549640fb-1bae-4ae2-b146-8777fc45a253",
       "first_comment_auto": true,
       "media": "tebar-upload 25 Nov",
-      "note": "planned Wed 25, moved to Thu (approved late)"
+      "note": "planned Wed 25, moved to Thu (approved late)",
+      "permalink": "https://www.tiktok.com/@temantumbuhid/video/7712340960398822676"
     },
     {
       "date": "2026-11-26",
@@ -1128,12 +1129,13 @@
       "slug": "w5s-sains-dapur",
       "series": "main",
       "job": "save",
-      "status": "terjadwal",
+      "status": "terbit",
       "format": "short",
       "tebar_post_id": "57d91275-17c4-4191-8c66-ee4eabd3610c",
       "first_comment_auto": true,
       "media": "tebar-upload 25 Nov",
-      "note": "planned Wed 25, moved to Thu"
+      "note": "planned Wed 25, moved to Thu",
+      "permalink": "https://www.tiktok.com/@temantumbuhid/video/7712449739702373650"
     }
   ],
   "backlog": [
