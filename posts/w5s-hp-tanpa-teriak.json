@@ -1,0 +1,75 @@
+{
+  "series": "pintar",
+  "job": "send",
+  "usia": "2-5 TAHUN",
+  "tiktok_title": "Ambil HP dari anak tanpa teriak. Peringatan 2 menit malah bisa bikin makin ngamuk",
+  "caption": "\"2 menit lagi ya, Nak.\" Kedengarannya sopan, tapi satu studi University of Washington (2016) nemuin peringatan 2 menit malah bikin balita lebih kesal pas HP diambil. Yang lebih lancar: berhenti pas videonya selesai, dan kalau udahannya jadi rutinitas.\n\nYang bisa dicoba: janjian di awal (\"1 episode, habis itu udahan\"), berhenti pas episodenya habis, langsung ajak ke kegiatan lain yang dia suka, dan pakai kalimat pendek dengan suara tenang. Nangis sebentar itu wajar, temani aja.\n\nDi rumahmu, HP paling susah diambil pas kapan? Kirim ini ke pasangan atau pengasuh, biar caranya sama.\n\nSumber: AAP (healthychildren.org), University of Washington (2016), WHO 2019\n\n#screentime #balita #anaknangis #parentingindonesia #SeriAnakPintar",
+  "first_comment": "Di rumahmu, HP paling susah diambil pas jam berapa? 👇",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "HP & BALITA",
+      "lines": [
+        "AMBIL HP",
+        "TANPA",
+        "TERIAK."
+      ],
+      "accent": 2,
+      "sub": "Ternyata \"2 menit lagi\" bisa bikin makin ngamuk.",
+      "hero": "w5c-hp"
+    },
+    {
+      "type": "point",
+      "usia": "2-5 TAHUN",
+      "title": "\"2 menit lagi\" bisa bikin makin kesal",
+      "art": "w5c-dua-menit",
+      "art_big": true,
+      "tips_label": "TEMUAN",
+      "tips": "Satu studi (2016): lebih lancar kalau berhenti pas videonya selesai, dan udahannya jadi rutinitas."
+    },
+    {
+      "type": "cheat",
+      "kicker": "COBA INI",
+      "title": "Biar udahannya lancar:",
+      "rows": [
+        {
+          "text": "Janjian di awal",
+          "small": "\"1 episode, habis itu udahan\"",
+          "art": "w5c-janji"
+        },
+        {
+          "text": "Berhenti pas episode habis",
+          "small": "Bukan pas lagi seru-serunya",
+          "art": "w5c-selesai"
+        },
+        {
+          "text": "Ajak kegiatan lain",
+          "small": "\"Yuk, bantu siram tanaman\"",
+          "art": "w5c-ganti"
+        },
+        {
+          "text": "Singkat & tenang",
+          "small": "Tanpa ceramah panjang",
+          "art": "w5a-sebut"
+        }
+      ],
+      "note": "Nangis sebentar itu wajar, temani aja"
+    },
+    {
+      "type": "cta",
+      "headline": "Kirim ke pasangan atau pengasuh.",
+      "accent": "Biar caranya sama di rumah.",
+      "pill": "KIRIM KE YANG JAGAIN ANAKMU",
+      "sub2": "WHO: di bawah 2 tahun sebaiknya tanpa layar.",
+      "source": "Sumber: AAP (healthychildren.org), University of Washington (2016), WHO 2019",
+      "disclaimer": true,
+      "mascot": "halo"
+    }
+  ],
+  "sources": [
+    "University of Washington news, 5 May 2016, Hiniker et al. (CHI 2016): toddlers and preschoolers given a two-minute warning were more upset when the device was taken away. Natural stopping points (the video or game ending) and routines made transitions easier. https://www.washington.edu/news/2016/05/05/two-minute-warnings-make-kids-screen-time-tantrums-worse/",
+    "AAP healthychildren.org, Screen Time and Temper Tantrums: remind the child of the limit before they start, offer an activity they like even more ('trading up'), skip the lecture and hold your ground with few words ('I know it's tough, but it's time to put your tablet away'), use a family media plan. https://www.healthychildren.org/English/family-life/Media/Pages/Screen-Time-and-Temper-Tantrums-Helpful-Tips-for-Parents.aspx",
+    "WHO 2019, Guidelines on physical activity, sedentary behaviour and sleep for children under 5: screen time not recommended under 2 years, no more than 1 hour for 2 to 4 years, less is better."
+  ],
+  "notes": "SHORT format (4 slides), job send (to partner or nanny). The UW study is small (a diary study of families), so the copy says 'satu studi' and 'bisa', not 'pasti'. No device brands, no show titles. New art: tools/mkart_w5_C.py. Row 4 reuses big-w5a-sebut."
+}

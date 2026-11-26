@@ -1,0 +1,75 @@
+{
+  "series": "pintar",
+  "job": "comment",
+  "usia": "2-5 TAHUN",
+  "tiktok_title": "Tier list tontonan anak: yang pelan vs yang serba cepat. Masuk tier mana?",
+  "caption": "Kartun yang ganti adegan tiap detik bikin anak anteng, tapi ada harganya. Di studi Lillard & Peterson (2011), anak 4 tahun yang nonton kartun serba cepat 9 menit lebih susah fokus dan nahan diri sesudahnya, dibanding yang nonton acara pelan atau menggambar. Itu efek sesaat, jangka panjangnya belum diketahui.\n\nIni tier list kami, tanpa sebut judul: S nonton bareng sambil ngobrol, A acara pelan tentang kehidupan sehari-hari, B lagu dan gerak yang bikin dia ikut joget, C serba cepat dan autoplay terus.\n\nDi bawah 2 tahun, WHO nyaranin sebaiknya tanpa layar. 2-4 tahun paling lama 1 jam sehari.\n\nTontonan anakmu masuk tier mana?\n\nSumber: Lillard & Peterson 2011 (Pediatrics), AAP (healthychildren.org), WHO 2019\n\n#tontonananak #screentime #balita #parentingindonesia #SeriAnakPintar",
+  "first_comment": "Tontonan anakmu masuk tier S, A, B, atau C? 👇",
+  "slides": [
+    {
+      "type": "hook",
+      "kicker": "TIER LIST TONTONAN",
+      "lines": [
+        "TONTONAN",
+        "SERBA CEPAT",
+        "BIKIN CAPEK?"
+      ],
+      "accent": 1,
+      "sub": "Tier list kami, tanpa sebut judul.",
+      "hero": "w5c-tontonan"
+    },
+    {
+      "type": "point",
+      "usia": "4 TAHUN",
+      "title": "9 menit kartun cepat, fokus turun",
+      "art": "w5c-cepat",
+      "art_big": true,
+      "tips_label": "STUDI 2011",
+      "tips": "Anak 4 tahun lebih susah fokus sesudahnya dibanding yang nonton acara pelan atau menggambar. Itu efek sesaat."
+    },
+    {
+      "type": "cheat",
+      "kicker": "TIER LIST",
+      "title": "Tier list kami:",
+      "rows": [
+        {
+          "text": "S: nonton bareng, ngobrol",
+          "small": "Tanya \"Dia lagi ngapain?\"",
+          "art": "w5c-bareng"
+        },
+        {
+          "text": "A: pelan, kisah sehari-hari",
+          "small": "Adegan jarang ganti",
+          "art": "w5c-pelan"
+        },
+        {
+          "text": "B: lagu & gerak",
+          "small": "Ajak ikut joget",
+          "art": "w5c-lagu"
+        },
+        {
+          "text": "C: serba cepat, autoplay",
+          "small": "Adegan ganti tiap detik",
+          "art": "w5c-cepat"
+        }
+      ],
+      "note": "Di bawah 2 tahun, WHO: sebaiknya tanpa layar"
+    },
+    {
+      "type": "cta",
+      "headline": "Tontonan anakmu masuk tier mana?",
+      "accent": "Tulis S, A, B, atau C di komen.",
+      "pill": "TULIS TIER-NYA DI KOMEN",
+      "sub2": "2-4 tahun: paling lama 1 jam sehari (WHO).",
+      "source": "Sumber: Lillard & Peterson 2011 (Pediatrics), AAP (healthychildren.org), WHO 2019",
+      "disclaimer": true,
+      "mascot": "riset"
+    }
+  ],
+  "sources": [
+    "Lillard AS, Peterson J. The immediate impact of different types of television on young children's executive function. Pediatrics 2011. 4-year-olds watched 9 minutes of a fast-paced fantastical cartoon, a slower realistic show, or drew. The fast-paced group did significantly worse on executive-function tests right after. Drawing and the slow show were similar. Only immediate effects were measured. https://www.eurekalert.org/news-releases/674899",
+    "AAP healthychildren.org: co-view and talk about what children watch, choose high-quality programming. https://www.healthychildren.org/English/family-life/Media/Pages/Screen-Time-and-Temper-Tantrums-Helpful-Tips-for-Parents.aspx",
+    "WHO 2019, Guidelines on physical activity, sedentary behaviour and sleep for children under 5: screen time not recommended under 2 years, no more than 1 hour for 2 to 4 years."
+  ],
+  "notes": "SHORT format (4 slides), job comment (tier letters). Deliberately no show titles, characters or logos, so we don't run into IP or 'bashing' a show. The tier order is our editorial view, said so ('tier list kami'). Only tier C and the co-viewing tier rest on sources. New art: tools/mkart_w5_C.py."
+}
