@@ -100,17 +100,26 @@ for who, c in S['cast'].items():
     try:
         kw = dict(voice_description=c['design'], text=c['preview'], model_id=TTV)
         if c.get('audition') or pick: kw['seed'] = seed
-        r = el.text_to_voice.design(**kw)
         os.makedirs(f'{OUT}/previews', exist_ok=True)
         import base64
-        if c.get('audition') and not pick:   # three options to listen to; the old voice stays until one is picked
-            for k, p in enumerate(r.previews[:3], 1): open(f'{OUT}/previews/{who}-{k}.mp3', 'wb').write(base64.b64decode(p.audio_base_64))
-            VOI.setdefault(who, {})['audition'] = want; save(); print(f'{who}: {len(r.previews[:3])} options saved in previews/', flush=True); continue
-        p = r.previews[(pick or 1) - 1]
-        v = el.text_to_voice.create(voice_name=f"TemanTumbuh {who.capitalize()}{' (placeholder)' if who == 'pentol' else ''}",
-                                    voice_description=c['design'], generated_voice_id=p.generated_voice_id)
+        name = f"TemanTumbuh {who.capitalize()}{' (placeholder)' if who == 'pentol' else ''}"
+        opts = VOI.get(who, {}).get('options') or []
+        v = None
+        if pick and len(opts) >= pick:   # the exact option that was heard
+            try: v = el.text_to_voice.create(voice_name=name, voice_description=c['design'], generated_voice_id=opts[pick - 1])
+            except ApiError as e: warn(f'{who}: option {pick} has expired ({e.status_code}); making it again from the same settings')
+        if v is None:
+            r = el.text_to_voice.design(**kw)
+            if c.get('audition') and not pick:   # three options to listen to; the old voice stays until one is picked
+                for k, p in enumerate(r.previews[:3], 1): open(f'{OUT}/previews/{who}-{k}.mp3', 'wb').write(base64.b64decode(p.audio_base_64))
+                VOI.setdefault(who, {}).update(audition=want, options=[p.generated_voice_id for p in r.previews[:3]]); save()
+                print(f'{who}: {len(r.previews[:3])} options saved in previews/', flush=True); continue
+            p = r.previews[(pick or 1) - 1]
+            v = el.text_to_voice.create(voice_name=name, voice_description=c['design'], generated_voice_id=p.generated_voice_id)
+            open(f'{OUT}/previews/{who}.mp3', 'wb').write(base64.b64decode(p.audio_base_64))
+        elif os.path.exists(f'{OUT}/previews/{who}-{pick}.mp3'):
+            import shutil; shutil.copy(f'{OUT}/previews/{who}-{pick}.mp3', f'{OUT}/previews/{who}.mp3')
         VOI[who] = {'voice_id': v.voice_id, 'source': 'designed', 'design': want}; save()
-        open(f'{OUT}/previews/{who}.mp3', 'wb').write(base64.b64decode(p.audio_base_64))
         print(f'designed voice for {who}', flush=True)
     except ApiError as e:
         if is_quota(e): STOP = True; warn(f'Out of credits while designing {who}')
