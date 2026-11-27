@@ -1,0 +1,53 @@
+# Makes an episode's voices, voice lines, music and sound effects with ElevenLabs, saves them in the repo,
+# then renders the episode with sound. Needs the repository secret ELEVENLABS_API_KEY.
+# Runs when video/<film>/script.json changes, or by hand: Actions > "Make audio" > Run workflow.
+# Only new or changed files are made, so re-running costs nothing when nothing changed.
+name: Make audio
+on:
+  workflow_dispatch:
+    inputs:
+      film:
+        description: Folder under video/ to make audio for
+        default: pentol-e01
+  push:
+    branches: [main]
+    paths: ['video/*/script.json', 'video/tools/eleven_audio.py']
+
+concurrency:
+  group: audio-${{ inputs.film || 'pentol-e01' }}
+  cancel-in-progress: false
+
+jobs:
+  audio:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    env:
+      FILM: ${{ inputs.film || 'pentol-e01' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -q elevenlabs
+      - name: Make the audio
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: python video/tools/eleven_audio.py "video/$FILM"
+      - name: Save it in the repo
+        if: always()
+        run: |
+          git add "video/$FILM/audio"
+          git diff --cached --quiet && { echo "Nothing new."; exit 0; }
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -q -m "Audio for $FILM (made by the Make audio workflow)"
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done
+
+  render:
+    needs: audio
+    if: ${{ !cancelled() }}
+    uses: ./.github/workflows/render-video.yml
+    with:
+      film: ${{ inputs.film || 'pentol-e01' }}
+      ref: main

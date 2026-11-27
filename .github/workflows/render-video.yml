@@ -1,7 +1,7 @@
 # Renders a pop-up book episode in the cloud, free (public repo).
 # Run it: GitHub > Actions > "Render video" > Run workflow (works from the phone app too).
-# It also runs by itself whenever something under video/ is pushed.
-# The finished MP4 is attached to the run as an artifact (kept 30 days).
+# It also runs by itself when the episode's code is pushed, and after the "Make audio" workflow.
+# The finished MP4 (with sound, when the episode has audio files) is attached to the run as an artifact (kept 30 days).
 name: Render video
 on:
   workflow_dispatch:
@@ -9,13 +9,20 @@ on:
       film:
         description: Folder under video/ to render
         default: pentol-e01
+  workflow_call:
+    inputs:
+      film:
+        type: string
+        default: pentol-e01
+      ref:
+        type: string
+        default: ''
   push:
     branches: [main]
-    paths: ['video/**', '.github/workflows/render-video.yml']
-
-concurrency:
-  group: render-${{ inputs.film || 'pentol-e01' }}
-  cancel-in-progress: false
+    paths:
+      - 'video/**'
+      - '!video/*/script.json'          # a script change goes through "Make audio" first, which then renders
+      - '!video/tools/eleven_audio.py'
 
 env:
   FILM: ${{ inputs.film || 'pentol-e01' }}
@@ -33,6 +40,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: ${{ inputs.ref }}
           sparse-checkout: video
       - uses: actions/checkout@v4
         with:
@@ -54,7 +62,7 @@ jobs:
         run: |
           exec > >(tee -a "$GITHUB_WORKSPACE/log.txt") 2>&1
           cp video/render/video.mjs lemo/core/render/video.mjs
-          mkdir -p lemo/films && cp -r "video/$FILM" "lemo/films/$FILM"
+          mkdir -p lemo/films && cp -r "video/$FILM" "lemo/films/$FILM" && rm -rf "lemo/films/$FILM/audio"
           (cd lemo && npm install --no-audit --no-fund)
           (cd "lemo/films/$FILM" && npm install --no-audit --no-fund)
       - name: Render slice ${{ matrix.shard }} of 20
@@ -86,8 +94,12 @@ jobs:
     needs: render
     runs-on: ubuntu-24.04
     steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
+          sparse-checkout: video
       - name: Install ffmpeg
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
       - uses: actions/download-artifact@v4
         with:
           pattern: slice-*
@@ -98,8 +110,47 @@ jobs:
         run: |
           ls s*.mp4 | sort | sed "s/.*/file '&'/" > list.txt
           test "$(wc -l < list.txt)" -eq "$SHARDS"
-          ffmpeg -y -loglevel error -f concat -safe 0 -i list.txt -c copy "$FILM.mp4"
-          echo "Duration: $(ffprobe -v error -show_entries format=duration -of csv=p=0 "$FILM.mp4") s"
+          ffmpeg -y -loglevel error -f concat -safe 0 -i list.txt -c copy silent.mp4
+          echo "Duration: $(ffprobe -v error -show_entries format=duration -of csv=p=0 silent.mp4) s"
+      - name: Is there audio?
+        id: has
+        run: |
+          if ls video/$FILM/audio/vo/*.mp3 > /dev/null 2>&1 || ls video/$FILM/audio/music/* > /dev/null 2>&1; then echo "audio=yes" >> "$GITHUB_OUTPUT"; else echo "No audio files yet: the video stays silent."; fi
+      - uses: actions/checkout@v4
+        if: steps.has.outputs.audio == 'yes'
+        with:
+          repository: lemomo-ai/lemo-opuscar
+          ref: ${{ env.LEMO_REF }}
+          path: lemo
+      - uses: actions/setup-node@v4
+        if: steps.has.outputs.audio == 'yes'
+        with:
+          node-version: 20
+      - uses: browser-actions/setup-chrome@v1
+        if: steps.has.outputs.audio == 'yes'
+        id: chrome
+        with:
+          chrome-version: stable
+      - name: Read the sound events from the episode
+        if: steps.has.outputs.audio == 'yes'
+        env:
+          LEMO_ANGLE: swiftshader
+          PLAYWRIGHT_CHROME: ${{ steps.chrome.outputs.chrome-path }}
+        run: |
+          cp video/tools/dump_events.mjs lemo/core/render/dump_events.mjs
+          mkdir -p lemo/films && cp -r "video/$FILM" "lemo/films/$FILM" && rm -rf "lemo/films/$FILM/audio"
+          (cd lemo && npm install --no-audit --no-fund) && (cd "lemo/films/$FILM" && npm install --no-audit --no-fund)
+          cd lemo && node core/render/dump_events.mjs "films/$FILM" ../out/events.json 2>&1 | grep -v -E "Shader Error|Program Info|Material (Name|Type)|^$" || true
+          test -s ../out/events.json
+      - name: Mix and add the sound
+        if: steps.has.outputs.audio == 'yes'
+        run: |
+          pip install -q numpy
+          python video/tools/mix_episode.py "video/$FILM" out/events.json out/mix.wav
+          ffmpeg -y -loglevel error -i out/silent.mp4 -i out/mix.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -shortest "out/$FILM.mp4"
+      - name: Keep the silent version when there is no audio
+        if: steps.has.outputs.audio != 'yes'
+        run: mv out/silent.mp4 "out/$FILM.mp4"
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ env.FILM }}-video
