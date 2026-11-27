@@ -695,6 +695,15 @@
     "stems": [
       "b-ukulele"
     ],
-    "note": "Merwyn chose take B's sound (27 Nov 2026). b2-* are the slower, fewer-word lyrics. stems: the take split into vocals and music, for recording your own vocals."
+    "note": "Merwyn chose take B's sound (27 Nov 2026). b2-* are the slower, fewer-word lyrics. stems: the take split into vocals and music, for recording your own vocals.",
+    "transcribe": [
+      "a-ukulele",
+      "b-ukulele",
+      "c-toybox",
+      "d-angklung",
+      "b2-1",
+      "b2-2",
+      "b2-3"
+    ]
   }
 }

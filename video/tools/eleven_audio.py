@@ -163,6 +163,15 @@ for t in J.get('takes', []):
     kw = dict(composition_plan=MusicPrompt(**t['plan']), seed=t.get('seed'))
     make(f"{OUT}/jingle/{t['name']}.mp3", {'plan': t['plan'], 'seed': t.get('seed')}, lambda kw=kw: el.music.compose(**kw))
 
+# transcripts: what speech-to-text hears in each take (if it can't make out a word, a toddler won't either)
+for name in J.get('transcribe', []):
+    src = f'{OUT}/jingle/{name}.mp3'
+    if not os.path.exists(src): continue
+    def stt(src=src):
+        r = el.speech_to_text.convert(model_id='scribe_v1', file=open(src, 'rb'), language_code='id', timestamps_granularity='word', tag_audio_events=False)
+        return [json.dumps(r.model_dump() if hasattr(r, 'model_dump') else r, ensure_ascii=False, default=str, indent=1).encode()]
+    make(f'{OUT}/jingle/{name}.transcript.json', {'stt': name, 'src': h(open(src, 'rb').read().hex())}, stt)
+
 # stems: a take split into vocals and the music bed (for recording your own vocals over it)
 for name in J.get('stems', []):
     src = f'{OUT}/jingle/{name}.mp3'
