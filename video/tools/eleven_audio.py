@@ -163,6 +163,22 @@ for t in J.get('takes', []):
     kw = dict(composition_plan=MusicPrompt(**t['plan']), seed=t.get('seed'))
     make(f"{OUT}/jingle/{t['name']}.mp3", {'plan': t['plan'], 'seed': t.get('seed')}, lambda kw=kw: el.music.compose(**kw))
 
+# stems: a take split into vocals and the music bed (for recording your own vocals over it)
+for name in J.get('stems', []):
+    src = f'{OUT}/jingle/{name}.mp3'
+    if not os.path.exists(src): continue
+    zp = f'{OUT}/jingle/{name}-stems.zip'
+    def sep(src=src): return el.music.separate_stems(file=open(src, 'rb'), stem_variation_id='two_stems_v1')
+    if make(zp, {'stems': name, 'src': h(open(src, 'rb').read().hex())}, sep):
+        import zipfile
+        try:
+            with zipfile.ZipFile(zp) as z:
+                for n in z.namelist():
+                    if n.endswith('/'): continue
+                    out = f"{OUT}/jingle/{name}-{os.path.basename(n).replace(' ', '_').lower()}"
+                    open(out, 'wb').write(z.read(n)); print('stem:', out)
+        except zipfile.BadZipFile: os.replace(zp, f'{OUT}/jingle/{name}-stems.mp3')
+
 save()
 print(f'\nmade {len(made)}, unchanged {kept}, missing {len(failed)}')
 with open(os.environ.get('GITHUB_STEP_SUMMARY', os.devnull), 'a') as f:

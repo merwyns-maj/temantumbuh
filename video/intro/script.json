@@ -381,7 +381,320 @@
             }
           ]
         }
+      },
+      {
+        "name": "b2-1",
+        "seed": 202,
+        "plan": {
+          "positive_global_styles": [
+            "upbeat cheerful preschool TV theme song jingle",
+            "100 BPM",
+            "F major",
+            "ukulele",
+            "glockenspiel",
+            "handclaps",
+            "pizzicato bass",
+            "warm friendly female lead vocal, a native Indonesian singer",
+            "slow clear Indonesian diction, every word sung slowly and clearly on long notes",
+            "few words, lots of space between phrases",
+            "cheerful adult group shouts",
+            "catchy, simple and iconic",
+            "bright and clean mix, vocals loud and upfront"
+          ],
+          "negative_global_styles": [
+            "dark",
+            "sad",
+            "scary",
+            "aggressive",
+            "EDM",
+            "heavy rock drums",
+            "distorted guitar",
+            "autotune",
+            "English lyrics",
+            "English accent",
+            "rap",
+            "fast lyrics",
+            "mumbled words",
+            "many words",
+            "vocal runs",
+            "reverb-drowned vocals"
+          ],
+          "sections": [
+            {
+              "section_name": "Hitung",
+              "positive_local_styles": [
+                "three knocks on a wooden book cover",
+                "group shouts one number per beat, slow and clear",
+                "glockenspiel sparkle after the third shout"
+              ],
+              "negative_local_styles": [
+                "singing fast"
+              ],
+              "duration_ms": 3600,
+              "lines": [
+                "Satu! Dua! Tiga!"
+              ]
+            },
+            {
+              "section_name": "Bait",
+              "positive_local_styles": [
+                "lead vocal sings slowly on long notes",
+                "each word clear",
+                "handclaps on 2 and 4"
+              ],
+              "negative_local_styles": [
+                "fast lyrics"
+              ],
+              "duration_ms": 6800,
+              "lines": [
+                "Buka bukunya...",
+                "yuk, kita baca!"
+              ]
+            },
+            {
+              "section_name": "Hook",
+              "positive_local_styles": [
+                "the catchy hook, simple and repetitive",
+                "everyone sings along slowly and clearly",
+                "rising energy"
+              ],
+              "negative_local_styles": [
+                "fast lyrics"
+              ],
+              "duration_ms": 6400,
+              "lines": [
+                "Tum, tum, tumbuh!",
+                "Tum, tum, tumbuh!"
+              ]
+            },
+            {
+              "section_name": "Tag",
+              "positive_local_styles": [
+                "group shout of the show name, slow and clear",
+                "button ending on a bright held chord",
+                "one glockenspiel ding at the very end"
+              ],
+              "negative_local_styles": [
+                "fade out"
+              ],
+              "duration_ms": 3200,
+              "lines": [
+                "TemanTumbuh!"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "b2-2",
+        "seed": 212,
+        "plan": {
+          "positive_global_styles": [
+            "upbeat cheerful preschool TV theme song jingle",
+            "100 BPM",
+            "F major",
+            "ukulele",
+            "glockenspiel",
+            "handclaps",
+            "pizzicato bass",
+            "warm friendly female lead vocal, a native Indonesian singer",
+            "slow clear Indonesian diction, every word sung slowly and clearly on long notes",
+            "few words, lots of space between phrases",
+            "cheerful adult group shouts",
+            "catchy, simple and iconic",
+            "bright and clean mix, vocals loud and upfront"
+          ],
+          "negative_global_styles": [
+            "dark",
+            "sad",
+            "scary",
+            "aggressive",
+            "EDM",
+            "heavy rock drums",
+            "distorted guitar",
+            "autotune",
+            "English lyrics",
+            "English accent",
+            "rap",
+            "fast lyrics",
+            "mumbled words",
+            "many words",
+            "vocal runs",
+            "reverb-drowned vocals"
+          ],
+          "sections": [
+            {
+              "section_name": "Hitung",
+              "positive_local_styles": [
+                "three knocks on a wooden book cover",
+                "group shouts one number per beat, slow and clear",
+                "glockenspiel sparkle after the third shout"
+              ],
+              "negative_local_styles": [
+                "singing fast"
+              ],
+              "duration_ms": 3600,
+              "lines": [
+                "Satu! Dua! Tiga!"
+              ]
+            },
+            {
+              "section_name": "Bait",
+              "positive_local_styles": [
+                "lead vocal sings slowly on long notes",
+                "each word clear",
+                "handclaps on 2 and 4"
+              ],
+              "negative_local_styles": [
+                "fast lyrics"
+              ],
+              "duration_ms": 6800,
+              "lines": [
+                "Buka bukunya...",
+                "yuk, kita baca!"
+              ]
+            },
+            {
+              "section_name": "Hook",
+              "positive_local_styles": [
+                "the catchy hook, simple and repetitive",
+                "everyone sings along slowly and clearly",
+                "rising energy"
+              ],
+              "negative_local_styles": [
+                "fast lyrics"
+              ],
+              "duration_ms": 6400,
+              "lines": [
+                "Tum, tum, tumbuh!",
+                "Tum, tum, tumbuh!"
+              ]
+            },
+            {
+              "section_name": "Tag",
+              "positive_local_styles": [
+                "group shout of the show name, slow and clear",
+                "button ending on a bright held chord",
+                "one glockenspiel ding at the very end"
+              ],
+              "negative_local_styles": [
+                "fade out"
+              ],
+              "duration_ms": 3200,
+              "lines": [
+                "TemanTumbuh!"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "b2-3",
+        "seed": 222,
+        "plan": {
+          "positive_global_styles": [
+            "upbeat cheerful preschool TV theme song jingle",
+            "100 BPM",
+            "F major",
+            "ukulele",
+            "glockenspiel",
+            "handclaps",
+            "pizzicato bass",
+            "warm friendly female lead vocal, a native Indonesian singer",
+            "slow clear Indonesian diction, every word sung slowly and clearly on long notes",
+            "few words, lots of space between phrases",
+            "cheerful adult group shouts",
+            "catchy, simple and iconic",
+            "bright and clean mix, vocals loud and upfront"
+          ],
+          "negative_global_styles": [
+            "dark",
+            "sad",
+            "scary",
+            "aggressive",
+            "EDM",
+            "heavy rock drums",
+            "distorted guitar",
+            "autotune",
+            "English lyrics",
+            "English accent",
+            "rap",
+            "fast lyrics",
+            "mumbled words",
+            "many words",
+            "vocal runs",
+            "reverb-drowned vocals"
+          ],
+          "sections": [
+            {
+              "section_name": "Hitung",
+              "positive_local_styles": [
+                "three knocks on a wooden book cover",
+                "group shouts one number per beat, slow and clear",
+                "glockenspiel sparkle after the third shout"
+              ],
+              "negative_local_styles": [
+                "singing fast"
+              ],
+              "duration_ms": 3600,
+              "lines": [
+                "Satu! Dua! Tiga!"
+              ]
+            },
+            {
+              "section_name": "Bait",
+              "positive_local_styles": [
+                "lead vocal sings slowly on long notes",
+                "each word clear",
+                "handclaps on 2 and 4"
+              ],
+              "negative_local_styles": [
+                "fast lyrics"
+              ],
+              "duration_ms": 6800,
+              "lines": [
+                "Buka bukunya...",
+                "yuk, kita baca!"
+              ]
+            },
+            {
+              "section_name": "Hook",
+              "positive_local_styles": [
+                "the catchy hook, simple and repetitive",
+                "everyone sings along slowly and clearly",
+                "rising energy"
+              ],
+              "negative_local_styles": [
+                "fast lyrics"
+              ],
+              "duration_ms": 6400,
+              "lines": [
+                "Tum, tum, tumbuh!",
+                "Tum, tum, tumbuh!"
+              ]
+            },
+            {
+              "section_name": "Tag",
+              "positive_local_styles": [
+                "group shout of the show name, slow and clear",
+                "button ending on a bright held chord",
+                "one glockenspiel ding at the very end"
+              ],
+              "negative_local_styles": [
+                "fade out"
+              ],
+              "duration_ms": 3200,
+              "lines": [
+                "TemanTumbuh!"
+              ]
+            }
+          ]
+        }
       }
-    ]
+    ],
+    "stems": [
+      "b-ukulele"
+    ],
+    "note": "Merwyn chose take B's sound (27 Nov 2026). b2-* are the slower, fewer-word lyrics. stems: the take split into vocals and music, for recording your own vocals."
   }
 }
