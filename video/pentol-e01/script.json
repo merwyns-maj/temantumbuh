@@ -5,7 +5,7 @@
   "cast": {
     "pentol": {
       "clone_name": "Pentol",
-      "design": "A cheerful four-year-old Indonesian girl with a small, bright, slightly breathy voice. Curious, a little shy, speaks slowly in natural everyday Jakarta Indonesian.",
+      "design": "A small, round, friendly cartoon mascot character with a soft, bright, high and slightly breathy voice. Curious, a little shy, gentle, speaks slowly in natural everyday Jakarta Indonesian.",
       "preview": "Mama, lihat! Ada sapi di jalan. Pentol mau lihat sapinya. Tadi Pentol deg-degan, tapi sekarang Pentol berani. Imunisasi itu sakitnya cuma sebentar, kan?"
     },
     "mama": {
@@ -34,84 +34,364 @@
     }
   },
   "lines": [
-    {"t": 10.8, "who": "mama", "tone": "cheerful", "text": "Pagi, Pentol!"},
-    {"t": 15.8, "who": "pentol", "tone": "giggles", "text": "Lho, kok sandalnya beda?"},
-    {"t": 24.6, "who": "narator", "tone": "warm", "text": "Hari ini, Pentol mau imunisasi."},
-    {"t": 30.4, "who": "pentol", "tone": "nervous", "text": "Imunisasi... sakit nggak?"},
-    {"t": 36.6, "who": "mama", "tone": "reassuring", "text": "Sakit sebentar. Deg-degan, nggak apa-apa."},
-    {"t": 44.4, "who": "papa", "tone": "playful", "text": "Papa dulu juga deg-degan, lho."},
-    {"t": 60.0, "who": "pentol", "tone": "excited", "text": "Wah, ada sapi!"},
-    {"t": 70.2, "who": "papa", "tone": "warm", "text": "Ini rumah sakit."},
-    {"t": 81.4, "who": "pentol", "tone": "curious", "text": "Ada burung!"},
-    {"t": 87.6, "who": "perawat", "tone": "cheerful", "text": "Pentol!"},
-    {"t": 95.8, "who": "dokter", "tone": "gentle", "text": "Halo, Pentol. Mau dengar jantungmu?"},
-    {"t": 104.6, "who": "narator", "tone": "warm", "text": "Mama peluk Pentol. Papa pegang tangan Pentol."},
-    {"t": 113.6, "who": "dokter", "tone": "gentle", "text": "Rasanya sakit sebentar. Boleh nangis."},
-    {"t": 123.4, "who": "narator", "tone": "curious", "text": "Di dalam badan Pentol, ada penjaga."},
-    {"t": 128.4, "who": "narator", "tone": "warm", "text": "Obatnya bawa kuman yang lemah. Penjaga belajar."},
-    {"t": 137.0, "who": "penjaga", "tone": "excited", "text": "Kami ingat kamu!"},
-    {"t": 142.6, "who": "narator", "tone": "proud", "text": "Kuman datang? Penjaga sudah kenal. Badan Pentol kuat."},
-    {"t": 152.6, "who": "perawat", "tone": "proud", "text": "Pentol hebat!"},
-    {"t": 164.0, "who": "papa", "tone": "soft", "text": "Tadi Pentol berani."},
-    {"t": 174.2, "who": "pentol", "tone": "cheerful", "text": "Ingat ya! Imunisasi sakitnya sebentar. Boleh nangis."},
-    {"t": 181.2, "who": "mama", "tone": "warm", "text": "Mama dan Papa selalu ada di dekatmu."},
-    {"t": 188.2, "who": "papa", "tone": "cheerful", "text": "Imunisasi bantu penjaga kenal kuman. Badan jadi kuat!"}
+    {
+      "t": 10.8,
+      "who": "mama",
+      "tone": "cheerful",
+      "text": "Pagi, Pentol!"
+    },
+    {
+      "t": 15.8,
+      "who": "pentol",
+      "tone": "giggles",
+      "text": "Lho, kok sandalnya beda?"
+    },
+    {
+      "t": 24.6,
+      "who": "narator",
+      "tone": "warm",
+      "text": "Hari ini, Pentol mau imunisasi."
+    },
+    {
+      "t": 30.4,
+      "who": "pentol",
+      "tone": "nervous",
+      "text": "Imunisasi... sakit nggak?"
+    },
+    {
+      "t": 36.6,
+      "who": "mama",
+      "tone": "reassuring",
+      "text": "Sakit sebentar. Deg-degan, nggak apa-apa."
+    },
+    {
+      "t": 44.4,
+      "who": "papa",
+      "tone": "playful",
+      "text": "Papa dulu juga deg-degan, lho."
+    },
+    {
+      "t": 60.0,
+      "who": "pentol",
+      "tone": "excited",
+      "text": "Wah, ada sapi!"
+    },
+    {
+      "t": 70.2,
+      "who": "papa",
+      "tone": "warm",
+      "text": "Ini rumah sakit."
+    },
+    {
+      "t": 81.4,
+      "who": "pentol",
+      "tone": "curious",
+      "text": "Ada burung!"
+    },
+    {
+      "t": 87.6,
+      "who": "perawat",
+      "tone": "cheerful",
+      "text": "Pentol!"
+    },
+    {
+      "t": 95.8,
+      "who": "dokter",
+      "tone": "gentle",
+      "text": "Halo, Pentol. Mau dengar jantungmu?"
+    },
+    {
+      "t": 104.6,
+      "who": "narator",
+      "tone": "warm",
+      "text": "Mama peluk Pentol. Papa pegang tangan Pentol."
+    },
+    {
+      "t": 113.6,
+      "who": "dokter",
+      "tone": "gentle",
+      "text": "Rasanya sakit sebentar. Boleh nangis."
+    },
+    {
+      "t": 123.4,
+      "who": "narator",
+      "tone": "curious",
+      "text": "Di dalam badan Pentol, ada penjaga."
+    },
+    {
+      "t": 128.4,
+      "who": "narator",
+      "tone": "warm",
+      "text": "Obatnya bawa kuman yang lemah. Penjaga belajar."
+    },
+    {
+      "t": 137.0,
+      "who": "penjaga",
+      "tone": "excited",
+      "text": "Kami ingat kamu!"
+    },
+    {
+      "t": 142.6,
+      "who": "narator",
+      "tone": "proud",
+      "text": "Kuman datang? Penjaga sudah kenal. Badan Pentol kuat."
+    },
+    {
+      "t": 152.6,
+      "who": "perawat",
+      "tone": "proud",
+      "text": "Pentol hebat!"
+    },
+    {
+      "t": 164.0,
+      "who": "papa",
+      "tone": "soft",
+      "text": "Tadi Pentol berani."
+    },
+    {
+      "t": 174.2,
+      "who": "pentol",
+      "tone": "cheerful",
+      "text": "Ingat ya! Imunisasi sakitnya sebentar. Boleh nangis."
+    },
+    {
+      "t": 181.2,
+      "who": "mama",
+      "tone": "warm",
+      "text": "Mama dan Papa selalu ada di dekatmu."
+    },
+    {
+      "t": 188.2,
+      "who": "papa",
+      "tone": "cheerful",
+      "text": "Imunisasi bantu penjaga kenal kuman. Badan jadi kuat!"
+    }
   ],
   "music": {
     "style": "Gentle instrumental music for a toddler picture-book cartoon. Home key F major (worry in D minor). Warm, close, handmade, lots of space: few notes, long holds, soft attacks. Plucked nylon guitar or ukulele, music box, glockenspiel, soft piano, woodblock, light shaker, occasional angklung. No drum kit, no synth bass, no brass, no vocals. Keep the 1 to 4 kHz range clear for a child's voice.",
     "cues": {
-      "pagi": {"seconds": 60, "prompt": "Pagi: a bright, easy everyday morning, 92 BPM in F major. Plucked ukulele, light shaker, a little glockenspiel melody. Loops cleanly."},
-      "degdegan": {"seconds": 45, "prompt": "Deg-degan: a small child feeling unsure but safe, never scary. 70 BPM in D minor. Soft piano or a low plucked line alone, long notes, no percussion."},
-      "peluk": {"seconds": 45, "prompt": "Peluk: warm and held, a parent's hug. 72 BPM in F major. Soft piano with a gentle string pad."},
-      "jalan": {"seconds": 20, "prompt": "Jalan: a light journey moving forward, a short car ride through the countryside. 100 BPM in F major. Woodblock tick-tock, pizzicato strings, shaker."},
-      "penasaran": {"seconds": 60, "prompt": "Penasaran: curious and playful, exploring inside the body. 96 BPM in F major. Music box, pizzicato, glockenspiel, woodblock. Very sparse, plays under narration."},
-      "hore": {"seconds": 15, "prompt": "Hore: a small proud win, joyful but not loud. 100 BPM in F major. Angklung and glockenspiel melody, light shaker, rising at the end."},
-      "ingat": {"seconds": 20, "prompt": "Ingat ya: steady and reassuring recap. 80 BPM in F major. Soft plucked pulse and music box. A clean ending on a held chord."},
-      "malam": {"seconds": 45, "prompt": "Malam: sleepy and safe at bedtime. 62 BPM in F major. Music box alone, slow lullaby melody."}
+      "pagi": {
+        "seconds": 60,
+        "prompt": "Pagi: a bright, easy everyday morning, 92 BPM in F major. Plucked ukulele, light shaker, a little glockenspiel melody. Loops cleanly."
+      },
+      "degdegan": {
+        "seconds": 45,
+        "prompt": "Deg-degan: a small child feeling unsure but safe, never scary. 70 BPM in D minor. Soft piano or a low plucked line alone, long notes, no percussion."
+      },
+      "peluk": {
+        "seconds": 45,
+        "prompt": "Peluk: warm and held, a parent's hug. 72 BPM in F major. Soft piano with a gentle string pad."
+      },
+      "jalan": {
+        "seconds": 20,
+        "prompt": "Jalan: a light journey moving forward, a short car ride through the countryside. 100 BPM in F major. Woodblock tick-tock, pizzicato strings, shaker."
+      },
+      "penasaran": {
+        "seconds": 60,
+        "prompt": "Penasaran: curious and playful, exploring inside the body. 96 BPM in F major. Music box, pizzicato, glockenspiel, woodblock. Very sparse, plays under narration."
+      },
+      "hore": {
+        "seconds": 15,
+        "prompt": "Hore: a small proud win, joyful but not loud. 100 BPM in F major. Angklung and glockenspiel melody, light shaker, rising at the end."
+      },
+      "ingat": {
+        "seconds": 20,
+        "prompt": "Ingat ya: steady and reassuring recap. 80 BPM in F major. Soft plucked pulse and music box. A clean ending on a held chord."
+      },
+      "malam": {
+        "seconds": 45,
+        "prompt": "Malam: sleepy and safe at bedtime. 62 BPM in F major. Music box alone, slow lullaby melody."
+      }
     },
     "plan": [
-      {"cue": "pagi", "t0": 3.0, "t1": 30.2, "gain": 0.55},
-      {"cue": "degdegan", "t0": 29.8, "t1": 44.2, "gain": 0.5},
-      {"cue": "peluk", "t0": 43.8, "t1": 54.4, "gain": 0.5},
-      {"cue": "jalan", "t0": 54.2, "t1": 76.4, "gain": 0.5},
-      {"cue": "degdegan", "t0": 76.2, "t1": 94.6, "gain": 0.42, "offset": 15},
-      {"cue": "peluk", "t0": 94.4, "t1": 118.6, "gain": 0.45},
-      {"cue": "penasaran", "t0": 122.2, "t1": 145.8, "gain": 0.45},
-      {"cue": "hore", "t0": 145.6, "t1": 161.0, "gain": 0.5},
-      {"cue": "malam", "t0": 161.0, "t1": 173.4, "gain": 0.5},
-      {"cue": "ingat", "t0": 173.6, "t1": 193.6, "gain": 0.5},
-      {"cue": "pagi", "t0": 193.4, "t1": 206.0, "gain": 0.45}
+      {
+        "cue": "pagi",
+        "t0": 3.0,
+        "t1": 30.2,
+        "gain": 0.55
+      },
+      {
+        "cue": "degdegan",
+        "t0": 29.8,
+        "t1": 44.2,
+        "gain": 0.5
+      },
+      {
+        "cue": "peluk",
+        "t0": 43.8,
+        "t1": 54.4,
+        "gain": 0.5
+      },
+      {
+        "cue": "jalan",
+        "t0": 54.2,
+        "t1": 76.4,
+        "gain": 0.5
+      },
+      {
+        "cue": "degdegan",
+        "t0": 76.2,
+        "t1": 94.6,
+        "gain": 0.42,
+        "offset": 15
+      },
+      {
+        "cue": "peluk",
+        "t0": 94.4,
+        "t1": 118.6,
+        "gain": 0.45
+      },
+      {
+        "cue": "penasaran",
+        "t0": 122.2,
+        "t1": 145.8,
+        "gain": 0.45
+      },
+      {
+        "cue": "hore",
+        "t0": 145.6,
+        "t1": 161.0,
+        "gain": 0.5
+      },
+      {
+        "cue": "malam",
+        "t0": 161.0,
+        "t1": 173.4,
+        "gain": 0.5
+      },
+      {
+        "cue": "ingat",
+        "t0": 173.6,
+        "t1": 193.6,
+        "gain": 0.5
+      },
+      {
+        "cue": "pagi",
+        "t0": 193.4,
+        "t1": 206.0,
+        "gain": 0.45
+      }
     ]
   },
   "sfx": {
     "defs": {
-      "page": {"seconds": 1.6, "prompt": "A single thick paper page of a children's pop-up book being turned, soft and close"},
-      "creak": {"seconds": 1.2, "prompt": "The hard cover of a big old picture book opening slowly, soft paper and spine creak"},
-      "thump": {"seconds": 0.8, "prompt": "A big hardcover book closing gently on a wooden table, soft thump"},
-      "whoosh": {"seconds": 1.2, "prompt": "A soft magical sparkly whoosh for a children's cartoon transition"},
-      "car": {"seconds": 20, "loop": true, "prompt": "A small toy-like cartoon car puttering along a country road, gentle and cute, steady"},
-      "cow": {"seconds": 2.0, "prompt": "A friendly cow mooing once in a field, far away and soft"},
-      "chicken": {"seconds": 2.0, "prompt": "A hen clucking softly in a village yard"},
-      "bird": {"seconds": 2.5, "prompt": "A small bird chirping happily outside a window"},
-      "heartbeat": {"seconds": 3.0, "prompt": "A calm child's heartbeat heard through a doctor's stethoscope, dug dug dug, soft"},
-      "sticker": {"seconds": 1.0, "prompt": "A sticker being peeled off and pressed on, small and crisp"},
-      "chime": {"seconds": 1.5, "prompt": "One single glockenspiel note in F with a soft ring, gentle"},
-      "aha": {"seconds": 1.0, "prompt": "A quick sparkling glockenspiel run going up, light and happy"},
-      "sakit": {"seconds": 2.5, "prompt": "One low, soft plucked note that rings out slowly, gentle and calm"}
+      "page": {
+        "seconds": 1.6,
+        "prompt": "A single thick paper page of a children's pop-up book being turned, soft and close"
+      },
+      "creak": {
+        "seconds": 1.2,
+        "prompt": "The hard cover of a big old picture book opening slowly, soft paper and spine creak"
+      },
+      "thump": {
+        "seconds": 0.8,
+        "prompt": "A big hardcover book closing gently on a wooden table, soft thump"
+      },
+      "whoosh": {
+        "seconds": 1.2,
+        "prompt": "A soft magical sparkly whoosh for a children's cartoon transition"
+      },
+      "car": {
+        "seconds": 20,
+        "loop": true,
+        "prompt": "A small toy-like cartoon car puttering along a country road, gentle and cute, steady"
+      },
+      "cow": {
+        "seconds": 2.0,
+        "prompt": "A friendly cow mooing once in a field, far away and soft"
+      },
+      "chicken": {
+        "seconds": 2.0,
+        "prompt": "A hen clucking softly in a village yard"
+      },
+      "bird": {
+        "seconds": 2.5,
+        "prompt": "A small bird chirping happily outside a window"
+      },
+      "heartbeat": {
+        "seconds": 3.0,
+        "prompt": "A calm child's heartbeat heard through a doctor's stethoscope, dug dug dug, soft"
+      },
+      "sticker": {
+        "seconds": 1.0,
+        "prompt": "A sticker being peeled off and pressed on, small and crisp"
+      },
+      "chime": {
+        "seconds": 1.5,
+        "prompt": "One single glockenspiel note in F with a soft ring, gentle"
+      },
+      "aha": {
+        "seconds": 1.0,
+        "prompt": "A quick sparkling glockenspiel run going up, light and happy"
+      },
+      "sakit": {
+        "seconds": 2.5,
+        "prompt": "One low, soft plucked note that rings out slowly, gentle and calm"
+      }
     },
-    "from_events": {"page": "page", "creak": "creak", "thump": "thump", "whoosh": "whoosh"},
+    "from_events": {
+      "page": "page",
+      "creak": "creak",
+      "thump": "thump",
+      "whoosh": "whoosh"
+    },
     "extra": [
-      {"t": 56.0, "sfx": "car", "until": 73.6, "gain": 0.3},
-      {"t": 59.4, "sfx": "cow", "gain": 0.5},
-      {"t": 64.5, "sfx": "chicken", "gain": 0.45},
-      {"t": 80.6, "sfx": "bird", "gain": 0.5},
-      {"t": 98.2, "sfx": "heartbeat", "gain": 0.6},
-      {"t": 121.4, "sfx": "sakit", "gain": 0.6},
-      {"t": 135.8, "sfx": "aha", "gain": 0.5},
-      {"t": 153.6, "sfx": "sticker", "gain": 0.5},
-      {"t": 173.8, "sfx": "chime", "gain": 0.45},
-      {"t": 180.8, "sfx": "chime", "gain": 0.45},
-      {"t": 187.8, "sfx": "chime", "gain": 0.45}
+      {
+        "t": 56.0,
+        "sfx": "car",
+        "until": 73.6,
+        "gain": 0.3
+      },
+      {
+        "t": 59.4,
+        "sfx": "cow",
+        "gain": 0.5
+      },
+      {
+        "t": 64.5,
+        "sfx": "chicken",
+        "gain": 0.45
+      },
+      {
+        "t": 80.6,
+        "sfx": "bird",
+        "gain": 0.5
+      },
+      {
+        "t": 98.2,
+        "sfx": "heartbeat",
+        "gain": 0.6
+      },
+      {
+        "t": 121.4,
+        "sfx": "sakit",
+        "gain": 0.6
+      },
+      {
+        "t": 135.8,
+        "sfx": "aha",
+        "gain": 0.5
+      },
+      {
+        "t": 153.6,
+        "sfx": "sticker",
+        "gain": 0.5
+      },
+      {
+        "t": 173.8,
+        "sfx": "chime",
+        "gain": 0.45
+      },
+      {
+        "t": 180.8,
+        "sfx": "chime",
+        "gain": 0.45
+      },
+      {
+        "t": 187.8,
+        "sfx": "chime",
+        "gain": 0.45
+      }
     ]
   }
 }
