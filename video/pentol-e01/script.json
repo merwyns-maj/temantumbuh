@@ -5,8 +5,8 @@
   "cast": {
     "pentol": {
       "clone_name": "Pentol",
-      "design": "A small, round, friendly cartoon mascot character with a soft, bright, high and slightly breathy voice. Curious, a little shy, gentle, speaks slowly in natural everyday Jakarta Indonesian.",
-      "preview": "Mama, lihat! Ada sapi di jalan. Pentol mau lihat sapinya. Tadi Pentol deg-degan, tapi sekarang Pentol berani. Imunisasi itu sakitnya cuma sebentar, kan?"
+      "design": "A soft, bright, gentle animated character voice, curious and a little shy, speaking slowly in everyday Jakarta Indonesian.",
+      "preview": "Lihat, ada sapi di jalan! Aku mau lihat sapinya. Tadi aku deg-degan, tapi sekarang aku berani. Katanya sakitnya cuma sebentar, kan? Yuk, kita berangkat."
     },
     "mama": {
       "design": "A warm, gentle Indonesian woman in her early thirties. Soft, calm and reassuring, smiling while she talks, unhurried pace, natural Jakarta Indonesian.",
@@ -31,8 +31,8 @@
       "preview": "Di dalam badan Pentol, ada banyak penjaga kecil. Mereka selalu siap menjaga Pentol. Hari ini, penjaga mau belajar kenal sama kuman. Yuk, kita lihat bareng."
     },
     "penjaga": {
-      "design": "A friendly little guardian hero in a children's cartoon: a bright, playful voice with a slight rasp, brave and proud but kind, not squeaky. Speaks Indonesian with energy.",
-      "preview": "Kami ingat kamu! Kami penjaga badan Pentol. Kami sudah belajar, jadi kami kenal kuman ini. Ayo, teman-teman, kita jaga Pentol sama-sama. Hore!",
+      "design": "An energetic animated hero voice, bright and warm with a slight rasp, proud and kind, speaking Indonesian with enthusiasm.",
+      "preview": "Kami penjaga! Kami sudah belajar, jadi kami kenal kuman ini. Ayo, teman-teman, kita jaga badan ini sama-sama. Tenang saja, kami siap. Hore, kita berhasil!",
       "audition": true
     }
   },
