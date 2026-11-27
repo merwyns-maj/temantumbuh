@@ -1,0 +1,32 @@
+# Runs ElevenLabs jobs (voices list, text-to-speech, sound effects) from voice/requests/*.json.
+# The key is the repo secret ELEVENLABS_API_KEY; it never leaves GitHub. Results are committed to voice/out/.
+name: Voice (ElevenLabs)
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['voice/requests/**']
+permissions:
+  contents: write
+concurrency:
+  group: voice
+  cancel-in-progress: false
+jobs:
+  voice:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run requests
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: python3 tools/eleven_job.py
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "voice-bot"
+          git config user.email "voice-bot@users.noreply.github.com"
+          git add voice/ || true
+          git diff --cached --quiet && exit 0
+          git commit -m "Voice: results of $(date -u +%F' '%H:%M) run [skip ci]"
+          git pull --rebase -q && git push
