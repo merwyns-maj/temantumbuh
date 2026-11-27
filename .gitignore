@@ -4,3 +4,5 @@ __pycache__/
 .DS_Store
 # Local secrets written by `elevenlabs onboard`
 /.env
+motion/node_modules/
+motion/out/
