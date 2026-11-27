@@ -70,7 +70,7 @@ try { await Promise.all([...Array(WK)].map(async (_, w) => {
   ff.stdin.on('error', () => { dead ??= 'ffmpeg closed its input early'; });
   for (let f = a; f < b && !dead && !abort; f++) {
     await page.evaluate(t => window.render(t), f / FPS);
-    const buf = await page.screenshot({ type: 'jpeg', quality: 95 });
+    const buf = await page.screenshot({ type: 'jpeg', quality: 95, timeout: 180000 });   // the first frame (shader warm-up) can take over 30 s on a busy machine
     if (dead) break;
     if (!ff.stdin.write(buf)) await Promise.race([new Promise(r => ff.stdin.once('drain', r)), closed]);
     if ((f - a) % 60 === 0) console.log(`w${w} ${f - a}/${b - a}  ${((Date.now() - t0) / 1000).toFixed(0)}s`);
