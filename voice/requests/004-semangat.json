@@ -1,0 +1,64 @@
+[
+ {
+  "type": "tts",
+  "text": "Eh, stok ASIP kamu nggak perlu ditambah tiap bulan, lho! Bayi umur satu sampai enam bulan, sekali minum cuma sembilan puluh sampai seratus dua puluh mililiter. Sehari? Sekitar tujuh ratus lima puluh. Dan angka ini nggak banyak berubah sampai enam bulan! Cara hitungnya gampang banget: tiga puluh mililiter, untuk tiap jam kamu pergi. Simpan ya!",
+  "voice_id": "Nw5xnsRTP8ISIAlgGom9",
+  "out": "semangat-mama-1.mp3",
+  "language_code": "id",
+  "settings": {
+   "stability": 0.35,
+   "similarity_boost": 0.8,
+   "style": 0.55,
+   "use_speaker_boost": true,
+   "speed": 1.08
+  }
+ },
+ {
+  "type": "tts",
+  "text": "Eh, stok ASIP kamu nggak perlu ditambah tiap bulan, lho! Bayi umur satu sampai enam bulan, sekali minum cuma sembilan puluh sampai seratus dua puluh mililiter. Sehari? Sekitar tujuh ratus lima puluh. Dan angka ini nggak banyak berubah sampai enam bulan! Cara hitungnya gampang banget: tiga puluh mililiter, untuk tiap jam kamu pergi. Simpan ya!",
+  "voice_id": "Nw5xnsRTP8ISIAlgGom9",
+  "out": "semangat-mama-2.mp3",
+  "language_code": "id",
+  "settings": {
+   "stability": 0.22,
+   "similarity_boost": 0.8,
+   "style": 0.85,
+   "use_speaker_boost": true,
+   "speed": 1.15
+  }
+ },
+ {
+  "type": "tts",
+  "text": "Eh, stok ASIP kamu nggak perlu ditambah tiap bulan, lho! Bayi umur satu sampai enam bulan, sekali minum cuma sembilan puluh sampai seratus dua puluh mililiter. Sehari? Sekitar tujuh ratus lima puluh. Dan angka ini nggak banyak berubah sampai enam bulan! Cara hitungnya gampang banget: tiga puluh mililiter, untuk tiap jam kamu pergi. Simpan ya!",
+  "voice_id": "IrK1uOQE00M1HGwAhM1W",
+  "out": "semangat-narator-1.mp3",
+  "language_code": "id",
+  "settings": {
+   "stability": 0.35,
+   "similarity_boost": 0.8,
+   "style": 0.55,
+   "use_speaker_boost": true,
+   "speed": 1.08
+  }
+ },
+ {
+  "type": "tts",
+  "text": "Eh, stok ASIP kamu nggak perlu ditambah tiap bulan, lho! Bayi umur satu sampai enam bulan, sekali minum cuma sembilan puluh sampai seratus dua puluh mililiter. Sehari? Sekitar tujuh ratus lima puluh. Dan angka ini nggak banyak berubah sampai enam bulan! Cara hitungnya gampang banget: tiga puluh mililiter, untuk tiap jam kamu pergi. Simpan ya!",
+  "voice_id": "IrK1uOQE00M1HGwAhM1W",
+  "out": "semangat-narator-2.mp3",
+  "language_code": "id",
+  "settings": {
+   "stability": 0.22,
+   "similarity_boost": 0.8,
+   "style": 0.85,
+   "use_speaker_boost": true,
+   "speed": 1.15
+  }
+ },
+ {
+  "type": "sfx",
+  "text": "bright cheerful ukulele and glockenspiel jingle, upbeat, playful, happy kids show intro sting",
+  "seconds": 3,
+  "out": "sting-ceria.mp3"
+ }
+]
