@@ -1,5 +1,2 @@
-tts: semangat-mama-1.mp3 373280 bytes
-tts: semangat-mama-2.mp3 379132 bytes
-tts: semangat-narator-1.mp3 415076 bytes
-tts: semangat-narator-2.mp3 417166 bytes
-sfx: sting-ceria.mp3 48944 bytes
+tts: asip-ts-mama.mp3 327305 bytes
+music: bed-ceria-30s.mp3 480697 bytes
