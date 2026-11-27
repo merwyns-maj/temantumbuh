@@ -1,1 +1,3 @@
-voices: 33 saved
+tts: test-asip-narator.mp3 419256 bytes
+tts: test-asip-mama.mp3 362831 bytes
+sfx: sting-seri-ibu.mp3 48944 bytes
