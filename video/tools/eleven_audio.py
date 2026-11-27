@@ -95,7 +95,7 @@ for who, c in S['cast'].items():
         VOI['pentol'] = {'voice_id': clone, 'source': 'clone'}; continue
     seed = c.get('seed', 11); pick = c.get('pick')
     want = h({'design': c['design'], 'preview': c['preview'], 'model': TTV, 'seed': seed if (c.get('audition') or pick) else None, 'pick': pick})
-    if VOI.get(who, {}).get('design') == want or VOI.get(who, {}).get('audition') == want: continue
+    if VOI.get(who, {}).get('design') == want or (not pick and VOI.get(who, {}).get('audition') == want): continue
     if STOP: continue
     try:
         kw = dict(voice_description=c['design'], text=c['preview'], model_id=TTV)
@@ -122,11 +122,15 @@ save()
 for i, l in enumerate(lines):
     vid = VOI.get(l['who'], {}).get('voice_id')
     if not vid: failed.append(f'vo/l{i}.mp3'); continue
-    text = (f"[{l['tone']}] " if l.get('tone') and TTS == 'eleven_v3' else '') + l['text']
+    prof = S['cast'].get(l['who'], {}).get('profile') or {}   # a character's speaking style beats the line's own tone
+    tone = prof.get('tag') or l.get('tone')
+    text = (f"[{tone}] " if tone and TTS == 'eleven_v3' else '') + l['text']
     prev = lines[i - 1]['text'] if i else None; nxt = lines[i + 1]['text'] if i + 1 < len(lines) else None
     kw = dict(voice_id=vid, text=text, model_id=TTS, output_format='mp3_44100_128')
     if TTS == 'eleven_v3': kw['language_code'] = S.get('language', 'id')
-    else: kw.update(previous_text=prev, next_text=nxt)
+    else:
+        kw.update(previous_text=prev, next_text=nxt)
+        if prof: kw['voice_settings'] = {'stability': prof.get('stability', .5), 'similarity_boost': .75, 'style': prof.get('style', 0)}
     make(f'{OUT}/vo/l{i}.mp3', kw, lambda kw=kw: el.text_to_speech.convert(**kw))
 
 # —— 4. sound effects ——

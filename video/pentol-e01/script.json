@@ -19,12 +19,22 @@
     "dokter": {
       "design": "Pak Dokter: a gentle Indonesian man around fifty with a soft, slightly husky, fatherly voice. Relaxed and a bit funny, talks to a small child like a kind uncle, slow and warm, natural Jakarta Indonesian.",
       "preview": "Halo, Pentol. Om dokter mau dengar jantungmu dulu, ya. Dug, dug, dug. Bagus sekali. Rasanya nanti sakit sebentar saja. Kalau mau nangis, boleh, ya.",
-      "audition": true
+      "pick": 3,
+      "profile": {
+        "tag": "calm, soothing",
+        "stability": 0.75,
+        "style": 0.15
+      }
     },
     "perawat": {
       "design": "Suster: a calm, soft-spoken Indonesian woman in her late twenties. Gentle and motherly, a quiet warm voice that is caring rather than bubbly, natural Jakarta Indonesian.",
       "preview": "Pentol! Ayo masuk, giliran kamu sekarang. Wah, Pentol hebat sekali hari ini. Ini stiker buat anak yang berani. Mau ditempel di mana, sayang?",
-      "audition": true
+      "pick": 2,
+      "profile": {
+        "tag": "calm, soothing",
+        "stability": 0.75,
+        "style": 0.15
+      }
     },
     "narator": {
       "design": "A warm Indonesian woman reading a picture book aloud to toddlers at bedtime. Slow, soft, gently smiling storyteller voice, clear Indonesian.",
@@ -33,7 +43,12 @@
     "penjaga": {
       "design": "An energetic animated hero voice, bright and warm with a slight rasp, proud and kind, speaking Indonesian with enthusiasm.",
       "preview": "Kami penjaga! Kami sudah belajar, jadi kami kenal kuman ini. Ayo, teman-teman, kita jaga badan ini sama-sama. Tenang saja, kami siap. Hore, kita berhasil!",
-      "audition": true
+      "pick": 2,
+      "profile": {
+        "tag": "brave, confident",
+        "stability": 0.4,
+        "style": 0.5
+      }
     }
   },
   "lines": [
