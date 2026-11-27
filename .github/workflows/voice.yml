@@ -1,5 +1,5 @@
 # Runs ElevenLabs jobs (voices list, text-to-speech, sound effects) from voice/requests/*.json.
-# The key is the repo secret ELEVENLABS_API_KEY; it never leaves GitHub. Results are committed to voice/out/.
+# The key is the repo secret ELEVENLABS_API_KEY; it never leaves GitHub. Results are committed to voice/results/.
 name: Voice (ElevenLabs)
 on:
   workflow_dispatch:

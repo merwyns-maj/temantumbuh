@@ -1,17 +1,17 @@
 """Run ElevenLabs jobs from voice/requests/*.json inside GitHub Actions.
 The API key comes only from the ELEVENLABS_API_KEY secret (env). It is never printed or written to disk.
 Request shapes (one JSON object or a list of them per file):
-  {"type": "voices"}                                  -> voice/out/voices.json (name, id, labels, language only)
+  {"type": "voices"}                                  -> voice/results/voices.json (name, id, labels, language only)
   {"type": "tts", "text": "...", "voice_id": "...", "out": "name.mp3",
    "model_id": "eleven_multilingual_v2", "settings": {"stability": 0.5, "similarity_boost": 0.75}}
   {"type": "sfx", "text": "soft music box sting", "seconds": 4, "out": "sting.mp3"}
-Outputs land in voice/out/. Each processed request file moves to voice/done/.
+Outputs land in voice/results/. Each processed request file moves to voice/done/.
 """
 import json, os, sys, glob, shutil, urllib.request, urllib.error
 
 KEY = os.environ.get('ELEVENLABS_API_KEY', '')
 API = 'https://api.elevenlabs.io'
-OUT = 'voice/out'; DONE = 'voice/done'
+OUT = 'voice/results'; DONE = 'voice/done'
 os.makedirs(OUT, exist_ok=True); os.makedirs(DONE, exist_ok=True)
 
 
