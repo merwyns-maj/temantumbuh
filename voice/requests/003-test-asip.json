@@ -1,0 +1,22 @@
+[
+ {
+  "type": "tts",
+  "text": "Bayi umur satu sampai enam bulan, sekali minum ASIP biasanya cuma sembilan puluh sampai seratus dua puluh mililiter. Sehari sekitar tujuh ratus lima puluh, dan jumlah ini nggak banyak berubah sampai enam bulan. Jadi stok ASIP nggak perlu ditambah tiap bulan. Cara hitungnya gampang: tiga puluh mililiter untuk tiap jam kamu pergi.",
+  "voice_id": "IrK1uOQE00M1HGwAhM1W",
+  "out": "test-asip-narator.mp3",
+  "language_code": "id"
+ },
+ {
+  "type": "tts",
+  "text": "Bayi umur satu sampai enam bulan, sekali minum ASIP biasanya cuma sembilan puluh sampai seratus dua puluh mililiter. Sehari sekitar tujuh ratus lima puluh, dan jumlah ini nggak banyak berubah sampai enam bulan. Jadi stok ASIP nggak perlu ditambah tiap bulan. Cara hitungnya gampang: tiga puluh mililiter untuk tiap jam kamu pergi.",
+  "voice_id": "Nw5xnsRTP8ISIAlgGom9",
+  "out": "test-asip-mama.mp3",
+  "language_code": "id"
+ },
+ {
+  "type": "sfx",
+  "text": "soft warm music box sting, gentle, two seconds, baby friendly",
+  "seconds": 3,
+  "out": "sting-seri-ibu.mp3"
+ }
+]
