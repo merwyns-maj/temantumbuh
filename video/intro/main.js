@@ -69,7 +69,7 @@ const LB = [['#d9734f', 'Cuci', 'Tangan'], ['#5a8fc4', 'Tanam', 'Biji'], ['#e3b2
   return { bk, wrap, roll, i };
 });
 const HOME = [[-.28, .26, .25], [.28, .26, -.3], [.29, .05, .15]];     // x, z, yaw on the desk at the start
-const LAND = [[-.25, .31, .2], [.25, .31, -.2], [.29, .05, .15]];    // where they sit during the hook (book 2 keeps circling)
+const LAND = [[-.34, .2, .2], [.34, .2, -.2], [.32, .02, .15]];    // where they sit during the hook (book 2 keeps circling)
 const COUNT = [.12, 1.22, 2.22];                                      // "Satu", "dua", "tiga"
 
 // ---------- pop-ups on the spread ----------
@@ -124,10 +124,10 @@ function hookShape(t) {
 }
 function cast(t) {
   const out = {};
-  if (t > 8.25 && t < FOLD[1]) {   // Tunas sprouts from the pot, hops out, waves, then leads the hook
-    const grow = Math.min(1, spring(t - 8.35, 6, .4)), out_ = ss(seg(t, 9.9, 10.35)), sh_ = hookShape(t), tag = hop(t, 16.7, .02, .6) + hop(t, 13.4, .01, .45) + hop(t, 15.5, .012, .45);
+  if (t > 7.95 && t < FOLD[1]) {   // Tunas sprouts from the pot, hops out, waves, then leads the hook
+    const grow = back(seg(t, 8.05, 8.85), 1.6), out_ = ss(seg(t, 9.9, 10.35)), sh_ = hookShape(t), tag = hop(t, 16.7, .02, .6) + hop(t, 13.4, .01, .45) + hop(t, 15.5, .012, .45);
     const fold = 1 - ss(seg(t, ...FOLD));
-    out.tunas = { x: 0, z: lerp(.18, .205, out_), y: (t < 9.9 ? -.004 : 0) + Math.sin(Math.PI * out_) * .014 + sh_.lift + tag, s: Math.max(.05, grow) * fold, sx: sh_.sx, sy: sh_.sy,
+    out.tunas = { x: 0, z: lerp(.18, .205, out_), y: lerp(.03, 0, out_) + Math.sin(Math.PI * out_) * .012 + sh_.lift + tag, s: Math.max(.05, grow) * fold, sx: sh_.sx, sy: sh_.sy,
       p: { expr: 'senang', blink: blink(t), armL: t > 16.7 || (t > 13.4 && t < 14.0) ? 2.3 : .35, armR: (t > 10.35 && t < 11.1) || t > 16.7 || (t > 13.4 && t < 14.0) ? 2.4 : .35 } };
   }
   const unfold = (a) => back(seg(t, a, a + .6), 1.6) * (1 - ss(seg(t, ...FOLD)));
@@ -152,8 +152,8 @@ const TOP = (t, h = .8) => [t, 0, h, .16, 0, 0, .15, 32, 3];
 const CAM = track([
   TOP(0), TOP(5.6), [7.1, 0, .15, .6, 0, .085, .12, 30, 2.2], [7.7, 0, .14, .58, 0, .08, .12, 30, 2.2],
   [8.4, 0, .075, .42, 0, .05, .17, 30, 2.4], [10.2, 0, .08, .44, 0, .05, .17, 30, 2.4],
-  [11.0, 0, .1, .52, 0, .06, .14, 30, 2.3], [14.0, .015, .1, .5, .01, .06, .145, 30, 2.3], [16.5, 0, .105, .52, 0, .062, .14, 30, 2.3],
-  [17.2, 0, .13, .58, 0, .1, .11, 30, 2.2], [18.7, 0, .13, .58, 0, .1, .11, 30, 2.2], TOP(19.95, .74), TOP(20, .74),
+  [11.0, 0, .1, .52, 0, .06, .14, 30, 2.3], [14.0, .015, .1, .5, .01, .06, .145, 30, 2.3], [16.0, 0, .105, .52, 0, .062, .14, 30, 2.3],
+  [16.7, 0, .13, .58, 0, .1, .11, 30, 2.2], [18.7, 0, .13, .58, 0, .1, .11, 30, 2.2], TOP(19.95, .74), TOP(20, .74),
 ].map(r => [r[0], r.slice(1)]));
 cam.up.set(0, .7, -.7);
 
@@ -171,7 +171,8 @@ window.render = t => {
     // birds in the sky: a loop close to the backdrop, far from the camera
     const a = (t - 4.6) * 1.1 + ph, px = Math.cos(a) * .16, pz = .05 + Math.sin(a) * .03, py = .15 + Math.sin(t * 2.1 + ph) * .01;
     const ground = t < 9.5 ? [hx, hz, hy] : [lx, lz, ly];
-    const x = lerp(ground[0], px, fly), z = lerp(ground[1], pz, fly), y = lerp(0, py, fly);
+    const leave = t > 9.9 && t < 11.5 ? Math.sin(Math.PI * (1 - fly)) * .3 : 0;   // up and out over the top of the frame, then down at the side
+    const x = lerp(ground[0], px, fly), z = lerp(ground[1], pz, fly), y = lerp(0, py, fly) + leave;
     const yaw = Math.sin(t * 1.7 + ph) * .25;   // spine across, open pages toward the camera, flapping like wings
     L.wrap.position.set(x, y + hop(t, COUNT[L.i], .03, .42), z);
     L.wrap.rotation.y = lerp(ground[2], yaw, ss(seg(fly, 0, .4))); L.bk.root.scale.setScalar(lerp(.36, .17, ss(fly)));
@@ -186,7 +187,7 @@ window.render = t => {
   SUN.g.position.y = lerp(.0, .1, eo(seg(t, 6.0, 8.0))); SUN.m.rotation.z = Math.sin(t * 2) * .05;
   BANNER.g.position.y = .125 + Math.sin(t * 3) * .002;
   for (const L of LEAVES) { const u = t - L.t0; L.m.visible = u > 0 && t < 18.9; if (!L.m.visible) continue;
-    L.m.position.set(L.vx * u, .15 + L.vy * u - .2 * u * u, .03 + L.vz * u); L.m.rotation.set(L.spin * u * .5, L.spin * u, L.spin * u * .3); }
+    L.m.position.set(Math.sign(L.vx) * .085 + L.vx * u, .15 + L.vy * u - .2 * u * u, .03 + L.vz * u); L.m.rotation.set(L.spin * u * .5, L.spin * u, L.spin * u * .3); }
   // characters
   const cs = cast(t); place(tunas, cs.tunas); place(mama, cs.mama); place(papa, cs.papa);
   // camera and look
