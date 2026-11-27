@@ -1,0 +1,17 @@
+{
+ "slides_dir": "/tmp/claude-0/-home-claude/fd111543-f9bd-5d38-98cd-44dd5aa65510/scratchpad/vid/asip",
+ "voice": "voice/results/semangat-mama-2.mp3",
+ "sting": "voice/results/sting-ceria.mp3",
+ "end_hold": 3.2,
+ "segments": [{"slide":1,"start":0},{"slide":2,"start":9.8},{"slide":3,"start":17.6},{"slide":4,"start":22.6}],
+ "captions": [
+  {"t":0,"text":"Stok ASIP nggak perlu ditambah tiap bulan!"},
+  {"t":2.5,"text":"Bayi 1-6 bulan, sekali minum"},
+  {"t":5.3,"text":"cuma 90-120 ml"},
+  {"t":9.8,"text":"Sehari? Sekitar 750 ml"},
+  {"t":13.5,"text":"Nggak banyak berubah sampai 6 bulan!"},
+  {"t":17.6,"text":"Cara hitung: 30 ml"},
+  {"t":19.6,"text":"untuk tiap jam kamu pergi"},
+  {"t":22.6,"text":"Simpan ya!"}
+ ]
+}
