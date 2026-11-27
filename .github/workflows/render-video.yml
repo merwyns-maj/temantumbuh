@@ -25,14 +25,31 @@ on:
       - '!video/tools/eleven_audio.py'
 
 env:
-  FILM: ${{ inputs.film || 'tunas-e01' }}
   SHARDS: 20
   LEMO_REF: 3a7132b996be0241c1ea0ab180d519f06e6f10b6   # lemomo-ai/lemo-opuscar, pinned so renders stay identical
 
 jobs:
+  which:
+    runs-on: ubuntu-24.04
+    outputs:
+      film: ${{ steps.w.outputs.film }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
+          fetch-depth: 2
+      - id: w
+        run: |
+          f="${{ inputs.film }}"
+          if [ -z "$f" ]; then f=$(git diff --name-only HEAD~1 HEAD -- video | cut -d/ -f2 | sort -u | while read d; do [ -f "video/$d/main.js" ] && echo "$d"; done | head -1); fi
+          f=${f:-tunas-e01}; echo "film=$f" >> "$GITHUB_OUTPUT"; echo "Film: $f"
+
   render:
+    needs: which
     runs-on: ubuntu-24.04
     timeout-minutes: 300
+    env:
+      FILM: ${{ needs.which.outputs.film }}
     strategy:
       fail-fast: false
       matrix:
@@ -62,7 +79,7 @@ jobs:
         run: |
           exec > >(tee -a "$GITHUB_WORKSPACE/log.txt") 2>&1
           cp video/render/video.mjs lemo/core/render/video.mjs
-          mkdir -p lemo/films && cp -r "video/$FILM" "lemo/films/$FILM" && rm -rf "lemo/films/$FILM/audio"
+          mkdir -p lemo/films && cp -rL "video/$FILM" "lemo/films/$FILM" && rm -rf "lemo/films/$FILM/audio"
           (cd lemo && npm install --no-audit --no-fund)
           (cd "lemo/films/$FILM" && npm install --no-audit --no-fund)
       - name: Render slice ${{ matrix.shard }} of 20
@@ -91,8 +108,10 @@ jobs:
           retention-days: 2
 
   join:
-    needs: render
+    needs: [which, render]
     runs-on: ubuntu-24.04
+    env:
+      FILM: ${{ needs.which.outputs.film }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -115,7 +134,7 @@ jobs:
       - name: Is there audio?
         id: has
         run: |
-          if ls video/$FILM/audio/vo/*.mp3 > /dev/null 2>&1 || ls video/$FILM/audio/music/* > /dev/null 2>&1; then echo "audio=yes" >> "$GITHUB_OUTPUT"; else echo "No audio files yet: the video stays silent."; fi
+          if ls video/$FILM/audio/vo/*.mp3 > /dev/null 2>&1 || ls video/$FILM/audio/music/* > /dev/null 2>&1 || ls video/$FILM/audio/jingle/*.mp3 > /dev/null 2>&1; then echo "audio=yes" >> "$GITHUB_OUTPUT"; else echo "No audio files yet: the video stays silent."; fi
       - uses: actions/checkout@v4
         if: steps.has.outputs.audio == 'yes'
         with:
@@ -138,7 +157,7 @@ jobs:
           PLAYWRIGHT_CHROME: ${{ steps.chrome.outputs.chrome-path }}
         run: |
           cp video/tools/dump_events.mjs lemo/core/render/dump_events.mjs
-          mkdir -p lemo/films && cp -r "video/$FILM" "lemo/films/$FILM" && rm -rf "lemo/films/$FILM/audio"
+          mkdir -p lemo/films && cp -rL "video/$FILM" "lemo/films/$FILM" && rm -rf "lemo/films/$FILM/audio"
           (cd lemo && npm install --no-audit --no-fund) && (cd "lemo/films/$FILM" && npm install --no-audit --no-fund)
           cd lemo && node core/render/dump_events.mjs "films/$FILM" ../out/events.json 2>&1 | grep -v -E "Shader Error|Program Info|Material (Name|Type)|^$" || true
           test -s ../out/events.json
@@ -146,14 +165,20 @@ jobs:
         if: steps.has.outputs.audio == 'yes'
         run: |
           pip install -q numpy
-          python video/tools/mix_episode.py "video/$FILM" out/events.json out/mix.wav
-          ffmpeg -y -loglevel error -i out/silent.mp4 -i out/mix.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -shortest "out/$FILM.mp4"
+          takes=$(python -c "import json,sys; J=json.load(open('video/$FILM/script.json')).get('jingle') or {}; print(' '.join([] if J.get('pick') or not J.get('takes') else [t['name'] for t in J['takes']]))")
+          if [ -z "$takes" ]; then
+            python video/tools/mix_episode.py "video/$FILM" out/events.json out/mix.wav
+            ffmpeg -y -loglevel error -i out/silent.mp4 -i out/mix.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -shortest "out/$FILM.mp4"
+          else   # no take picked yet: one preview per take
+            for k in $takes; do JINGLE=$k python video/tools/mix_episode.py "video/$FILM" out/events.json out/mix-$k.wav
+              ffmpeg -y -loglevel error -i out/silent.mp4 -i out/mix-$k.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -shortest "out/$FILM-$k.mp4"; done
+          fi
       - name: Keep the silent version when there is no audio
         if: steps.has.outputs.audio != 'yes'
         run: mv out/silent.mp4 "out/$FILM.mp4"
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ env.FILM }}-video
-          path: out/${{ env.FILM }}.mp4
+          path: out/${{ env.FILM }}*.mp4
           retention-days: 30
           compression-level: 0

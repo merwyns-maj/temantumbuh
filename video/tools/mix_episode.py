@@ -40,7 +40,7 @@ vo, mus, sfx = (np.zeros((N, 2), np.float32) for _ in range(3))
 
 # —— voice: each line levelled to the same loudness, placed at its time ——
 report = []
-for i, l in enumerate(S['lines']):
+for i, l in enumerate(S.get('lines', [])):
     x = track(f'l{i}', 'vo')
     if x is None: report.append(f'l{i} missing'); continue
     x = x * (0.08 / rms(x)); add(vo, fade(x, .01, .05), l['t'])
@@ -51,7 +51,7 @@ for r in report: warn('voice: ' + r)
 
 # —— music: each planned bed, looped with a crossfade if it is shorter than its slot ——
 cache = {}
-for p in S['music']['plan']:
+for p in S.get('music', {}).get('plan', []):
     if p['cue'] not in cache: cache[p['cue']] = track(p['cue'], 'music')
     x = cache[p['cue']]
     if x is None: warn(f"music: {p['cue']} missing"); continue
@@ -78,9 +78,9 @@ def sound(name):
 fx = {}
 get = lambda n: fx.setdefault(n, sound(n))
 for e in E['ev']:
-    n = S['sfx']['from_events'].get(e.get('type'))
+    n = S.get('sfx', {}).get('from_events', {}).get(e.get('type'))
     if n and get(n) is not None: add(sfx, fade(get(n).copy(), .005, .2), e['t'], .5)
-for c in S['sfx']['extra']:
+for c in S.get('sfx', {}).get('extra', []):
     x = get(c['sfx'])
     if x is None: continue
     x = x.copy()
@@ -90,9 +90,17 @@ for c in S['sfx']['extra']:
         x = x[:need]
     add(sfx, fade(x, .05, .4), c['t'], c.get('gain', .5))
 
+# the series jingle (intro): the picked take, or the take named in $JINGLE, at full level from 0 s
+J = S.get('jingle') or {}
+jt = os.environ.get('JINGLE') or J.get('pick')
+if jt:
+    x = load(f'{A}/jingle/{jt}.mp3')
+    if x is None: warn(f'jingle {jt} missing')
+    else: x = x * (0.12 / rms(x)); add(mus, fade(x, .005, .3), 0, 1.0)
+
 mix = vo + mus + sfx
 peak = np.abs(mix).max() or 1
 mix = np.tanh(mix * (0.89 / peak) * 1.2) / np.tanh(1.2)   # gentle limiter to about -1 dBFS
 pcm = (np.clip(mix, -1, 1) * 32767).astype('<i2')
 subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 's16le', '-ac', '2', '-ar', str(SR), '-i', '-', OUTP], input=pcm.tobytes(), check=True)
-print(f'mixed {DUR:.1f} s -> {OUTP}; voice lines {len(S["lines"]) - sum("missing" in r for r in report)}/{len(S["lines"])}, music cues {sum(v is not None for v in cache.values())}/{len(cache)}')
+print(f'mixed {DUR:.1f} s -> {OUTP}')

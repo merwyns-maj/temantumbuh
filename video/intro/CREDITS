@@ -1,0 +1,8 @@
+Tunas Mau Imunisasi (paper pop-up test), TemanTumbuh
+
+Characters, sets, cover and story: TemanTumbuh (Tunas is our own mascot). No red cross on the clinic (UU 1/2018).
+Engine: book.js, paper.js, cutmesh.js, post.js, lib.js and art.js are copied from the Lemo-Opuscar paper-popup demo (github.com/lemomo-ai/lemo-opuscar), code under the MIT licence. Rendered with the library's render tools (MIT). Style guidance: its STYLE.md (CC BY-NC 4.0), used as direction only and not copied into our files. Films made with the library belong to their maker.
+3D props: Poly Haven (CC0): desk lamp "Desk Lamp Arm 01", "Tea Set 01", texture "American Walnut Veneer". The room light is a synthetic HDRI made in this repo.
+Fonts: Fredoka and Lilita One, SIL Open Font License 1.1 (fonts/OFL.txt).
+Music and sound: synthesised in mix.py. No samples.
+Voice: PLACEHOLDER from espeak-ng. To be replaced by a licensed ElevenLabs voice before publishing.
