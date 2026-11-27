@@ -1,0 +1,387 @@
+{
+  "film": "intro",
+  "note": "Series intro jingle (20 s). Push a change and the Make audio workflow makes the takes into audio/jingle/. Pick one by setting \"pick\".",
+  "lines": [],
+  "cast": {},
+  "music": {
+    "style": "",
+    "cues": {},
+    "plan": []
+  },
+  "sfx": {
+    "defs": {},
+    "from_events": {},
+    "extra": []
+  },
+  "jingle": {
+    "pick": null,
+    "takes": [
+      {
+        "name": "a-ukulele",
+        "seed": 101,
+        "plan": {
+          "positive_global_styles": [
+            "upbeat cheerful preschool TV theme song jingle",
+            "112 BPM",
+            "F major",
+            "ukulele",
+            "glockenspiel",
+            "handclaps",
+            "pizzicato bass",
+            "warm friendly female lead vocal singing in Indonesian",
+            "cheerful adult group chant",
+            "catchy and iconic",
+            "bright and clean mix"
+          ],
+          "negative_global_styles": [
+            "dark",
+            "sad",
+            "scary",
+            "aggressive",
+            "EDM",
+            "dubstep",
+            "heavy rock drums",
+            "distorted guitar",
+            "autotune",
+            "English lyrics",
+            "rap"
+          ],
+          "sections": [
+            {
+              "section_name": "Hitung",
+              "positive_local_styles": [
+                "three knocks on a wooden book cover",
+                "group shouts counting",
+                "glockenspiel sparkle"
+              ],
+              "negative_local_styles": [],
+              "duration_ms": 3400,
+              "lines": [
+                "Satu, dua, tiga!"
+              ]
+            },
+            {
+              "section_name": "Bait",
+              "positive_local_styles": [
+                "bouncy",
+                "lead vocal sings clearly",
+                "handclaps on 2 and 4"
+              ],
+              "negative_local_styles": [],
+              "duration_ms": 7600,
+              "lines": [
+                "Buka bukunya, yuk kita baca!",
+                "Ada Tunas, ada cerita!"
+              ]
+            },
+            {
+              "section_name": "Hook",
+              "positive_local_styles": [
+                "the catchy hook",
+                "everyone sings along",
+                "rising energy",
+                "call and response"
+              ],
+              "negative_local_styles": [],
+              "duration_ms": 6800,
+              "lines": [
+                "Tum-tum-tumbuh, Tunas tumbuh!",
+                "Tum-tum-tumbuh, kita tumbuh!"
+              ]
+            },
+            {
+              "section_name": "Tag",
+              "positive_local_styles": [
+                "group shout of the show name",
+                "button ending on a bright held chord",
+                "one glockenspiel ding at the very end"
+              ],
+              "negative_local_styles": [
+                "fade out"
+              ],
+              "duration_ms": 2200,
+              "lines": [
+                "TemanTumbuh!"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "b-ukulele",
+        "seed": 202,
+        "plan": {
+          "positive_global_styles": [
+            "upbeat cheerful preschool TV theme song jingle",
+            "112 BPM",
+            "F major",
+            "ukulele",
+            "glockenspiel",
+            "handclaps",
+            "pizzicato bass",
+            "warm friendly female lead vocal singing in Indonesian",
+            "cheerful adult group chant",
+            "catchy and iconic",
+            "bright and clean mix"
+          ],
+          "negative_global_styles": [
+            "dark",
+            "sad",
+            "scary",
+            "aggressive",
+            "EDM",
+            "dubstep",
+            "heavy rock drums",
+            "distorted guitar",
+            "autotune",
+            "English lyrics",
+            "rap"
+          ],
+          "sections": [
+            {
+              "section_name": "Hitung",
+              "positive_local_styles": [
+                "three knocks on a wooden book cover",
+                "group shouts counting",
+                "glockenspiel sparkle"
+              ],
+              "negative_local_styles": [],
+              "duration_ms": 3400,
+              "lines": [
+                "Satu, dua, tiga!"
+              ]
+            },
+            {
+              "section_name": "Bait",
+              "positive_local_styles": [
+                "bouncy",
+                "lead vocal sings clearly",
+                "handclaps on 2 and 4"
+              ],
+              "negative_local_styles": [],
+              "duration_ms": 7600,
+              "lines": [
+                "Buka bukunya, yuk kita baca!",
+                "Ada Tunas, ada cerita!"
+              ]
+            },
+            {
+              "section_name": "Hook",
+              "positive_local_styles": [
+                "the catchy hook",
+                "everyone sings along",
+                "rising energy",
+                "call and response"
+              ],
+              "negative_local_styles": [],
+              "duration_ms": 6800,
+              "lines": [
+                "Tum-tum-tumbuh, Tunas tumbuh!",
+                "Tum-tum-tumbuh, kita tumbuh!"
+              ]
+            },
+            {
+              "section_name": "Tag",
+              "positive_local_styles": [
+                "group shout of the show name",
+                "button ending on a bright held chord",
+                "one glockenspiel ding at the very end"
+              ],
+              "negative_local_styles": [
+                "fade out"
+              ],
+              "duration_ms": 2200,
+              "lines": [
+                "TemanTumbuh!"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "c-toybox",
+        "seed": 303,
+        "plan": {
+          "positive_global_styles": [
+            "playful toy-box marching theme for a children's cartoon",
+            "116 BPM",
+            "F major",
+            "xylophone",
+            "toy piano",
+            "snare brushes",
+            "tuba bass",
+            "handclaps",
+            "bright female lead vocal singing in Indonesian",
+            "cheerful adult group chant",
+            "catchy and iconic"
+          ],
+          "negative_global_styles": [
+            "dark",
+            "sad",
+            "scary",
+            "aggressive",
+            "EDM",
+            "dubstep",
+            "heavy rock drums",
+            "distorted guitar",
+            "autotune",
+            "English lyrics",
+            "rap"
+          ],
+          "sections": [
+            {
+              "section_name": "Hitung",
+              "positive_local_styles": [
+                "three knocks on a wooden book cover",
+                "group shouts counting",
+                "glockenspiel sparkle"
+              ],
+              "negative_local_styles": [],
+              "duration_ms": 3400,
+              "lines": [
+                "Satu, dua, tiga!"
+              ]
+            },
+            {
+              "section_name": "Bait",
+              "positive_local_styles": [
+                "bouncy",
+                "lead vocal sings clearly",
+                "handclaps on 2 and 4"
+              ],
+              "negative_local_styles": [],
+              "duration_ms": 7600,
+              "lines": [
+                "Buka bukunya, yuk kita baca!",
+                "Ada Tunas, ada cerita!"
+              ]
+            },
+            {
+              "section_name": "Hook",
+              "positive_local_styles": [
+                "the catchy hook",
+                "everyone sings along",
+                "rising energy",
+                "call and response",
+                "kazoo doubles the hook melody"
+              ],
+              "negative_local_styles": [],
+              "duration_ms": 6800,
+              "lines": [
+                "Tum-tum-tumbuh, Tunas tumbuh!",
+                "Tum-tum-tumbuh, kita tumbuh!"
+              ]
+            },
+            {
+              "section_name": "Tag",
+              "positive_local_styles": [
+                "group shout of the show name",
+                "button ending on a bright held chord",
+                "one glockenspiel ding at the very end"
+              ],
+              "negative_local_styles": [
+                "fade out"
+              ],
+              "duration_ms": 2200,
+              "lines": [
+                "TemanTumbuh!"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "d-angklung",
+        "seed": 404,
+        "plan": {
+          "positive_global_styles": [
+            "joyful Indonesian children's TV theme song jingle",
+            "108 BPM",
+            "F major",
+            "angklung",
+            "ukulele",
+            "kendang hand drum, light",
+            "glockenspiel",
+            "handclaps",
+            "warm female lead vocal singing in Indonesian",
+            "cheerful adult group chant",
+            "catchy and iconic"
+          ],
+          "negative_global_styles": [
+            "dark",
+            "sad",
+            "scary",
+            "aggressive",
+            "EDM",
+            "dubstep",
+            "heavy rock drums",
+            "distorted guitar",
+            "autotune",
+            "English lyrics",
+            "rap"
+          ],
+          "sections": [
+            {
+              "section_name": "Hitung",
+              "positive_local_styles": [
+                "three knocks on a wooden book cover",
+                "group shouts counting",
+                "glockenspiel sparkle"
+              ],
+              "negative_local_styles": [],
+              "duration_ms": 3400,
+              "lines": [
+                "Satu, dua, tiga!"
+              ]
+            },
+            {
+              "section_name": "Bait",
+              "positive_local_styles": [
+                "bouncy",
+                "lead vocal sings clearly",
+                "handclaps on 2 and 4"
+              ],
+              "negative_local_styles": [],
+              "duration_ms": 7600,
+              "lines": [
+                "Buka bukunya, yuk kita baca!",
+                "Ada Tunas, ada cerita!"
+              ]
+            },
+            {
+              "section_name": "Hook",
+              "positive_local_styles": [
+                "the catchy hook",
+                "everyone sings along",
+                "rising energy",
+                "call and response",
+                "angklung plays the hook melody"
+              ],
+              "negative_local_styles": [],
+              "duration_ms": 6800,
+              "lines": [
+                "Tum-tum-tumbuh, Tunas tumbuh!",
+                "Tum-tum-tumbuh, kita tumbuh!"
+              ]
+            },
+            {
+              "section_name": "Tag",
+              "positive_local_styles": [
+                "group shout of the show name",
+                "button ending on a bright held chord",
+                "one glockenspiel ding at the very end"
+              ],
+              "negative_local_styles": [
+                "fade out"
+              ],
+              "duration_ms": 2200,
+              "lines": [
+                "TemanTumbuh!"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

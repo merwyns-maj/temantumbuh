@@ -21,12 +21,23 @@ jobs:
     concurrency:   # only the audio step waits for an earlier one; renders can overlap
       group: audio-step-${{ inputs.film || 'tunas-e01' }}
       cancel-in-progress: false
-    env:
-      FILM: ${{ inputs.film || 'tunas-e01' }}
+    outputs:
+      film: ${{ steps.which.outputs.film }}
+      has_film: ${{ steps.which.outputs.has_film }}
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 2
+      - name: Which folder
+        id: which
+        run: |
+          f="${{ inputs.film }}"
+          if [ -z "$f" ]; then f=$(git diff --name-only HEAD~1 HEAD -- 'video/*/script.json' | head -1 | cut -d/ -f2); fi
+          f=${f:-tunas-e01}
+          echo "FILM=$f" >> "$GITHUB_ENV"; echo "film=$f" >> "$GITHUB_OUTPUT"
+          if [ -f "video/$f/main.js" ]; then echo "has_film=true" >> "$GITHUB_OUTPUT"; else echo "has_film=false" >> "$GITHUB_OUTPUT"; fi
+          echo "Folder: $f"
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -45,8 +56,8 @@ jobs:
 
   render:
     needs: audio
-    if: ${{ !cancelled() }}
+    if: ${{ !cancelled() && needs.audio.outputs.has_film == 'true' }}
     uses: ./.github/workflows/render-video.yml
     with:
-      film: ${{ inputs.film || 'tunas-e01' }}
+      film: ${{ needs.audio.outputs.film }}
       ref: main

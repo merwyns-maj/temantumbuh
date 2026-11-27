@@ -20,7 +20,7 @@ from elevenlabs.core.api_error import ApiError
 FILM = sys.argv[1].rstrip('/')
 S = json.load(open(f'{FILM}/script.json'))
 OUT = f'{FILM}/audio'
-for d in ('vo', 'music', 'sfx'): os.makedirs(f'{OUT}/{d}', exist_ok=True)
+for d in ('vo', 'music', 'sfx', 'jingle'): os.makedirs(f'{OUT}/{d}', exist_ok=True)
 MAN_P, VOI_P = f'{OUT}/manifest.json', f'{OUT}/voices.json'
 MAN = json.load(open(MAN_P)) if os.path.exists(MAN_P) else {}
 VOI = json.load(open(VOI_P)) if os.path.exists(VOI_P) else {}
@@ -62,12 +62,12 @@ def make(path, spec, fn):
             warn(f'{rel}: {e}'); failed.append(rel); return False
 
 # —— 0. the script's lines must match the subtitles in main.js ——
-js = open(f'{FILM}/main.js', encoding='utf8').read()
+js = open(f'{FILM}/main.js', encoding='utf8').read() if os.path.exists(f'{FILM}/main.js') else ''
 m = re.search(r'const LINES = \[(.*?)\n\];', js, re.S)
 subs = re.findall(r"\[([\d.]+),\s*'([^']*)'\]", m.group(1)) if m else []
-lines = S['lines']
+lines = S.get('lines', [])
 mism = [i for i, (l, s) in enumerate(zip(lines, subs)) if abs(float(s[0]) - l['t']) > .01 or s[1] != l['text']]
-if len(subs) != len(lines) or mism:
+if (lines or subs) and (len(subs) != len(lines) or mism):
     print(f'::error::script.json lines differ from LINES in main.js (count {len(lines)} vs {len(subs)}; first mismatch at line {mism[:1]}). Keep them the same.'); sys.exit(1)
 
 # —— 1. models ——
@@ -155,6 +155,13 @@ for name, d in S['music']['cues'].items():
     if os.path.exists(f'{OUT}/music/{name}.own.wav'): continue   # your own track wins
     kw = dict(prompt=S['music']['style'] + ' ' + d['prompt'], music_length_ms=int(d['seconds'] * 1000), force_instrumental=True)
     make(f'{OUT}/music/{name}.mp3', kw, lambda kw=kw: el.music.compose(**kw))
+
+# —— 6. series jingle: every take of the composition plan (a sung song), for picking one ——
+J = S.get('jingle') or {}
+for t in J.get('takes', []):
+    from elevenlabs.types import MusicPrompt
+    kw = dict(composition_plan=MusicPrompt(**t['plan']), seed=t.get('seed'))
+    make(f"{OUT}/jingle/{t['name']}.mp3", {'plan': t['plan'], 'seed': t.get('seed')}, lambda kw=kw: el.music.compose(**kw))
 
 save()
 print(f'\nmade {len(made)}, unchanged {kept}, missing {len(failed)}')
