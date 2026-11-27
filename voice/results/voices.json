@@ -1,0 +1,378 @@
+[
+ {
+  "name": "Roger - Laid-Back, Casual, Resonant",
+  "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+  "category": "premade",
+  "labels": {
+   "use_case": "conversational",
+   "accent": "american",
+   "language": "en",
+   "descriptive": "classy",
+   "gender": "male",
+   "age": "middle_aged"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Sarah - Mature, Reassuring, Confident",
+  "voice_id": "EXAVITQu4vr4xnSDxMaL",
+  "category": "premade",
+  "labels": {
+   "use_case": "entertainment_tv",
+   "accent": "american",
+   "language": "en",
+   "descriptive": "professional",
+   "gender": "female",
+   "age": "young"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Laura - Enthusiast, Quirky Attitude",
+  "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+  "category": "premade",
+  "labels": {
+   "use_case": "social_media",
+   "accent": "american",
+   "language": "en",
+   "descriptive": "sassy",
+   "gender": "female",
+   "age": "young"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Charlie - Deep, Confident, Energetic",
+  "voice_id": "IKne3meq5aSn9XLyUdCD",
+  "category": "premade",
+  "labels": {
+   "use_case": "conversational",
+   "accent": "australian",
+   "language": "en",
+   "descriptive": "hyped",
+   "gender": "male",
+   "age": "young"
+  },
+  "language": "en"
+ },
+ {
+  "name": "George - Warm, Captivating Storyteller",
+  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "category": "premade",
+  "labels": {
+   "use_case": "narrative_story",
+   "accent": "british",
+   "language": "en",
+   "descriptive": "mature",
+   "gender": "male",
+   "age": "middle_aged"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Callum - Husky Trickster",
+  "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+  "category": "premade",
+  "labels": {
+   "use_case": "characters_animation",
+   "accent": "american",
+   "language": "en",
+   "gender": "male",
+   "age": "middle_aged"
+  },
+  "language": "en"
+ },
+ {
+  "name": "River - Relaxed, Neutral, Informative",
+  "voice_id": "SAz9YHcvj6GT2YYXdXww",
+  "category": "premade",
+  "labels": {
+   "use_case": "conversational",
+   "accent": "american",
+   "language": "en",
+   "descriptive": "calm",
+   "gender": "neutral",
+   "age": "middle_aged"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Harry - Fierce Warrior",
+  "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+  "category": "premade",
+  "labels": {
+   "use_case": "characters_animation",
+   "accent": "american",
+   "language": "en",
+   "descriptive": "rough",
+   "gender": "male",
+   "age": "young"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Liam - Energetic, Social Media Creator",
+  "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+  "category": "premade",
+  "labels": {
+   "use_case": "social_media",
+   "accent": "american",
+   "language": "en",
+   "descriptive": "confident",
+   "gender": "male",
+   "age": "young"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Alice - Clear, Engaging Educator",
+  "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+  "category": "premade",
+  "labels": {
+   "use_case": "informative_educational",
+   "accent": "british",
+   "language": "en",
+   "descriptive": "professional",
+   "gender": "female",
+   "age": "middle_aged"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Matilda - Knowledgable, Professional",
+  "voice_id": "XrExE9yKIg1WjnnlVkGX",
+  "category": "premade",
+  "labels": {
+   "use_case": "informative_educational",
+   "accent": "american",
+   "language": "en",
+   "descriptive": "upbeat",
+   "gender": "female",
+   "age": "middle_aged"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Will - Relaxed Optimist",
+  "voice_id": "bIHbv24MWmeRgasZH58o",
+  "category": "premade",
+  "labels": {
+   "use_case": "conversational",
+   "accent": "american",
+   "language": "en",
+   "descriptive": "chill",
+   "gender": "male",
+   "age": "young"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Jessica - Playful, Bright, Warm",
+  "voice_id": "cgSgspJ2msm6clMCkdW9",
+  "category": "premade",
+  "labels": {
+   "use_case": "conversational",
+   "accent": "american",
+   "language": "en",
+   "descriptive": "cute",
+   "gender": "female",
+   "age": "young"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Eric - Smooth, Trustworthy",
+  "voice_id": "cjVigY5qzO86Huf0OWal",
+  "category": "premade",
+  "labels": {
+   "use_case": "conversational",
+   "accent": "american",
+   "language": "en",
+   "descriptive": "classy",
+   "gender": "male",
+   "age": "middle_aged"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Bella - Professional, Bright, Warm",
+  "voice_id": "hpp4J3VqNfWAUOO0d1Us",
+  "category": "premade",
+  "labels": {
+   "use_case": "informative_educational",
+   "accent": "american",
+   "language": "en",
+   "descriptive": "professional",
+   "gender": "female",
+   "age": "middle_aged"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Chris - Charming, Down-to-Earth",
+  "voice_id": "iP95p4xoKVk53GoZ742B",
+  "category": "premade",
+  "labels": {
+   "use_case": "conversational",
+   "accent": "american",
+   "language": "en",
+   "descriptive": "casual",
+   "gender": "male",
+   "age": "middle_aged"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Brian - Deep, Resonant and Comforting",
+  "voice_id": "nPczCjzI2devNBz1zQrb",
+  "category": "premade",
+  "labels": {
+   "use_case": "social_media",
+   "accent": "american",
+   "language": "en",
+   "descriptive": "classy",
+   "gender": "male",
+   "age": "middle_aged"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Daniel - Steady Broadcaster",
+  "voice_id": "onwK4e9ZLuTAKqWW03F9",
+  "category": "premade",
+  "labels": {
+   "use_case": "informative_educational",
+   "accent": "british",
+   "language": "en",
+   "descriptive": "formal",
+   "gender": "male",
+   "age": "middle_aged"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Lily - Velvety Actress",
+  "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+  "category": "premade",
+  "labels": {
+   "use_case": "informative_educational",
+   "accent": "british",
+   "language": "en",
+   "descriptive": "confident",
+   "gender": "female",
+   "age": "middle_aged"
+  },
+  "language": "en"
+ },
+ {
+  "name": "Adam - Dominant, Firm",
+  "voice_id": "pNInz6obpgDQGcFmaJgB",
+  "category": "premade",
+  "labels": {
+   "use_case": "social_media",
+   "accent": "american",
+   "language": "en",
+   "gender": "male",
+   "age": "middle_aged"
+  },
+  "language": null
+ },
+ {
+  "name": "Bill - Wise, Mature, Balanced",
+  "voice_id": "pqHfZKP75CvOlQylNhV4",
+  "category": "premade",
+  "labels": {
+   "use_case": "advertisement",
+   "accent": "american",
+   "language": "en",
+   "descriptive": "crisp",
+   "gender": "male",
+   "age": "old"
+  },
+  "language": "en"
+ },
+ {
+  "name": "TemanTumbuh Mama",
+  "voice_id": "C1tjQRXlZh7CXva9T9MF",
+  "category": "generated",
+  "labels": {},
+  "language": null
+ },
+ {
+  "name": "TemanTumbuh Papa",
+  "voice_id": "0kTzmUbOoNrFmdoVC12Y",
+  "category": "generated",
+  "labels": {},
+  "language": null
+ },
+ {
+  "name": "TemanTumbuh Dokter",
+  "voice_id": "nUqF05771mt9b8xVJmaG",
+  "category": "generated",
+  "labels": {},
+  "language": null
+ },
+ {
+  "name": "TemanTumbuh Perawat",
+  "voice_id": "pEZDE43YyDWWaXE24JQN",
+  "category": "generated",
+  "labels": {},
+  "language": null
+ },
+ {
+  "name": "TemanTumbuh Narator",
+  "voice_id": "9SmQGXKFdKhmMGqAOcEi",
+  "category": "generated",
+  "labels": {},
+  "language": null
+ },
+ {
+  "name": "TemanTumbuh Penjaga",
+  "voice_id": "04nnJSRdRrVaZqBfbZbR",
+  "category": "generated",
+  "labels": {},
+  "language": null
+ },
+ {
+  "name": "TemanTumbuh Mama",
+  "voice_id": "Nw5xnsRTP8ISIAlgGom9",
+  "category": "generated",
+  "labels": {},
+  "language": null
+ },
+ {
+  "name": "TemanTumbuh Papa",
+  "voice_id": "wxhp2qcUcJM6fFJuMrMF",
+  "category": "generated",
+  "labels": {},
+  "language": null
+ },
+ {
+  "name": "TemanTumbuh Narator",
+  "voice_id": "IrK1uOQE00M1HGwAhM1W",
+  "category": "generated",
+  "labels": {},
+  "language": null
+ },
+ {
+  "name": "TemanTumbuh Dokter",
+  "voice_id": "Kn5yYRvFXpg0laqunqZB",
+  "category": "generated",
+  "labels": {},
+  "language": null
+ },
+ {
+  "name": "TemanTumbuh Perawat",
+  "voice_id": "7BrlhrlRsfACFgesCHNS",
+  "category": "generated",
+  "labels": {},
+  "language": null
+ },
+ {
+  "name": "TemanTumbuh Penjaga",
+  "voice_id": "28QkLAfjvsnvBM1RA66G",
+  "category": "generated",
+  "labels": {},
+  "language": null
+ }
+]
