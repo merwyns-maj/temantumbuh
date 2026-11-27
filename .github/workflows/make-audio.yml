@@ -13,15 +13,14 @@ on:
     branches: [main]
     paths: ['video/*/script.json', 'video/tools/eleven_audio.py']
 
-concurrency:
-  group: audio-${{ inputs.film || 'pentol-e01' }}
-  cancel-in-progress: false
-
 jobs:
   audio:
     runs-on: ubuntu-24.04
     permissions:
       contents: write
+    concurrency:   # only the audio step waits for an earlier one; renders can overlap
+      group: audio-${{ inputs.film || 'pentol-e01' }}
+      cancel-in-progress: false
     env:
       FILM: ${{ inputs.film || 'pentol-e01' }}
     steps:
