@@ -1,10 +1,17 @@
 {
  "jingle/a-ukulele.mp3": "400e14e6a960444a",
+ "jingle/a-ukulele.transcript.json": "48de518361954b8c",
  "jingle/b-ukulele-stems.zip": "9759011d4a2d4909",
  "jingle/b-ukulele.mp3": "34b746d669a85636",
+ "jingle/b-ukulele.transcript.json": "65e246eb61049c93",
  "jingle/b2-1.mp3": "3a4758796379fc0a",
+ "jingle/b2-1.transcript.json": "fe72036198ff3bef",
  "jingle/b2-2.mp3": "740ad1a27b0689ba",
+ "jingle/b2-2.transcript.json": "c279787400c0ea3b",
  "jingle/b2-3.mp3": "168540e89df372f1",
+ "jingle/b2-3.transcript.json": "bf0f1bfb05ad11ce",
  "jingle/c-toybox.mp3": "1fb97d8b5269b2d3",
- "jingle/d-angklung.mp3": "10fe3d5c3a39b0e5"
+ "jingle/c-toybox.transcript.json": "c4489576caa8d63e",
+ "jingle/d-angklung.mp3": "10fe3d5c3a39b0e5",
+ "jingle/d-angklung.transcript.json": "48b03867f17dae95"
 }

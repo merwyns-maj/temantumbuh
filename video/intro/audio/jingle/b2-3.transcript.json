@@ -1,0 +1,323 @@
+{
+ "language_code": "ind",
+ "language_probability": 1.0,
+ "text": "Satu, dua, tiga. Buka bukunya. Yuk kita baca. Tum, tum, Tumbo. Tum, tum, Tumbo. Teman Tumbo.",
+ "words": [
+  {
+   "text": "Satu,",
+   "start": 0.24,
+   "end": 1.16,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.023691829649033026,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 1.16,
+   "end": 1.4,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.0003673355677165091,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "dua,",
+   "start": 1.4,
+   "end": 2.22,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.00028795873640774516,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 2.22,
+   "end": 2.62,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.00010978573118336499,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "tiga.",
+   "start": 2.62,
+   "end": 3.6,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.10007624144200236,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 3.6,
+   "end": 3.6,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.00021562635083682835,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "Buka",
+   "start": 4.44,
+   "end": 4.96,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -8.144342882587807e-05,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 4.96,
+   "end": 5.06,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.0032709925435483456,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "bukunya.",
+   "start": 5.06,
+   "end": 6.5,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.018815065850503743,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 6.5,
+   "end": 6.88,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.0004963834653608501,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "Yuk",
+   "start": 6.88,
+   "end": 7.46,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.0004963834653608501,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 7.46,
+   "end": 7.48,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.0338442362844944,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "kita",
+   "start": 7.48,
+   "end": 8.42,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.0338442362844944,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 8.42,
+   "end": 8.66,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.043891582638025284,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "baca.",
+   "start": 8.66,
+   "end": 9.5,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.0653836727142334,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 9.5,
+   "end": 10.38,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.0895342230796814,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "Tum,",
+   "start": 12.22,
+   "end": 12.7,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.18321898579597473,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 12.7,
+   "end": 12.84,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.22917523980140686,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "tum,",
+   "start": 12.84,
+   "end": 13.24,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.1718949895403057,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 13.24,
+   "end": 13.42,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.6499292254447937,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "Tumbo.",
+   "start": 13.42,
+   "end": 14.34,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.5328177399933338,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 14.34,
+   "end": 14.64,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.00300028407946229,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "Tum,",
+   "start": 14.64,
+   "end": 15.1,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.002257246308545291,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 15.1,
+   "end": 15.22,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.009033878333866596,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "tum,",
+   "start": 15.22,
+   "end": 15.66,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.006776928664180559,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 15.66,
+   "end": 15.82,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.011862097308039665,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "Tumbo.",
+   "start": 15.82,
+   "end": 16.8,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.0063415169885653695,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 16.8,
+   "end": 17.04,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.04743748530745506,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "Teman",
+   "start": 17.04,
+   "end": 17.54,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.02847979999933159,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 17.54,
+   "end": 17.62,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.022941529750823975,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "Tumbo.",
+   "start": 17.62,
+   "end": 18.1,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.018478597339708358,
+   "characters": null,
+   "channel_index": null
+  }
+ ],
+ "channel_index": null,
+ "additional_formats": null,
+ "transcription_id": "rONzn5nZX594sICVCJvm",
+ "entities": null,
+ "audio_duration_secs": 20.0620625,
+ "edited_transcript": null
+}
