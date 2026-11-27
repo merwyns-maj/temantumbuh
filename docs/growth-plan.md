@@ -173,3 +173,24 @@ Test E ran 16 to 22 Nov. Mon, Wed, Fri and Sun put the short post at 12:00 and t
 - Week 5: keep two posts a day at 12:00 and 19:00, all short (4 to 5 slides), and put the most "look it up" post of each day in either slot.
 - skor-konten: give no weight to slot. For format, drop the "aim for 6 to 9 slides" machine check, which marks our best posts down, and score 4 to 5 slides as full marks. Apply the reference-post item proposed in section 11 (about 20 points), since ASIP ml confirms it.
 - Recheck on 30 Nov with week 5 numbers: all-short weeks will show whether short wins on topic or on format.
+
+## 13. Decision, 27 Nov: Test F (carousel vs voiced video) and the Promote test
+
+Based on the four-persona review (project doc `research/persona-review-27nov.md`). Merwyn: "I follow you, it's an A/B test."
+
+**Cadence.** Post 1 new post a day, plus 3 to 4 re-cuts of winners a week, instead of 2 posts a day. Play, dad and parenting-skill posts go down to 2 a week at most.
+
+**Test F, two weeks.**
+- Make each lookup topic both as a 4-slide carousel and as a 22 to 27 s voiced video (`tools/voice_reel.py`: Mama voice at level 2, burned-in captions, `sting-ceria` at the end).
+- Primary metric: follows per 1,000 views at 48 hours. Secondary metric: views.
+- Video wins if it gets at least 1.3x the carousel on 2 of 3 topics. If so, move to a 50/50 split.
+- The first video is ASIP ml. Its carousel baseline is 18,996 views and 3.3 follows per 1,000.
+
+**Cover rule.** The number or the age goes on slide 1.
+
+**Promote test.**
+- Post: ASIP ml carousel, then Gigi pertama.
+- Goal: Followers, with an automatic audience in Indonesia.
+- Budget: Rp 200k in total, for example Rp 50k a day for 4 days. Merwyn sets it up and pays on desktop.
+- Continue only if the cost per follower makes sense.
+- Promote needs an original sound, not the auto-added music.
