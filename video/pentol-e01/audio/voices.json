@@ -1,9 +1,8 @@
 {
  "dokter": {
-  "audition": "b830f312f3cace81",
-  "design": "0f4f0ef0f12ee759",
+  "design": "21aa0e63452ca367",
   "source": "designed",
-  "voice_id": "nUqF05771mt9b8xVJmaG"
+  "voice_id": "Kn5yYRvFXpg0laqunqZB"
  },
  "mama": {
   "design": "73bae53ca77947ff",
@@ -21,15 +20,13 @@
   "voice_id": "wxhp2qcUcJM6fFJuMrMF"
  },
  "penjaga": {
-  "audition": "2fa9c8632c1ecddc",
-  "design": "6de5fe9df1f7e8cc",
+  "design": "14bf842dfca4de86",
   "source": "designed",
-  "voice_id": "04nnJSRdRrVaZqBfbZbR"
+  "voice_id": "28QkLAfjvsnvBM1RA66G"
  },
  "perawat": {
-  "audition": "5103395e0bfa433a",
-  "design": "80be38848bbb345a",
+  "design": "bfa6383b8909500f",
   "source": "designed",
-  "voice_id": "pEZDE43YyDWWaXE24JQN"
+  "voice_id": "7BrlhrlRsfACFgesCHNS"
  }
 }
