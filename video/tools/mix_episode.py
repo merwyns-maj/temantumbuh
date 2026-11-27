@@ -1,6 +1,6 @@
 """Mix an episode's sound: voice lines, music beds (ducked under the voice) and sound effects.
 
-    python video/tools/mix_episode.py video/pentol-e01 events.json mix.wav
+    python video/tools/mix_episode.py video/tunas-e01 events.json mix.wav
 
 events.json comes from dump_events.mjs (the page's own sound events: page turns, book open/close, flashes).
 Whatever audio files are missing are skipped, so a partial set still gives a usable mix.

@@ -8,12 +8,12 @@ on:
     inputs:
       film:
         description: Folder under video/ to render
-        default: pentol-e01
+        default: tunas-e01
   workflow_call:
     inputs:
       film:
         type: string
-        default: pentol-e01
+        default: tunas-e01
       ref:
         type: string
         default: ''
@@ -25,7 +25,7 @@ on:
       - '!video/tools/eleven_audio.py'
 
 env:
-  FILM: ${{ inputs.film || 'pentol-e01' }}
+  FILM: ${{ inputs.film || 'tunas-e01' }}
   SHARDS: 20
   LEMO_REF: 3a7132b996be0241c1ea0ab180d519f06e6f10b6   # lemomo-ai/lemo-opuscar, pinned so renders stay identical
 

@@ -37,9 +37,9 @@ export function coverCanvases(drawPipIcon) {
   both((k, col) => { k.strokeStyle = col; k.lineWidth = 10; k.strokeRect(90, 90, w - 180, h - 180); k.lineWidth = 4; k.strokeRect(120, 120, w - 240, h - 240);
     for (const [cx, cy] of [[120, 120], [w - 120, 120], [120, h - 120], [w - 120, h - 120]]) { k.beginPath(); k.arc(cx, cy, 34, 0, Math.PI * 2); k.fillStyle = col; k.fill(); } });
   both((k, col) => { k.fillStyle = col; k.textAlign = 'center'; k.textBaseline = 'alphabetic';
-    k.font = '230px "Lilita One"'; k.fillText('Pentol', w * .63, h * .42);
+    k.font = '230px "Lilita One"'; k.fillText('Tunas', w * .63, h * .42);
     k.font = '150px "Lilita One"'; k.fillText('Mau Imunisasi', w * .63, h * .62);
-    k.font = '600 66px Fredoka'; k.fillText('~ cerita kertas TemanTumbuh ~', w * .63, h * .78); });
+    k.font = '600 66px Fredoka'; k.fillText('~ TemanTumbuh Series ~', w * .63, h * .78); });
   // round illustration (paper-coloured ground + Pip)
   const cx = w * .24, cy = h * .52, r = 330;
   both((k, col) => { k.beginPath(); k.arc(cx, cy, r + 26, 0, Math.PI * 2); k.lineWidth = 14; k.strokeStyle = col; k.stroke(); });

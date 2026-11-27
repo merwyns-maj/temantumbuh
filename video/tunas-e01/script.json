@@ -1,10 +1,10 @@
 {
-  "film": "pentol-e01",
+  "film": "tunas-e01",
   "note": "Times are seconds in the episode. Line texts must match LINES in main.js (the audio step checks). Edit this file and push: the audio step remakes only what changed, then renders.",
   "language": "id",
   "cast": {
-    "pentol": {
-      "clone_name": "Pentol",
+    "tunas": {
+      "clone_name": "Tunas",
       "design": "A soft, bright, gentle animated character voice, curious and a little shy, speaking slowly in everyday Jakarta Indonesian.",
       "preview": "Lihat, ada sapi di jalan! Aku mau lihat sapinya. Tadi aku deg-degan, tapi sekarang aku berani. Katanya sakitnya cuma sebentar, kan? Yuk, kita berangkat."
     },
@@ -18,7 +18,7 @@
     },
     "dokter": {
       "design": "Pak Dokter: a gentle Indonesian man around fifty with a soft, slightly husky, fatherly voice. Relaxed and a bit funny, talks to a small child like a kind uncle, slow and warm, natural Jakarta Indonesian.",
-      "preview": "Halo, Pentol. Om dokter mau dengar jantungmu dulu, ya. Dug, dug, dug. Bagus sekali. Rasanya nanti sakit sebentar saja. Kalau mau nangis, boleh, ya.",
+      "preview": "Halo, Tunas. Om dokter mau dengar jantungmu dulu, ya. Dug, dug, dug. Bagus sekali. Rasanya nanti sakit sebentar saja. Kalau mau nangis, boleh, ya.",
       "pick": 3,
       "profile": {
         "tag": "calm, soothing",
@@ -28,7 +28,7 @@
     },
     "perawat": {
       "design": "Suster: a calm, soft-spoken Indonesian woman in her late twenties. Gentle and motherly, a quiet warm voice that is caring rather than bubbly, natural Jakarta Indonesian.",
-      "preview": "Pentol! Ayo masuk, giliran kamu sekarang. Wah, Pentol hebat sekali hari ini. Ini stiker buat anak yang berani. Mau ditempel di mana, sayang?",
+      "preview": "Tunas! Ayo masuk, giliran kamu sekarang. Wah, Tunas hebat sekali hari ini. Ini stiker buat anak yang berani. Mau ditempel di mana, sayang?",
       "pick": 2,
       "profile": {
         "tag": "calm, soothing",
@@ -38,7 +38,7 @@
     },
     "narator": {
       "design": "A warm Indonesian woman reading a picture book aloud to toddlers at bedtime. Slow, soft, gently smiling storyteller voice, clear Indonesian.",
-      "preview": "Di dalam badan Pentol, ada banyak penjaga kecil. Mereka selalu siap menjaga Pentol. Hari ini, penjaga mau belajar kenal sama kuman. Yuk, kita lihat bareng."
+      "preview": "Di dalam badan Tunas, ada banyak penjaga kecil. Mereka selalu siap menjaga Tunas. Hari ini, penjaga mau belajar kenal sama kuman. Yuk, kita lihat bareng."
     },
     "penjaga": {
       "design": "An energetic animated hero voice, bright and warm with a slight rasp, proud and kind, speaking Indonesian with enthusiasm.",
@@ -56,11 +56,11 @@
       "t": 10.8,
       "who": "mama",
       "tone": "cheerful",
-      "text": "Pagi, Pentol!"
+      "text": "Pagi, Tunas!"
     },
     {
       "t": 15.8,
-      "who": "pentol",
+      "who": "tunas",
       "tone": "giggles",
       "text": "Lho, kok sandalnya beda?"
     },
@@ -68,11 +68,11 @@
       "t": 24.6,
       "who": "narator",
       "tone": "warm",
-      "text": "Hari ini, Pentol mau imunisasi."
+      "text": "Hari ini, Tunas mau imunisasi."
     },
     {
       "t": 30.4,
-      "who": "pentol",
+      "who": "tunas",
       "tone": "nervous",
       "text": "Imunisasi... sakit nggak?"
     },
@@ -90,7 +90,7 @@
     },
     {
       "t": 60.0,
-      "who": "pentol",
+      "who": "tunas",
       "tone": "excited",
       "text": "Wah, ada sapi!"
     },
@@ -102,7 +102,7 @@
     },
     {
       "t": 81.4,
-      "who": "pentol",
+      "who": "tunas",
       "tone": "curious",
       "text": "Ada burung!"
     },
@@ -110,19 +110,19 @@
       "t": 87.6,
       "who": "perawat",
       "tone": "cheerful",
-      "text": "Pentol!"
+      "text": "Tunas!"
     },
     {
       "t": 95.8,
       "who": "dokter",
       "tone": "gentle",
-      "text": "Halo, Pentol. Mau dengar jantungmu?"
+      "text": "Halo, Tunas. Mau dengar jantungmu?"
     },
     {
       "t": 104.6,
       "who": "narator",
       "tone": "warm",
-      "text": "Mama peluk Pentol. Papa pegang tangan Pentol."
+      "text": "Mama peluk Tunas. Papa pegang tangan Tunas."
     },
     {
       "t": 113.6,
@@ -134,7 +134,7 @@
       "t": 123.4,
       "who": "narator",
       "tone": "curious",
-      "text": "Di dalam badan Pentol, ada penjaga."
+      "text": "Di dalam badan Tunas, ada penjaga."
     },
     {
       "t": 128.4,
@@ -152,23 +152,23 @@
       "t": 142.6,
       "who": "narator",
       "tone": "proud",
-      "text": "Kuman datang? Penjaga sudah kenal. Badan Pentol kuat."
+      "text": "Kuman datang? Penjaga sudah kenal. Badan Tunas kuat."
     },
     {
       "t": 152.6,
       "who": "perawat",
       "tone": "proud",
-      "text": "Pentol hebat!"
+      "text": "Tunas hebat!"
     },
     {
       "t": 164.0,
       "who": "papa",
       "tone": "soft",
-      "text": "Tadi Pentol berani."
+      "text": "Tadi Tunas berani."
     },
     {
       "t": 174.2,
-      "who": "pentol",
+      "who": "tunas",
       "tone": "cheerful",
       "text": "Ingat ya! Imunisasi sakitnya sebentar. Boleh nangis."
     },

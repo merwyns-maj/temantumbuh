@@ -1,4 +1,4 @@
-// Set pieces and page art for "Pentol Mau Imunisasi" (episode 1). Flat cut paper, TemanTumbuh palette.
+// Set pieces and page art for "Tunas Mau Imunisasi" (episode 1). Flat cut paper, TemanTumbuh palette.
 // No red cross anywhere (UU 1/2018): every clinic sign uses the leaf-heart.
 import { cut } from './art.js';
 import { sh, crescent, blob, rr, INK, cv, GRAIN } from './paper.js';
@@ -108,7 +108,7 @@ export function car(wm) {
   return cut(wm, wm * .55, (x, W, H) => {
     const cab = () => { x.beginPath(); x.moveTo(W * .2, H * .45); x.quadraticCurveTo(W * .24, H * .06, W * .42, H * .06); x.lineTo(W * .68, H * .06); x.quadraticCurveTo(W * .84, H * .06, W * .88, H * .45); x.closePath(); };
     cab(); sh(x, '#d9e7f5', LW);
-    // heads: Papa, Mama (hijab), Pentol (sprout)
+    // heads: Papa, Mama (hijab), Tunas (sprout)
     x.beginPath(); x.arc(W * .34, H * .3, H * .1, 0, TAU); sh(x, '#f3c9a2', LW2); x.beginPath(); x.arc(W * .34, H * .26, H * .1, Math.PI, TAU); sh(x, '#3b2f2a', LW2);
     x.beginPath(); x.arc(W * .53, H * .29, H * .13, 0, TAU); sh(x, TERRA, LW2); x.beginPath(); x.arc(W * .53, H * .31, H * .08, 0, TAU); sh(x, '#f3c9a2', 4);
     x.beginPath(); x.arc(W * .72, H * .34, H * .08, 0, TAU); sh(x, '#f6c9a5', LW2);

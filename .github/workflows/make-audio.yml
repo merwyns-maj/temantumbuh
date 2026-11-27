@@ -8,7 +8,7 @@ on:
     inputs:
       film:
         description: Folder under video/ to make audio for
-        default: pentol-e01
+        default: tunas-e01
   push:
     branches: [main]
     paths: ['video/*/script.json', 'video/tools/eleven_audio.py']
@@ -19,10 +19,10 @@ jobs:
     permissions:
       contents: write
     concurrency:   # only the audio step waits for an earlier one; renders can overlap
-      group: audio-step-${{ inputs.film || 'pentol-e01' }}
+      group: audio-step-${{ inputs.film || 'tunas-e01' }}
       cancel-in-progress: false
     env:
-      FILM: ${{ inputs.film || 'pentol-e01' }}
+      FILM: ${{ inputs.film || 'tunas-e01' }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -48,5 +48,5 @@ jobs:
     if: ${{ !cancelled() }}
     uses: ./.github/workflows/render-video.yml
     with:
-      film: ${{ inputs.film || 'pentol-e01' }}
+      film: ${{ inputs.film || 'tunas-e01' }}
       ref: main

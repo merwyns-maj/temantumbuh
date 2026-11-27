@@ -1,4 +1,4 @@
-// "Pentol Mau Imunisasi", episode 1 (paper pop-up book; engine: Lemo-Opuscar paper-popup, MIT).
+// "Tunas Mau Imunisasi", episode 1 (paper pop-up book; engine: Lemo-Opuscar paper-popup, MIT).
 import * as THREE from 'three';
 import { RGBELoader } from 'three/addons/loaders/RGBELoader.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
@@ -162,7 +162,7 @@ const sway = (w, k = .25) => [Math.sin(w.walk) * k * w.stride, -Math.sin(w.walk)
 function castAt(t) {
   const s = SEG[segAt(t)].k, out = {};
   if (s === 'bed') {
-    if (t > 5.6) {   // Pentol: asleep behind the bed, wakes, hops out, walks to the table
+    if (t > 5.6) {   // Tunas: asleep behind the bed, wakes, hops out, walks to the table
       const asleep = t < 11.6, w = walkAt(t, 13.6, 15.2, -.04, .07);
       const x = t < 12 ? -.12 : t < 13 ? lerp(-.12, -.04, ss(seg(t, 12, 13))) : w.x, z = t < 12 ? .108 : t < 13 ? lerp(.108, .165, ss(seg(t, 12, 13))) : .165;
       const y = t < 12 ? .03 : t < 13 ? .03 * (1 - seg(t, 12, 13)) + Math.sin(Math.PI * seg(t, 12, 13)) * .015 : hop(t, 19.4) + hop(t, 19.9, .004) + hop(t, 48.6, .008);
@@ -246,13 +246,13 @@ cam.up.set(0, .7, -.7);
 
 // ---------- lines (subtitles; voice comes later) ----------
 const LINES = [
-  [10.8, 'Pagi, Pentol!'], [15.8, 'Lho, kok sandalnya beda?'], [24.6, 'Hari ini, Pentol mau imunisasi.'], [30.4, 'Imunisasi... sakit nggak?'],
+  [10.8, 'Pagi, Tunas!'], [15.8, 'Lho, kok sandalnya beda?'], [24.6, 'Hari ini, Tunas mau imunisasi.'], [30.4, 'Imunisasi... sakit nggak?'],
   [36.6, 'Sakit sebentar. Deg-degan, nggak apa-apa.'], [44.4, 'Papa dulu juga deg-degan, lho.'],
   [60.0, 'Wah, ada sapi!'], [70.2, 'Ini rumah sakit.'],
-  [81.4, 'Ada burung!'], [87.6, 'Pentol!'],
-  [95.8, 'Halo, Pentol. Mau dengar jantungmu?'], [104.6, 'Mama peluk Pentol. Papa pegang tangan Pentol.'], [113.6, 'Rasanya sakit sebentar. Boleh nangis.'],
-  [123.4, 'Di dalam badan Pentol, ada penjaga.'], [128.4, 'Obatnya bawa kuman yang lemah. Penjaga belajar.'], [137.0, 'Kami ingat kamu!'], [142.6, 'Kuman datang? Penjaga sudah kenal. Badan Pentol kuat.'],
-  [152.6, 'Pentol hebat!'], [164.0, 'Tadi Pentol berani.'],
+  [81.4, 'Ada burung!'], [87.6, 'Tunas!'],
+  [95.8, 'Halo, Tunas. Mau dengar jantungmu?'], [104.6, 'Mama peluk Tunas. Papa pegang tangan Tunas.'], [113.6, 'Rasanya sakit sebentar. Boleh nangis.'],
+  [123.4, 'Di dalam badan Tunas, ada penjaga.'], [128.4, 'Obatnya bawa kuman yang lemah. Penjaga belajar.'], [137.0, 'Kami ingat kamu!'], [142.6, 'Kuman datang? Penjaga sudah kenal. Badan Tunas kuat.'],
+  [152.6, 'Tunas hebat!'], [164.0, 'Tadi Tunas berani.'],
   [174.2, 'Ingat ya! Imunisasi sakitnya sebentar. Boleh nangis.'], [181.2, 'Mama dan Papa selalu ada di dekatmu.'], [188.2, 'Imunisasi bantu penjaga kenal kuman. Badan jadi kuat!'],
 ];
 const SUBS = LINES.map(([t0, s], i) => { let t1 = t0 + Math.max(2.0, s.length * .075 + 1.0); const nx = LINES[i + 1]; if (nx) t1 = Math.min(t1, nx[0] - .2); return { t0, t1, s }; });
@@ -321,7 +321,7 @@ window.render = t => {
   scene.updateMatrixWorld(true); post.composer.render();
   OX.clearRect(0, 0, W, H); drawSubs(t, SEG[si].k === 'recap');
   for (const f of FLASH) { const a = Math.min(seg(t, f, f + .6), 1 - seg(t, f + .6, f + 1.4)); if (a > 0) { OX.fillStyle = `rgba(255,253,247,${a})`; OX.fillRect(0, 0, W, H); } }
-  if (t > 201.2) { const a = ss(seg(t, 201.2, 202.2)); OX.save(); OX.globalAlpha = a; OX.fillStyle = 'rgba(251,244,234,.92)'; OX.beginPath(); OX.roundRect(1240, 800, 600, 200, 40); OX.fill(); OX.textAlign = 'center'; OX.fillStyle = '#7a6c5f'; OX.font = '700 40px Fredoka'; OX.fillText('Cerita berikutnya', 1540, 870); OX.fillStyle = '#c46040'; OX.font = '700 70px Fredoka'; OX.fillText('Pentol Sikat Gigi', 1540, 950); OX.restore(); }
+  if (t > 201.2) { const a = ss(seg(t, 201.2, 202.2)); OX.save(); OX.globalAlpha = a; OX.fillStyle = 'rgba(251,244,234,.92)'; OX.beginPath(); OX.roundRect(1240, 800, 600, 200, 40); OX.fill(); OX.textAlign = 'center'; OX.fillStyle = '#7a6c5f'; OX.font = '700 40px Fredoka'; OX.fillText('Cerita berikutnya', 1540, 870); OX.fillStyle = '#c46040'; OX.font = '700 70px Fredoka'; OX.fillText('Tunas Sikat Gigi', 1540, 950); OX.restore(); }
   if (t > DUR - 1.2) { OX.fillStyle = `rgba(0,0,0,${seg(t, DUR - 1.2, DUR)})`; OX.fillRect(0, 0, W, H); }
 };
 window.render(Number(Q.get('t') || 0));

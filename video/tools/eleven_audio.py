@@ -1,6 +1,6 @@
 """Make (only what changed of) an episode's voices, voice lines, music and sound effects with ElevenLabs.
 
-    ELEVENLABS_API_KEY=... python video/tools/eleven_audio.py video/pentol-e01
+    ELEVENLABS_API_KEY=... python video/tools/eleven_audio.py video/tunas-e01
 
 Reads <film>/script.json and writes into <film>/audio/:
   voices.json            voice id per character (designed once, then reused)
@@ -9,8 +9,8 @@ Reads <film>/script.json and writes into <film>/audio/:
   sfx/<name>.mp3         one file per sound effect
   manifest.json          what each file was made from, so an unchanged file is never paid for twice
 
-Pentol: if a voice named "Pentol" exists in the account (an instant clone made in the ElevenLabs app),
-it is used; until then a designed child voice stands in, and Pentol's lines are remade once the clone exists.
+A character with clone_name (Tunas): if a voice of that name exists in the account (an instant clone made in the ElevenLabs app),
+it is used; until then a designed child voice stands in, and that character's lines are remade once the clone exists.
 Never prints the key. If credits run out, it keeps what it made, reports, and exits 0 so the render still runs.
 """
 import hashlib, json, os, re, sys, time
@@ -83,16 +83,18 @@ try:
 except Exception: pass
 
 # —— 2. voices ——
-clone = None
+clones = {}   # characters with a clone_name use the account's cloned voice of that name, once it exists
+names = {c['clone_name'].strip().lower(): who for who, c in S['cast'].items() if c.get('clone_name')}
 try:
-    for v in el.voices.search(search=S['cast']['pentol'].get('clone_name', 'Pentol'), page_size=50).voices:
-        if v.name.strip().lower() == S['cast']['pentol'].get('clone_name', 'Pentol').lower() and v.category in ('cloned', 'professional'):
-            clone = v.voice_id; break
+    for n, who in names.items():
+        for v in el.voices.search(search=n, page_size=50).voices:
+            if v.name.strip().lower() == n and v.category in ('cloned', 'professional'): clones[who] = v.voice_id; break
 except Exception as e: warn(f'voice search failed: {e}')
+clone = next(iter(clones.values()), None)
 for who, c in S['cast'].items():
-    if who == 'pentol' and clone:
-        if VOI.get('pentol', {}).get('voice_id') != clone: print('Pentol: using the cloned voice "Pentol"')
-        VOI['pentol'] = {'voice_id': clone, 'source': 'clone'}; continue
+    if who in clones:
+        if VOI.get(who, {}).get('voice_id') != clones[who]: print(f'{who}: using the cloned voice "{c["clone_name"]}"')
+        VOI[who] = {'voice_id': clones[who], 'source': 'clone'}; continue
     seed = c.get('seed', 11); pick = c.get('pick')
     want = h({'design': c['design'], 'preview': c['preview'], 'model': TTV, 'seed': seed if (c.get('audition') or pick) else None, 'pick': pick})
     if VOI.get(who, {}).get('design') == want or (not pick and VOI.get(who, {}).get('audition') == want): continue
@@ -102,7 +104,7 @@ for who, c in S['cast'].items():
         if c.get('audition') or pick: kw['seed'] = seed
         os.makedirs(f'{OUT}/previews', exist_ok=True)
         import base64
-        name = f"TemanTumbuh {who.capitalize()}{' (placeholder)' if who == 'pentol' else ''}"
+        name = f"TemanTumbuh {who.capitalize()}{' (placeholder)' if c.get('clone_name') else ''}"
         opts = VOI.get(who, {}).get('options') or []
         v = None
         if pick and len(opts) >= pick:   # the exact option that was heard
@@ -157,6 +159,6 @@ for name, d in S['music']['cues'].items():
 save()
 print(f'\nmade {len(made)}, unchanged {kept}, missing {len(failed)}')
 with open(os.environ.get('GITHUB_STEP_SUMMARY', os.devnull), 'a') as f:
-    f.write(f"### Audio for {os.path.basename(FILM)}\nSpeech model `{TTS}`. Pentol voice: {'your clone' if clone else 'placeholder (make a voice named Pentol in ElevenLabs to replace it)'}.\n\n"
+    f.write(f"### Audio for {os.path.basename(FILM)}\nSpeech model `{TTS}`. Child voice: {'your clone' if clone else 'placeholder (make a voice named ' + ', '.join(c['clone_name'] for c in S['cast'].values() if c.get('clone_name')) + ' in ElevenLabs to replace it)'}.\n\n"
             f"Made {len(made)}, unchanged {kept}, missing {len(failed)}.\n" + (''.join(f'- missing `{x}`\n' for x in failed)))
 if failed: warn(f'{len(failed)} audio files are missing; the render uses what exists.')
