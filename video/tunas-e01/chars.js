@@ -84,7 +84,7 @@ export function drawTunas(x, p = {}) {
 // pose: walk, stride, armL, armR (rad; 0 = hanging), reachL/reachR ([dx,dy] target from shoulder, overrides angle), hug (0-1), cotton, look
 export const AD_W = 700, AD_H = 1500;
 export function drawAdult(x, p = {}, kind = 'mama') {
-  const { walk = 0, stride = 0, armL = .12, armR = .12, look = 0, hug = 0 } = p;
+  const { walk = 0, stride = 0, armL = .12, armR = .12, look = 0, hug = 0, blink = 0 } = p;
   const HIJ = kind === 'mama' ? TERRA : SKY, HIJ_S = kind === 'mama' ? TERRA_S : SKY_S, DR = kind === 'mama' ? SAGE : PINK, DR_S = kind === 'mama' ? SAGE_S : PINK_S;
   x.clearRect(0, 0, AD_W, AD_H);
   const C = cv(AD_W, AD_H), a = C.getContext('2d'), cx = 350, by = 1440;
@@ -95,13 +95,27 @@ export function drawAdult(x, p = {}, kind = 'mama') {
   const dress = () => { a.beginPath(); a.moveTo(cx - 92, 560); a.lineTo(cx + 92, 560); a.bezierCurveTo(cx + 140, 900, cx + 190, 1200, cx + 196, by - 40); a.quadraticCurveTo(cx, by - 10, cx - 196, by - 40); a.bezierCurveTo(cx - 190, 1200, cx - 140, 900, cx - 92, 560); a.closePath(); };
   crescent(a, dress, DR_S, 40, 0, DR); dress(); sh(a, null, LW + 1);
   if (kind === 'bidan') { rr(a, cx - 60, 760, 120, 90, 16); sh(a, '#fffaf2', LW2); line(a, [[cx - 30, 790], [cx + 30, 790]], 6, PINK_S); }
+  // Mama: shoulder-length bob, side fringe and a little flower clip (no hijab). Other kinds keep the hood.
+  if (kind === 'mama') {
+    const MH = '#4a3328', MH_S = '#3a271e';
+    const back_ = () => { a.beginPath(); a.moveTo(cx, 170); a.bezierCurveTo(cx + 175, 165, cx + 200, 300, cx + 185, 470); a.quadraticCurveTo(cx + 182, 545, cx + 120, 560); a.lineTo(cx - 120, 560); a.quadraticCurveTo(cx - 182, 545, cx - 185, 470); a.bezierCurveTo(cx - 200, 300, cx - 175, 165, cx, 170); a.closePath(); };
+    crescent(a, back_, MH_S, 30, 20, MH); back_(); sh(a, null, LW + 1);
+    // collar of the dress, in terracotta
+    a.beginPath(); a.moveTo(cx - 92, 560); a.quadraticCurveTo(cx, 640, cx + 92, 560); a.lineTo(cx + 70, 548); a.quadraticCurveTo(cx, 600, cx - 70, 548); a.closePath(); sh(a, TERRA, LW2);
+    rr(a, cx - 34, 450, 68, 110, 30); sh(a, SKIN, LW2);
+  }
   // hijab hood flowing over the shoulders
   const hood = () => { a.beginPath(); a.moveTo(cx, 120); a.bezierCurveTo(cx + 150, 120, cx + 190, 260, cx + 180, 400); a.bezierCurveTo(cx + 200, 520, cx + 230, 600, cx + 200, 660); a.quadraticCurveTo(cx, 720, cx - 200, 660); a.bezierCurveTo(cx - 230, 600, cx - 200, 520, cx - 180, 400); a.bezierCurveTo(cx - 190, 260, cx - 150, 120, cx, 120); a.closePath(); };
-  crescent(a, hood, HIJ_S, 36, 26, HIJ); hood(); sh(a, null, LW + 1);
+  if (kind !== 'mama') { crescent(a, hood, HIJ_S, 36, 26, HIJ); hood(); sh(a, null, LW + 1); }
   // face
   const face = () => blob(a, cx, 350, 118, 134, .02, 9);
   crescent(a, face, SKIN_S, 24, 20, SKIN); face(); sh(a, null, LW);
-  for (const sx of [-1, 1]) { a.beginPath(); a.ellipse(cx + sx * 46 + look * 14, 340, 13, 20, 0, 0, TAU); a.fillStyle = INK; a.fill(); }
+  if (kind === 'mama') {   // side-swept fringe and the flower clip
+    a.beginPath(); a.moveTo(cx - 124, 330); a.bezierCurveTo(cx - 130, 200, cx - 30, 180, cx + 40, 196); a.bezierCurveTo(cx + 120, 200, cx + 140, 260, cx + 126, 320); a.quadraticCurveTo(cx + 90, 250, cx + 10, 262); a.quadraticCurveTo(cx - 70, 270, cx - 124, 330); a.closePath(); sh(a, '#4a3328', LW);
+    for (let i = 0; i < 5; i++) { const an = i / 5 * TAU; a.beginPath(); a.arc(cx + 112 + Math.cos(an) * 20, 236 + Math.sin(an) * 20, 15, 0, TAU); sh(a, SUN, 4); }
+    a.beginPath(); a.arc(cx + 112, 236, 11, 0, TAU); sh(a, TERRA, 4);
+  }
+  for (const sx of [-1, 1]) { if (blink > .8) { a.beginPath(); a.moveTo(cx + sx * 46 - 16, 340); a.lineTo(cx + sx * 46 + 16, 340); a.lineWidth = 10; a.strokeStyle = INK; a.lineCap = 'round'; a.stroke(); } else { a.beginPath(); a.ellipse(cx + sx * 46 + look * 14, 340, 13, 20, 0, 0, TAU); a.fillStyle = INK; a.fill(); } }
   a.fillStyle = 'rgba(232,110,110,.4)'; a.beginPath(); a.ellipse(cx - 74, 400, 26, 15, 0, 0, TAU); a.ellipse(cx + 74, 400, 26, 15, 0, 0, TAU); a.fill();
   a.beginPath(); a.moveTo(cx - 36 + look * 10, 420); a.quadraticCurveTo(cx + look * 10, 452, cx + 36 + look * 10, 420); a.lineWidth = 10; a.strokeStyle = INK; a.lineCap = 'round'; a.stroke();
   // arms: sleeve + hand; reach targets override angle

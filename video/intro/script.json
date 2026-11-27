@@ -14,7 +14,7 @@
     "extra": []
   },
   "jingle": {
-    "pick": null,
+    "pick": "b-ukulele",
     "takes": [
       {
         "name": "a-ukulele",
@@ -695,15 +695,24 @@
     "stems": [
       "b-ukulele"
     ],
-    "note": "Merwyn chose take B's sound (27 Nov 2026). b2-* are the slower, fewer-word lyrics. stems: the take split into vocals and music, for recording your own vocals.",
-    "transcribe": [
-      "a-ukulele",
-      "b-ukulele",
-      "c-toybox",
-      "d-angklung",
-      "b2-1",
-      "b2-2",
-      "b2-3"
-    ]
+    "note": "Merwyn picked take B (27 Nov 2026). Remixed from its stems: vocals +4 dB, and the cast shouts TemanTumbuh! over the music at the end. Tunas joins the shout once Tunas has a voice.",
+    "transcribe": [],
+    "remix": {
+      "take": "b-ukulele",
+      "vocal_db": 4,
+      "music_db": -1,
+      "tag_from": 16.55,
+      "shout_at": 16.75
+    },
+    "shout": {
+      "text": "TemanTumbuh!",
+      "who": [
+        "mama",
+        "papa",
+        "narator"
+      ],
+      "voices_from": "tunas-e01",
+      "tag": "shouting happily"
+    }
   }
 }

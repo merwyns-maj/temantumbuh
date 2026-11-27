@@ -93,7 +93,22 @@ for c in S.get('sfx', {}).get('extra', []):
 # the series jingle (intro): the picked take, or the take named in $JINGLE, at full level from 0 s
 J = S.get('jingle') or {}
 jt = os.environ.get('JINGLE') or J.get('pick')
-if jt:
+RM = J.get('remix') or {}
+if jt and RM.get('take') == jt and os.path.exists(f'{A}/jingle/{jt}-vocals.mp3'):
+    # rebuilt from the stems: louder vocals, and the ending replaced by the cast shouting the name over the music
+    db = lambda d: 10 ** (d / 20)
+    v, m = load(f'{A}/jingle/{jt}-vocals.mp3'), load(f'{A}/jingle/{jt}-instrumental.mp3'); n = min(len(v), len(m))
+    cut_, xf = int(RM.get('tag_from', 16.55) * SR), int(.12 * SR)
+    vg = np.ones(n, np.float32); vg[cut_:cut_ + xf] = np.linspace(1, 0, min(xf, max(0, n - cut_))); vg[cut_ + xf:] = 0
+    song = m[:n] * db(RM.get('music_db', -1)) + v[:n] * db(RM.get('vocal_db', 4)) * vg[:, None]
+    for k, who in enumerate((J.get('shout') or {}).get('who', [])):
+        x = load(f'{A}/jingle/shout-{who}.mp3')
+        if x is None: warn(f'shout {who} missing'); continue
+        x = x / (np.abs(x).max() + 1e-9) * .5
+        i = int((RM.get('shout_at', 16.75) + k * .025) * SR); nn = min(len(x), len(song) - i)
+        if nn > 0: song[i:i + nn] += x[:nn]
+    add(mus, fade(song, .005, .05), 0, 1.0)
+elif jt:
     x = load(f'{A}/jingle/{jt}.mp3')
     if x is None: warn(f'jingle {jt} missing')
     else: x = x * (0.12 / rms(x)); add(mus, fade(x, .005, .3), 0, 1.0)
@@ -102,5 +117,14 @@ mix = vo + mus + sfx
 peak = np.abs(mix).max() or 1
 mix = np.tanh(mix * (0.89 / peak) * 1.2) / np.tanh(1.2)   # gentle limiter to about -1 dBFS
 pcm = (np.clip(mix, -1, 1) * 32767).astype('<i2')
-subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 's16le', '-ac', '2', '-ar', str(SR), '-i', '-', OUTP], input=pcm.tobytes(), check=True)
+# loudness: the intro sits about 2 LU above the story (YouTube plays everything at about -14 LUFS anyway)
+target = S.get('loudness', -16 if J else -18)
+tmp = OUTP + '.raw.wav'
+subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 's16le', '-ac', '2', '-ar', str(SR), '-i', '-', tmp], input=pcm.tobytes(), check=True)
+import re as _re
+meas = subprocess.run(['ffmpeg', '-hide_banner', '-i', tmp, '-af', f'loudnorm=I={target}:TP=-1.5:LRA=11:print_format=json', '-f', 'null', '-'], capture_output=True, text=True).stderr
+mj = json.loads(meas[meas.rindex('{'):meas.rindex('}') + 1])
+ln = f"loudnorm=I={target}:TP=-1.5:LRA=11:measured_I={mj['input_i']}:measured_TP={mj['input_tp']}:measured_LRA={mj['input_lra']}:measured_thresh={mj['input_thresh']}:offset={mj['target_offset']}:linear=true"
+subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', tmp, '-af', ln, '-ar', str(SR), OUTP], check=True); os.remove(tmp)
+print(f"loudness {mj['input_i']} -> {target} LUFS")
 print(f'mixed {DUR:.1f} s -> {OUTP}')

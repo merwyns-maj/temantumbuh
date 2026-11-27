@@ -163,6 +163,19 @@ for t in J.get('takes', []):
     kw = dict(composition_plan=MusicPrompt(**t['plan']), seed=t.get('seed'))
     make(f"{OUT}/jingle/{t['name']}.mp3", {'plan': t['plan'], 'seed': t.get('seed')}, lambda kw=kw: el.music.compose(**kw))
 
+# the cast shouts the show's name for the jingle's ending (voices from the episode's cast)
+SH = J.get('shout') or {}
+if SH:
+    vp = os.path.join(os.path.dirname(FILM), SH.get('voices_from', 'tunas-e01'), 'audio', 'voices.json')
+    cv_ = json.load(open(vp)) if os.path.exists(vp) else {}
+    for who in SH.get('who', []):
+        vid = cv_.get(who, {}).get('voice_id')
+        if not vid: warn(f'shout: no voice for {who}'); continue
+        text = (f"[{SH.get('tag', 'shouting happily')}] " if TTS == 'eleven_v3' else '') + SH['text']
+        kw = dict(voice_id=vid, text=text, model_id=TTS, output_format='mp3_44100_128')
+        if TTS == 'eleven_v3': kw['language_code'] = 'id'
+        make(f"{OUT}/jingle/shout-{who}.mp3", kw, lambda kw=kw: el.text_to_speech.convert(**kw))
+
 # transcripts: what speech-to-text hears in each take (if it can't make out a word, a toddler won't either)
 for name in J.get('transcribe', []):
     src = f'{OUT}/jingle/{name}.mp3'
