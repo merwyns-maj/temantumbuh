@@ -1,6 +1,6 @@
 {
   "film": "tunas-e01",
-  "note": "Times are seconds in the episode. Line texts must match LINES in main.js (the audio step checks). Edit this file and push: the audio step remakes only what changed, then renders.",
+  "note": "Times are seconds in the episode. Line texts must match LINES in main.js (the audio step checks). Edit this file and push: the audio step remakes only what changed, then renders. Character: Tunas. Series: TemanTumbuh Series.",
   "language": "id",
   "cast": {
     "tunas": {
