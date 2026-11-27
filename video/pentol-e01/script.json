@@ -17,20 +17,23 @@
       "preview": "Wah, sandal Papa beda sebelah! Papa dulu juga deg-degan waktu imunisasi, lho. Tapi habis itu badan Papa jadi kuat. Yuk, kita berangkat bareng-bareng."
     },
     "dokter": {
-      "design": "A kind Indonesian male doctor in his forties. Calm, clear and gentle, speaks slowly and warmly to a small child, a soft smile in the voice.",
-      "preview": "Halo, Pentol. Om dokter mau dengar jantungmu dulu, ya. Dug, dug, dug. Bagus sekali. Rasanya nanti sakit sebentar saja. Kalau mau nangis, boleh, ya."
+      "design": "Pak Dokter: a gentle Indonesian man around fifty with a soft, slightly husky, fatherly voice. Relaxed and a bit funny, talks to a small child like a kind uncle, slow and warm, natural Jakarta Indonesian.",
+      "preview": "Halo, Pentol. Om dokter mau dengar jantungmu dulu, ya. Dug, dug, dug. Bagus sekali. Rasanya nanti sakit sebentar saja. Kalau mau nangis, boleh, ya.",
+      "audition": true
     },
     "perawat": {
-      "design": "A bright, friendly young Indonesian woman, a nurse. Cheerful and caring, clear and gentle, speaks to children with warmth.",
-      "preview": "Pentol! Ayo masuk, giliran kamu sekarang. Wah, Pentol hebat sekali hari ini. Ini stiker buat anak yang berani. Mau ditempel di mana, sayang?"
+      "design": "Suster: a calm, soft-spoken Indonesian woman in her late twenties. Gentle and motherly, a quiet warm voice that is caring rather than bubbly, natural Jakarta Indonesian.",
+      "preview": "Pentol! Ayo masuk, giliran kamu sekarang. Wah, Pentol hebat sekali hari ini. Ini stiker buat anak yang berani. Mau ditempel di mana, sayang?",
+      "audition": true
     },
     "narator": {
       "design": "A warm Indonesian woman reading a picture book aloud to toddlers at bedtime. Slow, soft, gently smiling storyteller voice, clear Indonesian.",
       "preview": "Di dalam badan Pentol, ada banyak penjaga kecil. Mereka selalu siap menjaga Pentol. Hari ini, penjaga mau belajar kenal sama kuman. Yuk, kita lihat bareng."
     },
     "penjaga": {
-      "design": "A tiny, cute, bouncy voice for a friendly little round guardian creature in a children's cartoon. High, cheerful and enthusiastic, speaking Indonesian.",
-      "preview": "Kami ingat kamu! Kami penjaga badan Pentol. Kami sudah belajar, jadi kami kenal kuman ini. Ayo, teman-teman, kita jaga Pentol sama-sama. Hore!"
+      "design": "A friendly little guardian hero in a children's cartoon: a bright, playful voice with a slight rasp, brave and proud but kind, not squeaky. Speaks Indonesian with energy.",
+      "preview": "Kami ingat kamu! Kami penjaga badan Pentol. Kami sudah belajar, jadi kami kenal kuman ini. Ayo, teman-teman, kita jaga Pentol sama-sama. Hore!",
+      "audition": true
     }
   },
   "lines": [

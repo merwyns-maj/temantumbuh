@@ -93,17 +93,24 @@ for who, c in S['cast'].items():
     if who == 'pentol' and clone:
         if VOI.get('pentol', {}).get('voice_id') != clone: print('Pentol: using the cloned voice "Pentol"')
         VOI['pentol'] = {'voice_id': clone, 'source': 'clone'}; continue
-    want = h({'design': c['design'], 'preview': c['preview'], 'model': TTV})
-    if VOI.get(who, {}).get('design') == want: continue
+    seed = c.get('seed', 11); pick = c.get('pick')
+    want = h({'design': c['design'], 'preview': c['preview'], 'model': TTV, 'seed': seed if (c.get('audition') or pick) else None, 'pick': pick})
+    if VOI.get(who, {}).get('design') == want or VOI.get(who, {}).get('audition') == want: continue
     if STOP: continue
     try:
-        r = el.text_to_voice.design(voice_description=c['design'], text=c['preview'], model_id=TTV)
-        p = r.previews[0]
+        kw = dict(voice_description=c['design'], text=c['preview'], model_id=TTV)
+        if c.get('audition') or pick: kw['seed'] = seed
+        r = el.text_to_voice.design(**kw)
+        os.makedirs(f'{OUT}/previews', exist_ok=True)
+        import base64
+        if c.get('audition') and not pick:   # three options to listen to; the old voice stays until one is picked
+            for k, p in enumerate(r.previews[:3], 1): open(f'{OUT}/previews/{who}-{k}.mp3', 'wb').write(base64.b64decode(p.audio_base_64))
+            VOI.setdefault(who, {})['audition'] = want; save(); print(f'{who}: {len(r.previews[:3])} options saved in previews/', flush=True); continue
+        p = r.previews[(pick or 1) - 1]
         v = el.text_to_voice.create(voice_name=f"TemanTumbuh {who.capitalize()}{' (placeholder)' if who == 'pentol' else ''}",
                                     voice_description=c['design'], generated_voice_id=p.generated_voice_id)
         VOI[who] = {'voice_id': v.voice_id, 'source': 'designed', 'design': want}; save()
-        os.makedirs(f'{OUT}/previews', exist_ok=True)
-        import base64; open(f'{OUT}/previews/{who}.mp3', 'wb').write(base64.b64decode(p.audio_base_64))
+        open(f'{OUT}/previews/{who}.mp3', 'wb').write(base64.b64decode(p.audio_base_64))
         print(f'designed voice for {who}', flush=True)
     except ApiError as e:
         if is_quota(e): STOP = True; warn(f'Out of credits while designing {who}')
