@@ -7,7 +7,7 @@ Request shapes (one JSON object or a list of them per file):
   {"type": "sfx", "text": "soft music box sting", "seconds": 4, "out": "sting.mp3"}
 Outputs land in voice/results/. Each processed request file moves to voice/done/.
 """
-import json, os, sys, glob, shutil, urllib.request, urllib.error
+import base64, json, os, sys, glob, shutil, urllib.request, urllib.error
 
 KEY = os.environ.get('ELEVENLABS_API_KEY', '')
 API = 'https://api.elevenlabs.io'
@@ -44,13 +44,24 @@ def run(job, log):
         body = {'text': job['text'], 'model_id': job.get('model_id', 'eleven_multilingual_v2')}
         if job.get('settings'): body['voice_settings'] = job['settings']
         if job.get('language_code'): body['language_code'] = job['language_code']
-        audio = call('POST', f"/v1/text-to-speech/{job['voice_id']}?output_format=mp3_44100_128", body, 'audio/mpeg')
-        out = safe(job.get('out')); open(f'{OUT}/{out}', 'wb').write(audio); log.append(f'tts: {out} {len(audio)} bytes')
+        out = safe(job.get('out'))
+        if job.get('timestamps'):
+            data = json.loads(call('POST', f"/v1/text-to-speech/{job['voice_id']}/with-timestamps?output_format=mp3_44100_128", body))
+            audio = base64.b64decode(data['audio_base64'])
+            json.dump(data.get('alignment'), open(f'{OUT}/{out[:-4]}.align.json', 'w'), ensure_ascii=False)
+        else:
+            audio = call('POST', f"/v1/text-to-speech/{job['voice_id']}?output_format=mp3_44100_128", body, 'audio/mpeg')
+        open(f'{OUT}/{out}', 'wb').write(audio); log.append(f'tts: {out} {len(audio)} bytes')
     elif t == 'sfx':
         body = {'text': job['text']}
         if job.get('seconds'): body['duration_seconds'] = job['seconds']
         audio = call('POST', '/v1/sound-generation', body, 'audio/mpeg')
         out = safe(job.get('out')); open(f'{OUT}/{out}', 'wb').write(audio); log.append(f'sfx: {out} {len(audio)} bytes')
+    elif t == 'music':
+        body = {'prompt': job['text'], 'music_length_ms': int(job.get('seconds', 30) * 1000)}
+        if job.get('instrumental', True): body['force_instrumental'] = True
+        audio = call('POST', '/v1/music?output_format=mp3_44100_128', body, 'audio/mpeg')
+        out = safe(job.get('out')); open(f'{OUT}/{out}', 'wb').write(audio); log.append(f'music: {out} {len(audio)} bytes')
     else:
         log.append(f'skipped unknown type {t!r}')
 
@@ -60,7 +71,11 @@ if not KEY:
 log = []
 for f in sorted(glob.glob('voice/requests/*.json')):
     jobs = json.load(open(f)); jobs = jobs if isinstance(jobs, list) else [jobs]
-    for j in jobs: run(j, log)
+    for j in jobs:
+        try:
+            run(j, log)
+        except (Exception, SystemExit) as e:  # keep going; the error text never contains the key
+            log.append(f"error in {j.get('type')} {j.get('out')}: {str(e)[:300]}")
     shutil.move(f, os.path.join(DONE, os.path.basename(f)))
 open(f'{OUT}/last-run.txt', 'w').write('\n'.join(log) + '\n')
 print('\n'.join(log))
