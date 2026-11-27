@@ -1,4 +1,4 @@
-"""Make an episode's voices, voice lines, music and sound effects with ElevenLabs.
+"""Make (only what changed of) an episode's voices, voice lines, music and sound effects with ElevenLabs.
 
     ELEVENLABS_API_KEY=... python video/tools/eleven_audio.py video/pentol-e01
 
