@@ -690,14 +690,427 @@
             }
           ]
         }
+      },
+      {
+        "name": "v3-1",
+        "seed": 501,
+        "plan": {
+          "positive_global_styles": [
+            "catchy, polished preschool TV theme song",
+            "112 BPM",
+            "F major",
+            "bright acoustic ukulele and nylon guitar",
+            "glockenspiel and xylophone",
+            "warm upright bass",
+            "light drums played with brushes",
+            "handclaps",
+            "a warm, friendly young female lead vocalist with natural, native Indonesian pronunciation",
+            "a cheerful group of adult voices joins on the hook and the shouts",
+            "clear, upfront vocals, every word easy to understand",
+            "joyful and singable",
+            "professional, radio-ready mix"
+          ],
+          "negative_global_styles": [
+            "dark",
+            "sad",
+            "scary",
+            "aggressive",
+            "EDM",
+            "dubstep",
+            "heavy rock drums",
+            "distorted guitar",
+            "autotune",
+            "robotic vocals",
+            "warbly pitch",
+            "lo-fi",
+            "English accent",
+            "rap",
+            "mumbled words",
+            "reverb-drowned vocals",
+            "fade out"
+          ],
+          "sections": [
+            {
+              "section_name": "Hitung",
+              "positive_local_styles": [
+                "three knocks on a wooden book cover",
+                "the group shouts the count, one number per beat",
+                "glockenspiel sparkle"
+              ],
+              "negative_local_styles": [],
+              "duration_ms": 3000,
+              "lines": [
+                "Satu, dua, tiga!"
+              ]
+            },
+            {
+              "section_name": "Bait",
+              "positive_local_styles": [
+                "the lead vocal sings clearly",
+                "bouncy ukulele",
+                "handclaps on 2 and 4"
+              ],
+              "negative_local_styles": [
+                "fast lyrics"
+              ],
+              "duration_ms": 5600,
+              "lines": [
+                "Buka bukunya, yuk kita baca!",
+                "Ada Tunas, ada cerita!"
+              ]
+            },
+            {
+              "section_name": "Hook",
+              "positive_local_styles": [
+                "the catchy hook",
+                "lead and group sing together",
+                "rising energy"
+              ],
+              "negative_local_styles": [],
+              "duration_ms": 6400,
+              "lines": [
+                "Tum tum tumbuh, Tunas tumbuh!",
+                "Tum tum tumbuh, kita tumbuh!"
+              ]
+            },
+            {
+              "section_name": "Akhir",
+              "positive_local_styles": [
+                "the group cheers 'yeay'",
+                "the show name sung clearly by everyone",
+                "button ending on a bright held chord",
+                "one glockenspiel ding at the very end"
+              ],
+              "negative_local_styles": [
+                "fade out"
+              ],
+              "duration_ms": 5000,
+              "lines": [
+                "Marilah bertumbuh! Yeay!",
+                "Tunas Tumbuh, the Series!"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "v3-2",
+        "seed": 502,
+        "plan": {
+          "positive_global_styles": [
+            "catchy, polished preschool TV theme song",
+            "112 BPM",
+            "F major",
+            "bright acoustic ukulele and nylon guitar",
+            "glockenspiel and xylophone",
+            "warm upright bass",
+            "light drums played with brushes",
+            "handclaps",
+            "a warm, friendly young female lead vocalist with natural, native Indonesian pronunciation",
+            "a cheerful group of adult voices joins on the hook and the shouts",
+            "clear, upfront vocals, every word easy to understand",
+            "joyful and singable",
+            "professional, radio-ready mix"
+          ],
+          "negative_global_styles": [
+            "dark",
+            "sad",
+            "scary",
+            "aggressive",
+            "EDM",
+            "dubstep",
+            "heavy rock drums",
+            "distorted guitar",
+            "autotune",
+            "robotic vocals",
+            "warbly pitch",
+            "lo-fi",
+            "English accent",
+            "rap",
+            "mumbled words",
+            "reverb-drowned vocals",
+            "fade out"
+          ],
+          "sections": [
+            {
+              "section_name": "Hitung",
+              "positive_local_styles": [
+                "three knocks on a wooden book cover",
+                "the group shouts the count, one number per beat",
+                "glockenspiel sparkle"
+              ],
+              "negative_local_styles": [],
+              "duration_ms": 3000,
+              "lines": [
+                "Satu, dua, tiga!"
+              ]
+            },
+            {
+              "section_name": "Bait",
+              "positive_local_styles": [
+                "the lead vocal sings clearly",
+                "bouncy ukulele",
+                "handclaps on 2 and 4"
+              ],
+              "negative_local_styles": [
+                "fast lyrics"
+              ],
+              "duration_ms": 5600,
+              "lines": [
+                "Buka bukunya, yuk kita baca!",
+                "Ada Tunas, ada cerita!"
+              ]
+            },
+            {
+              "section_name": "Hook",
+              "positive_local_styles": [
+                "the catchy hook",
+                "lead and group sing together",
+                "rising energy"
+              ],
+              "negative_local_styles": [],
+              "duration_ms": 6400,
+              "lines": [
+                "Tum tum tumbuh, Tunas tumbuh!",
+                "Tum tum tumbuh, kita tumbuh!"
+              ]
+            },
+            {
+              "section_name": "Akhir",
+              "positive_local_styles": [
+                "the group cheers 'yeay'",
+                "the show name sung clearly by everyone",
+                "button ending on a bright held chord",
+                "one glockenspiel ding at the very end"
+              ],
+              "negative_local_styles": [
+                "fade out"
+              ],
+              "duration_ms": 5000,
+              "lines": [
+                "Marilah bertumbuh! Yeay!",
+                "Tunas Tumbuh, the Series!"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "v3-3",
+        "seed": 503,
+        "plan": {
+          "positive_global_styles": [
+            "catchy, polished preschool TV theme song",
+            "112 BPM",
+            "F major",
+            "bright acoustic ukulele and nylon guitar",
+            "glockenspiel and xylophone",
+            "warm upright bass",
+            "light drums played with brushes",
+            "handclaps",
+            "a warm, friendly young female lead vocalist with natural, native Indonesian pronunciation",
+            "a cheerful group of adult voices joins on the hook and the shouts",
+            "clear, upfront vocals, every word easy to understand",
+            "joyful and singable",
+            "professional, radio-ready mix"
+          ],
+          "negative_global_styles": [
+            "dark",
+            "sad",
+            "scary",
+            "aggressive",
+            "EDM",
+            "dubstep",
+            "heavy rock drums",
+            "distorted guitar",
+            "autotune",
+            "robotic vocals",
+            "warbly pitch",
+            "lo-fi",
+            "English accent",
+            "rap",
+            "mumbled words",
+            "reverb-drowned vocals",
+            "fade out"
+          ],
+          "sections": [
+            {
+              "section_name": "Hitung",
+              "positive_local_styles": [
+                "three knocks on a wooden book cover",
+                "the group shouts the count, one number per beat",
+                "glockenspiel sparkle"
+              ],
+              "negative_local_styles": [],
+              "duration_ms": 3000,
+              "lines": [
+                "Satu, dua, tiga!"
+              ]
+            },
+            {
+              "section_name": "Bait",
+              "positive_local_styles": [
+                "the lead vocal sings clearly",
+                "bouncy ukulele",
+                "handclaps on 2 and 4"
+              ],
+              "negative_local_styles": [
+                "fast lyrics"
+              ],
+              "duration_ms": 5600,
+              "lines": [
+                "Buka bukunya, yuk kita baca!",
+                "Ada Tunas, ada cerita!"
+              ]
+            },
+            {
+              "section_name": "Hook",
+              "positive_local_styles": [
+                "the catchy hook",
+                "lead and group sing together",
+                "rising energy"
+              ],
+              "negative_local_styles": [],
+              "duration_ms": 6400,
+              "lines": [
+                "Tum tum tumbuh, Tunas tumbuh!",
+                "Tum tum tumbuh, kita tumbuh!"
+              ]
+            },
+            {
+              "section_name": "Akhir",
+              "positive_local_styles": [
+                "the group cheers 'yeay'",
+                "the show name sung clearly by everyone",
+                "button ending on a bright held chord",
+                "one glockenspiel ding at the very end"
+              ],
+              "negative_local_styles": [
+                "fade out"
+              ],
+              "duration_ms": 5000,
+              "lines": [
+                "Marilah bertumbuh! Yeay!",
+                "Tunas Tumbuh, the Series!"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "v3-4",
+        "seed": 504,
+        "plan": {
+          "positive_global_styles": [
+            "catchy, polished preschool TV theme song",
+            "112 BPM",
+            "F major",
+            "bright acoustic ukulele and nylon guitar",
+            "glockenspiel and xylophone",
+            "warm upright bass",
+            "light drums played with brushes",
+            "handclaps",
+            "a warm, friendly young female lead vocalist with natural, native Indonesian pronunciation",
+            "a cheerful group of adult voices joins on the hook and the shouts",
+            "clear, upfront vocals, every word easy to understand",
+            "joyful and singable",
+            "professional, radio-ready mix"
+          ],
+          "negative_global_styles": [
+            "dark",
+            "sad",
+            "scary",
+            "aggressive",
+            "EDM",
+            "dubstep",
+            "heavy rock drums",
+            "distorted guitar",
+            "autotune",
+            "robotic vocals",
+            "warbly pitch",
+            "lo-fi",
+            "English accent",
+            "rap",
+            "mumbled words",
+            "reverb-drowned vocals",
+            "fade out"
+          ],
+          "sections": [
+            {
+              "section_name": "Hitung",
+              "positive_local_styles": [
+                "three knocks on a wooden book cover",
+                "the group shouts the count, one number per beat",
+                "glockenspiel sparkle"
+              ],
+              "negative_local_styles": [],
+              "duration_ms": 3000,
+              "lines": [
+                "Satu, dua, tiga!"
+              ]
+            },
+            {
+              "section_name": "Bait",
+              "positive_local_styles": [
+                "the lead vocal sings clearly",
+                "bouncy ukulele",
+                "handclaps on 2 and 4"
+              ],
+              "negative_local_styles": [
+                "fast lyrics"
+              ],
+              "duration_ms": 5600,
+              "lines": [
+                "Buka bukunya, yuk kita baca!",
+                "Ada Tunas, ada cerita!"
+              ]
+            },
+            {
+              "section_name": "Hook",
+              "positive_local_styles": [
+                "the catchy hook",
+                "lead and group sing together",
+                "rising energy"
+              ],
+              "negative_local_styles": [],
+              "duration_ms": 6400,
+              "lines": [
+                "Tum tum tumbuh, Tunas tumbuh!",
+                "Tum tum tumbuh, kita tumbuh!"
+              ]
+            },
+            {
+              "section_name": "Akhir",
+              "positive_local_styles": [
+                "the group cheers 'yeay'",
+                "the show name sung clearly by everyone",
+                "button ending on a bright held chord",
+                "one glockenspiel ding at the very end"
+              ],
+              "negative_local_styles": [
+                "fade out"
+              ],
+              "duration_ms": 5000,
+              "lines": [
+                "Marilah bertumbuh! Yeay!",
+                "Tunas Tumbuh, the Series!"
+              ]
+            }
+          ]
+        }
       }
     ],
     "stems": [
       "b-ukulele",
       "a-ukulele"
     ],
-    "note": "Merwyn switched to take A (28 Nov 2026). Remixed from its stems: vocals +4 dB, and the cast shouts TemanTumbuh! over the music at the end. Tunas joins the shout once Tunas has a voice.",
-    "transcribe": [],
+    "note": "v3 (28 Nov 2026): Merwyn's new lyrics for the hook and ending, sung whole (no stem splicing). Takes are checked with speech-to-text before he hears them.",
+    "transcribe": [
+      "v3-1",
+      "v3-2",
+      "v3-3",
+      "v3-4"
+    ],
     "remix": {
       "take": "a-ukulele",
       "vocal_db": 4,
