@@ -1,0 +1,533 @@
+{
+ "language_code": "ind",
+ "language_probability": 1.0,
+ "text": "Satu, dua, tiga. Buku-buku punya kita baca. Ada tentang sada cerita. Tum, tum, tum, batu nas tumbebu. Tum, tum, tumbu, kita tumbuh. Mari orang tumbuh. Hei! ",
+ "words": [
+  {
+   "text": "Satu,",
+   "start": 0.12,
+   "end": 1.14,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.06557735539972782,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 1.14,
+   "end": 1.22,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.0002910667099058628,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "dua,",
+   "start": 1.22,
+   "end": 2.08,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.00025957284015021287,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 2.08,
+   "end": 2.3,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.0003159739135298878,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "tiga.",
+   "start": 2.3,
+   "end": 3.1,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.07006702006328851,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 3.1,
+   "end": 3.1,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.20490583777427673,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "Buku-buku",
+   "start": 4.44,
+   "end": 5.0,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.13238340616226196,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 5.0,
+   "end": 5.0,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.16423287987709045,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "punya",
+   "start": 5.0,
+   "end": 5.5,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.16423287987709045,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 5.5,
+   "end": 5.54,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.11259773373603821,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "kita",
+   "start": 5.72,
+   "end": 6.02,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.11259773373603821,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 6.02,
+   "end": 6.08,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.006553704384714365,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "baca.",
+   "start": 6.08,
+   "end": 6.52,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.02352926917374134,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 6.52,
+   "end": 6.66,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.00573939923197031,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "Ada",
+   "start": 6.66,
+   "end": 6.88,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.00573939923197031,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 6.88,
+   "end": 6.94,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -1.375076174736023,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "tentang",
+   "start": 6.94,
+   "end": 7.32,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -1.375076174736023,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 7.32,
+   "end": 7.48,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -1.1414037942886353,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "sada",
+   "start": 7.48,
+   "end": 7.86,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -1.1414037942886353,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 7.86,
+   "end": 7.98,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.0022600365336984396,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "cerita.",
+   "start": 7.98,
+   "end": 8.66,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.001943713503091463,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 8.66,
+   "end": 9.02,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.38247519731521606,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "Tum,",
+   "start": 9.02,
+   "end": 9.2,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.41602709889411926,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 9.2,
+   "end": 9.3,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.14568841457366943,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "tum,",
+   "start": 9.3,
+   "end": 9.5,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.10926866530257939,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 9.5,
+   "end": 9.58,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.005309765227138996,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "tum,",
+   "start": 9.58,
+   "end": 9.76,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.05559040210209787,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 9.76,
+   "end": 9.82,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.8442105054855347,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "batu",
+   "start": 9.82,
+   "end": 10.22,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.8442105054855347,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 10.22,
+   "end": 10.34,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.8466528654098511,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "nas",
+   "start": 10.34,
+   "end": 10.82,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.8466528654098511,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 10.82,
+   "end": 10.9,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.7437704205513,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "tumbebu.",
+   "start": 10.9,
+   "end": 11.96,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.6891283362638205,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 11.96,
+   "end": 11.96,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.013133331201970577,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "Tum,",
+   "start": 13.02,
+   "end": 13.3,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.010602684109471738,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 13.3,
+   "end": 13.38,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.003333608852699399,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "tum,",
+   "start": 13.38,
+   "end": 13.48,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.002506465049009421,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 13.48,
+   "end": 13.58,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.5204519033432007,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "tumbu,",
+   "start": 13.58,
+   "end": 13.98,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.43835955082128447,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 13.98,
+   "end": 14.1,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.0006237468332983553,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "kita",
+   "start": 14.1,
+   "end": 14.52,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.0006237468332983553,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 14.52,
+   "end": 14.62,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.2617526054382324,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "tumbuh.",
+   "start": 14.62,
+   "end": 15.1,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.22443777725233563,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 15.1,
+   "end": 15.36,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.0023197426926344633,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "Mari",
+   "start": 15.36,
+   "end": 15.58,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.0023197426926344633,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 15.58,
+   "end": 15.64,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -1.9798071384429932,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "orang",
+   "start": 15.64,
+   "end": 15.8,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -1.9798071384429932,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 15.8,
+   "end": 15.86,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.11876314133405685,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "tumbuh.",
+   "start": 15.86,
+   "end": 16.32,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.10915508972746986,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 16.32,
+   "end": 16.32,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -0.24787244200706482,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": "Hei!",
+   "start": 16.76,
+   "end": 17.12,
+   "type": "word",
+   "speaker_id": null,
+   "logprob": -0.18596056216483703,
+   "characters": null,
+   "channel_index": null
+  },
+  {
+   "text": " ",
+   "start": 17.12,
+   "end": 17.12,
+   "type": "spacing",
+   "speaker_id": null,
+   "logprob": -1.3242368698120117,
+   "characters": null,
+   "channel_index": null
+  }
+ ],
+ "channel_index": null,
+ "additional_formats": null,
+ "transcription_id": "w3Aw7bWw2kZ8K8KPWu3r",
+ "entities": null,
+ "audio_duration_secs": 20.0881875,
+ "edited_transcript": null
+}
