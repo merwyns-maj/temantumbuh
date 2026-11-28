@@ -1,0 +1,26 @@
+[
+ {
+  "type": "tts",
+  "text": "[excited] Eh, tunggu dulu! Stok ASIP kamu nggak perlu ditambah tiap bulan, lho. [laughs] Serius! Jadi gini... bayi umur satu sampai enam bulan, sekali minum tuh cuma sembilan puluh sampai seratus dua puluh mililiter. Sehari? Ya, sekitar tujuh ratus lima puluh. Dan itu nggak banyak berubah sampai enam bulan! Nah, cara hitungnya gampang banget: tiga puluh mililiter... untuk tiap jam kamu pergi. [cheerfully] Simpan, ya!",
+  "voice_id": "Nw5xnsRTP8ISIAlgGom9",
+  "out": "v3-mama-creative.mp3",
+  "model_id": "eleven_v3",
+  "language_code": "id",
+  "timestamps": true,
+  "settings": {
+   "stability": 0.0
+  }
+ },
+ {
+  "type": "tts",
+  "text": "[excited] Eh, tunggu dulu! Stok ASIP kamu nggak perlu ditambah tiap bulan, lho. [laughs] Serius! Jadi gini... bayi umur satu sampai enam bulan, sekali minum tuh cuma sembilan puluh sampai seratus dua puluh mililiter. Sehari? Ya, sekitar tujuh ratus lima puluh. Dan itu nggak banyak berubah sampai enam bulan! Nah, cara hitungnya gampang banget: tiga puluh mililiter... untuk tiap jam kamu pergi. [cheerfully] Simpan, ya!",
+  "voice_id": "Nw5xnsRTP8ISIAlgGom9",
+  "out": "v3-mama-natural.mp3",
+  "model_id": "eleven_v3",
+  "language_code": "id",
+  "timestamps": true,
+  "settings": {
+   "stability": 0.5
+  }
+ }
+]
