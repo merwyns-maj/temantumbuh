@@ -1,2 +1,2 @@
-tts: asip-ts-mama.mp3 327305 bytes
-music: bed-ceria-30s.mp3 480697 bytes
+tts: v3-mama-creative.mp3 559272 bytes
+tts: v3-mama-natural.mp3 536284 bytes
