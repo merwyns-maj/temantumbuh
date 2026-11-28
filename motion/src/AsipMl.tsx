@@ -49,7 +49,7 @@ const Cup: React.FC<{level: number; w: number}> = ({level, w}) => (
 );
 
 // ---------- Scene 1: hook ----------
-const Hook: React.FC = () => {
+const Hook: React.FC<{serius: number}> = ({serius}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
   const p = (d: number) => spring({frame: f - d, fps, config: {damping: 9, stiffness: 180}});
@@ -82,6 +82,11 @@ const Hook: React.FC = () => {
       <div style={{position: 'absolute', left: 690, top: 600, transform: `translateY(${(1 - p(30)) * 300}px) rotate(${Math.sin(f / 6) * 6}deg)`}}>
         <Img src="tunas-kaget.svg" w={190} />
       </div>
+      {f >= serius && (
+        <div style={{position: 'absolute', left: 110, top: 640, ...display, fontSize: 96, color: '#fff', background: C.sageDeep,
+          padding: '10px 34px', borderRadius: 28, transform: `rotate(-8deg) scale(${spring({frame: f - serius, fps, config: {damping: 7, stiffness: 220}})})`,
+          boxShadow: '0 10px 0 rgba(74,63,53,.18)'}}>SERIUS!</div>
+      )}
     </AbsoluteFill>
   );
 };
@@ -276,7 +281,7 @@ export const AsipMl: React.FC = () => {
     <AbsoluteFill style={{background: C.bg}}>
       <Fonts />
       <LivingBg />
-      <Scene from={T.hook} to={T.bayi}><Hook /></Scene>
+      <Scene from={T.hook} to={T.bayi}><Hook serius={fr(at(words, 'serius'))} /></Scene>
       <Scene from={T.bayi} to={T.sehari}><PerFeed len={fr(T.sehari - T.bayi)} /></Scene>
       <Scene from={T.sehari} to={T.dan}><PerDay /></Scene>
       <Scene from={T.dan} to={T.cara}><Flat /></Scene>
@@ -286,7 +291,7 @@ export const AsipMl: React.FC = () => {
       <Captions words={words} until={voiceEnd + 0.3} />
       <Audio src={staticFile('voice.mp3')} />
       <Sequence from={fr(voiceEnd + 0.15)}><Audio src={staticFile('sting.mp3')} volume={0.9} /></Sequence>
-      {HAS_BED && <Audio src={staticFile('bed.mp3')} volume={(f) => interpolate(f, [0, 15, total - 30, total], [0, 0.1, 0.1, 0], {extrapolateRight: 'clamp'})} />}
+      {HAS_BED && <Audio loop src={staticFile('bed.mp3')} volume={(f) => interpolate(f, [0, 15, total - 30, total], [0, 0.1, 0.1, 0], {extrapolateRight: 'clamp'})} />}
     </AbsoluteFill>
   );
 };

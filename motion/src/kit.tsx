@@ -38,7 +38,8 @@ export function wordsFrom(a: Align): Word[] {
     }
   });
   if (cur) out.push({text: cur, start: s, end: e});
-  return out;
+  // drop ElevenLabs v3 audio tags like [excited]
+  return out.map((w) => ({...w, text: w.text.replace(/\[[^\]]*\]/g, '')})).filter((w) => w.text.length > 0);
 }
 // Start time of the first word that begins with `w` (case-insensitive), searching from index `from`.
 export function at(words: Word[], w: string, from = 0): number {
