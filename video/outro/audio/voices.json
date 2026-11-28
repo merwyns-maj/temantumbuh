@@ -1,0 +1,32 @@
+{
+ "dokter": {
+  "design": "991646de7be31f66",
+  "source": "designed",
+  "voice_id": "yvorV66e6wM7xs7CdgQe"
+ },
+ "mama": {
+  "design": "73bae53ca77947ff",
+  "source": "designed",
+  "voice_id": "Nw5xnsRTP8ISIAlgGom9"
+ },
+ "narator": {
+  "design": "7d2df83d26fffb16",
+  "source": "designed",
+  "voice_id": "XALReEJNsI9AHkFNC5cg"
+ },
+ "papa": {
+  "design": "167abb438254608e",
+  "source": "designed",
+  "voice_id": "wxhp2qcUcJM6fFJuMrMF"
+ },
+ "penjaga": {
+  "design": "14bf842dfca4de86",
+  "source": "designed",
+  "voice_id": "28QkLAfjvsnvBM1RA66G"
+ },
+ "perawat": {
+  "design": "9ec546ec2faa34e3",
+  "source": "designed",
+  "voice_id": "Dy6uJGZ6wXOV8AgBPMk0"
+ }
+}
