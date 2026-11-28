@@ -1,6 +1,6 @@
 {
   "film": "outro",
-  "note": "Series outro (10 s), after the Ingat ya! summary. Voices come from the episode cast (voices_from). The music is take A's melody slowed into a lullaby (audio/music/penutup.own.wav). Change NEXT in main.js (or ?next=) to the next story's title.",
+  "note": "Series outro (11 s), after the Ingat ya! summary. Voices come from the episode cast (voices_from). The music is take A's melody slowed into a lullaby (audio/music/penutup.own.wav). Change NEXT in main.js (or ?next=) to the next story's title. The cast says Dadaaah! together at the end (add tunas once Tunas has a voice).",
   "language": "id",
   "voices_from": "tunas-e01",
   "cast": {},
@@ -12,10 +12,28 @@
       "text": "Sekarang, yuk baca buku sama Mama atau Papa!"
     },
     {
-      "t": 6.6,
+      "t": 6.0,
       "who": "narator",
       "tone": "warm",
       "text": "Sampai ketemu lagi, ya!"
+    },
+    {
+      "t": 8.0,
+      "who": "mama",
+      "tone": "cheerful",
+      "text": "Dadaaah!"
+    },
+    {
+      "t": 8.0,
+      "who": "papa",
+      "tone": "cheerful",
+      "text": "Dadaaah!"
+    },
+    {
+      "t": 8.02,
+      "who": "narator",
+      "tone": "cheerful",
+      "text": "Dadaaah!"
     }
   ],
   "music": {
@@ -30,7 +48,7 @@
       {
         "cue": "penutup",
         "t0": 0.0,
-        "t1": 10.0,
+        "t1": 11.0,
         "gain": 0.55
       }
     ]

@@ -6,10 +6,10 @@ import { lerp, seg, ss, eio, eo, back, track, TAU } from './lib.js';
 import * as A from './art.js';
 import { makeBook, coverCanvases, texOf, BW, BD } from './book.js';
 import { makePost } from './post.js';
-import { makeTunas, drawTunas, TU_W, TU_H } from './chars.js';
+import { makeTunas, makeAdult, drawTunas, TU_W, TU_H } from './chars.js';
 import { cv } from './paper.js';
 
-const W = 1920, H = 1080, Q = new URLSearchParams(location.search), DUR = 10;
+const W = 1920, H = 1080, Q = new URLSearchParams(location.search), DUR = 11;
 const NEXT = (Q.get('next') || 'Sikat|Gigi').split('|');   // the next story's title on the glowing book
 const renderer = new THREE.WebGLRenderer({ antialias: false, preserveDrawingBuffer: true, powerPreference: 'high-performance' });
 renderer.setSize(W, H); renderer.setPixelRatio(1);
@@ -50,6 +50,7 @@ const SHELF = [['#d9734f', 'Cuci', 'Tangan'], ['#e3b23c', NEXT[0], NEXT[1] || ''
 const STAND = [.55, .8, 1.05];
 
 const tunas = makeTunas(.08); scene.add(tunas.root, tunas.shadow);
+const mama = makeAdult('mama', .13), papa = makeAdult('papa', .134); scene.add(mama.root, mama.shadow, papa.root, papa.shadow);
 const blink = t => (t % 3.4) < .13 ? 1 : 0;
 const hop = (t, a, h = .006, d = .4) => t > a && t < a + d ? Math.sin(Math.PI * (t - a) / d) * h : 0;
 
@@ -62,14 +63,17 @@ const lampLight = new THREE.PointLight('#ffcf94', .35, .9, 2); lampLight.positio
 // camera: from the top-down view the episode ends on, down to desk level
 const CAM = track([
   [0, [0, .74, .16, 0, 0, .15, 32, 3]], [.3, [0, .74, .16, 0, 0, .15, 32, 3]],
-  [2.0, [0, .25, .82, 0, .035, .19, 30, 2.2]], [8.0, [0, .23, .78, 0, .035, .2, 30, 2.2]], [10, [0, .22, .76, 0, .035, .2, 30, 2.2]],
+  [2.0, [0, .25, .82, 0, .035, .19, 30, 2.2]], [8.0, [0, .23, .78, 0, .04, .2, 30, 2.2]], [11, [0, .22, .76, 0, .04, .2, 30, 2.2]],
 ]);
 cam.up.set(0, .7, -.7);
 
 // read-along text at the bottom, in the book's font
 const LINES = [
   [2.2, 'Sekarang, yuk baca buku sama Mama atau Papa!'],
-  [6.6, 'Sampai ketemu lagi, ya!'],
+  [6.0, 'Sampai ketemu lagi, ya!'],
+  [8.0, 'Dadaaah!'],
+  [8.0, 'Dadaaah!'],
+  [8.02, 'Dadaaah!'],
 ];
 function drawSubs(t, a = 1) {
   const L = [...LINES].reverse().find(([t0]) => t >= t0); if (!L) return; const [t0, txt] = L, nx = LINES[LINES.indexOf(L) + 1];
@@ -90,12 +94,19 @@ window.render = t => {
   // Tunas pops up on the closed book, points at the books, waves goodbye
   const up = back(seg(t, 1.3, 1.85), 1.7);
   tunas.root.visible = tunas.shadow.visible = up > .01;
-  const point = t > 3.0 && t < 5.4, bye = t > 6.6 && t < 9.2, wave = bye ? Math.sin(t * 9) * .35 : 0;
+  const point = t > 3.0 && t < 5.4, bye = t > 6.0 && t < 10.0, wave = bye ? Math.sin(t * 9) * .35 : 0;
   tunas.pose({ expr: 'senang', blink: blink(t), armL: bye ? 2.3 + wave : (t > 1.9 && t < 2.6 ? 2.3 : .35), armR: point ? 1.6 : bye ? 2.3 - wave : .35, look: point ? -.25 : 0 });
-  tunas.root.position.set(0, hop(t, 2.15, .008, .4) + hop(t, 6.55, .012, .45), .345); tunas.root.rotation.x = -(Math.PI / 2) * (1 - up);
+  tunas.root.position.set(0, hop(t, 2.15, .008, .4) + hop(t, 6.0, .012, .45) + hop(t, 8.0, .02, .5), .345); tunas.root.rotation.x = -(Math.PI / 2) * (1 - up);
   tunas.shadow.position.set(0, .0004, .345);
   // the room winds down: the lamp dims, then a warm fade
-  const dim = ss(seg(t, 8.0, 9.6));
+  // Mama and Papa pop up beside Tunas and wave with everyone; all jump on "Dadaaah!"
+  for (const [c, x, a, ph] of [[mama, -.17, 6.1, 0], [papa, .17, 6.3, 1.3]]) {
+    const k = back(seg(t, a, a + .55), 1.7); c.root.visible = c.shadow.visible = k > .01;
+    const w = Math.sin(t * 8 + ph) * .35;
+    c.pose({ armL: x > 0 ? 2.3 + w : .12, armR: x < 0 ? 2.3 + w : .12, look: x < 0 ? .35 : -.35, blink: ((t + ph) % 3.1) < .13 ? 1 : 0, sandals: x > 0 });
+    c.root.position.set(x, hop(t, 8.0 + ph * .02, .016, .5), .3); c.root.rotation.x = -(Math.PI / 2) * (1 - k); c.shadow.position.set(x, .0004, .3);
+  }
+  const dim = ss(seg(t, 9.2, 10.4));
   if (bulb) bulb.emissiveIntensity = 6 * (1 - .7 * dim); lampLight.intensity = .35 * (1 - .6 * dim); sun.intensity = 2.2 * (1 - .55 * dim); hemi.intensity = .5 * (1 - .5 * dim);
   const c = CAM(t); cam.position.set(c[0], c[1], c[2]); cam.fov = c[6]; cam.lookAt(c[3], c[4], c[5]); cam.updateProjectionMatrix(); cam.updateMatrixWorld();
   post.dof.focus = Math.hypot(c[0] - c[3], c[1] - c[4], c[2] - c[5]); post.dof.aper = c[7]; post.dof.maxCoc = 14;
@@ -103,9 +114,9 @@ window.render = t => {
   scene.environmentIntensity = .45 * (1 - .4 * dim); scene.backgroundIntensity = .75 * (1 - .5 * dim);
   scene.updateMatrixWorld(true); post.composer.render();
   OX.clearRect(0, 0, W, H);
-  drawSubs(t, 1 - ss(seg(t, 8.4, 9.0)));
-  const f = ss(seg(t, 8.6, 9.7)); if (f > 0) { OX.fillStyle = `rgba(30,20,14,${f})`; OX.fillRect(0, 0, W, H); }
-  const m = Math.min(ss(seg(t, 8.9, 9.4)), 1); if (m > 0) { OX.save(); OX.globalAlpha = m; OX.textAlign = 'center'; OX.textBaseline = 'middle';
+  drawSubs(t, 1 - ss(seg(t, 9.3, 9.8)));
+  const f = ss(seg(t, 9.5, 10.5)); if (f > 0) { OX.fillStyle = `rgba(30,20,14,${f})`; OX.fillRect(0, 0, W, H); }
+  const m = Math.min(ss(seg(t, 9.9, 10.4)), 1); if (m > 0) { OX.save(); OX.globalAlpha = m; OX.textAlign = 'center'; OX.textBaseline = 'middle';
     OX.font = '96px "Lilita One"'; OX.fillStyle = '#fff3d6'; OX.fillText('TemanTumbuh', W / 2, H / 2 - 20); OX.font = '600 34px Fredoka'; OX.fillStyle = '#e0b456'; OX.fillText('S E R I E S', W / 2, H / 2 + 52); OX.restore(); }
 };
 window.render(Number(Q.get('t') || 0));
