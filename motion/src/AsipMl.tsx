@@ -305,8 +305,8 @@ export const AsipMl: React.FC = () => {
       <Progress total={total} />
       <Captions words={words} until={voiceEnd + 0.3} />
       <Audio src={staticFile('voice.mp3')} />
-      <Sequence from={fr(voiceEnd + 0.15)}><Audio src={staticFile('sting.mp3')} volume={0.9} /></Sequence>
-      {HAS_BED && <Audio loop src={staticFile('bed.mp3')} volume={(f) => interpolate(f, [0, 15, total - 30, total], [0, 0.1, 0.1, 0], {extrapolateRight: 'clamp'})} />}
+      <Sequence from={fr(voiceEnd + 0.35)}><Audio src={staticFile('sting.mp3')} volume={1} /></Sequence>
+      {HAS_BED && <Audio loop src={staticFile('bed.mp3')} volume={(f) => interpolate(f, [0, 15, fr(voiceEnd) - 18, fr(voiceEnd + 0.3)], [0, 0.1, 0.1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})} />}
     </AbsoluteFill>
   );
 };
