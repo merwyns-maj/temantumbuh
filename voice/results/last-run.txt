@@ -1,2 +1,1 @@
-tts: v3-mama-creative.mp3 559272 bytes
-tts: v3-mama-natural.mp3 536284 bytes
+tts: v3-mama-natural-2.mp3 688421 bytes
