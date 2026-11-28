@@ -61,3 +61,49 @@ Source: https://www.mouthhealthy.org/-/media/project/ada-organization/ada/mouthh
 - Molars come before canines. That's the surprise and the hook.
 - All 20 teeth are usually in by about 33 months.
 - Ranges vary. Late but within the range is normal. Gigi pertama (earlier post): no tooth by 12 months → check at the dentist or doctor. Re-check that line against the earlier post's sources before reusing it.
+
+## 4. Duduk, merangkak, jalan (WHO Motor Development Study, 2006)
+Source: https://www.rti.org/publication/motor-development-study-windows-achievement-six-gross-motor-development-milestones (abstract; WHO page: https://www.who.int/tools/child-growth-standards/standards/motor-development-milestones)
+
+Windows of achievement, 1st to 99th percentile, in months:
+
+| Milestone | Window |
+|---|---|
+| Sitting without support | 3.8-9.2 |
+| Standing with assistance | 4.8-11.4 |
+| Hands-and-knees crawling | 5.2-13.5 |
+| Walking with assistance | 5.9-13.7 |
+| Standing alone | 6.9-16.9 |
+| Walking alone | 8.2-17.6 |
+
+About 4.3% of children never crawled on hands and knees, which is normal.
+
+**Copy notes:** the hook is "Merangkak bukan syarat jalan". Not yet sitting by 9 months, or not yet walking by about 18 months, is a reason to check with a doctor or posyandu. Pair it with KPSP / buku KIA.
+
+## 5. Air putih buat bayi (AAP healthychildren.org)
+Source: https://healthychildren.org/English/healthy-living/nutrition/Pages/Recommended-Drinks-for-Young-Children-Ages-0-5.aspx
+
+| Age | Water |
+|---|---|
+| 0-6 months | None needed. Breast milk is enough for about 6 months. WHO also says no water before 6 months during exclusive breastfeeding. |
+| 6-12 months | About 120-240 ml a day (0.5-1 cup), from a cup |
+| 12-24 months | About 240-950 ml a day (1-4 cups) |
+
+- No juice under 1 year.
+
+**Copy notes:** no formula, toddler milk or bottles. Show a small open cup or a straw cup.
+
+## 6. Berat badan bayi naik berapa (healthdirect, Australian Government)
+Source: https://healthdirect.gov.au/how-your-baby-gains-weight
+- In the first week, a baby can lose up to 10% of birth weight. That's normal.
+- Back to birth weight at around 10-14 days (often by 2-3 weeks).
+- About double the birth weight by about 4 months.
+- About triple by around 12 months. The body text says 13-15 months, so write "sekitar 1 tahun".
+
+**Copy notes:** for each child, use the growth chart in buku KIA (KMS). "Naik" matters more than the absolute number. Add a Kemenkes buku KIA line before posting.
+
+## Plan, week 6: six different topics, no repeats (Merwyn, 28 Nov)
+Pairs match by category, one carousel and one video each:
+- Health: Demam (carousel) vs BB naik (video)
+- Feeding: Air putih (carousel) vs ASIP tahan berapa lama (video)
+- Milestones: Duduk/merangkak/jalan (carousel) vs Urutan gigi (video)
