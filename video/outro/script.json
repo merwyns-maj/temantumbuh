@@ -1,0 +1,61 @@
+{
+  "film": "outro",
+  "note": "Series outro (10 s), after the Ingat ya! summary. Voices come from the episode cast (voices_from). The music is take A's melody slowed into a lullaby (audio/music/penutup.own.wav). Change NEXT in main.js (or ?next=) to the next story's title.",
+  "language": "id",
+  "voices_from": "tunas-e01",
+  "cast": {},
+  "lines": [
+    {
+      "t": 2.2,
+      "who": "narator",
+      "tone": "warm",
+      "text": "Sekarang, yuk baca buku sama Mama atau Papa!"
+    },
+    {
+      "t": 6.6,
+      "who": "narator",
+      "tone": "warm",
+      "text": "Sampai ketemu lagi, ya!"
+    }
+  ],
+  "music": {
+    "style": "",
+    "cues": {
+      "penutup": {
+        "seconds": 10,
+        "prompt": "(own file)"
+      }
+    },
+    "plan": [
+      {
+        "cue": "penutup",
+        "t0": 0.0,
+        "t1": 10.0,
+        "gain": 0.55
+      }
+    ]
+  },
+  "sfx": {
+    "defs": {
+      "chime": {
+        "seconds": 1.5,
+        "prompt": "(copied from the episode)"
+      },
+      "page": {
+        "seconds": 1.6,
+        "prompt": "(copied from the episode)"
+      }
+    },
+    "from_events": {
+      "stand": "page"
+    },
+    "extra": [
+      {
+        "t": 5.55,
+        "sfx": "chime",
+        "gain": 0.5
+      }
+    ]
+  },
+  "loudness": -18
+}

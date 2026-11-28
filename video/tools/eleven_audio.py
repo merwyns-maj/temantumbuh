@@ -82,7 +82,10 @@ try:
     sub = el.user.subscription.get(); print(f'credits: {sub.character_count} used of {sub.character_limit} ({sub.tier})')
 except Exception: pass
 
-# —— 2. voices ——
+# —— 2. voices ——   (a film with voices_from reuses another film's cast and designs nothing)
+if S.get('voices_from'):
+    vp = os.path.join(os.path.dirname(FILM), S['voices_from'], 'audio', 'voices.json')
+    VOI.update(json.load(open(vp)) if os.path.exists(vp) else {})
 clones = {}   # characters with a clone_name use the account's cloned voice of that name, once it exists
 names = {c['clone_name'].strip().lower(): who for who, c in S['cast'].items() if c.get('clone_name')}
 try:
@@ -146,6 +149,7 @@ for i, l in enumerate(lines):
 
 # —— 4. sound effects ——
 for name, d in S['sfx']['defs'].items():
+    if d.get('prompt', '').startswith('('): continue   # a copied file, not made here
     kw = dict(text=d['prompt'], duration_seconds=d.get('seconds'), output_format='mp3_44100_128')
     if d.get('loop'): kw['loop'] = True
     make(f'{OUT}/sfx/{name}.mp3', kw, lambda kw=kw: el.text_to_sound_effects.convert(**kw))
