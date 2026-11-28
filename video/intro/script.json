@@ -14,7 +14,7 @@
     "extra": []
   },
   "jingle": {
-    "pick": "b-ukulele",
+    "pick": "a-ukulele",
     "takes": [
       {
         "name": "a-ukulele",
@@ -693,16 +693,17 @@
       }
     ],
     "stems": [
-      "b-ukulele"
+      "b-ukulele",
+      "a-ukulele"
     ],
-    "note": "Merwyn picked take B (27 Nov 2026). Remixed from its stems: vocals +4 dB, and the cast shouts TemanTumbuh! over the music at the end. Tunas joins the shout once Tunas has a voice.",
+    "note": "Merwyn switched to take A (28 Nov 2026). Remixed from its stems: vocals +4 dB, and the cast shouts TemanTumbuh! over the music at the end. Tunas joins the shout once Tunas has a voice.",
     "transcribe": [],
     "remix": {
-      "take": "b-ukulele",
+      "take": "a-ukulele",
       "vocal_db": 4,
       "music_db": -1,
-      "tag_from": 16.55,
-      "shout_at": 16.6
+      "tag_from": 16.72,
+      "shout_at": 16.7
     },
     "shout": {
       "text": "TemanTumbuh!",

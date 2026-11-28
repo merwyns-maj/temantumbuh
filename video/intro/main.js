@@ -13,9 +13,9 @@ import { makeTunas, makeAdult, drawTunas, TU_W, TU_H } from './chars.js';
 import { cv, sh, GRAIN, INK } from './paper.js';
 
 const W = 1920, H = 1080, Q = new URLSearchParams(location.search), DUR = 20;
-const BPM = Number(Q.get('bpm') || 115), BEAT = 60 / BPM;   // take B measures about 115 BPM
-// word times in take B (from its transcript): Satu .2, dua 1.3, tiga 2.3 · Buka 4.5 · yuk kita baca 6.7 · Ada tunas 8.5 · ada cerita 9.4
-// instrumental 10–12.2 · Tum tum tumbuh 12.2/12.8 · tunas tumbuh 13.4 · Tum tum tumbuh 14.7/14.9 · kita tumbuh 15.5 · TemanTumbuh (cast shout) 16.75
+const BPM = Number(Q.get('bpm') || 112), BEAT = 60 / BPM;   // take A measures about 112 BPM
+// word times in take A (from its transcript): Satu .12, dua 1.24, tiga 2.3 · Buka 3.92 · ayo kita baca 5.3 · Ada tunas 7.98 · bercerita 9.26
+// instrumental 10.3–12.5 · Tum tum tumbuh 12.48/13.02 · tunas tumbuh 13.58 · Tum tum tumbuh 14.66/15.16 · kita tumbuh 15.7 · TemanTumbuh (cast shout) 16.85
 const renderer = new THREE.WebGLRenderer({ antialias: false, preserveDrawingBuffer: true, powerPreference: 'high-performance' });
 renderer.setSize(W, H); renderer.setPixelRatio(1);
 renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
@@ -77,24 +77,24 @@ const POPS = [];
 function pop(parent, item, x, y, z, rise, o = {}) { const g = new THREE.Group(); g.position.set(x, y, z); const m = cutMesh(item, o); g.add(m); parent.add(g); const r = { g, m, rise, dir: o.dir ?? 1, sway: o.sway || 0, ph: x * 40 }; POPS.push(r); return r; }
 const FOLD = [18.55, 18.95];   // everything folds flat before the book closes
 const upAt = (a, d = .55) => t => Math.min(back(seg(t, a, a + d), 1.7), 1 - ss(seg(t, ...FOLD)));
-pop(S, A.hill(.26, .085, '#9fd18a', '#7fb86a', 3), -.1, 0, .025, upAt(5.7));
-pop(S, A.hill(.24, .075, '#b5e39a', '#93c87a', 5, { dots: ['#ffffff', '#ffe066'] }), .11, 0, .035, upAt(5.85));
-pop(S, A.lolliTree(.1, '#5cbf4a', '#3f9934', 21), -.175, 0, .075, upAt(6.0), { sway: .03 });
-pop(S, A.lolliTree(.085, '#6fcc55', '#4ea93e', 22), .175, 0, .085, upAt(6.15), { sway: .03 });
-pop(S, A.bush(.05, .026, '#7cc35e', '#5aa543', 33), -.13, 0, .215, upAt(6.3), { dir: -1 });
-pop(S, A.bush(.045, .024, '#86cc66', '#62a94a', 34), .135, 0, .225, upAt(6.4), { dir: -1 });
-for (const [cx, cy, w, sd] of [[-.12, .25, .075, 3], [.05, .275, .06, 7]]) pop(K, A.cloud(w, sd), cx, cy, .006, upAt(6.0));
-const SUN = pop(K, A.sunOnStick(.026, .05), .15, .02, .005, upAt(5.6));
+pop(S, A.hill(.26, .085, '#9fd18a', '#7fb86a', 3), -.1, 0, .025, upAt(5.1));
+pop(S, A.hill(.24, .075, '#b5e39a', '#93c87a', 5, { dots: ['#ffffff', '#ffe066'] }), .11, 0, .035, upAt(5.25));
+pop(S, A.lolliTree(.1, '#5cbf4a', '#3f9934', 21), -.175, 0, .075, upAt(5.4), { sway: .03 });
+pop(S, A.lolliTree(.085, '#6fcc55', '#4ea93e', 22), .175, 0, .085, upAt(5.55), { sway: .03 });
+pop(S, A.bush(.05, .026, '#7cc35e', '#5aa543', 33), -.13, 0, .215, upAt(5.7), { dir: -1 });
+pop(S, A.bush(.045, .024, '#86cc66', '#62a94a', 34), .135, 0, .225, upAt(5.8), { dir: -1 });
+for (const [cx, cy, w, sd] of [[-.12, .25, .075, 3], [.05, .275, .06, 7]]) pop(K, A.cloud(w, sd), cx, cy, .006, upAt(5.4));
+const SUN = pop(K, A.sunOnStick(.026, .05), .15, .02, .005, upAt(5.0));
 // flowers pop on the hook's beats
 const FLW = [[-.07, .235, '#ff9ec1'], [.07, .24, '#ffffff'], [-.035, .262, '#ffe066'], [.04, .265, '#ff9ec1'], [-.105, .255, '#bfe0ff'], [.105, .25, '#ffe066'], [-.15, .26, '#ffffff'], [.15, .262, '#ff9ec1']];
-FLW.forEach(([x, z, col], i) => pop(S, A.flower(.028 + (i % 3) * .004, col, 40 + i), x, 0, z, upAt(12.2 + i * BEAT * 1.2, .35), { dir: -1, sway: .05 }));
+FLW.forEach(([x, z, col], i) => pop(S, A.flower(.028 + (i % 3) * .004, col, 40 + i), x, 0, z, upAt(12.48 + i * BEAT * 1.2, .35), { dir: -1, sway: .05 }));
 // the paper pot Tunas grows out of
 const potItem = cut(.05, .036, (x, W2, H2) => {
   x.beginPath(); x.moveTo(W2 * .12, H2 * .22); x.lineTo(W2 * .88, H2 * .22); x.lineTo(W2 * .76, H2); x.lineTo(W2 * .24, H2); x.closePath(); sh(x, '#e07856', 9);
   x.beginPath(); x.roundRect(0, 0, W2, H2 * .26, 14); sh(x, '#f08a66', 9);
   x.beginPath(); x.ellipse(W2 * .5, H2 * .62, W2 * .12, H2 * .14, 0, 0, TAU); x.fillStyle = '#c96446'; x.fill();
 }, { ay: 1 });
-const POT = pop(S, potItem, 0, 0, .185, t => Math.min(back(seg(t, 7.7, 8.2), 1.7), 1 - ss(seg(t, 10.2, 10.6))));
+const POT = pop(S, potItem, 0, 0, .185, t => Math.min(back(seg(t, 7.1, 7.6), 1.7), 1 - ss(seg(t, 9.7, 10.1))));
 // the banner: "TemanTumbuh Series"
 const bannerItem = cut(.15, .055, (x, W2, H2) => {
   x.beginPath(); x.roundRect(0, 0, W2, H2, 40); sh(x, '#fffaf0', 10);
@@ -103,10 +103,10 @@ const bannerItem = cut(.15, .055, (x, W2, H2) => {
   x.fillStyle = '#3f6b52'; x.fillText('TemanTumbuh', W2 / 2, H2 * .42);
   x.font = `600 ${Math.round(H2 * .2)}px Fredoka`; x.fillStyle = '#c46040'; x.fillText('S E R I E S', W2 / 2, H2 * .8);
 }, { ay: 1 });
-const BANNER = pop(K, bannerItem, 0, .125, .01, t => Math.min(back(seg(t, 16.7, 17.15), 1.6), 1 - ss(seg(t, ...FOLD))));
+const BANNER = pop(K, bannerItem, 0, .125, .01, t => Math.min(back(seg(t, 16.8, 17.25), 1.6), 1 - ss(seg(t, ...FOLD))));
 // paper-leaf confetti
 const LEAVES = []; { const r = mulberry(5); for (let i = 0; i < 46; i++) { const m = cutMesh(A.leafBit(['#6fbf5a', '#9fd18a', '#f3c45f', '#ef93a8', '#e07856'][i % 5]), { s: 1.3, shadow: false });
-  scene.add(m); LEAVES.push({ m, vx: (r() - .5) * .4, vy: .08 + r() * .14, vz: .02 + r() * .08, spin: (r() - .5) * 18, t0: 16.8 + r() * .25 }); } }
+  scene.add(m); LEAVES.push({ m, vx: (r() - .5) * .4, vy: .08 + r() * .14, vz: .02 + r() * .08, spin: (r() - .5) * 18, t0: 16.9 + r() * .25 }); } }
 
 // ---------- characters ----------
 const tunas = makeTunas(.05), mama = makeAdult('mama', .07), papa = makeAdult('papa', .072);
@@ -115,7 +115,7 @@ const blink = (t, o = 0) => ((t + o) % 3.7) < .13 ? 1 : 0;
 const hop = (t, a, h = .006, d = .4) => t > a && t < a + d ? Math.sin(Math.PI * (t - a) / d) * h : 0;
 const beatPulse = (t, t0) => { if (t < t0) return 0; const u = ((t - t0) % BEAT) / BEAT; return Math.exp(-u * 6); };
 // within each hook line: crouch small on "tum-tum", then grow tall on "tumbuh"
-const HOOK = [[12.2, 12.8], [14.7, 14.95]];   // [first 'tum', 'tumbuh']
+const HOOK = [[12.48, 13.02], [14.66, 15.16]];   // [first 'tum', 'tumbuh']
 function hookShape(t) {
   for (const [a, g] of HOOK) { const u = t - a, gu = t - g; if (u < -.1 || gu > 1.6) continue;
     const crouch = Math.min(ss(seg(u, -.1, .12)), 1 - ss(seg(gu, -.08, .08))), grow = Math.min(back(seg(gu, 0, .3), 2), 1 - ss(seg(gu, 1.0, 1.5)));
@@ -124,15 +124,15 @@ function hookShape(t) {
 }
 function cast(t) {
   const out = {};
-  if (t > 7.95 && t < FOLD[1]) {   // Tunas sprouts from the pot, hops out, waves, then leads the hook
-    const grow = back(seg(t, 8.05, 8.85), 1.6), out_ = ss(seg(t, 9.9, 10.35)), sh_ = hookShape(t), tag = hop(t, 16.7, .02, .6) + hop(t, 13.4, .01, .45) + hop(t, 15.5, .012, .45);
+  if (t > 7.45 && t < FOLD[1]) {   // Tunas sprouts from the pot, hops out, waves, then leads the hook
+    const grow = back(seg(t, 7.55, 8.35), 1.6), out_ = ss(seg(t, 9.4, 9.85)), sh_ = hookShape(t), tag = hop(t, 16.85, .02, .6) + hop(t, 13.58, .01, .45) + hop(t, 15.7, .012, .45);
     const fold = 1 - ss(seg(t, ...FOLD));
     out.tunas = { x: 0, z: lerp(.18, .205, out_), y: lerp(.03, 0, out_) + Math.sin(Math.PI * out_) * .012 + sh_.lift + tag, s: Math.max(.05, grow) * fold, sx: sh_.sx, sy: sh_.sy,
-      p: { expr: 'senang', blink: blink(t), armL: t > 16.7 || (t > 13.4 && t < 14.0) ? 2.3 : .35, armR: (t > 10.35 && t < 11.1) || t > 16.7 || (t > 13.4 && t < 14.0) ? 2.4 : .35 } };
+      p: { expr: 'senang', blink: blink(t), armL: t > 16.85 || (t > 13.58 && t < 14.2) ? 2.3 : .35, armR: (t > 9.85 && t < 10.6) || t > 16.85 || (t > 13.58 && t < 14.2) ? 2.4 : .35 } };
   }
   const unfold = (a) => back(seg(t, a, a + .6), 1.6) * (1 - ss(seg(t, ...FOLD)));
-  if (t > 10.5) out.mama = { x: -.095, z: .17, rx: unfold(10.6), y: hop(t, 16.7, .012, .5) + hop(t, 15.5, .008, .45), p: { armL: .12, armR: t > 16.7 ? 2.4 : .12 + 1.9 * beatPulse(t, 11.4 + BEAT), look: .4, blink: blink(t, 2.1) } };
-  if (t > 10.9) out.papa = { x: .095, z: .17, rx: unfold(11.1), y: hop(t, 16.75, .012, .5) + hop(t, 15.52, .008, .45), p: { armL: t > 16.7 ? 2.4 : .12 + 1.9 * beatPulse(t, 11.6), armR: .12, look: -.4, blink: blink(t, 1.3), sandals: true } };
+  if (t > 10.5) out.mama = { x: -.095, z: .17, rx: unfold(10.7), y: hop(t, 16.85, .012, .5) + hop(t, 15.7, .008, .45), p: { armL: .12, armR: t > 16.85 ? 2.4 : .12 + 1.9 * beatPulse(t, 11.4 + BEAT), look: .4, blink: blink(t, 2.1) } };
+  if (t > 10.9) out.papa = { x: .095, z: .17, rx: unfold(11.3), y: hop(t, 16.9, .012, .5) + hop(t, 15.72, .008, .45), p: { armL: t > 16.85 ? 2.4 : .12 + 1.9 * beatPulse(t, 11.6), armR: .12, look: -.4, blink: blink(t, 1.3), sandals: true } };
   return out;
 }
 function place(c, st) {
@@ -150,41 +150,41 @@ const lampLight = new THREE.PointLight('#ffcf94', .25, .9, 2); lampLight.positio
 // ---------- camera: [t, px,py,pz, tx,ty,tz, fov, aperture] ----------
 const TOP = (t, h = .8) => [t, 0, h, .16, 0, 0, .15, 32, 3];
 const CAM = track([
-  TOP(0), TOP(5.6), [7.1, 0, .15, .6, 0, .085, .12, 30, 2.2], [7.7, 0, .14, .58, 0, .08, .12, 30, 2.2],
-  [8.4, 0, .075, .42, 0, .05, .17, 30, 2.4], [10.2, 0, .08, .44, 0, .05, .17, 30, 2.4],
-  [11.0, 0, .1, .52, 0, .06, .14, 30, 2.3], [14.0, .015, .1, .5, .01, .06, .145, 30, 2.3], [16.0, 0, .105, .52, 0, .062, .14, 30, 2.3],
-  [16.7, 0, .13, .58, 0, .1, .11, 30, 2.2], [18.7, 0, .13, .58, 0, .1, .11, 30, 2.2], TOP(19.95, .74), TOP(20, .74),
+  TOP(0), TOP(5.0), [6.5, 0, .15, .6, 0, .085, .12, 30, 2.2], [7.1, 0, .14, .58, 0, .08, .12, 30, 2.2],
+  [7.8, 0, .075, .42, 0, .05, .17, 30, 2.4], [9.9, 0, .08, .44, 0, .05, .17, 30, 2.4],
+  [10.8, 0, .1, .52, 0, .06, .14, 30, 2.3], [14.2, .015, .1, .5, .01, .06, .145, 30, 2.3], [16.1, 0, .105, .52, 0, .062, .14, 30, 2.3],
+  [16.8, 0, .13, .58, 0, .1, .11, 30, 2.2], [18.7, 0, .13, .58, 0, .1, .11, 30, 2.2], TOP(19.95, .74), TOP(20, .74),
 ].map(r => [r[0], r.slice(1)]));
 cam.up.set(0, .7, -.7);
 
-window.EV = [{ t: 4.4, type: 'creak' }, { t: 19.85, type: 'thump' }]; window.DUR = DUR;
+window.EV = [{ t: 3.8, type: 'creak' }, { t: 19.85, type: 'thump' }]; window.DUR = DUR;
 
 // ---------- render ----------
 window.render = t => {
   // the big book: a little jump on "tiga", opens on the verse, closes at the very end
-  const open = t < 18.95 ? eio(seg(t, 4.4, 5.6)) : 1 - eio(seg(t, 18.95, 19.85));
+  const open = t < 18.95 ? eio(seg(t, 3.8, 5.0)) : 1 - eio(seg(t, 18.95, 19.85));
   book.setOpen(Math.PI / 2 * open); book.root.position.y = hop(t, 2.6, .012, .45);
   // little books
   for (const L of LB) {
     const [hx, hz, hy] = HOME[L.i], [lx, lz, ly] = LAND[L.i], ph = L.i * TAU / 3;
-    const fly = Math.min(ss(seg(t, 4.6 + L.i * .15, 5.5 + L.i * .15)), 1 - ss(seg(t, 10.0 + L.i * .2, 10.8 + L.i * .2)));
+    const fly = Math.min(ss(seg(t, 4.0 + L.i * .15, 4.9 + L.i * .15)), 1 - ss(seg(t, 10.3 + L.i * .2, 11.1 + L.i * .2)));
     // birds in the sky: a loop close to the backdrop, far from the camera
-    const a = (t - 4.6) * 1.1 + ph, px = Math.cos(a) * .16, pz = .05 + Math.sin(a) * .03, py = .15 + Math.sin(t * 2.1 + ph) * .01;
+    const a = (t - 4.0) * 1.1 + ph, px = Math.cos(a) * .16, pz = .05 + Math.sin(a) * .03, py = .15 + Math.sin(t * 2.1 + ph) * .01;
     const ground = t < 9.5 ? [hx, hz, hy] : [lx, lz, ly];
-    const leave = t > 9.9 && t < 11.5 ? Math.sin(Math.PI * (1 - fly)) * .3 : 0;   // up and out over the top of the frame, then down at the side
+    const leave = t > 10.2 && t < 11.8 ? Math.sin(Math.PI * (1 - fly)) * .3 : 0;   // up and out over the top of the frame, then down at the side
     const x = lerp(ground[0], px, fly), z = lerp(ground[1], pz, fly), y = lerp(0, py, fly) + leave;
     const yaw = Math.sin(t * 1.7 + ph) * .25;   // spine across, open pages toward the camera, flapping like wings
     L.wrap.position.set(x, y + hop(t, COUNT[L.i], .03, .42), z);
     L.wrap.rotation.y = lerp(ground[2], yaw, ss(seg(fly, 0, .4))); L.bk.root.scale.setScalar(lerp(.36, .17, ss(fly)));
     const flapTh = Math.PI * (.72 + .2 * Math.sin(TAU * 3.2 * t + ph));
     const count = Math.sin(Math.PI * seg(t, COUNT[L.i], COUNT[L.i] + .42)) * .9;     // cover pops open on its count
-    const clap = t > 11.2 && t < 18.5 ? beatPulse(t, 12.2) * .55 : 0;          // covers clap on the beat
+    const clap = t > 11.5 && t < 18.5 ? beatPulse(t, 12.48) * .55 : 0;          // covers clap on the beat
     const cs_ = fly < .05; if (L.cs !== cs_) { L.cs = cs_; L.wrap.traverse(o => { if (o.isMesh) o.castShadow = cs_; }); }
     L.bk.setOpen(lerp(count + clap, flapTh, fly)); L.roll.rotation.x = lerp(0, flapTh / 2 - .35, fly);
   }
   // pop-ups
   for (const r of POPS) { const k = r.rise(t); r.g.visible = k > .002; if (!r.g.visible) continue; r.g.rotation.x = r.dir * (Math.PI / 2) * (1 - k); if (r.sway) r.m.rotation.z = Math.sin(t * 1.6 + r.ph) * r.sway * k; }
-  SUN.g.position.y = lerp(.0, .1, eo(seg(t, 6.0, 8.0))); SUN.m.rotation.z = Math.sin(t * 2) * .05;
+  SUN.g.position.y = lerp(.0, .1, eo(seg(t, 5.4, 7.4))); SUN.m.rotation.z = Math.sin(t * 2) * .05;
   BANNER.g.position.y = .125 + Math.sin(t * 3) * .002;
   for (const L of LEAVES) { const u = t - L.t0; L.m.visible = u > 0 && t < 18.9; if (!L.m.visible) continue;
     L.m.position.set(Math.sign(L.vx) * .085 + L.vx * u, .15 + L.vy * u - .2 * u * u, .03 + L.vz * u); L.m.rotation.set(L.spin * u * .5, L.spin * u, L.spin * u * .3); }
