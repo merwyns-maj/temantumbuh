@@ -102,8 +102,56 @@ Source: https://healthdirect.gov.au/how-your-baby-gains-weight
 
 **Copy notes:** for each child, use the growth chart in buku KIA (KMS). "Naik" matters more than the absolute number. Add a Kemenkes buku KIA line before posting.
 
-## Plan, week 6: six different topics, no repeats (Merwyn, 28 Nov)
+## 7. Pup bayi ASI: berapa kali normal (AAP healthychildren.org)
+Sources:
+- https://healthychildren.org/English/ages-stages/baby/Pages/babys-first-days-bowel-movements-and-urination.aspx
+- https://healthychildren.org/English/ages-stages/baby/Pages/Pooping-By-the-Numbers.aspx
+
+**First days**
+- The first poop is mekonium: thick, black or dark green.
+- Then it turns yellow-green, then soft yellow with small seed-like bits (bayi ASI).
+- Many babies poop after almost every feed.
+
+**By 3 to 6 weeks**
+- Some breastfed babies poop only once a week and are still normal.
+- This holds only if the poop stays soft and the baby feeds well and keeps gaining weight.
+- A 5 to 7 day gap is "not necessarily a problem" once the baby has pooped well in the first weeks.
+
+**Wet diapers:** at least about 4 a day (first-week guidance).
+
+**Call the doctor if:**
+- The poop is hard or dry.
+- There is blood.
+- Pooping hurts.
+- The baby seems sick, has a fever or has diarrhoea.
+- The poop looks wrong to you.
+
+**Copy notes**
+- The hook is "Bayi ASI nggak pup 5 hari? Bisa normal".
+- Be clear that this is not true for newborns in the first weeks.
+- Add a white or pale poop line only after finding a source for it (biliary atresia: buku KIA has a stool colour card). Check the Kemenkes buku KIA before using it.
+
+## 8. Madu, telur, kacang: kapan boleh
+Sources:
+- AAP healthychildren.org: https://healthychildren.org/English/healthy-living/nutrition/Pages/when-to-introduce-egg-peanut-butter-and-other-common-food-allergens-to-your-baby-food-allergy-prevention-tips.aspx
+- California Department of Public Health, Infant Botulism Treatment and Prevention Program: https://www.cdph.ca.gov/Programs/cls/idld/ibtpp/Pages/When-to-Avoid-Honey.aspx
+
+**Egg and peanut**
+- There is no benefit to delaying allergenic foods.
+- Introduce them early, then keep giving them regularly.
+- AAP says peanut can start as early as 4 to 6 months for babies without high allergy risk. Our channel follows WHO and IDAI (MPASI from 6 months), so write "dari awal MPASI, nggak perlu ditunda".
+- Never give whole peanuts (choking risk). Use a little smooth peanut butter mixed into food.
+- Severe eczema, or an earlier allergic reaction to a food: ask the doctor first.
+- Watch for a rash, vomiting or diarrhoea. If it happens, stop and ask the doctor.
+
+**Honey:** none before 12 months (botulism). That includes honey mixed into food.
+
+**Copy notes:** the hook is "Telur ditunda biar nggak alergi? Justru jangan". No formula. Check that the "MPASI 6 bulan" line matches IDAI.
+
+## Plan, week 6 (Merwyn, 28 Nov): six new topics, no repeats
+Demam, ASIP simpan and Gigi telat already ran in weeks 2 and 3, so they're out. Air putih was drafted in week 3 but never posted, so it stays.
+
 Pairs match by category, one carousel and one video each:
-- Health: Demam (carousel) vs BB naik (video)
-- Feeding: Air putih (carousel) vs ASIP tahan berapa lama (video)
-- Milestones: Duduk/merangkak/jalan (carousel) vs Urutan gigi (video)
+- Feeding: Air putih (carousel) vs Madu, telur, kacang (video)
+- Milestones: Duduk, merangkak, jalan (carousel) vs Urutan gigi (video)
+- Health: Pup bayi ASI (carousel) vs BB naik (video)
