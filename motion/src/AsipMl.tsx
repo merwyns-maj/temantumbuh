@@ -7,7 +7,8 @@ import align from './data/asip-align.json';
 
 const FPS = 30;
 const END_HOLD = 3.4; // sting + CTA after the voice
-const words = merge(wordsFrom(align as Align), [
+const SPEED = 1.1; // voice.mp3 is the take sped up with ffmpeg atempo=1.1
+const words = merge(wordsFrom(align as Align).map((w) => ({...w, start: w.start / SPEED, end: w.end / SPEED})), [
   ['sembilan puluh sampai seratus dua puluh mililiter', '90-120 ml'],
   ['satu sampai enam bulan', '1-6 bulan'],
   ['tujuh ratus lima puluh', '750 ml'],
@@ -17,9 +18,9 @@ const words = merge(wordsFrom(align as Align), [
 const voiceEnd = words[words.length - 1].end;
 const T = {
   hook: 0,
-  bayi: at(words, 'bayi') - 0.15,
+  bayi: at(words, 'setelah') - 0.15,
   sehari: at(words, 'sehari') - 0.1,
-  dan: at(words, 'dan') - 0.1,
+  dan: at(words, 'minggu') - 0.3,
   cara: at(words, 'cara') - 0.1,
   simpan: at(words, 'simpan') - 0.1,
   end: voiceEnd + END_HOLD,
@@ -103,7 +104,7 @@ const PerFeed: React.FC<{len: number}> = ({len}) => {
   return (
     <AbsoluteFill>
       <div style={{position: 'absolute', left: SAFE.left, top: 270, transform: `translateX(${(1 - chip) * -600}px)`,
-        background: C.ibuBg, color: C.ibuInk, ...body, fontSize: 44, padding: '14px 30px', borderRadius: 40}}>BAYI 1-6 BULAN</div>
+        background: C.ibuBg, color: C.ibuInk, ...body, fontSize: 44, padding: '14px 30px', borderRadius: 40}}>SETELAH 1 BULAN</div>
       <div style={{position: 'absolute', left: SAFE.left, top: 370, ...display, fontSize: 70, color: C.ink, opacity: ease(f, 8, 20)}}>sekali minum cuma</div>
       <div style={{position: 'absolute', left: 90, top: 560, transform: `scale(${cupIn}) rotate(${Math.sin(f / 14) * 2}deg)`, transformOrigin: 'bottom center'}}>
         <Cup level={level} w={470} />
@@ -159,35 +160,49 @@ const PerDay: React.FC = () => {
   );
 };
 
-// ---------- Scene 4: stays the same to 6 months ----------
-const Flat: React.FC = () => {
+// ---------- Scene 4: month 1 still rising, then about flat to 6 months (growth spurts = short bumps) ----------
+const Flat: React.FC<{spurt: number}> = ({spurt}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
   const months = [1, 2, 3, 4, 5, 6];
-  const line = ease(f, 40, 70);
+  const line = ease(f, 45, 75);
   const nod = spring({frame: f - 55, fps, config: {damping: 7}});
+  const bump = f < spurt ? 0 : spring({frame: f - spurt, fps, config: {damping: 6, stiffness: 140}}) * Math.max(0, 1 - (f - spurt - 45) / 20);
+  const tag = f >= spurt ? spring({frame: f - spurt, fps, config: {damping: 9}}) * (f - spurt < 55 ? 1 : Math.max(0, 1 - (f - spurt - 55) / 8)) : 0;
   return (
     <AbsoluteFill>
-      <div style={{position: 'absolute', left: SAFE.left, top: 270, width: 820, ...display, fontSize: 78, color: C.ink, lineHeight: 1.1, opacity: ease(f, 0, 10)}}>
-        Bulan 1 sampai 6:<br /><span style={{color: C.sageDeep}}>hampir sama!</span>
+      <div style={{position: 'absolute', left: SAFE.left, top: 260, width: 820, ...display, fontSize: 66, color: C.ink, lineHeight: 1.15, opacity: ease(f, 0, 10)}}>
+        <span style={{color: C.terra}}>Bulan 1:</span> masih naik<br /><span style={{color: C.sageDeep, opacity: ease(f, 30, 42)}}>Bulan 2-6: hampir sama!</span>
       </div>
-      <div style={{position: 'absolute', left: 120, top: 540, width: 760, height: 660, display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between'}}>
+      <div style={{position: 'absolute', left: 120, top: 520, width: 760, height: 680, display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between'}}>
         {months.map((m, i) => {
           const h = spring({frame: f - 6 - i * 5, fps, config: {damping: 12, stiffness: 120}});
+          // month 1 ramps from low to high: drawn as a rising wedge
+          const ramp = i === 0;
+          const extra = i === 3 ? bump * 0.38 : 0;
+          const H = 470 * h * (1 + extra);
           return (
             <div key={m} style={{width: 96, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-              <div style={{...body, fontSize: 30, color: C.ink, opacity: h}}>750</div>
-              <div style={{width: 96, height: 500 * h, background: i % 2 ? C.sage : C.sageDeep, borderRadius: '20px 20px 6px 6px'}} />
+              <div style={{...body, fontSize: 30, color: ramp ? C.terra : C.ink, opacity: h}}>{ramp ? 'naik' : '±750'}</div>
+              {ramp ? (
+                <svg width="96" height={H} viewBox={`0 0 96 ${Math.max(1, H)}`} style={{display: 'block'}}>
+                  <path d={`M0 ${H} L0 ${H * 0.72} L96 ${H * 0.04} L96 ${H} Z`} fill={C.terra} opacity=".85" />
+                </svg>
+              ) : (
+                <div style={{width: 96, height: H, background: i === 3 && bump > 0.05 ? C.sun : i % 2 ? C.sage : C.sageDeep, borderRadius: '20px 20px 6px 6px'}} />
+              )}
               <div style={{...body, fontSize: 34, color: C.muted, marginTop: 10}}>Bln {m}</div>
             </div>
           );
         })}
       </div>
-      <svg style={{position: 'absolute', left: 120, top: 640}} width="760" height="40">
-        <line x1="0" y1="20" x2={760 * line} y2="20" stroke={C.terra} strokeWidth="10" strokeDasharray="22 14" strokeLinecap="round" />
+      <svg style={{position: 'absolute', left: 253, top: 610}} width="627" height="40">
+        <line x1="0" y1="20" x2={627 * line} y2="20" stroke={C.terra} strokeWidth="10" strokeDasharray="22 14" strokeLinecap="round" />
       </svg>
-      <div style={{position: 'absolute', left: 690, top: 300, transform: `scale(${nod}) translateY(${Math.sin(f / 4) * 6 * (f > 55 ? 1 : 0)}px)`}}>
-        <Img src="tunas-mikir.svg" w={190} />
+      <div style={{position: 'absolute', left: 430, top: 470, transform: `scale(${tag}) rotate(-6deg)`, background: C.sun, color: C.ink,
+        ...body, fontSize: 38, padding: '10px 22px', borderRadius: 24, whiteSpace: 'nowrap'}}>growth spurt: naik sebentar</div>
+      <div style={{position: 'absolute', left: 700, top: 1010, transform: `scale(${nod}) translateY(${Math.sin(f / 4) * 6 * (f > 55 ? 1 : 0)}px)`, opacity: 0}}>
+        <Img src="tunas-mikir.svg" w={150} />
       </div>
     </AbsoluteFill>
   );
@@ -284,7 +299,7 @@ export const AsipMl: React.FC = () => {
       <Scene from={T.hook} to={T.bayi}><Hook serius={fr(at(words, 'serius'))} /></Scene>
       <Scene from={T.bayi} to={T.sehari}><PerFeed len={fr(T.sehari - T.bayi)} /></Scene>
       <Scene from={T.sehari} to={T.dan}><PerDay /></Scene>
-      <Scene from={T.dan} to={T.cara}><Flat /></Scene>
+      <Scene from={T.dan} to={T.cara}><Flat spurt={fr(at(words, 'growth') - T.dan)} /></Scene>
       <Scene from={T.cara} to={T.simpan}><PerHour len={fr(T.simpan - T.cara)} /></Scene>
       <Scene from={T.simpan} to={T.end}><Cta /></Scene>
       <Progress total={total} />
